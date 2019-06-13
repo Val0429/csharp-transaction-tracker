@@ -1,0 +1,3822 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Application_ServerIsNotNVR" xml:space="preserve">
+    <value>"%1" 不是 NVR。</value>
+  </data>
+  <data name="Application_ServerVersionRequire" xml:space="preserve">
+    <value>"%1" 版本资讯 %2, 需要的版本资讯%3.</value>
+  </data>
+  <data name="SetupLog_LogFound" xml:space="preserve">
+    <value>找到 %1 笔</value>
+  </data>
+  <data name="SetupLog_LogsFound" xml:space="preserve">
+    <value>找到 %1 笔</value>
+  </data>
+  <data name="VideoMonitor_PageQuantity" xml:space="preserve">
+    <value>%1 之 %2</value>
+  </data>
+  <data name="SetupDevice_DeviceSelected" xml:space="preserve">
+    <value>已选择 %1 台装置</value>
+  </data>
+  <data name="SetupDevice_DevicesSelected" xml:space="preserve">
+    <value>已选择 %1 台装置</value>
+  </data>
+  <data name="LoginForm_LogoutLog" xml:space="preserve">
+    <value>%1 登出</value>
+  </data>
+  <data name="Investigation_SearchResultFound" xml:space="preserve">
+    <value>找到 %1 笔资料</value>
+  </data>
+  <data name="Investigation_SearchResultsFound" xml:space="preserve">
+    <value>找到 %1 笔资料</value>
+  </data>
+  <data name="LoginForm_LoginLog" xml:space="preserve">
+    <value>%1 登录來自 %2/%3</value>
+  </data>
+  <data name="GroupPanel_NumDevice" xml:space="preserve">
+    <value>(%1 台装置)</value>
+  </data>
+  <data name="GroupPanel_NumDevices" xml:space="preserve">
+    <value>(%1 台装置)</value>
+  </data>
+  <data name="GroupPanel_NumGroup" xml:space="preserve">
+    <value>(%1 个群组)</value>
+  </data>
+  <data name="GroupPanel_NumGroups" xml:space="preserve">
+    <value>(%1 个群组)</value>
+  </data>
+  <data name="DeviceLayoutPanel_Panorama" xml:space="preserve">
+    <value>(%1 环景摄像)</value>
+  </data>
+  <data name="Common_UsedSeconds" xml:space="preserve">
+    <value>(%1 秒)</value>
+  </data>
+  <data name="UserGroupPanel_NumUser" xml:space="preserve">
+    <value>(%1 位使用者)</value>
+  </data>
+  <data name="UserGroupPanel_NumUsers" xml:space="preserve">
+    <value>(%1 位使用者)</value>
+  </data>
+  <data name="FolderControl_NumView" xml:space="preserve">
+    <value>(%1 视图)</value>
+  </data>
+  <data name="FolderControl_NumViews" xml:space="preserve">
+    <value>(%1 视图)</value>
+  </data>
+  <data name="Application_64Bit" xml:space="preserve">
+    <value> (64 位)</value>
+  </data>
+  <data name="DevicePanel_ResolutionRegionConfigCanNotSupportSnapshot" xml:space="preserve">
+    <value>(不支援快照)</value>
+  </data>
+  <data name="DevicePanel_InUse" xml:space="preserve">
+    <value>(已加入)</value>
+  </data>
+  <data name="SetupSchedule_PostEventDuration" xml:space="preserve">
+    <value>(长度必须介于 %1秒至 %2小时)</value>
+  </data>
+  <data name="SetupSchedule_PreEventDuration" xml:space="preserve">
+    <value>(长度必须介于 %1秒至 %2秒)</value>
+  </data>
+  <data name="VideoControl_ForRecording" xml:space="preserve">
+    <value>(用于录像)</value>
+  </data>
+  <data name="Schedule_WithEventRecording" xml:space="preserve">
+    <value>(包含事件录像)</value>
+  </data>
+  <data name="SetupWizard_Back" xml:space="preserve">
+    <value>&lt; 返回</value>
+  </data>
+  <data name="Menu_1M" xml:space="preserve">
+    <value>1Mbps</value>
+  </data>
+  <data name="Menu_256K" xml:space="preserve">
+    <value>256Kbps</value>
+  </data>
+  <data name="Menu_512K" xml:space="preserve">
+    <value>512Kbps</value>
+  </data>
+  <data name="Menu_56K" xml:space="preserve">
+    <value>56Kbps</value>
+  </data>
+  <data name="Menu_About" xml:space="preserve">
+    <value>关于</value>
+  </data>
+  <data name="DevicePanel_Account" xml:space="preserve">
+    <value>账号</value>
+  </data>
+  <data name="NVR_Account" xml:space="preserve">
+    <value>账号</value>
+  </data>
+  <data name="MailServer_Account" xml:space="preserve">
+    <value>账号</value>
+  </data>
+  <data name="LoginForm_Account" xml:space="preserve">
+    <value>账号</value>
+  </data>
+  <data name="Database_Account" xml:space="preserve">
+    <value>账号</value>
+  </data>
+  <data name="FtpServer_Account" xml:space="preserve">
+    <value>账号</value>
+  </data>
+  <data name="DevicePanel_UriCommandPanel_Action" xml:space="preserve">
+    <value>作用</value>
+  </data>
+  <data name="DevicePanel_UriCommandPanel_ActionCommand" xml:space="preserve">
+    <value>操作命令</value>
+  </data>
+  <data name="SetupServer_StatusActive" xml:space="preserve">
+    <value>启动</value>
+  </data>
+  <data name="PointPanel_Add" xml:space="preserve">
+    <value>新增</value>
+  </data>
+  <data name="TimeTrack_AddBookmark" xml:space="preserve">
+    <value>新增书签</value>
+  </data>
+  <data name="SetupDevice_AddDevice" xml:space="preserve">
+    <value>加入装置</value>
+  </data>
+  <data name="SetupDevice_SearchDevice" xml:space="preserve">
+    <value>使用搜寻加入装置...</value>
+  </data>
+  <data name="SetupDevice_AddNewDevice" xml:space="preserve">
+    <value>手动加入新装置...</value>
+  </data>
+  <data name="SetupSchedule_AddEventHandlingSchedule" xml:space="preserve">
+    <value>增加事件处理排程</value>
+  </data>
+  <data name="SetupSchedule_AddEventRecordingSchedule" xml:space="preserve">
+    <value>增加事件录像排程</value>
+  </data>
+  <data name="SetupDeviceLayout_AddNewDeviceLayout" xml:space="preserve">
+    <value>新增拼贴影像</value>
+  </data>
+  <data name="SetupException_AddNewException" xml:space="preserve">
+    <value>Add new Exception...</value>
+  </data>
+  <data name="SetupIOModel_AddNewOPCLog" xml:space="preserve">
+    <value>Add New OPC %1</value>
+  </data>
+  <data name="SetupIOModel_AddNewOPC" xml:space="preserve">
+    <value>Add New OPC Server</value>
+  </data>
+  <data name="SetupSchedule_AddNewScheduleReport" xml:space="preserve">
+    <value>Add New Schedule Report</value>
+  </data>
+  <data name="DevicePanel_UriCommandPanel_AddPresetPoint" xml:space="preserve">
+    <value>新增预设点</value>
+  </data>
+  <data name="SetupSchedule_AddRecordingSchedule" xml:space="preserve">
+    <value>增加录像排程</value>
+  </data>
+  <data name="SetupUser_AddNewUser" xml:space="preserve">
+    <value>加入新使用者...</value>
+  </data>
+  <data name="SetupDeviceLayout_AddedDeviceLayout" xml:space="preserve">
+    <value>以加入的拼贴影像</value>
+  </data>
+  <data name="SetupException_AddedException" xml:space="preserve">
+    <value>Added Exception</value>
+  </data>
+  <data name="SetupEvent_AddedEventReport" xml:space="preserve">
+    <value>Added exception report</value>
+  </data>
+  <data name="SetupServer_StoreAddress" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="UserGroup_Administrator" xml:space="preserve">
+    <value>管理者</value>
+  </data>
+  <data name="Investigation_AllDevice" xml:space="preserve">
+    <value>所有装置</value>
+  </data>
+  <data name="Data_AllDevices" xml:space="preserve">
+    <value>所有装置</value>
+  </data>
+  <data name="SetupLog_AllLog" xml:space="preserve">
+    <value>所有日志</value>
+  </data>
+  <data name="PrintImage_ErrorCccurred" xml:space="preserve">
+    <value>打印时发生错误。</value>
+  </data>
+  <data name="Menu_Application" xml:space="preserve">
+    <value>应用程序</value>
+  </data>
+  <data name="EditGroupPanel_ApplicationPermission" xml:space="preserve">
+    <value>应用程序权限</value>
+  </data>
+  <data name="SaveReport_ApplyComment" xml:space="preserve">
+    <value>套用评论</value>
+  </data>
+  <data name="Common_April" xml:space="preserve">
+    <value>四月</value>
+  </data>
+  <data name="DevicePanel_AspectRatio" xml:space="preserve">
+    <value>长宽比</value>
+  </data>
+  <data name="DevicePanel_AspectRatioCorrection" xml:space="preserve">
+    <value>长宽比校正</value>
+  </data>
+  <data name="HandlePanel_Audio" xml:space="preserve">
+    <value>声音</value>
+  </data>
+  <data name="ExportVideo_Audio" xml:space="preserve">
+    <value>声音</value>
+  </data>
+  <data name="Menu_AudioIn" xml:space="preserve">
+    <value>声音输入</value>
+  </data>
+  <data name="Menu_AudioOut" xml:space="preserve">
+    <value>声音输出</value>
+  </data>
+  <data name="ExportVideo_AudioIn" xml:space="preserve">
+    <value>声音输入</value>
+  </data>
+  <data name="DevicePermissionPanel_AudioIn" xml:space="preserve">
+    <value>声音输入</value>
+  </data>
+  <data name="DevicePanel_AudioInPort" xml:space="preserve">
+    <value>声音输入端口</value>
+  </data>
+  <data name="ExportVideo_AudioOut" xml:space="preserve">
+    <value>声音输出</value>
+  </data>
+  <data name="DevicePermissionPanel_AudioOut" xml:space="preserve">
+    <value>声音输出</value>
+  </data>
+  <data name="DevicePanel_AudioOutPort" xml:space="preserve">
+    <value>声音输出端口</value>
+  </data>
+  <data name="Common_August" xml:space="preserve">
+    <value>八月</value>
+  </data>
+  <data name="DevicePanel_Authentication" xml:space="preserve">
+    <value>验证</value>
+  </data>
+  <data name="Menu_AutoDropFrame" xml:space="preserve">
+    <value>自动跳帧</value>
+  </data>
+  <data name="AutoSwitchDecodeIFrame_AutoSwitch" xml:space="preserve">
+    <value>自动转换成译码 I 图像模式</value>
+  </data>
+  <data name="Common_Back" xml:space="preserve">
+    <value>返回</value>
+  </data>
+  <data name="DevicePanel_BacklightCompensation" xml:space="preserve">
+    <value>背光补偿</value>
+  </data>
+  <data name="SetupServer_Backup" xml:space="preserve">
+    <value>备份</value>
+  </data>
+  <data name="Application_BackupFailure" xml:space="preserve">
+    <value>备份失败</value>
+  </data>
+  <data name="Menu_Bandwidth" xml:space="preserve">
+    <value>带宽</value>
+  </data>
+  <data name="SetupGeneral_TotalBitrate" xml:space="preserve">
+    <value>带宽</value>
+  </data>
+  <data name="HandlePanel_Beep" xml:space="preserve">
+    <value>哔响</value>
+  </data>
+  <data name="DevicePanel_Bitrate" xml:space="preserve">
+    <value>比特率</value>
+  </data>
+  <data name="VideoWindowTitleBarPanel_Bitrate" xml:space="preserve">
+    <value>比特率</value>
+  </data>
+  <data name="Application_TotalBitrate" xml:space="preserve">
+    <value>比特率 %1</value>
+  </data>
+  <data name="DevicePanel_BitrateControl" xml:space="preserve">
+    <value>比特率控制</value>
+  </data>
+  <data name="NVR_BlockSize" xml:space="preserve">
+    <value>封包大小</value>
+  </data>
+  <data name="DevicePanel_Brand" xml:space="preserve">
+    <value>品牌</value>
+  </data>
+  <data name="DevicePanel_Brightness" xml:space="preserve">
+    <value>亮度</value>
+  </data>
+  <data name="Broadcast_Button" xml:space="preserve">
+    <value>广播</value>
+  </data>
+  <data name="SetupServer_Browse" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="Control_ReportCalendar" xml:space="preserve">
+    <value>月历</value>
+  </data>
+  <data name="Control_ReportCalendarIcon" xml:space="preserve">
+    <value>月历</value>
+  </data>
+  <data name="Control_EventCalendar" xml:space="preserve">
+    <value>月历</value>
+  </data>
+  <data name="VideoWindowTitleBarPanel_CameraName" xml:space="preserve">
+    <value>摄像机名称</value>
+  </data>
+  <data name="Common_Cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="Application_CannotConnect" xml:space="preserve">
+    <value>无法连接服务器。请重新登入。</value>
+  </data>
+  <data name="Application_RegistrationServerNotAvailable" xml:space="preserve">
+    <value>无法联机到注册服务器。 (错误码： 1)</value>
+  </data>
+  <data name="Application_CantCreateFolder" xml:space="preserve">
+    <value>无法建立档案夹 %1</value>
+  </data>
+  <data name="LoginForm_SignInFailedCantCreateHttpWebRequest" xml:space="preserve">
+    <value>无法创建HttpWebRequest物件。</value>
+  </data>
+  <data name="ExportVideo_CantExportDeviceLayout" xml:space="preserve">
+    <value>不能导出装置布局的视频.</value>
+  </data>
+  <data name="Application_NetworkCardNotAvailable" xml:space="preserve">
+    <value>找不到网络卡。 (错误码： 5)</value>
+  </data>
+  <data name="SetupLicense_CheckLicenseFile" xml:space="preserve">
+    <value>无法开启注册档。请检查选择的注册档是否正确。</value>
+  </data>
+  <data name="Application_LicenseFileCantUpdate" xml:space="preserve">
+    <value>无法更新许可证档案。 (错误码： 6)</value>
+  </data>
+  <data name="USBDisk_Capability" xml:space="preserve">
+    <value>Capability</value>
+  </data>
+  <data name="StoragePanel_Capacity" xml:space="preserve">
+    <value>容量</value>
+  </data>
+  <data name="DevicePanel_CaptureCardConfig" xml:space="preserve">
+    <value>撷取卡设定</value>
+  </data>
+  <data name="Application_CentralManagementSystem" xml:space="preserve">
+    <value>Central Management System</value>
+  </data>
+  <data name="DevicePanel_ChannelID" xml:space="preserve">
+    <value>频道编号</value>
+  </data>
+  <data name="VideoWindowTitleBarPanel_ChannelNumber" xml:space="preserve">
+    <value>频道号码</value>
+  </data>
+  <data name="SetupServer_StatusCheck" xml:space="preserve">
+    <value>检查</value>
+  </data>
+  <data name="TimeTrack_ClearBookmark" xml:space="preserve">
+    <value>移除书签</value>
+  </data>
+  <data name="SetupTitle_ClearConditional" xml:space="preserve">
+    <value>清除条件式</value>
+  </data>
+  <data name="EventPanel_ClearEvent" xml:space="preserve">
+    <value>清除事件日志</value>
+  </data>
+  <data name="TimeTrack_ClearSelectionRange" xml:space="preserve">
+    <value>重设选择范围</value>
+  </data>
+  <data name="SetupTitle_Clone" xml:space="preserve">
+    <value>复制</value>
+  </data>
+  <data name="SetupDevice_CloneDevice" xml:space="preserve">
+    <value>复制装置</value>
+  </data>
+  <data name="Common_Close" xml:space="preserve">
+    <value>结束</value>
+  </data>
+  <data name="InstantPlayback_CloseAfterSec" xml:space="preserve">
+    <value>%1 秒后关闭</value>
+  </data>
+  <data name="DevicePanel_ColorEnable" xml:space="preserve">
+    <value>颜色启用</value>
+  </data>
+  <data name="SetupServer_Component" xml:space="preserve">
+    <value>组件</value>
+  </data>
+  <data name="VideoWindowTitleBarPanel_Compression" xml:space="preserve">
+    <value>压缩</value>
+  </data>
+  <data name="DevicePanel_Compression" xml:space="preserve">
+    <value>编码</value>
+  </data>
+  <data name="Loading_Config" xml:space="preserve">
+    <value>配置</value>
+  </data>
+  <data name="Application_ConfigChange" xml:space="preserve">
+    <value>设定已经被还原。 请重新登入。</value>
+  </data>
+  <data name="SetupTitle_Confirm" xml:space="preserve">
+    <value>确认</value>
+  </data>
+  <data name="MessageBox_Confirm" xml:space="preserve">
+    <value>确认</value>
+  </data>
+  <data name="User_ConfirmPassword" xml:space="preserve">
+    <value>确认密码</value>
+  </data>
+  <data name="VideoWindow_Connected" xml:space="preserve">
+    <value>已连接</value>
+  </data>
+  <data name="VideoWindow_Connecting" xml:space="preserve">
+    <value>正在连接...</value>
+  </data>
+  <data name="DevicePanel_Connection" xml:space="preserve">
+    <value>连接</value>
+  </data>
+  <data name="ExportVideoMsg_ConnectionFailed" xml:space="preserve">
+    <value>连线失败</value>
+  </data>
+  <data name="SetupDevice_MotionRegionDefaultNote" xml:space="preserve">
+    <value>连结失败</value>
+  </data>
+  <data name="Application_ConnectionTimeout" xml:space="preserve">
+    <value>联机逾时</value>
+  </data>
+  <data name="DevicePanel_Contrast" xml:space="preserve">
+    <value>对比</value>
+  </data>
+  <data name="DevicePanel_ControlPort" xml:space="preserve">
+    <value>端口控制</value>
+  </data>
+  <data name="ExportVideo_ConvertVideoToMJPEG" xml:space="preserve">
+    <value>编码成MJPEG</value>
+  </data>
+  <data name="ExportVideo_ConvertVideoToAVI" xml:space="preserve">
+    <value>将影像编码成 AVI (MJPEG 格式)</value>
+  </data>
+  <data name="SetupTitle_CopyEventHandling" xml:space="preserve">
+    <value>拷贝事件处理</value>
+  </data>
+  <data name="SetupEvent_CopyEventHandling" xml:space="preserve">
+    <value>拷贝事件处理</value>
+  </data>
+  <data name="SetupExceptionReport_CopyExceptionReport" xml:space="preserve">
+    <value>Copy Exception Report</value>
+  </data>
+  <data name="SetupTitle_CopyExceptionReport" xml:space="preserve">
+    <value>Copy Exception Report</value>
+  </data>
+  <data name="SetupSchedule_CopyFrom" xml:space="preserve">
+    <value>拷贝来源</value>
+  </data>
+  <data name="SetupDevice_CopyFrom" xml:space="preserve">
+    <value>拷贝来源</value>
+  </data>
+  <data name="SetupEvent_CopyFrom" xml:space="preserve">
+    <value>拷贝来源</value>
+  </data>
+  <data name="SetupExceptionReport_CopyFrom" xml:space="preserve">
+    <value>Copy From</value>
+  </data>
+  <data name="SetupTitle_CopySchedule" xml:space="preserve">
+    <value>拷贝排程</value>
+  </data>
+  <data name="SetupSchedule_CopySchedule" xml:space="preserve">
+    <value>拷贝排程</value>
+  </data>
+  <data name="SetupDevice_CopySetting" xml:space="preserve">
+    <value>拷贝设定</value>
+  </data>
+  <data name="SetupTitle_CopySetting" xml:space="preserve">
+    <value>拷贝设定</value>
+  </data>
+  <data name="Application_CPUUsage" xml:space="preserve">
+    <value>CPU %1%</value>
+  </data>
+  <data name="SetupGeneral_CPULoadingUpperBoundary" xml:space="preserve">
+    <value>CPU保护设定</value>
+  </data>
+  <data name="DeviceLayoutPanel_Crop" xml:space="preserve">
+    <value>裁剪</value>
+  </data>
+  <data name="Application_UserChange" xml:space="preserve">
+    <value>当前登入的使用者账号已经被修改。请重新登入。</value>
+  </data>
+  <data name="Investigation_Custom" xml:space="preserve">
+    <value>用户定义</value>
+  </data>
+  <data name="SetupServer_Database" xml:space="preserve">
+    <value>数据库</value>
+  </data>
+  <data name="SetupServer_DB" xml:space="preserve">
+    <value>数据库</value>
+  </data>
+  <data name="Investigation_DateTime" xml:space="preserve">
+    <value>日期 / 时间</value>
+  </data>
+  <data name="VideoWindowTitleBarPanel_DateTime" xml:space="preserve">
+    <value>日期 / 时间</value>
+  </data>
+  <data name="SetupServer_DateTime" xml:space="preserve">
+    <value>日期 / 时间</value>
+  </data>
+  <data name="SetupServer_Time" xml:space="preserve">
+    <value>日期 / 时间</value>
+  </data>
+  <data name="EventResultPanel_DateTime" xml:space="preserve">
+    <value>日期 / 时间</value>
+  </data>
+  <data name="Common_Day" xml:space="preserve">
+    <value>天</value>
+  </data>
+  <data name="Application_DaylightChange" xml:space="preserve">
+    <value>服务器的日光节约时间已经被修改。\n是否要重新登入来套用新的日光节约时间？</value>
+  </data>
+  <data name="Common_December" xml:space="preserve">
+    <value>十二月</value>
+  </data>
+  <data name="Menu_DecodeI-frame" xml:space="preserve">
+    <value>译码 I 图像</value>
+  </data>
+  <data name="SetupGeneral_AutoSwitchDecodeIFrame" xml:space="preserve">
+    <value>译码 I 图像模式设置</value>
+  </data>
+  <data name="TimeTrack_DecreaseTimeScale" xml:space="preserve">
+    <value>缩小时间刻度</value>
+  </data>
+  <data name="SetupServer_StatusDegraded" xml:space="preserve">
+    <value>降级</value>
+  </data>
+  <data name="PointPanel_Delete" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="DeviceLayoutPanel_Delete" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="SetupTitle_Delete" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="SetupDevice_DeleteDevice" xml:space="preserve">
+    <value>删除装置</value>
+  </data>
+  <data name="SetupEvent_DeleteEventHandler" xml:space="preserve">
+    <value>删除事件处理</value>
+  </data>
+  <data name="SetupException_DeleteException" xml:space="preserve">
+    <value>Delete Exception</value>
+  </data>
+  <data name="SetupExceptionReport_DeleteExceptionReport" xml:space="preserve">
+    <value>Delete Exception Report</value>
+  </data>
+  <data name="SetupIOModel_DeleteOPC" xml:space="preserve">
+    <value>Delete OPC Server</value>
+  </data>
+  <data name="SetupDeviceLayout_DeletePanorama" xml:space="preserve">
+    <value>Delete Panorama</value>
+  </data>
+  <data name="DevicePanel_UriCommandPanel_DeletePresetPoint" xml:space="preserve">
+    <value>删除预设点</value>
+  </data>
+  <data name="DevicePanel_UriCommandPanel_DeletePresetPointCommand" xml:space="preserve">
+    <value>删除预设点命令</value>
+  </data>
+  <data name="SetupScheduleReport_DeleteScheduleReport" xml:space="preserve">
+    <value>Delete Schedule Report</value>
+  </data>
+  <data name="SetupUser_DeleteDevice" xml:space="preserve">
+    <value>删除使用者</value>
+  </data>
+  <data name="DeviceView_DeleteView" xml:space="preserve">
+    <value>删除视图</value>
+  </data>
+  <data name="LicensePanel_Description" xml:space="preserve">
+    <value>描述</value>
+  </data>
+  <data name="SetupServer_Description" xml:space="preserve">
+    <value>%1 说明:</value>
+  </data>
+  <data name="SetupLog_Description" xml:space="preserve">
+    <value>描述</value>
+  </data>
+  <data name="SetupGeneral_Desktop" xml:space="preserve">
+    <value>桌面</value>
+  </data>
+  <data name="Control_Device" xml:space="preserve">
+    <value>装置</value>
+  </data>
+  <data name="Control_DeviceIcon" xml:space="preserve">
+    <value>装置</value>
+  </data>
+  <data name="SmartSearch_Device" xml:space="preserve">
+    <value>装置</value>
+  </data>
+  <data name="DeviceLayoutPanel_Device" xml:space="preserve">
+    <value>装置</value>
+  </data>
+  <data name="Loading_Device" xml:space="preserve">
+    <value>装置</value>
+  </data>
+  <data name="Investigation_Device" xml:space="preserve">
+    <value>装置</value>
+  </data>
+  <data name="Handler_Device" xml:space="preserve">
+    <value>装置</value>
+  </data>
+  <data name="EventResultPanel_Device" xml:space="preserve">
+    <value>装置</value>
+  </data>
+  <data name="SetupDevice_SearchDeviceFound" xml:space="preserve">
+    <value>找到 %1 台装置</value>
+  </data>
+  <data name="Control_DeviceLayout" xml:space="preserve">
+    <value>设备布局</value>
+  </data>
+  <data name="SetupDevice_AddedDevice" xml:space="preserve">
+    <value>已加入的装置</value>
+  </data>
+  <data name="EditUserPanel_DevicePermission" xml:space="preserve">
+    <value>装置权限</value>
+  </data>
+  <data name="DeviceLayoutPanel_DeviceResolution" xml:space="preserve">
+    <value>装置分辨率</value>
+  </data>
+  <data name="SetupServer_DeviceSetting" xml:space="preserve">
+    <value>装置设定</value>
+  </data>
+  <data name="SetupDevice_SearchDevicesFound" xml:space="preserve">
+    <value>找到 %1 台装置</value>
+  </data>
+  <data name="NVR_DeviceQuantity" xml:space="preserve">
+    <value>装置数量</value>
+  </data>
+  <data name="Menu_Dewarp" xml:space="preserve">
+    <value>鱼眼投影处理</value>
+  </data>
+  <data name="DevicePanel_DewarpType" xml:space="preserve">
+    <value>鱼眼投影模式</value>
+  </data>
+  <data name="Ethernet_DHCP" xml:space="preserve">
+    <value>DHCP</value>
+  </data>
+  <data name="Event_DigitalInput" xml:space="preserve">
+    <value>讯号输入</value>
+  </data>
+  <data name="Event_DigitalInputIDOff" xml:space="preserve">
+    <value>讯号输入 %1 关闭</value>
+  </data>
+  <data name="Event_DigitalInputIDOn" xml:space="preserve">
+    <value>讯号输入 %1 开启</value>
+  </data>
+  <data name="Event_DigitalOutput" xml:space="preserve">
+    <value>讯号输出</value>
+  </data>
+  <data name="Event_DigitalOutputIDOff" xml:space="preserve">
+    <value>讯号输出 %1 关闭</value>
+  </data>
+  <data name="Event_DigitalOutputIDOn" xml:space="preserve">
+    <value>讯号输出 %1 开启</value>
+  </data>
+  <data name="Menu_DigitalOutput1" xml:space="preserve">
+    <value>讯号输出 1</value>
+  </data>
+  <data name="Menu_DigitalOutput2" xml:space="preserve">
+    <value>讯号输出 2</value>
+  </data>
+  <data name="Menu_DigitalOutput3" xml:space="preserve">
+    <value>讯号输出 3</value>
+  </data>
+  <data name="Menu_DigitalOutput4" xml:space="preserve">
+    <value>讯号输出 4</value>
+  </data>
+  <data name="Menu_DigitalOutput5" xml:space="preserve">
+    <value>讯号输出 5</value>
+  </data>
+  <data name="Menu_DigitalOutput6" xml:space="preserve">
+    <value>讯号输出 6</value>
+  </data>
+  <data name="Menu_DigitalOutput7" xml:space="preserve">
+    <value>讯号输出 7</value>
+  </data>
+  <data name="Menu_DigitalOutput8" xml:space="preserve">
+    <value>讯号输出 8</value>
+  </data>
+  <data name="SetupGeneral_Disabled" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="DeviceTree_DisableDevicePatrol" xml:space="preserve">
+    <value>停止设备巡逻(间隔 %1 秒)</value>
+  </data>
+  <data name="DeviceTree_DisablePatrol" xml:space="preserve">
+    <value>停止群组巡览 (间隔 %1 秒)</value>
+  </data>
+  <data name="Menu_Disconnect" xml:space="preserve">
+    <value>断线</value>
+  </data>
+  <data name="Menu_DisconnectAll" xml:space="preserve">
+    <value>全部断线</value>
+  </data>
+  <data name="VideoWindow_Disconnecting" xml:space="preserve">
+    <value>正在断线...</value>
+  </data>
+  <data name="SetupServer_RAID_DiskStatus_BAD_STATUS" xml:space="preserve">
+    <value>Disk condition danger, S.M.A.R.T detects disk failure.</value>
+  </data>
+  <data name="SetupServer_DiskError" xml:space="preserve">
+    <value>错误</value>
+  </data>
+  <data name="SetupServer_RAID_DiskStatus_BAD_SECTOR" xml:space="preserve">
+    <value>Disk has bad track, S.M.A.R.T detect %1 bad track(s).</value>
+  </data>
+  <data name="StorageControl_LessThanRequire" xml:space="preserve">
+    <value>磁盘空间小于 %1GB 无法做于录像磁盘使用</value>
+  </data>
+  <data name="SetupServer_RAID_DiskStatus_ATTRIBUTE_IN_THE_PAST" xml:space="preserve">
+    <value>Disk status abnormal, S.M.A.R.T detects abnormal activity.</value>
+  </data>
+  <data name="SetupServer_RAID_DiskStatus_ATTRIBUTE_NOW" xml:space="preserve">
+    <value>Disk status abnormal, S.M.A.R.T detects abnormal activity.</value>
+  </data>
+  <data name="SetupServer_RAID_DiskStatus_GOOD" xml:space="preserve">
+    <value>Disk Status is good,  S.M.A.R.T  passed.</value>
+  </data>
+  <data name="SetupServer_DiskUnuse" xml:space="preserve">
+    <value>未使用</value>
+  </data>
+  <data name="SetupServer_DiskUse" xml:space="preserve">
+    <value>使用中</value>
+  </data>
+  <data name="SetupGeneral_Display" xml:space="preserve">
+    <value>显示</value>
+  </data>
+  <data name="SetupGeneral_DisplayDeviceId" xml:space="preserve">
+    <value>显示设备编号</value>
+  </data>
+  <data name="SetupLog_DisplaySystemLog" xml:space="preserve">
+    <value>显示系统日志</value>
+  </data>
+  <data name="SetupLog_DisplayUserLog" xml:space="preserve">
+    <value>显示用户日志</value>
+  </data>
+  <data name="SetupServer_DoNotSetPortToBeEqual" xml:space="preserve">
+    <value>Do not set "Server port" and "Database port" to be equal</value>
+  </data>
+  <data name="SetupServer_DoNotSetSSLPortToBeEqual" xml:space="preserve">
+    <value>Do not set "Server port" and "Server SSL port" to be equal</value>
+  </data>
+  <data name="SetupServer_DoNotSetPortToBeEqual2" xml:space="preserve">
+    <value>Do not set "Server SSL port" and "Database port" to be equal</value>
+  </data>
+  <data name="Database_Domain" xml:space="preserve">
+    <value>网址</value>
+  </data>
+  <data name="DevicePermissionPanel_Domain" xml:space="preserve">
+    <value>网址</value>
+  </data>
+  <data name="NVR_Domain" xml:space="preserve">
+    <value>网址</value>
+  </data>
+  <data name="SetupServer_RestoreLicenseWarning" xml:space="preserve">
+    <value>不可将本机授权码还原到不同的NVR服务器。 不当的授权恢复将使得NVR服务器注册失败。</value>
+  </data>
+  <data name="Common_Done" xml:space="preserve">
+    <value>完成</value>
+  </data>
+  <data name="DeviceLayoutPanel_Done" xml:space="preserve">
+    <value>完成</value>
+  </data>
+  <data name="Handler_DontAttach" xml:space="preserve">
+    <value>不要附加快照</value>
+  </data>
+  <data name="PTZPanel_MoveDown" xml:space="preserve">
+    <value>下</value>
+  </data>
+  <data name="DevicePanel_UriCommandPanel_ActionDown" xml:space="preserve">
+    <value>下</value>
+  </data>
+  <data name="DevicePanel_UriCommandPanel_ActionDownLeft" xml:space="preserve">
+    <value>左下</value>
+  </data>
+  <data name="DevicePanel_UriCommandPanel_ActionDownRight" xml:space="preserve">
+    <value>右下</value>
+  </data>
+  <data name="PTZPanel_MoveDownLeft" xml:space="preserve">
+    <value>左下</value>
+  </data>
+  <data name="PTZPanel_MoveDownRight" xml:space="preserve">
+    <value>右下</value>
+  </data>
+  <data name="VideoWindowTitleBarPanel_DragNote" xml:space="preserve">
+    <value>拖曳并移动来改变显示的订单。</value>
+  </data>
+  <data name="SetupDevice_MotionRegionRectanglePointDescription" xml:space="preserve">
+    <value>拖曳来调整区域大小</value>
+  </data>
+  <data name="StoragePanel_Drive" xml:space="preserve">
+    <value>磁盘</value>
+  </data>
+  <data name="SetupTitle_Duplicate" xml:space="preserve">
+    <value>复制</value>
+  </data>
+  <data name="Handler_Duration" xml:space="preserve">
+    <value>长度</value>
+  </data>
+  <data name="PointPanel_Duration" xml:space="preserve">
+    <value>停留时间(秒)</value>
+  </data>
+  <data name="SetupGeneral_LivePatrolInterval" xml:space="preserve">
+    <value>实时影像巡览间隔</value>
+  </data>
+  <data name="SetupServer_EnableDynamicIP" xml:space="preserve">
+    <value>自动取得 IP 地址 (DHCP)</value>
+  </data>
+  <data name="AutoSwitchLiveVideoStream_AutoSwitch" xml:space="preserve">
+    <value>动态串流配置模式</value>
+  </data>
+  <data name="SetupGeneral_AutoSwitchLiveVideoStream" xml:space="preserve">
+    <value>动态串流配置设定</value>
+  </data>
+  <data name="SetupTitle_EditSetup" xml:space="preserve">
+    <value>编辑设定</value>
+  </data>
+  <data name="ExportVideo_ExportCompleted" xml:space="preserve">
+    <value>经过时间： %1</value>
+  </data>
+  <data name="User_Email" xml:space="preserve">
+    <value>电子邮件</value>
+  </data>
+  <data name="MailServer_EmailAddress" xml:space="preserve">
+    <value>邮件地址</value>
+  </data>
+  <data name="Page_eMap" xml:space="preserve">
+    <value>地图</value>
+  </data>
+  <data name="SetupServer_EMapSetting" xml:space="preserve">
+    <value>地图设定</value>
+  </data>
+  <data name="EditNVRPanel_Enable" xml:space="preserve">
+    <value>启用</value>
+  </data>
+  <data name="SetupDevice_Enable" xml:space="preserve">
+    <value>启用</value>
+  </data>
+  <data name="SetupServer_EnabledDaylight" xml:space="preserve">
+    <value>实施日光节约时间</value>
+  </data>
+  <data name="PrintImage_OverlayInformation" xml:space="preserve">
+    <value>重迭装置信息在图像上</value>
+  </data>
+  <data name="DeviceTree_EnableDevicePatrol" xml:space="preserve">
+    <value>开始设备巡逻(间隔 %1 秒)</value>
+  </data>
+  <data name="PTZPanel_EnablePresetTour" xml:space="preserve">
+    <value>启用预置点游览</value>
+  </data>
+  <data name="LoginForm_SSL" xml:space="preserve">
+    <value>启用 SSL 的连接</value>
+  </data>
+  <data name="SetupGeneral_StretchVideo" xml:space="preserve">
+    <value>扩展影像</value>
+  </data>
+  <data name="DeviceTree_EnablePatrol" xml:space="preserve">
+    <value>开始群组巡览 (间隔 %1 秒)</value>
+  </data>
+  <data name="SetupGeneral_Enabled" xml:space="preserve">
+    <value>启用</value>
+  </data>
+  <data name="SetupJoystick_Enabled" xml:space="preserve">
+    <value>启用</value>
+  </data>
+  <data name="SetupServer_Enabled" xml:space="preserve">
+    <value>启用</value>
+  </data>
+  <data name="DevicePanel_Enabled" xml:space="preserve">
+    <value>启用</value>
+  </data>
+  <data name="DevicePanel_Encryption" xml:space="preserve">
+    <value>加密</value>
+  </data>
+  <data name="SmartSearch_End" xml:space="preserve">
+    <value>结束</value>
+  </data>
+  <data name="ExportVideo_End" xml:space="preserve">
+    <value>结束</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>简体中文</value>
+  </data>
+  <data name="PrintImage_WriteComment" xml:space="preserve">
+    <value>在此加入批注。</value>
+  </data>
+  <data name="SaveReport_WriteComment" xml:space="preserve">
+    <value>填写评论内容。</value>
+  </data>
+  <data name="UnlockAppForm_EnterPassword" xml:space="preserve">
+    <value>输入 "%1" 的密码来解锁应用程序</value>
+  </data>
+  <data name="MessageBox_Error" xml:space="preserve">
+    <value>错误</value>
+  </data>
+  <data name="Ethernet_Ethernet" xml:space="preserve">
+    <value>乙太网路</value>
+  </data>
+  <data name="SetupServer_Ethernet" xml:space="preserve">
+    <value>乙太网路</value>
+  </data>
+  <data name="SetupLicense_EthernetCard" xml:space="preserve">
+    <value>网络卡</value>
+  </data>
+  <data name="Page_Event" xml:space="preserve">
+    <value>事件</value>
+  </data>
+  <data name="NVR_Event" xml:space="preserve">
+    <value>事件</value>
+  </data>
+  <data name="EventResultPanel_Event" xml:space="preserve">
+    <value>事件</value>
+  </data>
+  <data name="Control_EventIcon" xml:space="preserve">
+    <value>事件</value>
+  </data>
+  <data name="Control_Event" xml:space="preserve">
+    <value>事件</value>
+  </data>
+  <data name="SmartSearch_Event" xml:space="preserve">
+    <value>事件</value>
+  </data>
+  <data name="Investigation_Event" xml:space="preserve">
+    <value>事件</value>
+  </data>
+  <data name="Investigation_EventColor" xml:space="preserve">
+    <value>事件颜色</value>
+  </data>
+  <data name="EventPanel_EventHelper" xml:space="preserve">
+    <value>事件处理辅助</value>
+  </data>
+  <data name="HandlePanel_EventHandler" xml:space="preserve">
+    <value>事件处理</value>
+  </data>
+  <data name="SetupSchedule_EventHandling" xml:space="preserve">
+    <value>事件处理</value>
+  </data>
+  <data name="DevicePanel_EventHandling" xml:space="preserve">
+    <value>事件处理</value>
+  </data>
+  <data name="SetupSchedule_EventRecordingDuration" xml:space="preserve">
+    <value>事件录像长度(秒)</value>
+  </data>
+  <data name="Control_EventSearch" xml:space="preserve">
+    <value>事件检索</value>
+  </data>
+  <data name="SetupLog_ExcelFile" xml:space="preserve">
+    <value>电子表格</value>
+  </data>
+  <data name="SetupExceptionReport_ExceptionReport" xml:space="preserve">
+    <value>Exception Report</value>
+  </data>
+  <data name="HandlePanel_Command" xml:space="preserve">
+    <value>执行命令</value>
+  </data>
+  <data name="VideoMonitor_ExitFullScreen" xml:space="preserve">
+    <value>退出全屏</value>
+  </data>
+  <data name="LicensePanel_Expired" xml:space="preserve">
+    <value>已过期</value>
+  </data>
+  <data name="LicensePanel_ExpiresDate" xml:space="preserve">
+    <value>到期日 GMT %1</value>
+  </data>
+  <data name="ExportVideo_Encode" xml:space="preserve">
+    <value>编码</value>
+  </data>
+  <data name="ExportVideo_Export" xml:space="preserve">
+    <value>汇出</value>
+  </data>
+  <data name="Menu_ExportCaseQueue" xml:space="preserve">
+    <value>Export Case Queue</value>
+  </data>
+  <data name="GroupPanel_ExportError" xml:space="preserve">
+    <value>导出错误:请检查磁盘的权限和能力。</value>
+  </data>
+  <data name="GroupPanel_ExportFileFolder" xml:space="preserve">
+    <value>汇出档案夹</value>
+  </data>
+  <data name="ExportVideo_ExportOriginalVideo" xml:space="preserve">
+    <value>导出原始影像</value>
+  </data>
+  <data name="ExportVideo_PathNotAvailable" xml:space="preserve">
+    <value>导出路径无效。是否继续导出影像到桌面上？</value>
+  </data>
+  <data name="SetupTitle_ExportTemplate" xml:space="preserve">
+    <value>Export template</value>
+  </data>
+  <data name="DevicePermissionPanel_ExportVideo" xml:space="preserve">
+    <value>导出影像</value>
+  </data>
+  <data name="Export_Button" xml:space="preserve">
+    <value>导出影像</value>
+  </data>
+  <data name="ExportVideo_Title" xml:space="preserve">
+    <value>导出影像</value>
+  </data>
+  <data name="ExportVideo_ExportFailed" xml:space="preserve">
+    <value>导出 "%1" 影像失败。</value>
+  </data>
+  <data name="ExportVideo_ExportVideoInProgress" xml:space="preserve">
+    <value>导出影像已经在进行。\n请先完成或取消前一次的操作。</value>
+  </data>
+  <data name="ExportVideo_ExportCancelled" xml:space="preserve">
+    <value>取消导出影像。</value>
+  </data>
+  <data name="ExportVideoStatus_ExportVideoFinish" xml:space="preserve">
+    <value>导出视频已完成</value>
+  </data>
+  <data name="SetupGeneral_ExportFolderName" xml:space="preserve">
+    <value>汇出档案夹名称为 "%1 Video (%2)"</value>
+  </data>
+  <data name="ExportVideo_ExportVideoOptions" xml:space="preserve">
+    <value>导出视频选项</value>
+  </data>
+  <data name="SetupGeneral_ExportVideoPath" xml:space="preserve">
+    <value>导出影像路径</value>
+  </data>
+  <data name="ExportVideo_ExportSucceed" xml:space="preserve">
+    <value>导出成功.</value>
+  </data>
+  <data name="SetupDevice_InvalidIP" xml:space="preserve">
+    <value>无法浏览网页 (无效的URL).</value>
+  </data>
+  <data name="LoginForm_SignInFailedConnectFailure" xml:space="preserve">
+    <value>无法联机到服务器。请确认服务器跟端口是否正确。</value>
+  </data>
+  <data name="NVR_LaunchTime" xml:space="preserve">
+    <value>备援启动时间</value>
+  </data>
+  <data name="SetupServer_FailoverRecording" xml:space="preserve">
+    <value>备援录像</value>
+  </data>
+  <data name="Event_FailoverDataStartSync" xml:space="preserve">
+    <value>备援录像数据开始同步</value>
+  </data>
+  <data name="Event_FailoverStartRecord" xml:space="preserve">
+    <value>备援录像启动</value>
+  </data>
+  <data name="Event_FailoverSyncCompleted" xml:space="preserve">
+    <value>备援录像同步完毕</value>
+  </data>
+  <data name="Application_FailoverSystem" xml:space="preserve">
+    <value>Failover System</value>
+  </data>
+  <data name="Common_February" xml:space="preserve">
+    <value>二月</value>
+  </data>
+  <data name="Handler_FileName" xml:space="preserve">
+    <value>档案名</value>
+  </data>
+  <data name="ExportVideoMsg_FileOpenFailed" xml:space="preserve">
+    <value>开党失败</value>
+  </data>
+  <data name="USBDisk_FileSystem" xml:space="preserve">
+    <value>File System</value>
+  </data>
+  <data name="SetupSchedule_FillEventRecording" xml:space="preserve">
+    <value>使用事件录像来填满</value>
+  </data>
+  <data name="PageSelector_First" xml:space="preserve">
+    <value>第一页</value>
+  </data>
+  <data name="Menu_Fisheye" xml:space="preserve">
+    <value>鱼眼</value>
+  </data>
+  <data name="PTZPanel_Focus" xml:space="preserve">
+    <value>焦距</value>
+  </data>
+  <data name="PTZPanel_FocusFAR" xml:space="preserve">
+    <value>聚焦远</value>
+  </data>
+  <data name="DevicePanel_UriCommandPanel_ActionFocusIn" xml:space="preserve">
+    <value>对焦拉近</value>
+  </data>
+  <data name="PTZPanel_FocusNEAR" xml:space="preserve">
+    <value>聚焦近</value>
+  </data>
+  <data name="DevicePanel_UriCommandPanel_ActionFocusOut" xml:space="preserve">
+    <value>对焦拉远</value>
+  </data>
+  <data name="PTZPanel_FocusSTOP" xml:space="preserve">
+    <value>停止聚焦</value>
+  </data>
+  <data name="DevicePanel_UriCommandPanel_ActionFocusStop" xml:space="preserve">
+    <value>停止对焦</value>
+  </data>
+  <data name="SetupServer_DescRAID5" xml:space="preserve">
+    <value>硬盘故障时，具有数据保护能力，较高的效能和高效的储存空间。</value>
+  </data>
+  <data name="SetupServer_DescRAID0" xml:space="preserve">
+    <value>警告：如有任一硬碟損毀，NVR錄影資料將立即損毀無法回復。</value>
+  </data>
+  <data name="SetupServer_DescRAID1" xml:space="preserve">
+    <value>最大数据保护能力。相同的数据同时写入到多颗硬盘。</value>
+  </data>
+  <data name="StorageControl_KeepSpaceSuggest4" xml:space="preserve">
+    <value>总比特率介于 100Mb/s 至 150Mb/s = 50GB</value>
+  </data>
+  <data name="StorageControl_KeepSpaceSuggest2" xml:space="preserve">
+    <value>总比特率介于 10Mb/s 至 50Mb/s = 30GB</value>
+  </data>
+  <data name="StorageControl_KeepSpaceSuggest5" xml:space="preserve">
+    <value>总比特率介于 150Mb/s 至 200Mb/s = 60GB</value>
+  </data>
+  <data name="StorageControl_KeepSpaceSuggest3" xml:space="preserve">
+    <value>总比特率介于 50Mb/s 至 100Mb/s = 40GB</value>
+  </data>
+  <data name="StorageControl_KeepSpaceSuggest1" xml:space="preserve">
+    <value>总比特率小于 10Mb/s = 15GB</value>
+  </data>
+  <data name="LoginForm_ForgetMe" xml:space="preserve">
+    <value>(忘记我)</value>
+  </data>
+  <data name="SetupTitle_Format" xml:space="preserve">
+    <value>格式化</value>
+  </data>
+  <data name="SetupServer_StatusFormat" xml:space="preserve">
+    <value>格式化</value>
+  </data>
+  <data name="DevicePanel_FPS" xml:space="preserve">
+    <value>每秒帧数</value>
+  </data>
+  <data name="SetupGeneral_FPS" xml:space="preserve">
+    <value>每秒帧数</value>
+  </data>
+  <data name="VideoWindowTitleBarPanel_FPS" xml:space="preserve">
+    <value>每秒帧数</value>
+  </data>
+  <data name="StoragePanel_Available" xml:space="preserve">
+    <value>可用</value>
+  </data>
+  <data name="Schedule_Fri" xml:space="preserve">
+    <value>五</value>
+  </data>
+  <data name="Common_Fri" xml:space="preserve">
+    <value>五</value>
+  </data>
+  <data name="Common_Friday" xml:space="preserve">
+    <value>星期五</value>
+  </data>
+  <data name="SetupGeneral_FTPServer" xml:space="preserve">
+    <value>FTP 服务器</value>
+  </data>
+  <data name="HandlePanel_UploadFTP" xml:space="preserve">
+    <value>上传到 FTP</value>
+  </data>
+  <data name="SetupGeneral_FullScreen" xml:space="preserve">
+    <value>全屏</value>
+  </data>
+  <data name="Menu_Fullscreen" xml:space="preserve">
+    <value>全屏</value>
+  </data>
+  <data name="Schedule_FullTimeEventRecording" xml:space="preserve">
+    <value>全时事件录像</value>
+  </data>
+  <data name="Schedule_FullTime" xml:space="preserve">
+    <value>全时</value>
+  </data>
+  <data name="DevicePanel_Gain" xml:space="preserve">
+    <value>增益</value>
+  </data>
+  <data name="DevicePanel_Gamma" xml:space="preserve">
+    <value>伽玛</value>
+  </data>
+  <data name="SetupServer_Gateway" xml:space="preserve">
+    <value>预设网关</value>
+  </data>
+  <data name="Control_GeneralIcon" xml:space="preserve">
+    <value>一般</value>
+  </data>
+  <data name="Control_General" xml:space="preserve">
+    <value>一般</value>
+  </data>
+  <data name="SetupServer_GeneralSetting" xml:space="preserve">
+    <value>一般设定</value>
+  </data>
+  <data name="ExportVideoStatus_GetVideoStream" xml:space="preserve">
+    <value>获取视频流</value>
+  </data>
+  <data name="ExportVideoMsg_GetVideoStreamFailed" xml:space="preserve">
+    <value>取得串流失败</value>
+  </data>
+  <data name="PointPanel_GoTo" xml:space="preserve">
+    <value>到</value>
+  </data>
+  <data name="TimeTrack_JumpPresentTime" xml:space="preserve">
+    <value>跳至现在时间</value>
+  </data>
+  <data name="TimeTrack_JumpNextBookmark" xml:space="preserve">
+    <value>跳至下一个书签</value>
+  </data>
+  <data name="TimeTrack_JumpNextRecord" xml:space="preserve">
+    <value>跳至下一段录像</value>
+  </data>
+  <data name="TimeTrack_JumpPreviousBookmark" xml:space="preserve">
+    <value>跳至上一个书签</value>
+  </data>
+  <data name="TimeTrack_JumpPreviousRecord" xml:space="preserve">
+    <value>跳至上一段录像</value>
+  </data>
+  <data name="HandlePanel_GotoPreset" xml:space="preserve">
+    <value>跳至预设点</value>
+  </data>
+  <data name="DevicePanel_UriCommandPanel_GotoPresetPoint" xml:space="preserve">
+    <value>前往预置点</value>
+  </data>
+  <data name="DevicePanel_UriCommandPanel_GotoPresetPointCommand" xml:space="preserve">
+    <value>前往预置点命令</value>
+  </data>
+  <data name="Control_DeviceGroup" xml:space="preserve">
+    <value>群组</value>
+  </data>
+  <data name="User_Group" xml:space="preserve">
+    <value>群组</value>
+  </data>
+  <data name="Control_DeviceGroupIcon" xml:space="preserve">
+    <value>群组</value>
+  </data>
+  <data name="UserGroup_Guest" xml:space="preserve">
+    <value>访客</value>
+  </data>
+  <data name="DeviceLayoutPanel_Height" xml:space="preserve">
+    <value>高度</value>
+  </data>
+  <data name="Common_Hide" xml:space="preserve">
+    <value>隐藏</value>
+  </data>
+  <data name="Menu_HidePanel" xml:space="preserve">
+    <value>隐藏面板</value>
+  </data>
+  <data name="SetupGeneral_HidePanel" xml:space="preserve">
+    <value>隐藏面板</value>
+  </data>
+  <data name="DevicePanel_HighProfile" xml:space="preserve">
+    <value>高阶模式</value>
+  </data>
+  <data name="AutoSwitchLiveVideoStream_Information" xml:space="preserve">
+    <value>高阶模式适用于低视频数量浏览。低阶模式适用于高视频数量浏览。</value>
+  </data>
+  <data name="LoginForm_Host" xml:space="preserve">
+    <value>服务器</value>
+  </data>
+  <data name="SetupServer_HostName" xml:space="preserve">
+    <value>主机名称</value>
+  </data>
+  <data name="HandlePanel_Hotspot" xml:space="preserve">
+    <value>热点</value>
+  </data>
+  <data name="Common_Hr" xml:space="preserve">
+    <value>小时</value>
+  </data>
+  <data name="SetupLog_HTMLFile" xml:space="preserve">
+    <value>网页</value>
+  </data>
+  <data name="DevicePanel_HTTPPort" xml:space="preserve">
+    <value>HTTP端口</value>
+  </data>
+  <data name="DevicePanel_Hue" xml:space="preserve">
+    <value>色调</value>
+  </data>
+  <data name="Control_IOModel" xml:space="preserve">
+    <value>I/O模组</value>
+  </data>
+  <data name="DevicePanel_IOPort" xml:space="preserve">
+    <value>I/O端口 %1</value>
+  </data>
+  <data name="DevicePanel_IOPortConfig" xml:space="preserve">
+    <value>I/O端口设定</value>
+  </data>
+  <data name="PointPanel_ID" xml:space="preserve">
+    <value>编号</value>
+  </data>
+  <data name="Handler_ID" xml:space="preserve">
+    <value>编号</value>
+  </data>
+  <data name="DevicePanel_ID" xml:space="preserve">
+    <value>编号</value>
+  </data>
+  <data name="NVR_ID" xml:space="preserve">
+    <value>编号</value>
+  </data>
+  <data name="ExportVideo_ID" xml:space="preserve">
+    <value>编号</value>
+  </data>
+  <data name="SetupServer_StoreId" xml:space="preserve">
+    <value>编号</value>
+  </data>
+  <data name="SetupLog_ID" xml:space="preserve">
+    <value>编号</value>
+  </data>
+  <data name="DevicePermissionPanel_ID" xml:space="preserve">
+    <value>编号</value>
+  </data>
+  <data name="EventResultPanell_ID" xml:space="preserve">
+    <value>编号</value>
+  </data>
+  <data name="DeviceLayoutPanel_ID" xml:space="preserve">
+    <value>编号</value>
+  </data>
+  <data name="VideoWindow_Idle" xml:space="preserve">
+    <value>闲置</value>
+  </data>
+  <data name="SetupServer_EthernetWarning" xml:space="preserve">
+    <value>如果输入的参数是无效的，此无效的值将不会被保存且参数将会被设定为空值。</value>
+  </data>
+  <data name="SetupServer_DateTimeNTPServerWarning" xml:space="preserve">
+    <value>手动设定日期，NTP 服务器将会被停止。</value>
+  </data>
+  <data name="DeviceTree_ImageStitching" xml:space="preserve">
+    <value>影像拼贴</value>
+  </data>
+  <data name="Control_ImageStitching" xml:space="preserve">
+    <value>影像拼贴</value>
+  </data>
+  <data name="Control_ImageStitchingIcon" xml:space="preserve">
+    <value>影像拼贴</value>
+  </data>
+  <data name="GroupPanel_Import" xml:space="preserve">
+    <value>汇入</value>
+  </data>
+  <data name="SetupTitle_ImportTemplate" xml:space="preserve">
+    <value>Import template</value>
+  </data>
+  <data name="SetupServer_StatusInactive" xml:space="preserve">
+    <value>非启用</value>
+  </data>
+  <data name="SetupGeneral_Include" xml:space="preserve">
+    <value>包含</value>
+  </data>
+  <data name="PrintImage_Include" xml:space="preserve">
+    <value>包含</value>
+  </data>
+  <data name="EditNVRPanel_Include" xml:space="preserve">
+    <value>包含</value>
+  </data>
+  <data name="TimeTrack_IncreaseTimeScale" xml:space="preserve">
+    <value>放大时间刻度</value>
+  </data>
+  <data name="EditUserPanel_Information" xml:space="preserve">
+    <value>信息</value>
+  </data>
+  <data name="MessageBox_Information" xml:space="preserve">
+    <value>讯息</value>
+  </data>
+  <data name="VideoWindowTitleBarPanel_Information" xml:space="preserve">
+    <value>讯息</value>
+  </data>
+  <data name="EditNVRPanel_Information" xml:space="preserve">
+    <value>信息</value>
+  </data>
+  <data name="VideoWindowTitleBarPanel_DisplayNote" xml:space="preserve">
+    <value>信息将从左上的视频标题栏显示。</value>
+  </data>
+  <data name="Application_InitializeActiveXError" xml:space="preserve">
+    <value>初始化 ActiveX(%1) 错误。</value>
+  </data>
+  <data name="Menu_InstantPlayback" xml:space="preserve">
+    <value>实时回放</value>
+  </data>
+  <data name="InstantPlayback_Title" xml:space="preserve">
+    <value>实时回放</value>
+  </data>
+  <data name="SetupServer_PortWarning" xml:space="preserve">
+    <value>请勿输入保留的端口 %1。</value>
+  </data>
+  <data name="Control_ReportInvestigationIcon" xml:space="preserve">
+    <value>调查</value>
+  </data>
+  <data name="Control_ReportInvestigation" xml:space="preserve">
+    <value>调查</value>
+  </data>
+  <data name="Page_Investigation" xml:space="preserve">
+    <value>调查</value>
+  </data>
+  <data name="SetupServer_IPAddress" xml:space="preserve">
+    <value>IP地址</value>
+  </data>
+  <data name="SmartSearch_IVS" xml:space="preserve">
+    <value>IVS</value>
+  </data>
+  <data name="Common_January" xml:space="preserve">
+    <value>一月</value>
+  </data>
+  <data name="Control_JoystickIcon" xml:space="preserve">
+    <value>游戏杆</value>
+  </data>
+  <data name="Control_Joystick" xml:space="preserve">
+    <value>游戏杆</value>
+  </data>
+  <data name="Common_July" xml:space="preserve">
+    <value>七月</value>
+  </data>
+  <data name="Common_June" xml:space="preserve">
+    <value>六月</value>
+  </data>
+  <data name="StoragePanel_KeepDays" xml:space="preserve">
+    <value>Keep Days</value>
+  </data>
+  <data name="SetupServer_DeviceKeepDaysRecording" xml:space="preserve">
+    <value>保留天数设置</value>
+  </data>
+  <data name="StoragePanel_KeepSpace" xml:space="preserve">
+    <value>保留空间</value>
+  </data>
+  <data name="LoginForm_Language" xml:space="preserve">
+    <value>语言</value>
+  </data>
+  <data name="Common_LastMonth" xml:space="preserve">
+    <value>上个月</value>
+  </data>
+  <data name="PageSelector_Last" xml:space="preserve">
+    <value>最后一页</value>
+  </data>
+  <data name="SetupGeneral_LatestView" xml:space="preserve">
+    <value>最新视图</value>
+  </data>
+  <data name="DeviceLayoutPanel_Layout" xml:space="preserve">
+    <value>布局</value>
+  </data>
+  <data name="Pager_Layout" xml:space="preserve">
+    <value>%1 分割</value>
+  </data>
+  <data name="DevicePanel_UriCommandPanel_ActionLeft" xml:space="preserve">
+    <value>左</value>
+  </data>
+  <data name="PTZPanel_MoveLeft" xml:space="preserve">
+    <value>左</value>
+  </data>
+  <data name="Loading_License" xml:space="preserve">
+    <value>授权</value>
+  </data>
+  <data name="Control_LicenseIcon" xml:space="preserve">
+    <value>授权</value>
+  </data>
+  <data name="Control_License" xml:space="preserve">
+    <value>授权</value>
+  </data>
+  <data name="SetupLicense_LicenseKey" xml:space="preserve">
+    <value>注册码</value>
+  </data>
+  <data name="Application_LicenseKeyWillExpire" xml:space="preserve">
+    <value>授权码 "%1" 将于 "%2" 到期。</value>
+  </data>
+  <data name="Application_LicenseKeyError" xml:space="preserve">
+    <value>注册码错误。 (错误码： 2)</value>
+  </data>
+  <data name="SetupLicense_Filter" xml:space="preserve">
+    <value>注册档</value>
+  </data>
+  <data name="Application_LicenseKeyUsed" xml:space="preserve">
+    <value>注册码已经被使用。 (错误码： 3)</value>
+  </data>
+  <data name="Application_LicenseKeyExpired" xml:space="preserve">
+    <value>注册码已经过期。 (错误码： 4)</value>
+  </data>
+  <data name="SetupDevice_MaximumLicense" xml:space="preserve">
+    <value>达到最大授权限 "%1"</value>
+  </data>
+  <data name="SetupLicense_LicenseQuantity" xml:space="preserve">
+    <value>授权数量</value>
+  </data>
+  <data name="Application_AmountConfirm" xml:space="preserve">
+    <value>授权数量为 "%1" 。\n确定要注册吗？</value>
+  </data>
+  <data name="SetupLicense_AmountConfirm" xml:space="preserve">
+    <value>授权数量为 "%1" 。\n确定要注册吗？</value>
+  </data>
+  <data name="Application_RegistrationTimeout" xml:space="preserve">
+    <value>注册逾时。</value>
+  </data>
+  <data name="SetupServer_LicenseSetting" xml:space="preserve">
+    <value>授权设定</value>
+  </data>
+  <data name="Page_Live" xml:space="preserve">
+    <value>实时影像</value>
+  </data>
+  <data name="LiveStream_Title" xml:space="preserve">
+    <value>直播流</value>
+  </data>
+  <data name="DevicePanel_LiveStream" xml:space="preserve">
+    <value>实时影像串流</value>
+  </data>
+  <data name="App_Loading" xml:space="preserve">
+    <value>载入中</value>
+  </data>
+  <data name="SetupLog_LoadingLog" xml:space="preserve">
+    <value>读取日志</value>
+  </data>
+  <data name="PrintImage_Loading" xml:space="preserve">
+    <value>载入中...</value>
+  </data>
+  <data name="SetupGeneral_LocalTranscode" xml:space="preserve">
+    <value>本地转码</value>
+  </data>
+  <data name="Menu_LockApplication" xml:space="preserve">
+    <value>锁定应用程序</value>
+  </data>
+  <data name="Control_Log" xml:space="preserve">
+    <value>日志</value>
+  </data>
+  <data name="Control_LogIcon" xml:space="preserve">
+    <value>日志</value>
+  </data>
+  <data name="SetupLog_Log" xml:space="preserve">
+    <value>日志</value>
+  </data>
+  <data name="SetupServer_DiskLost" xml:space="preserve">
+    <value>未找到</value>
+  </data>
+  <data name="DevicePanel_LowProfile" xml:space="preserve">
+    <value>低阶模式</value>
+  </data>
+  <data name="SetupGeneral_LowQuality" xml:space="preserve">
+    <value>低质量</value>
+  </data>
+  <data name="SetupGeneral_LowQualityStream" xml:space="preserve">
+    <value>低质量的串流</value>
+  </data>
+  <data name="LicensePanel_MAC" xml:space="preserve">
+    <value>MAC</value>
+  </data>
+  <data name="SetupGeneral_MailServer" xml:space="preserve">
+    <value>邮件服务器</value>
+  </data>
+  <data name="ManualRecord_Button" xml:space="preserve">
+    <value>手动全部录像</value>
+  </data>
+  <data name="DevicePermissionPanel_ManualRecord" xml:space="preserve">
+    <value>手动录像</value>
+  </data>
+  <data name="Menu_ManualRecord" xml:space="preserve">
+    <value>手动录像</value>
+  </data>
+  <data name="Event_ManualRecord" xml:space="preserve">
+    <value>手动录像</value>
+  </data>
+  <data name="SetupGeneral_ManualRecordDuration" xml:space="preserve">
+    <value>手动录像长度</value>
+  </data>
+  <data name="NVR_Manufacture" xml:space="preserve">
+    <value>制造商</value>
+  </data>
+  <data name="DevicePanel_Manufacturer" xml:space="preserve">
+    <value>制造商</value>
+  </data>
+  <data name="SetupDevice_AllManufacturer" xml:space="preserve">
+    <value>所有制造商</value>
+  </data>
+  <data name="Control_Maps" xml:space="preserve">
+    <value>地图</value>
+  </data>
+  <data name="Common_March" xml:space="preserve">
+    <value>三月</value>
+  </data>
+  <data name="SetupServer_IPMask" xml:space="preserve">
+    <value>子网掩码</value>
+  </data>
+  <data name="ExportVideo_ExportMaxiFileSize" xml:space="preserve">
+    <value>档案分割大小</value>
+  </data>
+  <data name="Common_May" xml:space="preserve">
+    <value>五月</value>
+  </data>
+  <data name="DevicePanel_MediumProfile" xml:space="preserve">
+    <value>中阶模式</value>
+  </data>
+  <data name="SetupGeneral_MiddleQuality" xml:space="preserve">
+    <value>中等品质</value>
+  </data>
+  <data name="SetupGeneral_MiddleQualityStream" xml:space="preserve">
+    <value>中等质量串流</value>
+  </data>
+  <data name="SetupServer_MergeDatabase" xml:space="preserve">
+    <value>合并数据库</value>
+  </data>
+  <data name="DevicePanel_UriCommandPanel_Method" xml:space="preserve">
+    <value>方式</value>
+  </data>
+  <data name="Common_Min" xml:space="preserve">
+    <value>分</value>
+  </data>
+  <data name="DevicePanel_Mode" xml:space="preserve">
+    <value>模式</value>
+  </data>
+  <data name="DevicePanel_Model" xml:space="preserve">
+    <value>型号</value>
+  </data>
+  <data name="NVR_Modified" xml:space="preserve">
+    <value>修改日期</value>
+  </data>
+  <data name="SetupIOModel_ModifyIOHandle" xml:space="preserve">
+    <value>修改I / O处理程序 %1 至 %2/%3</value>
+  </data>
+  <data name="Schedule_Mon" xml:space="preserve">
+    <value>一</value>
+  </data>
+  <data name="Common_Mon" xml:space="preserve">
+    <value>一</value>
+  </data>
+  <data name="Common_Monday" xml:space="preserve">
+    <value>星期一</value>
+  </data>
+  <data name="Database_KeepMonths" xml:space="preserve">
+    <value>保存交易数据月数</value>
+  </data>
+  <data name="Event_Motion" xml:space="preserve">
+    <value>动态侦测</value>
+  </data>
+  <data name="Event_MotionID" xml:space="preserve">
+    <value>动态侦测 %1</value>
+  </data>
+  <data name="SetupDevice_MotionSetting" xml:space="preserve">
+    <value>动态侦测区域设定</value>
+  </data>
+  <data name="SmartSearch_IVSMotionDetection" xml:space="preserve">
+    <value>动态侦测</value>
+  </data>
+  <data name="DevicePanel_MotionThreshold" xml:space="preserve">
+    <value>Motion Threshold</value>
+  </data>
+  <data name="ExportVideoStatus_MountUSBDevice" xml:space="preserve">
+    <value>挂载USB盘</value>
+  </data>
+  <data name="ExportVideoMsg_MountUSBDeviceFailed" xml:space="preserve">
+    <value>挂载的USB设备失败</value>
+  </data>
+  <data name="DevicePanel_MulticastNetworkAddress" xml:space="preserve">
+    <value>组播网络地址</value>
+  </data>
+  <data name="DevicePanel_MultiStreaming" xml:space="preserve">
+    <value>多数据流</value>
+  </data>
+  <data name="SetupGeneral_Document" xml:space="preserve">
+    <value>我的文档</value>
+  </data>
+  <data name="SetupGeneral_Picture" xml:space="preserve">
+    <value>我的图片</value>
+  </data>
+  <data name="DevicePermissionPanel_Name" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="User_Name" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="GroupPanel_Name" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="DevicePanel_Name" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="USBDisk_Name" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="PointPanel_Name" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="NVR_Name" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="DeviceLayoutPanel_Name" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="SetupServer_StoreName" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="Ethernet_Network" xml:space="preserve">
+    <value>网络</value>
+  </data>
+  <data name="DevicePanel_NetworkAddress" xml:space="preserve">
+    <value>网络地址</value>
+  </data>
+  <data name="SetupServer_EthernetOnline" xml:space="preserve">
+    <value>网络线已经插入。</value>
+  </data>
+  <data name="SetupServer_EthernetOffline" xml:space="preserve">
+    <value>网络线已经拔除。</value>
+  </data>
+  <data name="Application_ConfirmEthernetCableUnplugged" xml:space="preserve">
+    <value>此网络线已经拔除 。请问要继续吗?</value>
+  </data>
+  <data name="Event_NetworkLoss" xml:space="preserve">
+    <value>网络断线</value>
+  </data>
+  <data name="Event_NetworkRecovery" xml:space="preserve">
+    <value>网络恢复</value>
+  </data>
+  <data name="Application_NetworkVideoRecorder" xml:space="preserve">
+    <value>Network Video Recorder</value>
+  </data>
+  <data name="Application_DevicePackUpdate" xml:space="preserve">
+    <value>新设备包检测（版本 %1）请确认升级。</value>
+  </data>
+  <data name="SetupException_NewException" xml:space="preserve">
+    <value>New Exception</value>
+  </data>
+  <data name="SetupIOModel_NewOPC" xml:space="preserve">
+    <value>New OPC Server</value>
+  </data>
+  <data name="SetupDeviceLayout_NewPanorama" xml:space="preserve">
+    <value>新增拼贴影像</value>
+  </data>
+  <data name="VideoMonitor_Next" xml:space="preserve">
+    <value>往后</value>
+  </data>
+  <data name="SetupWizard_Next" xml:space="preserve">
+    <value>下一步 &gt;</value>
+  </data>
+  <data name="Common_NextMonth" xml:space="preserve">
+    <value>下个月</value>
+  </data>
+  <data name="PageSelector_Next" xml:space="preserve">
+    <value>下一页</value>
+  </data>
+  <data name="SetupDevice_SearchNoResult" xml:space="preserve">
+    <value>找不到装置</value>
+  </data>
+  <data name="Investigation_NotSelectDevice" xml:space="preserve">
+    <value>没有选择设备</value>
+  </data>
+  <data name="Investigation_NotSelectEvent" xml:space="preserve">
+    <value>没有选择事件</value>
+  </data>
+  <data name="SetupServer_NoSelectedFile" xml:space="preserve">
+    <value>没有选择档案</value>
+  </data>
+  <data name="SetupLog_NoLogFound" xml:space="preserve">
+    <value>找不到</value>
+  </data>
+  <data name="TimeTrack_NoMoreBookmarks" xml:space="preserve">
+    <value>没有书签了。</value>
+  </data>
+  <data name="TimeTrack_NoMoreRecord" xml:space="preserve">
+    <value>没有录像数据了。</value>
+  </data>
+  <data name="SetupServer_NoSelectedContent" xml:space="preserve">
+    <value>没有选择还原内容</value>
+  </data>
+  <data name="Investigation_SearchNoResult" xml:space="preserve">
+    <value>没有找到结果</value>
+  </data>
+  <data name="Schedule_NoSchedule" xml:space="preserve">
+    <value>没有排程</value>
+  </data>
+  <data name="EventPanel_NoSnapshot" xml:space="preserve">
+    <value>不要快照</value>
+  </data>
+  <data name="SetupGeneral_StorageAlert" xml:space="preserve">
+    <value>没有选择录像磁盘的提示</value>
+  </data>
+  <data name="SetupLog_NoSystemLog" xml:space="preserve">
+    <value>没有系统日志</value>
+  </data>
+  <data name="SetupLog_NoUserLog" xml:space="preserve">
+    <value>没有用户日志</value>
+  </data>
+  <data name="EventPanel_EventNo" xml:space="preserve">
+    <value>编号 %1</value>
+  </data>
+  <data name="DeviceManager_NoHandler" xml:space="preserve">
+    <value>没有事件处理</value>
+  </data>
+  <data name="Schedule_NonWorkingDay" xml:space="preserve">
+    <value>非工作日</value>
+  </data>
+  <data name="Schedule_NonWorkingTime" xml:space="preserve">
+    <value>非工作时间</value>
+  </data>
+  <data name="Data_NotSupport" xml:space="preserve">
+    <value>不支援</value>
+  </data>
+  <data name="Common_November" xml:space="preserve">
+    <value>十一月</value>
+  </data>
+  <data name="SetupServer_NTPServer" xml:space="preserve">
+    <value>NTP 服务器</value>
+  </data>
+  <data name="LoginForm_NVR" xml:space="preserve">
+    <value>NVR</value>
+  </data>
+  <data name="Control_NVR" xml:space="preserve">
+    <value>NVR</value>
+  </data>
+  <data name="Control_NVRIcon" xml:space="preserve">
+    <value>NVR</value>
+  </data>
+  <data name="Loading_NVR" xml:space="preserve">
+    <value>NVR</value>
+  </data>
+  <data name="Event_NVRFail" xml:space="preserve">
+    <value>NVR 故障</value>
+  </data>
+  <data name="EditUserPanel_NVRPermission" xml:space="preserve">
+    <value>NVR 权限</value>
+  </data>
+  <data name="SetupServer_NVRSetting" xml:space="preserve">
+    <value>NVR 设定</value>
+  </data>
+  <data name="Application_NVRChange" xml:space="preserve">
+    <value>NVR 设定被修改。 请重新登入来套用设定。</value>
+  </data>
+  <data name="SetupGeneral_CPULoadingUpperBoundaryValue" xml:space="preserve">
+    <value>应用程式会自动调整图像模式当CPU使用量到达上限设定值。上限值设定范围为%1% ~ %2%.</value>
+  </data>
+  <data name="AutoSwitchDecodeIFrame_SimultaneousViewingLiveStreamingCountMoreThan" xml:space="preserve">
+    <value>NVR系统自动转换成译码 I 图像模式以节省系统效能，当浏览高视频数量时。</value>
+  </data>
+  <data name="SetupServer_EnableDynamicDNS" xml:space="preserve">
+    <value>自动取得 DNS 服务器地址</value>
+  </data>
+  <data name="Common_October" xml:space="preserve">
+    <value>十月</value>
+  </data>
+  <data name="SetupWizard_Of" xml:space="preserve">
+    <value>之</value>
+  </data>
+  <data name="Handler_Off" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="Ethernet_Offline" xml:space="preserve">
+    <value>离线</value>
+  </data>
+  <data name="SetupTitle_OfflineRegistration" xml:space="preserve">
+    <value>脱机注册</value>
+  </data>
+  <data name="Common_OK" xml:space="preserve">
+    <value>完成</value>
+  </data>
+  <data name="Handler_On" xml:space="preserve">
+    <value>开启</value>
+  </data>
+  <data name="Ethernet_Online" xml:space="preserve">
+    <value>在线</value>
+  </data>
+  <data name="SetupLicense_OnlineRegistration" xml:space="preserve">
+    <value>在线注册</value>
+  </data>
+  <data name="SetupTitle_OnlineRegistration" xml:space="preserve">
+    <value>在线注册</value>
+  </data>
+  <data name="SetupIOModel_AddedOPC" xml:space="preserve">
+    <value>OPC Server List</value>
+  </data>
+  <data name="SetupTitle_OpenWebPage" xml:space="preserve">
+    <value>开启网页</value>
+  </data>
+  <data name="Menu_OriginalStreaming" xml:space="preserve">
+    <value>原始串流</value>
+  </data>
+  <data name="SetupGeneral_OriginalVideo" xml:space="preserve">
+    <value>原始影像</value>
+  </data>
+  <data name="ExportVideoStatus_OutputFileName" xml:space="preserve">
+    <value>输出档案的名称</value>
+  </data>
+  <data name="ExportVideo_Overlay" xml:space="preserve">
+    <value>OSD叠加</value>
+  </data>
+  <data name="Application_PageNotFound" xml:space="preserve">
+    <value>找不到页面。</value>
+  </data>
+  <data name="Event_Panic" xml:space="preserve">
+    <value>紧急按钮</value>
+  </data>
+  <data name="Menu_Panic" xml:space="preserve">
+    <value>紧急按钮</value>
+  </data>
+  <data name="DevicePanel_UriCommandPanel_PostParameter" xml:space="preserve">
+    <value>Post参数(ex: direction=up&amp;speed=2)</value>
+  </data>
+  <data name="NVR_Password" xml:space="preserve">
+    <value>密码</value>
+  </data>
+  <data name="Database_Password" xml:space="preserve">
+    <value>密码</value>
+  </data>
+  <data name="User_Password" xml:space="preserve">
+    <value>密码</value>
+  </data>
+  <data name="DevicePanel_Password" xml:space="preserve">
+    <value>密码</value>
+  </data>
+  <data name="LoginForm_Password" xml:space="preserve">
+    <value>密码</value>
+  </data>
+  <data name="FtpServer_Password" xml:space="preserve">
+    <value>密码</value>
+  </data>
+  <data name="MailServer_Password" xml:space="preserve">
+    <value>密码</value>
+  </data>
+  <data name="UnlockAppForm_PasswordIncorrect" xml:space="preserve">
+    <value>密码不正确</value>
+  </data>
+  <data name="EditUserPanel_PasswordNotMatch" xml:space="preserve">
+    <value>密码不相符。</value>
+  </data>
+  <data name="ExportVideo_Path" xml:space="preserve">
+    <value>路径</value>
+  </data>
+  <data name="NVR_Patrol" xml:space="preserve">
+    <value>巡览</value>
+  </data>
+  <data name="SetupGeneral_Patrol" xml:space="preserve">
+    <value>巡览</value>
+  </data>
+  <data name="SmartSearch_Period" xml:space="preserve">
+    <value>间隔</value>
+  </data>
+  <data name="Application_GroupPermissionNotFound" xml:space="preserve">
+    <value>找不到使用者群组权限。</value>
+  </data>
+  <data name="SetupServer_StorePhone" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="Menu_Playback" xml:space="preserve">
+    <value>影像回放</value>
+  </data>
+  <data name="Page_Playback" xml:space="preserve">
+    <value>影像回放</value>
+  </data>
+  <data name="VideoMonitor_DeleteGroupConfirm" xml:space="preserve">
+    <value>请再次确认删除 "%1".</value>
+  </data>
+  <data name="SetupServer_ConfirmFormat" xml:space="preserve">
+    <value>你确定要使用 "%1" 进行格式化吗？</value>
+  </data>
+  <data name="Undo_Warning" xml:space="preserve">
+    <value>请再次确认继续进行撤消所有。</value>
+  </data>
+  <data name="DeviceTree_PatrolConfirm" xml:space="preserve">
+    <value>确定要巡览装置吗？</value>
+  </data>
+  <data name="SetupServer_ConfirmReboot" xml:space="preserve">
+    <value>你确定要重新启动吗？</value>
+  </data>
+  <data name="SetupServer_ConfirmRestore" xml:space="preserve">
+    <value>确定要还原设定？</value>
+  </data>
+  <data name="SetupServer_ConfirmShutdown" xml:space="preserve">
+    <value>你确定要关机吗？</value>
+  </data>
+  <data name="SetupServer_ConfirmUpdateEthernet" xml:space="preserve">
+    <value>你确定要更新以太网络吗?</value>
+  </data>
+  <data name="SetupServer_ConfirmUpgrade" xml:space="preserve">
+    <value>你确定要更新韧体吗？</value>
+  </data>
+  <data name="TimeTrack_DeleteBookmarkConfirm" xml:space="preserve">
+    <value>你确定要删除选择装置的所有书签吗？</value>
+  </data>
+  <data name="Application_ConfirmLockApp" xml:space="preserve">
+    <value>确定要锁定应用程序吗？</value>
+  </data>
+  <data name="Application_ConfirmSignOut" xml:space="preserve">
+    <value>确定要注销吗？</value>
+  </data>
+  <data name="SetupServer_WrongContent" xml:space="preserve">
+    <value>请使用 "%1" 档案来还原。</value>
+  </data>
+  <data name="SetupServer_ConfirmFormatEmptyError" xml:space="preserve">
+    <value>请选择RAID模式。</value>
+  </data>
+  <data name="SmartSearch_NoCriteria" xml:space="preserve">
+    <value>请先选择搜寻条件</value>
+  </data>
+  <data name="SetupServer_ConfirmUpgradeRestart" xml:space="preserve">
+    <value>请在%1分钟后重新登入。</value>
+  </data>
+  <data name="SetupServer_ConfirmRestoreRestart" xml:space="preserve">
+    <value>还原完毕后请重新登入。</value>
+  </data>
+  <data name="HandlePanel_PopupLive" xml:space="preserve">
+    <value>快显即时</value>
+  </data>
+  <data name="HandlePanel_PopupPlayback" xml:space="preserve">
+    <value>跳出实时回放窗口</value>
+  </data>
+  <data name="NVR_Port" xml:space="preserve">
+    <value>端口</value>
+  </data>
+  <data name="SetupServer_Port" xml:space="preserve">
+    <value>端口</value>
+  </data>
+  <data name="DevicePermissionPanel_Port" xml:space="preserve">
+    <value>端口</value>
+  </data>
+  <data name="FtpServer_Port" xml:space="preserve">
+    <value>端口</value>
+  </data>
+  <data name="MailServer_Port" xml:space="preserve">
+    <value>端口</value>
+  </data>
+  <data name="Database_Port" xml:space="preserve">
+    <value>端口</value>
+  </data>
+  <data name="SetupSchedule_PostEventRecording" xml:space="preserve">
+    <value>事件后录像</value>
+  </data>
+  <data name="DevicePanel_PostEventRecording" xml:space="preserve">
+    <value>事件后录像</value>
+  </data>
+  <data name="SetupServer_Power" xml:space="preserve">
+    <value>电源</value>
+  </data>
+  <data name="DevicePanel_PowerFrequency" xml:space="preserve">
+    <value>电源频率</value>
+  </data>
+  <data name="SetupSchedule_PreEventRecording" xml:space="preserve">
+    <value>事件前录像</value>
+  </data>
+  <data name="DevicePanel_PreEventRecording" xml:space="preserve">
+    <value>事件前录像</value>
+  </data>
+  <data name="PointPanel_PresetPoint" xml:space="preserve">
+    <value>预设点</value>
+  </data>
+  <data name="Control_PresetPoint" xml:space="preserve">
+    <value>预设点</value>
+  </data>
+  <data name="Handler_PresetPoint" xml:space="preserve">
+    <value>预设点</value>
+  </data>
+  <data name="PresetPointPanel_PresetPoint" xml:space="preserve">
+    <value>预设点</value>
+  </data>
+  <data name="SetupDevice_PresetPointSetting" xml:space="preserve">
+    <value>预置点设置</value>
+  </data>
+  <data name="SetupDevice_PresetTourSetting" xml:space="preserve">
+    <value>预设浏览设置</value>
+  </data>
+  <data name="VideoMonitor_Previous" xml:space="preserve">
+    <value>往前</value>
+  </data>
+  <data name="Common_PreviousMonth" xml:space="preserve">
+    <value>前一个月</value>
+  </data>
+  <data name="PageSelector_Prev" xml:space="preserve">
+    <value>上一页</value>
+  </data>
+  <data name="SetupServer_PrimaryDNS" xml:space="preserve">
+    <value>惯用 DNS 服务器</value>
+  </data>
+  <data name="PrintImage_Print" xml:space="preserve">
+    <value>打印</value>
+  </data>
+  <data name="Print_Button" xml:space="preserve">
+    <value>打印图像</value>
+  </data>
+  <data name="PrintImage_Title" xml:space="preserve">
+    <value>打印图像</value>
+  </data>
+  <data name="DevicePermissionPanel_PrintImage" xml:space="preserve">
+    <value>打印图像</value>
+  </data>
+  <data name="PrintImage_PrintImageInProgress" xml:space="preserve">
+    <value>打印图像已经在进行。\n请先完成或取消前一次的操作。</value>
+  </data>
+  <data name="PrintImage_PrintInformation" xml:space="preserve">
+    <value>打印装置信息和批注</value>
+  </data>
+  <data name="FolderControl_Private" xml:space="preserve">
+    <value>私人</value>
+  </data>
+  <data name="DevicePanel_ProfileMode" xml:space="preserve">
+    <value>配置文件模式</value>
+  </data>
+  <data name="SetupServer_Progress" xml:space="preserve">
+    <value>进度</value>
+  </data>
+  <data name="Control_Properties" xml:space="preserve">
+    <value>属性</value>
+  </data>
+  <data name="DevicePanel_Protocol" xml:space="preserve">
+    <value>通讯协议</value>
+  </data>
+  <data name="DevicePermissionPanel_PTZ" xml:space="preserve">
+    <value>PTZ</value>
+  </data>
+  <data name="Menu_OpticalPTZ" xml:space="preserve">
+    <value>PTZ</value>
+  </data>
+  <data name="Control_PTZ" xml:space="preserve">
+    <value>PTZ</value>
+  </data>
+  <data name="DevicePanel_PtzCommand" xml:space="preserve">
+    <value>PTZ 命令</value>
+  </data>
+  <data name="DevicePanel_Quality" xml:space="preserve">
+    <value>品质</value>
+  </data>
+  <data name="ExportVideo_Quality" xml:space="preserve">
+    <value>品质</value>
+  </data>
+  <data name="ExportVideo_QualityLevel" xml:space="preserve">
+    <value>品质等级</value>
+  </data>
+  <data name="SetupServer_RAID" xml:space="preserve">
+    <value>RAID</value>
+  </data>
+  <data name="SetupServer_DescRAID10" xml:space="preserve">
+    <value>比 RAID 1 更高的性能和比 RAID 0 更强的数据保护。</value>
+  </data>
+  <data name="Event_RAIDDegraded" xml:space="preserve">
+    <value>RAID 降级</value>
+  </data>
+  <data name="Event_RAIDInactive" xml:space="preserve">
+    <value>RAID 待用</value>
+  </data>
+  <data name="SetupServer_RAIDCompleted" xml:space="preserve">
+    <value>RAID 完成</value>
+  </data>
+  <data name="SetupServer_RAIDUnselected" xml:space="preserve">
+    <value>尚未选择 RAID 模式</value>
+  </data>
+  <data name="ExportVideo_ConvertVideoToRAW" xml:space="preserve">
+    <value>RAW档</value>
+  </data>
+  <data name="SetupServer_Reboot" xml:space="preserve">
+    <value>重新启动</value>
+  </data>
+  <data name="SetupServer_DiskRebuild" xml:space="preserve">
+    <value>重建</value>
+  </data>
+  <data name="NVR_ListenEvent" xml:space="preserve">
+    <value>接收事件与处理</value>
+  </data>
+  <data name="Menu_Reconnect" xml:space="preserve">
+    <value>重新连接</value>
+  </data>
+  <data name="VideoWindow_Reconnecting" xml:space="preserve">
+    <value>正在重新连接...</value>
+  </data>
+  <data name="Event_RecordFailed" xml:space="preserve">
+    <value>录像失败</value>
+  </data>
+  <data name="Event_RecordRecovery" xml:space="preserve">
+    <value>录像恢复</value>
+  </data>
+  <data name="SetupServer_EnabledKeepDays" xml:space="preserve">
+    <value>以保留天数管理录像挡案</value>
+  </data>
+  <data name="DevicePanel_RecordingStream" xml:space="preserve">
+    <value>录像影像串流</value>
+  </data>
+  <data name="SetupGeneral_RecordDurationValue" xml:space="preserve">
+    <value>录像长度介于%1秒至%2小时</value>
+  </data>
+  <data name="SetupServer_StatusRecovery" xml:space="preserve">
+    <value>复原</value>
+  </data>
+  <data name="SetupTitle_Refresh" xml:space="preserve">
+    <value>重新整理</value>
+  </data>
+  <data name="DevicePanel_RefreshSnapshot" xml:space="preserve">
+    <value>刷新快照</value>
+  </data>
+  <data name="SetupLicense_KeyConfirm" xml:space="preserve">
+    <value>注册码为 "%1" 。\n确定要注册吗？</value>
+  </data>
+  <data name="Application_RegistrationFailed2" xml:space="preserve">
+    <value>注册失败。请检查网路连线和注册码是否正确。</value>
+  </data>
+  <data name="Application_RegistrationFailed" xml:space="preserve">
+    <value>注册失败。请检查注册码是否正确。</value>
+  </data>
+  <data name="Application_RegistrationCompleted" xml:space="preserve">
+    <value>注册完成。授权数量增加为 "%1"。</value>
+  </data>
+  <data name="SetupLicense_CheckLicenseLength" xml:space="preserve">
+    <value>注册码的长度为 25 。请检查输入的注册码是否正确。</value>
+  </data>
+  <data name="Menu_RemoteConnectionMode" xml:space="preserve">
+    <value>远程连接方式</value>
+  </data>
+  <data name="FtpServer_RemoteDirectory" xml:space="preserve">
+    <value>远程路径</value>
+  </data>
+  <data name="SetupGeneral_RemoteTranscode" xml:space="preserve">
+    <value>远程转码</value>
+  </data>
+  <data name="SetupSchedule_RemoveEventHandlingSchedule" xml:space="preserve">
+    <value>删除事件处理排程</value>
+  </data>
+  <data name="SetupIOModel_RemoveOPCs" xml:space="preserve">
+    <value>Remove OPC %1</value>
+  </data>
+  <data name="SetupSchedule_RemoveRecordingSchedule" xml:space="preserve">
+    <value>删除录像排程</value>
+  </data>
+  <data name="Control_ReportTrackingIcon" xml:space="preserve">
+    <value>报告</value>
+  </data>
+  <data name="Page_Report" xml:space="preserve">
+    <value>报告</value>
+  </data>
+  <data name="Control_ReportTitle" xml:space="preserve">
+    <value>报告</value>
+  </data>
+  <data name="Control_ReportTracking" xml:space="preserve">
+    <value>报告</value>
+  </data>
+  <data name="Menu_Resolution" xml:space="preserve">
+    <value>解析度</value>
+  </data>
+  <data name="VideoWindowTitleBarPanel_Resolution" xml:space="preserve">
+    <value>分辨率</value>
+  </data>
+  <data name="SetupGeneral_Resolution" xml:space="preserve">
+    <value>解析度</value>
+  </data>
+  <data name="DevicePanel_Resolution" xml:space="preserve">
+    <value>分辨率</value>
+  </data>
+  <data name="DevicePanel_ResolutionRegionConfig" xml:space="preserve">
+    <value>Resolution Region Config</value>
+  </data>
+  <data name="SetupServer_Restore" xml:space="preserve">
+    <value>还原</value>
+  </data>
+  <data name="SetupGeneral_RestoreClient" xml:space="preserve">
+    <value>还原客户端</value>
+  </data>
+  <data name="SetupTitle_RestoreSetting" xml:space="preserve">
+    <value>还原设定</value>
+  </data>
+  <data name="EventPanel_ResumeEvent" xml:space="preserve">
+    <value>恢复接收事件</value>
+  </data>
+  <data name="SetupServer_StatusResync" xml:space="preserve">
+    <value>重新同步</value>
+  </data>
+  <data name="PTZPanel_MoveRight" xml:space="preserve">
+    <value>右</value>
+  </data>
+  <data name="DevicePanel_UriCommandPanel_ActionRight" xml:space="preserve">
+    <value>右</value>
+  </data>
+  <data name="DevicePanel_RTSPPort" xml:space="preserve">
+    <value>RTSP端口</value>
+  </data>
+  <data name="SetupServer_RAID_DiskStatus_SMART_PARSE_ERROR" xml:space="preserve">
+    <value>S.M.A.R.T failures.</value>
+  </data>
+  <data name="SetupServer_RAID_DiskStatus_SMART_NOT_SUPPORT" xml:space="preserve">
+    <value>S.M.A.R.T notsupported.</value>
+  </data>
+  <data name="Schedule_Sat" xml:space="preserve">
+    <value>六</value>
+  </data>
+  <data name="Common_Sat" xml:space="preserve">
+    <value>六</value>
+  </data>
+  <data name="DevicePanel_Saturation" xml:space="preserve">
+    <value>饱和</value>
+  </data>
+  <data name="Common_Saturday" xml:space="preserve">
+    <value>星期六</value>
+  </data>
+  <data name="Save_Button" xml:space="preserve">
+    <value>储存</value>
+  </data>
+  <data name="SetupTitle_Save" xml:space="preserve">
+    <value>储存</value>
+  </data>
+  <data name="SetupLog_SaveAsComplete" xml:space="preserve">
+    <value>储存 "%1" 完成。</value>
+  </data>
+  <data name="SetupTitle_SaveAs" xml:space="preserve">
+    <value>另存为...</value>
+  </data>
+  <data name="SetupLog_SaveAsFailure" xml:space="preserve">
+    <value>Save Failure.</value>
+  </data>
+  <data name="Menu_SaveImage" xml:space="preserve">
+    <value>储存图像</value>
+  </data>
+  <data name="Event_SaveImage" xml:space="preserve">
+    <value>储存图像</value>
+  </data>
+  <data name="SaveImage_Button" xml:space="preserve">
+    <value>储存全部图像</value>
+  </data>
+  <data name="SetupGeneral_SaveFolderName" xml:space="preserve">
+    <value>储存档案夹名称为 "%1 Image (%2)"</value>
+  </data>
+  <data name="SetupGeneral_SaveImagePath" xml:space="preserve">
+    <value>储存图像路径</value>
+  </data>
+  <data name="SetupTitle_SaveReport" xml:space="preserve">
+    <value>Save Report</value>
+  </data>
+  <data name="Investigation_SaveReport" xml:space="preserve">
+    <value>保存报告</value>
+  </data>
+  <data name="SaveReport_Button" xml:space="preserve">
+    <value>保存报告</value>
+  </data>
+  <data name="SaveResult_Button" xml:space="preserve">
+    <value>保存结果</value>
+  </data>
+  <data name="SetupTitle_SaveSetting" xml:space="preserve">
+    <value>保存设置</value>
+  </data>
+  <data name="DevicePanel_SaveSettingToGetSnapshot" xml:space="preserve">
+    <value>保存设置以获得快照</value>
+  </data>
+  <data name="VideoWindow_SaveBeforeConnect" xml:space="preserve">
+    <value>储存设定后再连接。</value>
+  </data>
+  <data name="Application_SaveCompleted" xml:space="preserve">
+    <value>储存完成</value>
+  </data>
+  <data name="DeviceView_SaveView" xml:space="preserve">
+    <value>新增视图</value>
+  </data>
+  <data name="Application_SaveTimeout" xml:space="preserve">
+    <value>储存逾时。有些设定可能没有储存到服务器上。</value>
+  </data>
+  <data name="ExportVideo_Scale" xml:space="preserve">
+    <value>比例</value>
+  </data>
+  <data name="Control_Schedule" xml:space="preserve">
+    <value>排程</value>
+  </data>
+  <data name="Control_ScheduleIcon" xml:space="preserve">
+    <value>排程</value>
+  </data>
+  <data name="Control_ScheduleReport" xml:space="preserve">
+    <value>Schedule Report</value>
+  </data>
+  <data name="Control_ScheduleReportIcon" xml:space="preserve">
+    <value>Schedule Report</value>
+  </data>
+  <data name="SmartSearch_Search" xml:space="preserve">
+    <value>搜寻</value>
+  </data>
+  <data name="SearchButton_Button" xml:space="preserve">
+    <value>开始搜寻</value>
+  </data>
+  <data name="SetupTitle_Search" xml:space="preserve">
+    <value>搜寻装置</value>
+  </data>
+  <data name="SetupTitle_SearchEvent" xml:space="preserve">
+    <value>搜索事件</value>
+  </data>
+  <data name="SetupTitle_SearchException" xml:space="preserve">
+    <value>搜索异常</value>
+  </data>
+  <data name="SearchResult_Result" xml:space="preserve">
+    <value>搜寻结果</value>
+  </data>
+  <data name="Control_SearchResult" xml:space="preserve">
+    <value>搜寻结果</value>
+  </data>
+  <data name="SetupDevice_SearchResult" xml:space="preserve">
+    <value>搜寻结果：</value>
+  </data>
+  <data name="SetupLog_SearchResult" xml:space="preserve">
+    <value>搜寻结果：</value>
+  </data>
+  <data name="Investigation_SearchResult" xml:space="preserve">
+    <value>搜寻结果：</value>
+  </data>
+  <data name="SearchResult_ResultFound" xml:space="preserve">
+    <value>搜寻结果：找到 %1 笔数据</value>
+  </data>
+  <data name="SearchResult_ResultsFound" xml:space="preserve">
+    <value>搜寻结果：找到 %1 笔数据</value>
+  </data>
+  <data name="SearchResult_NoResult" xml:space="preserve">
+    <value>搜寻结果： 找不到数据</value>
+  </data>
+  <data name="SearchResult_Searching" xml:space="preserve">
+    <value>正在搜寻</value>
+  </data>
+  <data name="SetupDevice_SearchingDevices" xml:space="preserve">
+    <value>搜寻装置</value>
+  </data>
+  <data name="Common_Sec" xml:space="preserve">
+    <value>秒</value>
+  </data>
+  <data name="SetupServer_SecondDNS" xml:space="preserve">
+    <value>其他 DNS 服务器</value>
+  </data>
+  <data name="MailServer_Security" xml:space="preserve">
+    <value>安全性</value>
+  </data>
+  <data name="ExportVideo_AddDeviceBeforeExport" xml:space="preserve">
+    <value>先选择装置再导出影像。</value>
+  </data>
+  <data name="PrintImage_AddDeviceBeforePrint" xml:space="preserve">
+    <value>先选择装置再打印图像。</value>
+  </data>
+  <data name="SetupServer_ApplyAllDevicesToKeepDays" xml:space="preserve">
+    <value>设定至全部装置</value>
+  </data>
+  <data name="ExportVideo_SelectFilePath" xml:space="preserve">
+    <value>选择档案路径</value>
+  </data>
+  <data name="SetupGeneral_SelectFilePath" xml:space="preserve">
+    <value>选择路径</value>
+  </data>
+  <data name="SetupJoystick_EnableJoystick" xml:space="preserve">
+    <value>启用游戏杆</value>
+  </data>
+  <data name="USBDisk_USBDiskSelect" xml:space="preserve">
+    <value>选择U盘</value>
+  </data>
+  <data name="HandlePanel_SendMail" xml:space="preserve">
+    <value>发送邮件</value>
+  </data>
+  <data name="SetupTitle_SendTestEmail" xml:space="preserve">
+    <value>Send test email</value>
+  </data>
+  <data name="MailServer_Sender" xml:space="preserve">
+    <value>发件人</value>
+  </data>
+  <data name="DevicePanel_SensorMode" xml:space="preserve">
+    <value>传感器模式</value>
+  </data>
+  <data name="Common_September" xml:space="preserve">
+    <value>九月</value>
+  </data>
+  <data name="VideoWindowTitleBarPanel_Sequence" xml:space="preserve">
+    <value>次序</value>
+  </data>
+  <data name="StoragePanel_Sequence" xml:space="preserve">
+    <value>次序</value>
+  </data>
+  <data name="MailServer_Server" xml:space="preserve">
+    <value>服务器</value>
+  </data>
+  <data name="Loading_Server" xml:space="preserve">
+    <value>服务器</value>
+  </data>
+  <data name="Control_Server" xml:space="preserve">
+    <value>服务器</value>
+  </data>
+  <data name="FtpServer_Server" xml:space="preserve">
+    <value>服务器</value>
+  </data>
+  <data name="Control_ServerIcon" xml:space="preserve">
+    <value>服务器</value>
+  </data>
+  <data name="SetupServer_ServerSetting" xml:space="preserve">
+    <value>服务器设定</value>
+  </data>
+  <data name="Application_ServerChange" xml:space="preserve">
+    <value>服务器设置已被修改。请重新登录。</value>
+  </data>
+  <data name="Application_TimezoneChange" xml:space="preserve">
+    <value>服务器的时区已经被修改。\n从 "%1" 改为 "%2"。\n是否要重新登入来套用新的时区？</value>
+  </data>
+  <data name="Application_SSLPortChange" xml:space="preserve">
+    <value>服务器的SSL端口已被修改。请重新登录使用端口％1。</value>
+  </data>
+  <data name="DeviceLayoutPanel_Set" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="TimeTrack_SetEndPoint" xml:space="preserve">
+    <value>设定结束时间</value>
+  </data>
+  <data name="DevicePanel_UriCommandPanel_SetPresetPointCommand" xml:space="preserve">
+    <value>设置预设点命令</value>
+  </data>
+  <data name="TimeTrack_SetStartPoint" xml:space="preserve">
+    <value>设定起始时间</value>
+  </data>
+  <data name="UserDefineGroupForm_SetToShared" xml:space="preserve">
+    <value>设置此视图为共享，每个用户都可以使用。</value>
+  </data>
+  <data name="HandlePanel_Setting" xml:space="preserve">
+    <value>设定</value>
+  </data>
+  <data name="SetupServer_SettingFile" xml:space="preserve">
+    <value>配置档案</value>
+  </data>
+  <data name="Page_Setup" xml:space="preserve">
+    <value>设定</value>
+  </data>
+  <data name="Control_IconTitle" xml:space="preserve">
+    <value>设定</value>
+  </data>
+  <data name="Menu_Setup" xml:space="preserve">
+    <value>设定</value>
+  </data>
+  <data name="SmartSearch_SetupAnalysisRange" xml:space="preserve">
+    <value>设定分析范围</value>
+  </data>
+  <data name="SetupWizard_Complete" xml:space="preserve">
+    <value>完毕</value>
+  </data>
+  <data name="DeviceLayoutPanel_SetupCrop" xml:space="preserve">
+    <value>设定裁剪</value>
+  </data>
+  <data name="Menu_SetupMap" xml:space="preserve">
+    <value>设定地图</value>
+  </data>
+  <data name="EditGroupPanel_SetupPermission" xml:space="preserve">
+    <value>设定权限</value>
+  </data>
+  <data name="SetupWizard_Title" xml:space="preserve">
+    <value>设定精灵</value>
+  </data>
+  <data name="FolderControl_Shared" xml:space="preserve">
+    <value>共享</value>
+  </data>
+  <data name="DevicePanel_Sharpness" xml:space="preserve">
+    <value>锐度</value>
+  </data>
+  <data name="Menu_ShowPanel" xml:space="preserve">
+    <value>显示面板</value>
+  </data>
+  <data name="SetupServer_Shutdown" xml:space="preserve">
+    <value>关机</value>
+  </data>
+  <data name="LoginForm_SignIn" xml:space="preserve">
+    <value>登入</value>
+  </data>
+  <data name="LoginForm_SignInAutomatically" xml:space="preserve">
+    <value>自动登入</value>
+  </data>
+  <data name="Menu_SignOut" xml:space="preserve">
+    <value>注销</value>
+  </data>
+  <data name="LoginForm_SignInFailed" xml:space="preserve">
+    <value>登入失败</value>
+  </data>
+  <data name="LoginForm_SignInFailedAuthFailure" xml:space="preserve">
+    <value>登入失败。请确认账号跟密码是否正确。</value>
+  </data>
+  <data name="LoginForm_SignInFailedPortOccupation" xml:space="preserve">
+    <value>登入失败。请检查端口 %1 是否被其他应用程序所占用。</value>
+  </data>
+  <data name="LoginForm_SignInTimeout" xml:space="preserve">
+    <value>联机逾时。 请检查防火墙设定。</value>
+  </data>
+  <data name="LoginForm_SignInTimeoutSSL" xml:space="preserve">
+    <value>用户登入超时。请检查防火墙设置和SSL端口是否正确。</value>
+  </data>
+  <data name="LoginForm_SignOutFailed" xml:space="preserve">
+    <value>登出失败</value>
+  </data>
+  <data name="LoginForm_SignOutFailedAuthFailure" xml:space="preserve">
+    <value>登出失败。请确认帐号和密码的有效性。</value>
+  </data>
+  <data name="LoginForm_SignOutFailedPortOccupation" xml:space="preserve">
+    <value>登出失败。请确认是否端口%1已经被另一个应用程序。</value>
+  </data>
+  <data name="LoginForm_SignOutTimeout" xml:space="preserve">
+    <value>用户登入超时。 请检查防火墙设置。</value>
+  </data>
+  <data name="LoginForm_SignOutTimeoutSSL" xml:space="preserve">
+    <value>用户登入超时。请检查防火墙设置和SSL端口是否正确。</value>
+  </data>
+  <data name="Control_SmartSearch" xml:space="preserve">
+    <value>智能搜寻</value>
+  </data>
+  <data name="Page_SmartSearch" xml:space="preserve">
+    <value>智能搜寻</value>
+  </data>
+  <data name="Menu_Snapshot" xml:space="preserve">
+    <value>快照</value>
+  </data>
+  <data name="Snapshot_Button" xml:space="preserve">
+    <value>全部快照</value>
+  </data>
+  <data name="Handler_Snapshot" xml:space="preserve">
+    <value>快照</value>
+  </data>
+  <data name="SetupGeneral_SnapshotSaveImage" xml:space="preserve">
+    <value>快照 / 储存图像</value>
+  </data>
+  <data name="NVR_SSLConnection" xml:space="preserve">
+    <value>SSL 连接</value>
+  </data>
+  <data name="SetupServer_SSLPort" xml:space="preserve">
+    <value>SSL 端口</value>
+  </data>
+  <data name="SetupServer_StatusStabdBy" xml:space="preserve">
+    <value>准备</value>
+  </data>
+  <data name="SetupServer_Standby" xml:space="preserve">
+    <value>待命</value>
+  </data>
+  <data name="ExportVideo_Start" xml:space="preserve">
+    <value>开始</value>
+  </data>
+  <data name="SmartSearch_Start" xml:space="preserve">
+    <value>开始</value>
+  </data>
+  <data name="SetupGeneral_StartupOptions" xml:space="preserve">
+    <value>启动选项</value>
+  </data>
+  <data name="Ethernet_Static" xml:space="preserve">
+    <value>静态</value>
+  </data>
+  <data name="Ethernet_Status" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="Handler_Status" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="NVR_Status" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="SetupServer_Status" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="SetupWizard_Step" xml:space="preserve">
+    <value>步骤</value>
+  </data>
+  <data name="PTZPanel_MoveStop" xml:space="preserve">
+    <value>停止</value>
+  </data>
+  <data name="SmartSearch_Stop" xml:space="preserve">
+    <value>停止</value>
+  </data>
+  <data name="DevicePanel_UriCommandPanel_ActionStop" xml:space="preserve">
+    <value>停止</value>
+  </data>
+  <data name="PresetPointPanel_Stop" xml:space="preserve">
+    <value>停止</value>
+  </data>
+  <data name="SearchButton_Stop" xml:space="preserve">
+    <value>停止搜寻</value>
+  </data>
+  <data name="SetupServer_Storage" xml:space="preserve">
+    <value>储存</value>
+  </data>
+  <data name="SetupServer_StorageSetting" xml:space="preserve">
+    <value>储存设定</value>
+  </data>
+  <data name="Application_StorageUsage" xml:space="preserve">
+    <value>使用率 %1%   已使用 %2 GB   可用 %3 GB </value>
+  </data>
+  <data name="SetupServer_Store" xml:space="preserve">
+    <value>Store</value>
+  </data>
+  <data name="DevicePanel_StreamPort" xml:space="preserve">
+    <value>串流端口</value>
+  </data>
+  <data name="SetupGeneral_StreamSelection" xml:space="preserve">
+    <value>串流选择</value>
+  </data>
+  <data name="VideoWindow_Streaming" xml:space="preserve">
+    <value>正在串流...</value>
+  </data>
+  <data name="SetupGeneral_StreamTranscode" xml:space="preserve">
+    <value>串流转码</value>
+  </data>
+  <data name="StorageControl_KeepSpaceValue" xml:space="preserve">
+    <value>保留空间应设定介于%1GB与容量减%2GB之间来获得最佳的效能</value>
+  </data>
+  <data name="StorageControl_KeepSpaceSuggest" xml:space="preserve">
+    <value>建议的最小保留空间：</value>
+  </data>
+  <data name="Control_ReportSummaryIcon" xml:space="preserve">
+    <value>总结</value>
+  </data>
+  <data name="Control_ReportSummary" xml:space="preserve">
+    <value>总结</value>
+  </data>
+  <data name="Schedule_Sun" xml:space="preserve">
+    <value>日</value>
+  </data>
+  <data name="Common_Sun" xml:space="preserve">
+    <value>日</value>
+  </data>
+  <data name="Common_Sunday" xml:space="preserve">
+    <value>星期天</value>
+  </data>
+  <data name="UserGroup_Superuser" xml:space="preserve">
+    <value>超级使用者</value>
+  </data>
+  <data name="EventPanel_PauseEvent" xml:space="preserve">
+    <value>暂停接收事件</value>
+  </data>
+  <data name="Page_SwitchPage" xml:space="preserve">
+    <value>切换到 %1 页</value>
+  </data>
+  <data name="AutoSwitchLiveVideoStream_HighProfileStartLessThen" xml:space="preserve">
+    <value>视频数量低于设定值时，切换到高阶模式:</value>
+  </data>
+  <data name="AutoSwitchLiveVideoStream_LowProfileStartMoreThen" xml:space="preserve">
+    <value>视频数量高于设定值时，切换到低阶模式:</value>
+  </data>
+  <data name="AutoSwitchLiveVideoStream_MediumProfileStartMoreThen" xml:space="preserve">
+    <value>中阶模式介于两者之间:</value>
+  </data>
+  <data name="SetupTitle_Sync" xml:space="preserve">
+    <value>同步</value>
+  </data>
+  <data name="SetupServer_Synchronize" xml:space="preserve">
+    <value>同步</value>
+  </data>
+  <data name="SetupLog_System" xml:space="preserve">
+    <value>系统</value>
+  </data>
+  <data name="Segment_Tag" xml:space="preserve">
+    <value>Tag</value>
+  </data>
+  <data name="SetupLog_TextFile" xml:space="preserve">
+    <value>纯文本</value>
+  </data>
+  <data name="Application_BackupFileAlreadyExists" xml:space="preserve">
+    <value>档案"%1"已经存在。是否还要继续?</value>
+  </data>
+  <data name="LoginForm_SignInFailedNoAccount" xml:space="preserve">
+    <value>账号不能为空。</value>
+  </data>
+  <data name="Common_DayBeforeYesterday" xml:space="preserve">
+    <value>前天</value>
+  </data>
+  <data name="Application_SomeNVRUnavailable" xml:space="preserve">
+    <value>下列 NVR 无法联机：</value>
+  </data>
+  <data name="Common_TheMonthBeforeLast" xml:space="preserve">
+    <value>前一个月</value>
+  </data>
+  <data name="EditUserPanel_PasswordCantEmpty" xml:space="preserve">
+    <value>密码不能为空白。</value>
+  </data>
+  <data name="SetupServer_KeepDayWarning" xml:space="preserve">
+    <value>保留天数的范围是 %1 ~ %2 天.</value>
+  </data>
+  <data name="SetupGeneral_PatrolIntervaValue" xml:space="preserve">
+    <value>巡览间隔时间应介于%1秒至%2小时</value>
+  </data>
+  <data name="Application_PortChange" xml:space="preserve">
+    <value>服务器的端口已经被修改。请使用  %1 埠来重新登入。</value>
+  </data>
+  <data name="SetupWizard_Message" xml:space="preserve">
+    <value>使用设定精灵能协助您快速设定授权、时间、储存和装置。点选下一步来进行。</value>
+  </data>
+  <data name="SetupWizard_Message2" xml:space="preserve">
+    <value>使用设定精灵能协助您快速设定授权、储存和装置。点选下一步来进行。</value>
+  </data>
+  <data name="SetupServer_NoStorageDiskSelected" xml:space="preserve">
+    <value>没有选择录像磁盘</value>
+  </data>
+  <data name="LoginForm_SignInFailedAndRetryAutoLogin" xml:space="preserve">
+    <value>系统会在 %1 秒后自动重新登入。 (登入: %2)</value>
+  </data>
+  <data name="EditUserPanel_UserNameCantEmpty" xml:space="preserve">
+    <value>使用者名称不能为空白。</value>
+  </data>
+  <data name="SetupWizard_Done" xml:space="preserve">
+    <value>最后一步，按下完成来储存变更的设定。稍后您可以透过设定页面来修改其他设定。</value>
+  </data>
+  <data name="Common_ThisMonth" xml:space="preserve">
+    <value>本月</value>
+  </data>
+  <data name="EditUserPanel_UserNameCantTheSame" xml:space="preserve">
+    <value>使用者名称不能重复。</value>
+  </data>
+  <data name="Common_ThisWeek" xml:space="preserve">
+    <value>本週</value>
+  </data>
+  <data name="Schedule_Thu" xml:space="preserve">
+    <value>四</value>
+  </data>
+  <data name="Common_Thu" xml:space="preserve">
+    <value>四</value>
+  </data>
+  <data name="Common_Thursday" xml:space="preserve">
+    <value>星期四</value>
+  </data>
+  <data name="SetupLog_Time" xml:space="preserve">
+    <value>时间</value>
+  </data>
+  <data name="SetupServer_TimeZone" xml:space="preserve">
+    <value>时区</value>
+  </data>
+  <data name="Handler_Repetition" xml:space="preserve">
+    <value>重复</value>
+  </data>
+  <data name="SetupGeneral_TimestampWatermark" xml:space="preserve">
+    <value>时间水印</value>
+  </data>
+  <data name="Handler_To" xml:space="preserve">
+    <value>给</value>
+  </data>
+  <data name="Common_Today" xml:space="preserve">
+    <value>今天</value>
+  </data>
+  <data name="DevicePanel_UriCommandPanel_ActionUpLeft" xml:space="preserve">
+    <value>左上</value>
+  </data>
+  <data name="DevicePanel_UriCommandPanel_ActionUpRight" xml:space="preserve">
+    <value>右上</value>
+  </data>
+  <data name="PTZPanel_MoveUpLeft" xml:space="preserve">
+    <value>左上</value>
+  </data>
+  <data name="PTZPanel_MoveUpRight" xml:space="preserve">
+    <value>右上</value>
+  </data>
+  <data name="DevicePanel_Transcode" xml:space="preserve">
+    <value>转码</value>
+  </data>
+  <data name="ExportVideoStatus_TranscodeVideo" xml:space="preserve">
+    <value>视频转码</value>
+  </data>
+  <data name="LicensePanel_Trial" xml:space="preserve">
+    <value>试用</value>
+  </data>
+  <data name="HandlePanel_TriggerDO" xml:space="preserve">
+    <value>触发讯号输出</value>
+  </data>
+  <data name="EventPanel_TriggerInterval" xml:space="preserve">
+    <value>触发间隔 (秒)</value>
+  </data>
+  <data name="Common_Tue" xml:space="preserve">
+    <value>二</value>
+  </data>
+  <data name="Schedule_Tue" xml:space="preserve">
+    <value>二</value>
+  </data>
+  <data name="Common_Tuesday" xml:space="preserve">
+    <value>星期二</value>
+  </data>
+  <data name="DevicePanel_TVStandard" xml:space="preserve">
+    <value>电视标准</value>
+  </data>
+  <data name="Ethernet_Type" xml:space="preserve">
+    <value>类型</value>
+  </data>
+  <data name="Undo_Button" xml:space="preserve">
+    <value>复原</value>
+  </data>
+  <data name="Ethernet_Unknow" xml:space="preserve">
+    <value>未知</value>
+  </data>
+  <data name="UnlockAppForm_Unlock" xml:space="preserve">
+    <value>解锁</value>
+  </data>
+  <data name="UnlockAppForm_Title" xml:space="preserve">
+    <value>解锁应用程序</value>
+  </data>
+  <data name="ExportVideoStatus_UnmountUSBDevice" xml:space="preserve">
+    <value>卸载U盘</value>
+  </data>
+  <data name="DevicePanel_UriCommandPanel_ActionUp" xml:space="preserve">
+    <value>上</value>
+  </data>
+  <data name="PTZPanel_MoveUp" xml:space="preserve">
+    <value>上</value>
+  </data>
+  <data name="SetupServer_UpdateEthernet" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="SetupTitle_UpdateEthernet" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="Application_UpdateFail" xml:space="preserve">
+    <value>更新失败。请再试一次。</value>
+  </data>
+  <data name="SetupServer_EthernetUpdateCableStatus" xml:space="preserve">
+    <value>更新状态</value>
+  </data>
+  <data name="SetupServer_Upgrade" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="SetupServer_UpgradeFail" xml:space="preserve">
+    <value>更新失败，请检查更新档案。</value>
+  </data>
+  <data name="SetupTitle_UpgradeFirmware" xml:space="preserve">
+    <value>更新韧体</value>
+  </data>
+  <data name="Control_URI" xml:space="preserve">
+    <value>URI</value>
+  </data>
+  <data name="DevicePanel_URI" xml:space="preserve">
+    <value>URI</value>
+  </data>
+  <data name="StoragePanel_Usage" xml:space="preserve">
+    <value>使用率 %</value>
+  </data>
+  <data name="ExportVideoMsg_USBDeviceUnplugged" xml:space="preserve">
+    <value>U盘已拔出</value>
+  </data>
+  <data name="ExportVideo_USBDisk" xml:space="preserve">
+    <value>U盘</value>
+  </data>
+  <data name="USBDisk_USBDiskList" xml:space="preserve">
+    <value>U盘列表</value>
+  </data>
+  <data name="StoragePanel_Used" xml:space="preserve">
+    <value>已使用</value>
+  </data>
+  <data name="Control_User" xml:space="preserve">
+    <value>使用者</value>
+  </data>
+  <data name="Control_UserIcon" xml:space="preserve">
+    <value>使用者</value>
+  </data>
+  <data name="SetupLog_User" xml:space="preserve">
+    <value>使用者</value>
+  </data>
+  <data name="UserGroup_User" xml:space="preserve">
+    <value>使用者</value>
+  </data>
+  <data name="Loading_User" xml:space="preserve">
+    <value>使用者</value>
+  </data>
+  <data name="PrintImage_PrintText" xml:space="preserve">
+    <value>使用者 : %1, 服务器 : %2, 打印时间 : %3</value>
+  </data>
+  <data name="SetupUser_IdCantBeZero" xml:space="preserve">
+    <value>使用者编号不能为 0</value>
+  </data>
+  <data name="Application_UserInformationNotFound" xml:space="preserve">
+    <value>找不到用户信息。</value>
+  </data>
+  <data name="EditUserPanel_UserNameAcceptNumberAndAlphaOnly" xml:space="preserve">
+    <value>用户名必须是字母和/或数字.</value>
+  </data>
+  <data name="SetupServer_UserSetting" xml:space="preserve">
+    <value>使用者设定</value>
+  </data>
+  <data name="SetupGeneral_Custom" xml:space="preserve">
+    <value>自定义</value>
+  </data>
+  <data name="SetupServer_Custom" xml:space="preserve">
+    <value>自定义</value>
+  </data>
+  <data name="Event_UserDefined" xml:space="preserve">
+    <value>使用者定义</value>
+  </data>
+  <data name="SetupGeneral_CustomPlaybackSetting" xml:space="preserve">
+    <value>自定义影像回放设置</value>
+  </data>
+  <data name="Schedule_CustomSchedule" xml:space="preserve">
+    <value>自定义排程</value>
+  </data>
+  <data name="Application_UtilityInitError" xml:space="preserve">
+    <value>Utility 初始化错误</value>
+  </data>
+  <data name="Segment_Value" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="SetupServer_Version" xml:space="preserve">
+    <value>版本</value>
+  </data>
+  <data name="SplashForm_Ver" xml:space="preserve">
+    <value>版本 %1</value>
+  </data>
+  <data name="Application_Ver" xml:space="preserve">
+    <value>版本 %1</value>
+  </data>
+  <data name="ExportVideo_Video" xml:space="preserve">
+    <value>视频</value>
+  </data>
+  <data name="Event_VideoLoss" xml:space="preserve">
+    <value>影像断讯</value>
+  </data>
+  <data name="ExportVideo_OverlayOSD" xml:space="preserve">
+    <value>重迭文字在影像上</value>
+  </data>
+  <data name="SetupSchedule_VideoRecording" xml:space="preserve">
+    <value>录像</value>
+  </data>
+  <data name="DevicePanel_VideoRecording" xml:space="preserve">
+    <value>录像</value>
+  </data>
+  <data name="Event_VideoRecovery" xml:space="preserve">
+    <value>影像恢复</value>
+  </data>
+  <data name="DevicePanel_VideoStream" xml:space="preserve">
+    <value>影像串流</value>
+  </data>
+  <data name="DevicePanel_VideoStreamID" xml:space="preserve">
+    <value>影像串流 %1</value>
+  </data>
+  <data name="Menu_VideoStream1" xml:space="preserve">
+    <value>视频流配置 1</value>
+  </data>
+  <data name="Menu_VideoStream2" xml:space="preserve">
+    <value>视频流配置 2</value>
+  </data>
+  <data name="Menu_VideoStream3" xml:space="preserve">
+    <value>视频流配置 3</value>
+  </data>
+  <data name="Menu_VideoStream4" xml:space="preserve">
+    <value>视频流配置 4</value>
+  </data>
+  <data name="Menu_VideoStream5" xml:space="preserve">
+    <value>视频流配置 5</value>
+  </data>
+  <data name="Menu_VideoStream6" xml:space="preserve">
+    <value>视频流配置 6</value>
+  </data>
+  <data name="Menu_VideoTitleBar" xml:space="preserve">
+    <value>影像标题栏</value>
+  </data>
+  <data name="SetupGeneral_VideoWindowTitleBar" xml:space="preserve">
+    <value>视频标题栏设置</value>
+  </data>
+  <data name="Menu_Stretch" xml:space="preserve">
+    <value>扩展</value>
+  </data>
+  <data name="DevicePanel_VideoInPort" xml:space="preserve">
+    <value>视频端口</value>
+  </data>
+  <data name="SetupGeneral_GroupView" xml:space="preserve">
+    <value>视图</value>
+  </data>
+  <data name="Control_DeviceView" xml:space="preserve">
+    <value>视图</value>
+  </data>
+  <data name="SetupGeneral_ViewTour" xml:space="preserve">
+    <value>视图巡逻</value>
+  </data>
+  <data name="SetupServer_DiskWarning" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="Common_Wed" xml:space="preserve">
+    <value>三</value>
+  </data>
+  <data name="Schedule_Wed" xml:space="preserve">
+    <value>三</value>
+  </data>
+  <data name="Common_Wednesday" xml:space="preserve">
+    <value>星期三</value>
+  </data>
+  <data name="SetupWizard_Welcome" xml:space="preserve">
+    <value>欢迎</value>
+  </data>
+  <data name="SetupServer_DateTimeChangeWarning" xml:space="preserve">
+    <value>往前调整后的日期时间的差距跨越一天时，在差距区间内的日志将会被移除。</value>
+  </data>
+  <data name="DevicePanel_WhiteBalance" xml:space="preserve">
+    <value>白平衡</value>
+  </data>
+  <data name="DeviceLayoutPanel_Width" xml:space="preserve">
+    <value>Width</value>
+  </data>
+  <data name="Schedule_WorkingTime" xml:space="preserve">
+    <value>工作时间</value>
+  </data>
+  <data name="Schedule_WorkingDay" xml:space="preserve">
+    <value>工作日</value>
+  </data>
+  <data name="ExportVideoStatus_WriteVideo" xml:space="preserve">
+    <value>写入视频</value>
+  </data>
+  <data name="DeviceLayoutPanel_X" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="SetupLog_XmlFile" xml:space="preserve">
+    <value>XML 档案</value>
+  </data>
+  <data name="DeviceLayoutPanel_Y" xml:space="preserve">
+    <value>Y</value>
+  </data>
+  <data name="Common_Yesterday" xml:space="preserve">
+    <value>昨天</value>
+  </data>
+  <data name="SetupServer_ConfirmFormatError" xml:space="preserve">
+    <value>现在不能选择 %1 来格式化  , 请选择其他模式。</value>
+  </data>
+  <data name="SetupServer_ConfirmFormatStatusError" xml:space="preserve">
+    <value>现在无法在状态"%1"下进行格式化。</value>
+  </data>
+  <data name="VideoMonitor_NoPermissionToDelete" xml:space="preserve">
+    <value>你没有权限删除任何共享视图。</value>
+  </data>
+  <data name="ExportVideo_NoPermissionToExport" xml:space="preserve">
+    <value>你没有权限导出下列的装置的影像</value>
+  </data>
+  <data name="PrintImage_NoPermissionToPrint" xml:space="preserve">
+    <value>你没有权限打印下列的装置的图像。</value>
+  </data>
+  <data name="PTZPanel_Zoom" xml:space="preserve">
+    <value>缩放</value>
+  </data>
+  <data name="DevicePanel_UriCommandPanel_ActionZoomIn" xml:space="preserve">
+    <value>放大</value>
+  </data>
+  <data name="DevicePanel_UriCommandPanel_ActionZoomOut" xml:space="preserve">
+    <value>缩小</value>
+  </data>
+  <data name="DevicePanel_UriCommandPanel_ActionZoomStop" xml:space="preserve">
+    <value>停止缩放</value>
+  </data>
+  <data name="PTZPanel_ZoomSTOP" xml:space="preserve">
+    <value>停止缩放</value>
+  </data>
+  <data name="PTZPanel_ZoomTELE" xml:space="preserve">
+    <value>变焦望远</value>
+  </data>
+  <data name="PTZPanel_ZoomWIDE" xml:space="preserve">
+    <value>变焦广角</value>
+  </data>
+  <data name="Menu_HideToolbar" xml:space="preserve">
+    <value>隐藏工具栏</value>
+  </data>
+  <data name="Application_RestoreToolbar" xml:space="preserve">
+    <value>按下 "Esc" 来还原工具栏。</value>
+  </data>
+  <data name="SetupGeneral_PatrolAllDeviceGroup" xml:space="preserve">
+    <value>巡览 "所有装置" 群组</value>
+  </data>
+  <data name="SmartCare_Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="SmartCare_End" xml:space="preserve">
+    <value>End</value>
+  </data>
+  <data name="SmartCare_Id" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="SmartCare_Level" xml:space="preserve">
+    <value>Level</value>
+  </data>
+  <data name="SmartCare_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="SmartCare_QuickSearch" xml:space="preserve">
+    <value>Quick Search</value>
+  </data>
+  <data name="SmartCare_Search" xml:space="preserve">
+    <value>SmartCare Search</value>
+  </data>
+  <data name="SmartCare_SearchButton" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="SmartCare_Start" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="SmartCare_StoreId" xml:space="preserve">
+    <value>Store ID</value>
+  </data>
+  <data name="SmartCare_Time" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="SmartCare_SearchResult" xml:space="preserve">
+    <value>Search Result</value>
+  </data>
+  <data name="1001" xml:space="preserve">
+    <value>Recording Service Resumes</value>
+  </data>
+  <data name="1002" xml:space="preserve">
+    <value>Camera Status On-line</value>
+  </data>
+  <data name="1003" xml:space="preserve">
+    <value>NVR Heartbeat Message</value>
+  </data>
+  <data name="1004" xml:space="preserve">
+    <value>Operating System starting event</value>
+  </data>
+  <data name="1005" xml:space="preserve">
+    <value>Smart care startup</value>
+  </data>
+  <data name="2001" xml:space="preserve">
+    <value>Camera Status Off-line</value>
+  </data>
+  <data name="2002" xml:space="preserve">
+    <value>Hard drive has been repaired</value>
+  </data>
+  <data name="2003" xml:space="preserve">
+    <value>Virtual memory not enough</value>
+  </data>
+  <data name="2004" xml:space="preserve">
+    <value>Display card driver error</value>
+  </data>
+  <data name="2005" xml:space="preserve">
+    <value>NVR Client Application Kill / Quit</value>
+  </data>
+  <data name="3001" xml:space="preserve">
+    <value>NVR Service Stops</value>
+  </data>
+  <data name="3002" xml:space="preserve">
+    <value>Hard drive bad track</value>
+  </data>
+  <data name="3003" xml:space="preserve">
+    <value>Hard drive controller error</value>
+  </data>
+  <data name="4001" xml:space="preserve">
+    <value>Recording Service Stops</value>
+  </data>
+  <data name="4002" xml:space="preserve">
+    <value>Kernel power shutdown abornormally</value>
+  </data>
+  <data name="4003" xml:space="preserve">
+    <value>Operating System crash event log</value>
+  </data>
+  <data name="4004" xml:space="preserve">
+    <value>Blue screen occurs</value>
+  </data>
+  <data name="4005" xml:space="preserve">
+    <value>NVR service crashes</value>
+  </data>
+  <data name="4006" xml:space="preserve">
+    <value>Network disconnect</value>
+  </data>
+  <data name="4007" xml:space="preserve">
+    <value>NVR Client Application Crash</value>
+  </data>
+  <data name="SmartCare_All" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="SmartCare_Critical" xml:space="preserve">
+    <value>Critical</value>
+  </data>
+  <data name="SmartCare_Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="SmartCare_Information" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="SmartCare_Warning" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="SmartCare_Custom" xml:space="preserve">
+    <value>Custom</value>
+  </data>
+  <data name="SmartCare_DateTime" xml:space="preserve">
+    <value>Date / Time</value>
+  </data>
+  <data name="SmartCare_LastMonth" xml:space="preserve">
+    <value>Last Month</value>
+  </data>
+  <data name="SmartCare_LastWeek" xml:space="preserve">
+    <value>Last Week</value>
+  </data>
+  <data name="SmartCare_ThisMonth" xml:space="preserve">
+    <value>This Month</value>
+  </data>
+  <data name="SmartCare_ThisWeek" xml:space="preserve">
+    <value>This Week</value>
+  </data>
+  <data name="SmartCare_CalendarView" xml:space="preserve">
+    <value>Calendar View</value>
+  </data>
+  <data name="LoginForm_RememberMe" xml:space="preserve">
+    <value>记住帐号密码</value>
+  </data>
+  <data name="SetupGeneral_LocalDisplay" xml:space="preserve">
+    <value>本机显示</value>
+  </data>
+  <data name="VideoMonitor_SetupStorageFirst" xml:space="preserve">
+    <value>请先设置存储。请转到设置 - &gt;服务器 - &gt;存储</value>
+  </data>
+  <data name="Page_Interrogation" xml:space="preserve">
+    <value>审讯</value>
+  </data>
+  <data name="Page_InterrogationSearch" xml:space="preserve">
+    <value>审讯搜索</value>
+  </data>
+  <data name="Control_InterrogationSearch" xml:space="preserve">
+    <value>审讯搜索</value>
+  </data>
+  <data name="CriteriaPanel_Name" xml:space="preserve">
+    <value>名字</value>
+  </data>
+  <data name="CriteriaPanel_NoOfRecord" xml:space="preserve">
+    <value>记录号</value>
+  </data>
+  <data name="EventResultPanell_Name" xml:space="preserve">
+    <value>名字</value>
+  </data>
+  <data name="EventResultPanell_NoOfRecord" xml:space="preserve">
+    <value>记录号</value>
+  </data>
+  <data name="Interrogation_Date" xml:space="preserve">
+    <value>日期</value>
+  </data>
+  <data name="Interrogation_Information" xml:space="preserve">
+    <value>资讯</value>
+  </data>
+  <data name="Interrogation_Name" xml:space="preserve">
+    <value>名字</value>
+  </data>
+  <data name="Interrogation_NameCantEmpty" xml:space="preserve">
+    <value>名字不能为空。</value>
+  </data>
+  <data name="Interrogation_NoOfRecord" xml:space="preserve">
+    <value>记录号</value>
+  </data>
+  <data name="Interrogation_NoOfRecordCantEmpty" xml:space="preserve">
+    <value>记录号不能为空。</value>
+  </data>
+  <data name="Interrogation_RecordingTime" xml:space="preserve">
+    <value>录音时间</value>
+  </data>
+  <data name="Interrogation_StartRecord" xml:space="preserve">
+    <value>开始录制</value>
+  </data>
+  <data name="Interrogation_StopRecord" xml:space="preserve">
+    <value>停止录制</value>
+  </data>
+  <data name="PTZPanel_AutoTracking" xml:space="preserve">
+    <value>自动追踪</value>
+  </data>
+  <data name="Event_AudioDetection" xml:space="preserve">
+    <value>音频侦测</value>
+  </data>
+  <data name="Event_CrossLine" xml:space="preserve">
+    <value>跨线警报</value>
+  </data>
+  <data name="Event_IntrusionDetection" xml:space="preserve">
+    <value>侵扰侦测</value>
+  </data>
+  <data name="Event_LoiteringDetection" xml:space="preserve">
+    <value>停留侦测</value>
+  </data>
+  <data name="Event_ObjectCountingIn" xml:space="preserve">
+    <value>人进</value>
+  </data>
+  <data name="Event_ObjectCountingOut" xml:space="preserve">
+    <value>人出</value>
+  </data>
+  <data name="Event_TamperDetection" xml:space="preserve">
+    <value>摔打侦测</value>
+  </data>
+  <data name="SetupTitle_SearchNVR" xml:space="preserve">
+    <value>搜索 NVR</value>
+  </data>
+  <data name="Control_E-Map" xml:space="preserve">
+    <value>eMap</value>
+  </data>
+  <data name="EMap_AllMaps" xml:space="preserve">
+    <value>所有地图缩图</value>
+  </data>
+  <data name="EMap_Angle" xml:space="preserve">
+    <value>角度</value>
+  </data>
+  <data name="EMap_AudioIn" xml:space="preserve">
+    <value>声音输入</value>
+  </data>
+  <data name="EMap_AudioOut" xml:space="preserve">
+    <value>声音输出</value>
+  </data>
+  <data name="EMap_ButtonAddMap" xml:space="preserve">
+    <value>新增地图</value>
+  </data>
+  <data name="EMap_ButtonAddTransfer" xml:space="preserve">
+    <value>增加转换点</value>
+  </data>
+  <data name="EMap_ButtonDeleteMap" xml:space="preserve">
+    <value>删除地图</value>
+  </data>
+  <data name="EMap_ButtonDrawingHotZone" xml:space="preserve">
+    <value>描绘地图转换区域</value>
+  </data>
+  <data name="EMap_ButtonEventListClose" xml:space="preserve">
+    <value>关闭事件列表</value>
+  </data>
+  <data name="EMap_ButtonEventListReload" xml:space="preserve">
+    <value>点选这里可以重载此装置的事件。</value>
+  </data>
+  <data name="EMap_ButtonEventListReset" xml:space="preserve">
+    <value>点选这里可以清除此装置的已发生的事件。</value>
+  </data>
+  <data name="EMap_CameraDragToAngle" xml:space="preserve">
+    <value>拖曳以旋转角度</value>
+  </data>
+  <data name="EMap_DefaultMap" xml:space="preserve">
+    <value>默认的地图</value>
+  </data>
+  <data name="EMap_Description" xml:space="preserve">
+    <value>说明</value>
+  </data>
+  <data name="EMap_File" xml:space="preserve">
+    <value>档案</value>
+  </data>
+  <data name="EMap_HotZoneDragToOpacity" xml:space="preserve">
+    <value>拖曳以调整渐层浓淡</value>
+  </data>
+  <data name="EMap_HotZoneNewName" xml:space="preserve">
+    <value>新转换区域</value>
+  </data>
+  <data name="EMap_HotZoneOpacity" xml:space="preserve">
+    <value>渐层</value>
+  </data>
+  <data name="EMap_HotZoneOpacityHigh" xml:space="preserve">
+    <value>浓</value>
+  </data>
+  <data name="EMap_HotZoneOpacityLow" xml:space="preserve">
+    <value>淡</value>
+  </data>
+  <data name="EMap_HotZoneTooltipSelectColor" xml:space="preserve">
+    <value>选取颜色</value>
+  </data>
+  <data name="EMap_LinkToMap" xml:space="preserve">
+    <value>链接到地图</value>
+  </data>
+  <data name="EMap_MapButtonMoveDefault" xml:space="preserve">
+    <value>回到原点</value>
+  </data>
+  <data name="EMap_MapButtonMoveDown" xml:space="preserve">
+    <value>向下卷动</value>
+  </data>
+  <data name="EMap_MapButtonMoveLeft" xml:space="preserve">
+    <value>向左卷动</value>
+  </data>
+  <data name="EMap_MapButtonMoveRight" xml:space="preserve">
+    <value>向右卷动</value>
+  </data>
+  <data name="EMap_MapButtonMoveUp" xml:space="preserve">
+    <value>向上卷动</value>
+  </data>
+  <data name="EMap_MapButtonZoomDefault" xml:space="preserve">
+    <value>原始大小</value>
+  </data>
+  <data name="EMap_MapButtonZoomDrag" xml:space="preserve">
+    <value>拖曳以缩放</value>
+  </data>
+  <data name="EMap_MapButtonZoomIn" xml:space="preserve">
+    <value>放大</value>
+  </data>
+  <data name="EMap_MapButtonZoomOut" xml:space="preserve">
+    <value>缩小</value>
+  </data>
+  <data name="EMap_MapNameEmpty" xml:space="preserve">
+    <value>地图名称不可为空白</value>
+  </data>
+  <data name="EMap_MapTransferTooltipForPoint" xml:space="preserve">
+    <value>快速增加地图转换点</value>
+  </data>
+  <data name="EMap_MapTransferTooltipForZone" xml:space="preserve">
+    <value>使用多边形来转换地图</value>
+  </data>
+  <data name="EMap_MapTransferUsing" xml:space="preserve">
+    <value>使用</value>
+  </data>
+  <data name="EMap_MessageBoxDrawingHotZoneFailed" xml:space="preserve">
+    <value>这不是一个多边形。你要离开这次的描点吗?</value>
+  </data>
+  <data name="EMap_MessageBoxReadImageFailed" xml:space="preserve">
+    <value>读取地图失败，请再试一次。</value>
+  </data>
+  <data name="EMap_MessageBoxRemindAddMap" xml:space="preserve">
+    <value>请新增地图</value>
+  </data>
+  <data name="EMap_MessageBoxRemindSaveData" xml:space="preserve">
+    <value>要储存你的设定吗?</value>
+  </data>
+  <data name="EMap_MessageBoxRemoveCameraConfirm" xml:space="preserve">
+    <value>你想要在地图上删除装置"%1"吗?</value>
+  </data>
+  <data name="EMap_MessageBoxRemoveMapConfirm" xml:space="preserve">
+    <value>你想要删除地图"%1"吗?</value>
+  </data>
+  <data name="EMap_MessageBoxRemoveNVRConfirm" xml:space="preserve">
+    <value>你想要在地图上删除NVR "%1"吗？</value>
+  </data>
+  <data name="EMap_MessageBoxRemoveTransferZoneConfirm" xml:space="preserve">
+    <value>你想要删除这个多边形吗?</value>
+  </data>
+  <data name="EMap_MessageBoxRemoveViaConfirm" xml:space="preserve">
+    <value>你想要在地图上删除转换点"%1"吗?</value>
+  </data>
+  <data name="EMap_MessageBoxStartSetupMode" xml:space="preserve">
+    <value>要编辑eMap吗?</value>
+  </data>
+  <data name="EMap_MessageBoxUploadMapFail" xml:space="preserve">
+    <value>上传档案失败，请再试一次。</value>
+  </data>
+  <data name="EMap_MessageBoxUploadMapWrongGetExtension" xml:space="preserve">
+    <value>地图格式错误</value>
+  </data>
+  <data name="EMap_MessageEventWithNoCameraInMap" xml:space="preserve">
+    <value>装置"%1"不存在于任何一张地图中。</value>
+  </data>
+  <data name="EMap_MessageLabelRemindAddMap" xml:space="preserve">
+    <value>请新增地图</value>
+  </data>
+  <data name="EMap_MessageMapExist" xml:space="preserve">
+    <value>这个装置已经存在在地图上</value>
+  </data>
+  <data name="EMap_Name" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="EMap_NewMapName" xml:space="preserve">
+    <value>新地图</value>
+  </data>
+  <data name="EMap_NewViaName" xml:space="preserve">
+    <value>链接至</value>
+  </data>
+  <data name="EMap_Remove" xml:space="preserve">
+    <value>从地图上移除</value>
+  </data>
+  <data name="EMap_RemoveCameraNVRViaToolTip" xml:space="preserve">
+    <value>移除%1</value>
+  </data>
+  <data name="EMap_Revert" xml:space="preserve">
+    <value>确定要还原设定吗？</value>
+  </data>
+  <data name="EMap_RevertConfirm" xml:space="preserve">
+    <value>确定要还原设定吗？</value>
+  </data>
+  <data name="EMap_SaveCompletedRemind" xml:space="preserve">
+    <value>你想要离开编辑模式吗?</value>
+  </data>
+  <data name="EMap_SelectedCamera" xml:space="preserve">
+    <value>目前选取的装置</value>
+  </data>
+  <data name="EMap_SelectedHotZone" xml:space="preserve">
+    <value>目前选取的链接区域</value>
+  </data>
+  <data name="EMap_SelectedMap" xml:space="preserve">
+    <value>目前选取的地图</value>
+  </data>
+  <data name="EMap_SelectedMapLink" xml:space="preserve">
+    <value>目前选取的链接地图</value>
+  </data>
+  <data name="EMap_SelectedNVR" xml:space="preserve">
+    <value>目前选取的NVR</value>
+  </data>
+  <data name="EMap_SelectFilePath" xml:space="preserve">
+    <value>选择图片路径</value>
+  </data>
+  <data name="EMAP_SetupButton" xml:space="preserve">
+    <value>设定eMap</value>
+  </data>
+  <data name="EMap_TreeMap" xml:space="preserve">
+    <value>所有地图</value>
+  </data>
+  <data name="EMap_TryAgain" xml:space="preserve">
+    <value>请重试一次</value>
+  </data>
+  <data name="EMap_VideoWindowSize" xml:space="preserve">
+    <value>影像窗口大小</value>
+  </data>
+  <data name="EMap_VideoWindowSizeDefault" xml:space="preserve">
+    <value>将所有影像窗口还原原始大小</value>
+  </data>
+  <data name="EMap_VideoWindowSizeLarge" xml:space="preserve">
+    <value>大</value>
+  </data>
+  <data name="EMap_VideoWindowSizeMedium" xml:space="preserve">
+    <value>中</value>
+  </data>
+  <data name="EMap_VideoWindowSizeSmall" xml:space="preserve">
+    <value>小</value>
+  </data>
+  <data name="DeviceTree_DisableMultiScreenPatrol" xml:space="preserve">
+    <value>停止多萤幕群组巡览</value>
+  </data>
+  <data name="DeviceTree_DisableMultiScreenDevicePatrol" xml:space="preserve">
+    <value>停止多萤幕群组巡览</value>
+  </data>
+  <data name="DeviceTree_EnableMultiScreenPatrol" xml:space="preserve">
+    <value>开始多萤幕群组巡览</value>
+  </data>
+  <data name="DeviceTree_EnableMultiScreenDevicePatrol" xml:space="preserve">
+    <value>开始多萤幕群组巡览</value>
+  </data>
+  <data name="NVR_Bandwidth" xml:space="preserve">
+    <value>频宽</value>
+  </data>
+  <data name="NVR_Stream" xml:space="preserve">
+    <value>串流</value>
+  </data>
+  <data name="SetupGeneral_AutoLockApplicationTimer" xml:space="preserve">
+    <value>自动锁定设定</value>
+  </data>
+  <data name="SetupGeneral_BandwidthControlSetting" xml:space="preserve">
+    <value>频宽控制设定</value>
+  </data>
+  <data name="SetupGeneral_DisplayGroupId" xml:space="preserve">
+    <value>显示自订群组编号</value>
+  </data>
+  <data name="SetupGeneral_DisplayNVRId" xml:space="preserve">
+    <value>显示NVR编号</value>
+  </data>
+  <data name="SetupGeneral_EnableBandwidthControl" xml:space="preserve">
+    <value>频宽控制</value>
+  </data>
+  <data name="SetupGeneral_VideoTitleBar" xml:space="preserve">
+    <value>影像标题列</value>
+  </data>
+  <data name="SetupNVR_AddedNVR" xml:space="preserve">
+    <value>已加入的 NVR</value>
+  </data>
+  <data name="SetupNVR_AddNewNVR" xml:space="preserve">
+    <value>加入新的NVR</value>
+  </data>
+  <data name="SetupNVR_SearchNVR" xml:space="preserve">
+    <value>搜寻 NVR</value>
+  </data>
+  <data name="TimeTrack_JumpBeginRecordingTime" xml:space="preserve">
+    <value>跳至最开始录影时间</value>
+  </data>
+  <data name="VideoMonitor_Popup" xml:space="preserve">
+    <value>弹出视窗</value>
+  </data>
+  <data name="DevicePanel_OccupancyPriority" xml:space="preserve">
+    <value>使用频道得优先权</value>
+  </data>
+  <data name="DevicePanel_PredecessorHasHigherPriority" xml:space="preserve">
+    <value>先占用者</value>
+  </data>
+  <data name="DevicePanel_SuccessorHasHigherPriority" xml:space="preserve">
+    <value>后占用者</value>
+  </data>
+  <data name="SetupNVR_NVRDevice" xml:space="preserve">
+    <value>装置</value>
+  </data>
+  <data name="EditNVRPanel_NumDevice" xml:space="preserve">
+    <value>%1 個裝置</value>
+  </data>
+  <data name="EditNVRPanel_NumDevices" xml:space="preserve">
+    <value>%1 個裝置</value>
+  </data>
+  <data name="SetupGeneral_LockIntervalValue" xml:space="preserve">
+    <value>介于在%1秒到%2小时之间。</value>
+  </data>
+  <data name="SetupTitle_GetDeviceList" xml:space="preserve">
+    <value>取得装置清单</value>
+  </data>
+  <data name="StorageControl_PlaybackLoadStorage" xml:space="preserve">
+    <value>选择暂存影像位置的磁碟</value>
+  </data>
+  <data name="SetupGeneral_KeepLastFrame" xml:space="preserve">
+    <value>停留在摄像机断线前最后的静止图像</value>
+  </data>
+  <data name="SetupServer_UPNP" xml:space="preserve">
+    <value>UPNP</value>
+  </data>
+  <data name="LoginForm_Failover" xml:space="preserve">
+    <value>Failover System</value>
+  </data>
+  <data name="DevicePanel_RemoteRecovery" xml:space="preserve">
+    <value>无间断录影</value>
+  </data>
+  <data name="DevicePanel_DeviceMountType" xml:space="preserve">
+    <value>安装方式</value>
+  </data>
+  <data name="DevicePanel_DewarpMode" xml:space="preserve">
+    <value>Dewarp 模式</value>
+  </data>
+  <data name="ExportVideo_FisheyeOnly" xml:space="preserve">
+    <value>(鱼眼装置)</value>
+  </data>
+  <data name="ExportVideo_MountType" xml:space="preserve">
+    <value>安装方式</value>
+  </data>
+  <data name="MountType_Ceiling" xml:space="preserve">
+    <value>天花板</value>
+  </data>
+  <data name="MountType_Ground" xml:space="preserve">
+    <value>地面</value>
+  </data>
+  <data name="MountType_Original" xml:space="preserve">
+    <value>原版</value>
+  </data>
+  <data name="MountType_Wall" xml:space="preserve">
+    <value>墙</value>
+  </data>
+  <data name="DevicePanel_PatrolInterval" xml:space="preserve">
+    <value>巡逻间距</value>
+  </data>
+  <data name="PTZPanel_DigitalPTZRegions" xml:space="preserve">
+    <value>数位PTZ 区域</value>
+  </data>
+  <data name="PTZPanel_EnableDigitalPTZPatrol" xml:space="preserve">
+    <value>启动数位 PTZ 巡逻</value>
+  </data>
+  <data name="SetupDevice_PTZPatrol" xml:space="preserve">
+    <value>数位 PTZ 巡逻设定</value>
+  </data>
+  <data name="DevicePanel_Interval" xml:space="preserve">
+    <value>区间(秒)</value>
+  </data>
+  <data name="DevicePanel_LiveCheck" xml:space="preserve">
+    <value>检查装置</value>
+  </data>
+  <data name="DevicePanel_RetryCount" xml:space="preserve">
+    <value>重复次数</value>
+  </data>
+  <data name="SetupJoystick_EnableAxisJoystick" xml:space="preserve">
+    <value>启用 Axis 摇杆组</value>
+  </data>
+  <data name="SetupJoystick_RestartAlarm" xml:space="preserve">
+    <value>设定值已经改变。请重新登入。</value>
+  </data>
+  <data name="DevicePanel_HTTPSPort" xml:space="preserve">
+    <value>HTTPS 端口</value>
+  </data>
+</root>

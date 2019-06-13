@@ -1,0 +1,234 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<style type="text/css">
+	body{
+		font:13px arial,helvetica,clean,sans-serif;
+	}
+	#controlDiv{
+		width:360px;
+		height:330px;
+		background-color:Black;
+	}
+	#functionDiv{
+		position:absolute;
+		top:10px;
+		left:380px;
+		width:200px;
+		border:1px solid gray;	
+		padding:10px;	
+	}
+	#eventDiv{
+		position:absolute;
+		top:10px;
+		left:610px;
+		width:250px;
+		border:1px solid gray;	
+		padding:10px;	
+	}
+	#NvrUtility{ 
+		width:100%;
+		height:100%;
+	}
+	#settingDiv{
+		width:340px;
+		//background-color:Silver;
+		border:1px solid gray;
+		padding:10px;
+	}
+	#host{
+		width:100px;	
+	}
+	#port, #channel{
+		width:40px;	
+	}
+	#account, #password{
+		width:60px;	
+	}
+</style>
+<body>
+	<div id="controlDiv"></div>
+	<span id="versionSpan"></span>
+	<br/>
+	<div id="settingDiv">
+		<b><u>Setting</u></b>
+		<br/><br/>
+		Host : <input id="host" value="172.16.1.189" />
+		<br/><br/>
+		 Port : <input id="port" value="168" />
+		<br/><br/>
+		 Account : <input id="account" value="Admin" />
+		<br/><br/>
+		 Password : <input id="password" value="123456" />
+	</div>
+	<div id="functionDiv">
+		<b><u>Function</u></b>
+		<br/><br/>
+		<button onclick="connect()">Connect</button>
+		<button onclick="listenEvent()">Start Receive Event<br>(CH.1)</button>
+		<button onclick="updateEventRecive()">Update Event Recive<br>(Add CH.2)</button><br/>
+		<button onclick="stopEventReceive()">Stop Receive Event</button><br/>
+		<br/><br/>
+		<button onclick="openFolderDialog()">Open Folder Dialog</button><br/>
+		<button onclick="openFileDialog()">Open File Dialog</button><br/>
+		<br/>
+		<button onclick="playSystemSound()">Play System Sound (Beep)</button><br/>
+		<button onclick="stopSystemSound()">Stop System Sound</button><br/>
+		<br/>
+		<button onclick="startAudioTransfer()">Start Audio Transfer</button><br/>
+		<button onclick="stopAudioTransfer()">Stop Audio Transfer</button><br/>
+		<br/>
+		<button onclick="getAllChannelStatus()">Get All Channel Status</button><br/>
+		<button onclick="getChannelStatus()">Get Channel Status (CH.1)</button><br/>
+		<br/>
+		<button onclick="startExportAVI()">Start Export AVI<br>(CH.1) 10 Sec</button><br/>
+		<button onclick="stopExportAVI()">Stop Export AVI</button>
+	</div>
+	<div id="eventDiv">
+		<b><u>NvrUtility Event</u></b>
+		<br><br>
+		<div id="eventMsg"></div>
+	</div>
+</body>   
+
+<Html>
+
+<script type="text/javascript">
+
+var control;
+var eventMsg = document.getElementById("eventMsg");
+var hostInput = document.getElementById("host");
+var portInput = document.getElementById("port");
+var accountInput = document.getElementById("account");
+var passwordInput = document.getElementById("password");
+
+function createActiveXControl()
+{
+	var controlDiv = document.getElementById("controlDiv");
+	control = document.createElement("object");
+	control.id = "NvrUtility";
+	control.classid = "CLSID:830C9644-F61D-444F-832E-EC2FAE1DC9E3";
+	controlDiv.appendChild(control);
+	
+	var versionSpan = document.getElementById("versionSpan");
+	versionSpan.innerText = "NvrUtility Ver. " + control.Version;
+}
+
+function connect(){
+	control.ServerIp = hostInput.value;
+	control.ServerPort = portInput.value;
+	control.ServerUsername = accountInput.value;
+	control.ServerPassword = passwordInput.value;
+}
+function listenEvent()
+{	
+	control.StartEventReceive("channel1");
+}
+
+function updateEventRecive()
+{
+	control.UpdateEventRecive("channel1,channel2");
+}
+function stopEventReceive()
+{
+	control.StopEventReceive();
+}
+
+function openFolderDialog()
+{
+	control.OpenFolderDialog("Test", "C:\\") ;
+}
+
+function openFileDialog()
+{
+	control.OpenFileDialog(1, "*.pdf", "PDF File (*.pdf)|*.pdf||") ;
+}
+
+function playSystemSound()
+{
+	control.PlaySystemSound(10,1000,100) ;
+}
+
+function stopSystemSound()
+{
+	control.StopSystemSound() ;
+}
+
+
+function startAudioTransfer()
+{
+	alert("CH.1 Audio-out\nResult: " + control.StartAudioTransfer("channel1"));
+}
+
+function stopAudioTransfer()
+{
+	control.StopAudioTransfer();
+}
+
+function getAllChannelStatus()
+{
+	control.GetAllChannelStatus();
+}
+
+function getChannelStatus()
+{
+	control.GetChannelStatus("channel1");
+}
+
+function startExportAVI()
+{
+	var endTime = new Date().valueOf() - 60000;
+	var startTime = endTime - 10000;
+	//control.SetExportAVITimeZone(28800);
+	control.ExportAVI(endTime, startTime, 1, "video,audio1,audio2", "C:\\", 1, "01 Channel1", "", 1, 0);
+}
+
+function stopExportAVI()
+{
+	control.StopExportAVI();
+}
+
+//------------EVENT----------------
+function onServerEventReceive(id, datetime, type, msg){
+	EventMsgTrim("OnServerEventReceive\nDevice Id: " + id +"\nDatetime: " + datetime +"\nType: " + type +
+	"\nMsg: " + msg.replace(new RegExp("><" ,"g"), ">\n<"));
+}
+function onAudioOutStatus(status){
+	EventMsgTrim("OnAudioOutStatus\nStatus: " + status);
+}
+function onExportAVIStatus(progress, status){
+	if(status == 0)
+		status = "ExportAVIStartup";
+	else if(status == 1)
+		status = "Converting";
+	else if(status == 2)
+		status = "CloseAVIFile";
+	else if(status == 3)
+		status = "ExportAVIFinished";
+	else if(status == 4)
+		status = "UserAborted";
+	else if(status == 5)
+		status = "ExportFailed";
+		
+	EventMsgTrim("OnExportAVIStatus\nProgress: " + progress + "\nStatus: " + status);
+}
+function EventMsgTrim(msg){
+	eventMsg.innerText = msg + "\n\n" + eventMsg.innerText;	
+	var count = eventMsg.innerText.split("\n");
+	if(count.length > 35)	
+		eventMsg.innerText = count.splice(0, 35).join("");
+}
+
+createActiveXControl();
+</script>
+<script for="NvrUtility" event="onServerEventReceive(id, datetime, type, msg)">
+    onServerEventReceive(id, datetime, type, msg);
+</script>
+<script for="NvrUtility" event="onAudioOutStatus(status)">
+    onAudioOutStatus(status);
+</script>
+<script for="NvrUtility" event="onMouseKeyUp(button, x, y)">
+    onMouseKeyUp(button, x, y);
+</script>
+<script for="NvrUtility" event="onExportAVIStatus(progress, status)">
+    onExportAVIStatus(progress, status);
+</script>

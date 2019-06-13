@@ -1,0 +1,183 @@
+<Page ver="2.0">
+	<PageName>Live</PageName>
+	<Menus>
+		<!--Menu>Video Title Bar</Menu>
+		<Menu>Auto Drop Frame</Menu>
+		<Menu>Decode I-frame</Menu
+		<Menu>Save Image</Menu>-->
+		<Menu>Disconnect All</Menu>
+	</Menus>
+  <Functions>
+    <Width>70</Width>
+    <Height>210</Height>
+    <Dock>left</Dock>
+  </Functions>
+	<Blocks>
+		<Block>
+      <Width>295</Width>
+      <Dock>left</Dock>
+      <Dockable>true</Dockable>
+			<Controls>
+				<Control>
+					<Name>POSException</Name>
+					<Assembly>POSException.dll</Assembly>
+					<ClassName>POSException.DailyException</ClassName>
+					<Height>auto</Height>
+				</Control>
+				<Control>
+					<Name>POSRegister</Name>
+					<Assembly>POSRegister.dll</Assembly>
+					<ClassName>POSRegister.POSRegister</ClassName>
+					<Height>auto</Height>
+				</Control>
+				<Control>
+					<Name>Device</Name>
+					<Assembly>DeviceTree.dll</Assembly>
+					<ClassName>DeviceTree.DeviceList</ClassName>
+					<Height>auto</Height>
+				</Control>
+				<!--Control>
+					<Name>Event</Name>
+					<Assembly>EventPanel.dll</Assembly>
+					<ClassName>EventPanel.EventPanel</ClassName>
+					<Height>auto</Height>
+				</Control>
+				<Control>
+					<Name>PTZ</Name>
+					<Assembly>PTZPanel.dll</Assembly>
+					<ClassName>PTZPanel.PTZPanel</ClassName>
+					<Height>240</Height>
+				</Control-->
+			</Controls>
+		</Block>
+		<Block>
+			<Width>auto</Width>
+			<Controls>
+			<Control>
+					<Name>Monitor</Name>
+					<Assembly>VideoMonitor.dll</Assembly>
+					<ClassName>VideoMonitor.VideoMonitor</ClassName>
+					<Height>auto</Height>
+				</Control>
+				<Control>
+					<Name>POSExceptionTransactionDetail</Name>
+					<Assembly>POSException.dll</Assembly>
+					<ClassName>POSException.TransactionDetail</ClassName>
+					<Height>180</Height>
+				</Control>
+			</Controls>
+		</Block>
+	</Blocks>
+	<Initialize>
+    <Control name="POSException">Maximize</Control>
+		<Control name="Monitor">SetLiveProperty</Control>
+		<Control name="Device">Minimize</Control>
+		<!--Control name="Device">AddPatrolIcon</Control-->
+		<!--Control name="POSExceptionTransactionDetail">Minimize</Control-->
+		<!--Control name="Event">Minimize</Control>
+		<Control name="PTZ">Minimize</Control-->
+		<Control name="Pager">SetLiveProperty</Control>
+		<Control name="POSExceptionTransactionDetail">SetLiveProperty</Control>
+		<Control name="Auto Drop Frame">InUse</Control>
+	</Initialize>
+	<Behaviors>
+		<!--Behavior>
+			<Trigger name="Video Title Bar">Click</Trigger>
+			<Receiver name="Monitor">VideoTitleBar</Receiver>
+		</Behavior>
+		<Behavior>
+			<Trigger name="Auto Drop Frame">Click</Trigger>
+			<Receiver name="Monitor">AutoDropFrame</Receiver>
+		</Behavior>
+		<Behavior>
+			<Trigger name="Decode I-frame">Click</Trigger>
+			<Receiver name="Monitor">DecodeIframe</Receiver>
+		</Behavior-->
+		<Behavior>
+			<Trigger name="Disconnect All">Click</Trigger>
+			<Receiver name="Monitor">ClearAll</Receiver>
+		</Behavior>
+		<Behavior>
+			<Trigger name="Save Image">Click</Trigger>
+			<Receiver name="Monitor">Snapshot</Receiver>
+		</Behavior>
+		<Behavior>
+			<Trigger name="Monitor">OnDecodeChange</Trigger>
+			<Receiver name="Decode I-frame">DecodeChange</Receiver>
+			<Receiver name="Auto Drop Frame">DecodeChange</Receiver>
+		</Behavior>
+		<Behavior>
+			<Trigger name="Monitor">OnTitleBarVisibleChange</Trigger>
+			<Receiver name="Video Title Bar">TitleBarVisibleChange</Receiver>
+		</Behavior>
+		<Behavior>
+			<Trigger name="POSRegister">OnDeviceDoubleClick</Trigger>
+			<Receiver name="Monitor">AppendDevice</Receiver>
+		</Behavior>
+		<Behavior>
+			<Trigger name="POSRegister">OnPOSDoubleClick</Trigger>
+			<Trigger name="POSExceptionTransactionDetail">OnTransactionDoubleClick</Trigger>      
+			<Receiver name="Monitor">ShowGroup</Receiver>
+		</Behavior>
+		<Behavior>
+			<Trigger name="Device">OnPageChange</Trigger>
+			<Receiver name="Monitor">SetCurrentPage</Receiver>
+		</Behavior>
+		<Behavior>
+			<Trigger name="Device">OnDeviceDoubleClick</Trigger>
+			<Receiver name="Monitor">AppendDevice</Receiver>
+		</Behavior>
+		<Behavior>
+			<Trigger name="Device">OnGroupDoubleClick</Trigger>
+			<Receiver name="Monitor">ShowGroup</Receiver>
+		</Behavior>
+		<Behavior>
+			<Trigger name="Device">OnNVRDoubleClick</Trigger>
+			<Receiver name="Monitor">ShowNVR</Receiver>
+		</Behavior>
+		<Behavior>
+			<Trigger name="Monitor">OnContentChange</Trigger>
+			<Receiver name="Device">PatrolStop</Receiver>
+		</Behavior>
+		<!--Behavior>
+			<Trigger name="Event">OnUserDefineEvent</Trigger>
+			<Receiver name="Monitor">UserDefineEventTrigger</Receiver>
+		</Behavior>
+		<Behavior>
+			<Trigger name="PTZ">OnPTZOperation</Trigger>
+			<Receiver name="Monitor">PTZOperation</Receiver>
+		</Behavior>
+		<Behavior>
+			<Trigger name="Monitor">OnSelectionChange</Trigger>
+			<Receiver name="PTZ">SelectionChange</Receiver>
+		</Behavior>
+		<Behavior>
+			<Trigger name="Monitor">OnPTZModeChange</Trigger>
+			<Receiver name="PTZ">PTZModeChange</Receiver>
+		</Behavior-->
+		<Behavior>
+			<Trigger name="Monitor">OnPageChange</Trigger>
+			<Receiver name="Device">PageChange</Receiver>
+		</Behavior>
+		<Behavior>
+			<Trigger name="Pager">OnLayoutChange</Trigger>
+			<Receiver name="Monitor">LayoutChange</Receiver>
+		</Behavior>
+		<Behavior>
+			<Trigger name="Monitor">OnLayoutChange</Trigger>
+			<Receiver name="Pager">LayoutChange</Receiver>
+		</Behavior>
+		<Behavior>
+			<Trigger name="Broadcast">OnBroadcastStart</Trigger>
+			<Receiver name="Monitor">BroadcastStart</Receiver>
+		</Behavior>
+		<Behavior>
+			<Trigger name="Broadcast">OnBroadcastStop</Trigger>
+			<Receiver name="Monitor">BroadcastStop</Receiver>
+		</Behavior>
+    <Behavior>
+      <Trigger name="Monitor">OnExitFullScreen</Trigger>
+      <Receiver name="App">ExitFullScreen</Receiver>
+    </Behavior>
+</Behaviors>
+</Page>

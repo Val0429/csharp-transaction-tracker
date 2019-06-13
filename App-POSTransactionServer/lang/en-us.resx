@@ -1,0 +1,3408 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="SetupDevice_DeviceSelected" xml:space="preserve">
+    <value>%1 Device Selected</value>
+  </data>
+  <data name="CriteriaPanel_NoOfRecord" xml:space="preserve">
+    <value>No. of Record</value>
+  </data>
+  <data name="EventResultPanell_NoOfRecord" xml:space="preserve">
+    <value>No. of Record</value>
+  </data>
+  <data name="EventResultPanel_DateTime" xml:space="preserve">
+    <value>Date / Time</value>
+  </data>
+  <data name="Schedule_NoSchedule" xml:space="preserve">
+    <value>No schedule</value>
+  </data>
+  <data name="Common_NextMonth" xml:space="preserve">
+    <value>Next month</value>
+  </data>
+  <data name="EventResultPanel_NVR" xml:space="preserve">
+    <value>NVR</value>
+  </data>
+  <data name="SetupDevice_SearchNoResult" xml:space="preserve">
+    <value>No Device Found</value>
+  </data>
+  <data name="SetupDeviceGroup_NewView" xml:space="preserve">
+    <value>New View</value>
+  </data>
+  <data name="SetupGeneral_None" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="Common_Day" xml:space="preserve">
+    <value>day</value>
+  </data>
+  <data name="Event_CrossLine" xml:space="preserve">
+    <value>Cross Line</value>
+  </data>
+  <data name="Event_ObjectCountingIn" xml:space="preserve">
+    <value>Object Counting In</value>
+  </data>
+  <data name="SetupTitle_OpenWebPage" xml:space="preserve">
+    <value>Open web page</value>
+  </data>
+  <data name="Event_ObjectCountingOut" xml:space="preserve">
+    <value>Object Counting Out</value>
+  </data>
+  <data name="DevicePanel_MediumProfile" xml:space="preserve">
+    <value>Medium Profile</value>
+  </data>
+  <data name="Event_NVRFail" xml:space="preserve">
+    <value>NVR Fail</value>
+  </data>
+  <data name="DeviceView_DeleteView" xml:space="preserve">
+    <value>Delete View</value>
+  </data>
+  <data name="Schedule_Mon" xml:space="preserve">
+    <value>Mon</value>
+  </data>
+  <data name="SetupDevice_CopySetting" xml:space="preserve">
+    <value>Copy Setting</value>
+  </data>
+  <data name="Event_Motion" xml:space="preserve">
+    <value>Motion</value>
+  </data>
+  <data name="ExportVideoStatus_MountUSBDevice" xml:space="preserve">
+    <value>Mount USB Device</value>
+  </data>
+  <data name="DevicePanel_MultiStreaming" xml:space="preserve">
+    <value>Multi-streaming</value>
+  </data>
+  <data name="DevicePanel_MulticastNetworkAddress" xml:space="preserve">
+    <value>Multicast Network Address</value>
+  </data>
+  <data name="ExportVideoMsg_MountUSBDeviceFailed" xml:space="preserve">
+    <value>Mount USB Device Failed</value>
+  </data>
+  <data name="DevicePanel_Model" xml:space="preserve">
+    <value>Model</value>
+  </data>
+  <data name="DevicePanel_Manufacturer" xml:space="preserve">
+    <value>Manufacturer</value>
+  </data>
+  <data name="DevicePanel_Mode" xml:space="preserve">
+    <value>Mode</value>
+  </data>
+  <data name="SetupTitle_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Application_DevicePackUpdate" xml:space="preserve">
+    <value>New device pack detected (version %1).  Please confirm for upgrade.</value>
+  </data>
+  <data name="DeviceLayoutPanel_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="SetupEvent_DeleteEventHandler" xml:space="preserve">
+    <value>Delete Event Handler</value>
+  </data>
+  <data name="DevicePanel_NetworkAddress" xml:space="preserve">
+    <value>Network Address</value>
+  </data>
+  <data name="SetupDevice_DeleteDevice" xml:space="preserve">
+    <value>Delete Device</value>
+  </data>
+  <data name="SetupDeviceGroup_DeleteDeviceGroup" xml:space="preserve">
+    <value>Delete Device Group</value>
+  </data>
+  <data name="CriteriaPanel_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="DevicePermissionPanel_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="NVR_OriginalStreaming" xml:space="preserve">
+    <value>Original Streaming</value>
+  </data>
+  <data name="EventResultPanell_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="SetupTitle_Clone" xml:space="preserve">
+    <value>Clone</value>
+  </data>
+  <data name="DevicePanel_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Common_PreviousMonth" xml:space="preserve">
+    <value>Previous month</value>
+  </data>
+  <data name="Control_Properties" xml:space="preserve">
+    <value>Properties</value>
+  </data>
+  <data name="SetupDevice_CloneDevice" xml:space="preserve">
+    <value>Clone Device</value>
+  </data>
+  <data name="SetupSchedule_PreEventRecording" xml:space="preserve">
+    <value>Pre-event Recording</value>
+  </data>
+  <data name="DevicePanel_PreEventRecording" xml:space="preserve">
+    <value>Pre-event Recording</value>
+  </data>
+  <data name="VideoWindowTitleBarPanel_Preview" xml:space="preserve">
+    <value>Preview</value>
+  </data>
+  <data name="Handler_PresetPoint" xml:space="preserve">
+    <value>Preset Point</value>
+  </data>
+  <data name="DevicePanel_ColorEnable" xml:space="preserve">
+    <value>Color Enable</value>
+  </data>
+  <data name="DevicePanel_ControlPort" xml:space="preserve">
+    <value>Control Port</value>
+  </data>
+  <data name="VideoMonitor_MaximumPopupVideoMonitor" xml:space="preserve">
+    <value>Reached maximum popup video monitor "%1"</value>
+  </data>
+  <data name="DevicePanel_Protocol" xml:space="preserve">
+    <value>Protocol</value>
+  </data>
+  <data name="SetupDeviceGroup_MaximumAmount" xml:space="preserve">
+    <value>Reached maximum amount limit "%1"</value>
+  </data>
+  <data name="NVR_ListenEvent" xml:space="preserve">
+    <value>Receive events</value>
+  </data>
+  <data name="DevicePanel_PtzCommand" xml:space="preserve">
+    <value>PTZ Command</value>
+  </data>
+  <data name="DevicePanel_ChannelID" xml:space="preserve">
+    <value>Channel ID</value>
+  </data>
+  <data name="DevicePermissionPanel_PTZ" xml:space="preserve">
+    <value>PTZ</value>
+  </data>
+  <data name="DevicePanel_Quality" xml:space="preserve">
+    <value>Quality</value>
+  </data>
+  <data name="SetupTitle_CopyEventHandling" xml:space="preserve">
+    <value>Copy Event Handling</value>
+  </data>
+  <data name="ExportVideo_ConvertVideoToAVI" xml:space="preserve">
+    <value>Convert video to AVI (MJPEG)</value>
+  </data>
+  <data name="DevicePanel_Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="DeviceTree_DisableMultiScreenDevicePatrol" xml:space="preserve">
+    <value>Disable Multi-screen device patrol</value>
+  </data>
+  <data name="SetupSchedule_CopyFrom" xml:space="preserve">
+    <value>Copy from</value>
+  </data>
+  <data name="DevicePanel_Contrast" xml:space="preserve">
+    <value>Contrast</value>
+  </data>
+  <data name="SetupDevice_CopyFrom" xml:space="preserve">
+    <value>Copy From</value>
+  </data>
+  <data name="SetupTitle_CopySchedule" xml:space="preserve">
+    <value>Copy Schedule</value>
+  </data>
+  <data name="SetupDevice_MotionRegionDefaultNote" xml:space="preserve">
+    <value>Connection failure.</value>
+  </data>
+  <data name="ExportVideoStatus_OutputFileName" xml:space="preserve">
+    <value>Output File Name</value>
+  </data>
+  <data name="DevicePanel_Connection" xml:space="preserve">
+    <value>Connection</value>
+  </data>
+  <data name="SetupTitle_CopySetting" xml:space="preserve">
+    <value>Copy Settings</value>
+  </data>
+  <data name="SetupEvent_CopyFrom" xml:space="preserve">
+    <value>Copy From</value>
+  </data>
+  <data name="ExportVideoMsg_ConnectionFailed" xml:space="preserve">
+    <value>Connection Failed</value>
+  </data>
+  <data name="SetupSchedule_CopySchedule" xml:space="preserve">
+    <value>Copy Schedule</value>
+  </data>
+  <data name="HandlePanel_PopupPlayback" xml:space="preserve">
+    <value>Popup Playback</value>
+  </data>
+  <data name="HandlePanel_PopupLive" xml:space="preserve">
+    <value>Popup Live</value>
+  </data>
+  <data name="DevicePanel_Compression" xml:space="preserve">
+    <value>Compression</value>
+  </data>
+  <data name="SetupSchedule_EventHandling" xml:space="preserve">
+    <value>Event Handling</value>
+  </data>
+  <data name="VideoMonitor_Popup" xml:space="preserve">
+    <value>Pop up View Monitor</value>
+  </data>
+  <data name="DevicePermissionPanel_Port" xml:space="preserve">
+    <value>Port</value>
+  </data>
+  <data name="Loading_POS" xml:space="preserve">
+    <value>POS</value>
+  </data>
+  <data name="Loading_Config" xml:space="preserve">
+    <value>Config</value>
+  </data>
+  <data name="SetupTitle_Confirm" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="VideoMonitor_DeleteGroupConfirm" xml:space="preserve">
+    <value>Please confirm again to delete "%1".</value>
+  </data>
+  <data name="NVR_Event" xml:space="preserve">
+    <value>Event</value>
+  </data>
+  <data name="EventPanel_EventHelper" xml:space="preserve">
+    <value>Event Handler Helper</value>
+  </data>
+  <data name="HandlePanel_EventHandler" xml:space="preserve">
+    <value>Event Handler</value>
+  </data>
+  <data name="DevicePanel_EventHandling" xml:space="preserve">
+    <value>Event Handling</value>
+  </data>
+  <data name="ExportVideo_Encode" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="VideoWindowTitleBarPanel_FontColor" xml:space="preserve">
+    <value>Font Color</value>
+  </data>
+  <data name="VideoMonitor_ExitFullScreen" xml:space="preserve">
+    <value>Exit Full Screen</value>
+  </data>
+  <data name="ExportVideo_Export" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="SetupSchedule_EventRecordingDuration" xml:space="preserve">
+    <value>Event Recording Time (sec)</value>
+  </data>
+  <data name="DevicePanel_Encryption" xml:space="preserve">
+    <value>Encryption</value>
+  </data>
+  <data name="DevicePanel_Enabled" xml:space="preserve">
+    <value>Enabled</value>
+  </data>
+  <data name="EventResultPanel_Event" xml:space="preserve">
+    <value>Event</value>
+  </data>
+  <data name="DeviceTree_EnablePatrol" xml:space="preserve">
+    <value>Enable view patrol (Dwell Time %1 sec)</value>
+  </data>
+  <data name="ExportVideo_ExportOriginalVideo" xml:space="preserve">
+    <value>Export original video</value>
+  </data>
+  <data name="ExportVideo_Path" xml:space="preserve">
+    <value>Path</value>
+  </data>
+  <data name="LoginForm_ErrorCode" xml:space="preserve">
+    <value>Error Code: </value>
+  </data>
+  <data name="ExportVideo_PathNotAvailable" xml:space="preserve">
+    <value>Export path is not available. Please confirm to export video to Desktop instead.</value>
+  </data>
+  <data name="SetupSchedule_FillEventRecording" xml:space="preserve">
+    <value>Fill the blank with event recording</value>
+  </data>
+  <data name="ExportVideo_End" xml:space="preserve">
+    <value>End</value>
+  </data>
+  <data name="ExportVideoMsg_FileOpenFailed" xml:space="preserve">
+    <value>File Open Failed</value>
+  </data>
+  <data name="SetupNVR_NVRStatusFailures" xml:space="preserve">
+    <value>Failures: Server failures. No response status percentage is 100%.</value>
+  </data>
+  <data name="Menu_Fisheye" xml:space="preserve">
+    <value>Fisheye</value>
+  </data>
+  <data name="VideoWindowTitleBarPanel_FontSize" xml:space="preserve">
+    <value>Font Size</value>
+  </data>
+  <data name="VideoWindowTitleBarPanel_FontFamily" xml:space="preserve">
+    <value>Font Family</value>
+  </data>
+  <data name="ExportVideo_ExportCancelled" xml:space="preserve">
+    <value>Export video cancelled.</value>
+  </data>
+  <data name="ExportVideo_ExportFailed" xml:space="preserve">
+    <value>Export video "%1" failed.</value>
+  </data>
+  <data name="DevicePermissionPanel_ExportVideo" xml:space="preserve">
+    <value>Export Video</value>
+  </data>
+  <data name="Handler_FileName" xml:space="preserve">
+    <value>File Name</value>
+  </data>
+  <data name="ExportVideo_ExportVideoInProgress" xml:space="preserve">
+    <value>Export video already in progress.\nPlease complete or cancel previous operation.</value>
+  </data>
+  <data name="ExportVideo_Title" xml:space="preserve">
+    <value>Export Video</value>
+  </data>
+  <data name="ExportVideoStatus_ExportVideoFinish" xml:space="preserve">
+    <value>Export Video Finished</value>
+  </data>
+  <data name="SetupGeneral_Disabled" xml:space="preserve">
+    <value>Disable</value>
+  </data>
+  <data name="DevicePermissionPanel_Domain" xml:space="preserve">
+    <value>Domain</value>
+  </data>
+  <data name="DeviceTree_DisablePatrol" xml:space="preserve">
+    <value>Disable view patrol (Dwell Time %1 sec)</value>
+  </data>
+  <data name="SetupGeneral_DisplayGroupId" xml:space="preserve">
+    <value>Display View ID</value>
+  </data>
+  <data name="DeviceTree_DisableMultiScreenPatrol" xml:space="preserve">
+    <value>Disable Multi-screen view patrol</value>
+  </data>
+  <data name="DeviceLayoutPanel_Done" xml:space="preserve">
+    <value>Done</value>
+  </data>
+  <data name="ExportVideo_ExportCompleted" xml:space="preserve">
+    <value>Elapsed time: %1</value>
+  </data>
+  <data name="Handler_DontAttach" xml:space="preserve">
+    <value>Don't attach snapshot</value>
+  </data>
+  <data name="Handler_Duration" xml:space="preserve">
+    <value>Duration</value>
+  </data>
+  <data name="SetupTitle_Duplicate" xml:space="preserve">
+    <value>Duplicate</value>
+  </data>
+  <data name="PTZPanel_EnablePresetTour" xml:space="preserve">
+    <value>Enable Preset Tour</value>
+  </data>
+  <data name="DeviceTree_EnableMultiScreenPatrol" xml:space="preserve">
+    <value>Enable Multi-screen view patrol</value>
+  </data>
+  <data name="SetupGeneral_EnableBandwidthControl" xml:space="preserve">
+    <value>Enable Bandwidth Control</value>
+  </data>
+  <data name="DeviceTree_EnableMultiScreenDevicePatrol" xml:space="preserve">
+    <value>Enable Multi-screen device patrol</value>
+  </data>
+  <data name="Loading_License" xml:space="preserve">
+    <value>License</value>
+  </data>
+  <data name="TimeTrack_JumpBeginRecordingTime" xml:space="preserve">
+    <value>Jump to begin record</value>
+  </data>
+  <data name="Loading_Device" xml:space="preserve">
+    <value>Device</value>
+  </data>
+  <data name="DevicePanel_DewarpType" xml:space="preserve">
+    <value>Dewarp Type</value>
+  </data>
+  <data name="SetupGeneral_LatestView" xml:space="preserve">
+    <value>Latest View</value>
+  </data>
+  <data name="Menu_Dewarp" xml:space="preserve">
+    <value>Dewarp</value>
+  </data>
+  <data name="DevicePanel_LowProfile" xml:space="preserve">
+    <value>Low Profile</value>
+  </data>
+  <data name="Event_LoiteringDetection" xml:space="preserve">
+    <value>Loitering Detection</value>
+  </data>
+  <data name="SetupDevice_SearchDeviceFound" xml:space="preserve">
+    <value>Device Found</value>
+  </data>
+  <data name="EditNVRPanel_Device" xml:space="preserve">
+    <value>Device</value>
+  </data>
+  <data name="DevicePermissionPanel_ManualRecord" xml:space="preserve">
+    <value>Manual Record</value>
+  </data>
+  <data name="DeviceLayoutPanel_DeviceResolution" xml:space="preserve">
+    <value>Device Resolution</value>
+  </data>
+  <data name="SetupDevice_SearchDevicesFound" xml:space="preserve">
+    <value>Devices Found</value>
+  </data>
+  <data name="ManualRecord_Button" xml:space="preserve">
+    <value>Manual Record All</value>
+  </data>
+  <data name="SetupGeneral_ManualRecordDuration" xml:space="preserve">
+    <value>Manual Recording Time</value>
+  </data>
+  <data name="Handler_Device" xml:space="preserve">
+    <value>Device</value>
+  </data>
+  <data name="SetupDevice_AddedDevice" xml:space="preserve">
+    <value>Device List</value>
+  </data>
+  <data name="LiveStream_Title" xml:space="preserve">
+    <value>Live Stream</value>
+  </data>
+  <data name="SetupGeneral_LocalDisplay" xml:space="preserve">
+    <value>Local Display</value>
+  </data>
+  <data name="DevicePanel_FPS" xml:space="preserve">
+    <value>FPS</value>
+  </data>
+  <data name="Application_DevicePackChange" xml:space="preserve">
+    <value>Device Pack has been updated. Please sign in again.</value>
+  </data>
+  <data name="DevicePanel_LiveStream" xml:space="preserve">
+    <value>Live Stream</value>
+  </data>
+  <data name="App_Loading" xml:space="preserve">
+    <value>Loading</value>
+  </data>
+  <data name="Application_DevicePackVer" xml:space="preserve">
+    <value>Device Pack Version %1</value>
+  </data>
+  <data name="SetupGeneral_FullScreen" xml:space="preserve">
+    <value>Full Screen</value>
+  </data>
+  <data name="Menu_Fullscreen" xml:space="preserve">
+    <value>Full Screen</value>
+  </data>
+  <data name="Schedule_FullTime" xml:space="preserve">
+    <value>Full Time</value>
+  </data>
+  <data name="Schedule_FullTimeEventRecording" xml:space="preserve">
+    <value>Full Time Event Recording</value>
+  </data>
+  <data name="ExportVideoStatus_GetVideoStream" xml:space="preserve">
+    <value>Get Video Stream</value>
+  </data>
+  <data name="ExportVideoMsg_GetVideoStreamFailed" xml:space="preserve">
+    <value>Get Video Stream Failed</value>
+  </data>
+  <data name="HandlePanel_GotoPreset" xml:space="preserve">
+    <value>Goto Preset</value>
+  </data>
+  <data name="HandlePanel_UploadFTP" xml:space="preserve">
+    <value>FTP Upload</value>
+  </data>
+  <data name="Schedule_Fri" xml:space="preserve">
+    <value>Fri</value>
+  </data>
+  <data name="DevicePanel_Gain" xml:space="preserve">
+    <value>Gain</value>
+  </data>
+  <data name="DevicePanel_Gamma" xml:space="preserve">
+    <value>Gamma</value>
+  </data>
+  <data name="UserDefineGroupForm_SetToShared" xml:space="preserve">
+    <value>Set this View as a shared one, so everyone can find it under Shared.</value>
+  </data>
+  <data name="EventResultPanell_ID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="Control_ImageStitching" xml:space="preserve">
+    <value>Image Stitching</value>
+  </data>
+  <data name="Control_ImageStitchingIcon" xml:space="preserve">
+    <value>Image Stitching</value>
+  </data>
+  <data name="Control_DeviceGroup" xml:space="preserve">
+    <value>Group</value>
+  </data>
+  <data name="DevicePanel_ID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="DevicePanel_Hue" xml:space="preserve">
+    <value>Hue</value>
+  </data>
+  <data name="SetupDevice_AddDevice" xml:space="preserve">
+    <value>Add Device</value>
+  </data>
+  <data name="Schedule_Sun" xml:space="preserve">
+    <value>Sun</value>
+  </data>
+  <data name="DevicePermissionPanel_ID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="DevicePanel_HTTPPort" xml:space="preserve">
+    <value>HTTP Port</value>
+  </data>
+  <data name="Control_DeviceGroupIcon" xml:space="preserve">
+    <value>Group</value>
+  </data>
+  <data name="Common_Hide" xml:space="preserve">
+    <value>Hide</value>
+  </data>
+  <data name="Handler_ID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="HandlePanel_Setting" xml:space="preserve">
+    <value>Setting</value>
+  </data>
+  <data name="HandlePanel_Hotspot" xml:space="preserve">
+    <value>Hotspot</value>
+  </data>
+  <data name="DevicePanel_RecordingStream" xml:space="preserve">
+    <value>Recording Stream</value>
+  </data>
+  <data name="Menu_HideToolbar" xml:space="preserve">
+    <value>Hide Toolbar</value>
+  </data>
+  <data name="SetupDeviceGroup_SetGroupLayout" xml:space="preserve">
+    <value>Setting group layout</value>
+  </data>
+  <data name="Application_TimezoneChange" xml:space="preserve">
+    <value>Server Time Zone has been changed\nfrom "%1" to "%2".\nPlease sign out  and sign in again to update with the modification.</value>
+  </data>
+  <data name="DeviceLayoutPanel_Set" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="Application_ServerNoSupportMobile" xml:space="preserve">
+    <value>This server doesn’t support mobile mode.</value>
+  </data>
+  <data name="Menu_HidePanel" xml:space="preserve">
+    <value>Hide Panel</value>
+  </data>
+  <data name="SetupGeneral_HidePanel" xml:space="preserve">
+    <value>Hide Panel</value>
+  </data>
+  <data name="Menu_Setup" xml:space="preserve">
+    <value>Setup</value>
+  </data>
+  <data name="Application_ServerChange" xml:space="preserve">
+    <value>Server settings have been modified. Please sign in again.</value>
+  </data>
+  <data name="SetupDeviceGroup_AddedGroup" xml:space="preserve">
+    <value>Added group</value>
+  </data>
+  <data name="DevicePanel_Sharpness" xml:space="preserve">
+    <value>Sharpness</value>
+  </data>
+  <data name="Menu_ShowPanel" xml:space="preserve">
+    <value>Show Panel</value>
+  </data>
+  <data name="Loading_Server" xml:space="preserve">
+    <value>Server</value>
+  </data>
+  <data name="GroupPanel_NumGroup" xml:space="preserve">
+    <value>(%1 Group)</value>
+  </data>
+  <data name="GroupPanel_NumGroups" xml:space="preserve">
+    <value>(%1 Groups)</value>
+  </data>
+  <data name="SetupSchedule_AddRecordingSchedule" xml:space="preserve">
+    <value>Add Recording Schedule</value>
+  </data>
+  <data name="FolderControl_NumViews" xml:space="preserve">
+    <value>(%1 Views)</value>
+  </data>
+  <data name="FolderControl_NumView" xml:space="preserve">
+    <value>(%1 View)</value>
+  </data>
+  <data name="EditNVRPanel_NumDevices" xml:space="preserve">
+    <value>%1 Devices</value>
+  </data>
+  <data name="SetupNVR_SearchNVRsFound" xml:space="preserve">
+    <value>%1 NVRs Found</value>
+  </data>
+  <data name="SetupNVR_NVRSelected" xml:space="preserve">
+    <value>%1 NVR Selected</value>
+  </data>
+  <data name="Schedule_Thu" xml:space="preserve">
+    <value>Thu</value>
+  </data>
+  <data name="SetupNVR_SearchNVRFound" xml:space="preserve">
+    <value>%1 NVR Found</value>
+  </data>
+  <data name="SetupDevice_DevicesSelected" xml:space="preserve">
+    <value>%1 Devices Selected</value>
+  </data>
+  <data name="GroupPanel_NumDevice" xml:space="preserve">
+    <value>(%1 Device)</value>
+  </data>
+  <data name="Handler_To" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="Menu_512K" xml:space="preserve">
+    <value>512Kbps</value>
+  </data>
+  <data name="DevicePanel_SensorMode" xml:space="preserve">
+    <value>Sensor Mode</value>
+  </data>
+  <data name="GroupPanel_NumDevices" xml:space="preserve">
+    <value>(%1 Devices)</value>
+  </data>
+  <data name="Handler_Repetition" xml:space="preserve">
+    <value>Times</value>
+  </data>
+  <data name="SetupNVR_NVRsSelected" xml:space="preserve">
+    <value>%1 NVRs Selected</value>
+  </data>
+  <data name="DevicePanel_ResolutionRegionConfigCanNotSupportSnapshot" xml:space="preserve">
+    <value>(Does not support snapshot)</value>
+  </data>
+  <data name="SetupDevice_AddNewDevice" xml:space="preserve">
+    <value>Add Device Manually</value>
+  </data>
+  <data name="Menu_256K" xml:space="preserve">
+    <value>256Kbps</value>
+  </data>
+  <data name="HandlePanel_SendMail" xml:space="preserve">
+    <value>Send Mail</value>
+  </data>
+  <data name="DevicePanel_StreamPort" xml:space="preserve">
+    <value>Stream Port</value>
+  </data>
+  <data name="NVR_Stream" xml:space="preserve">
+    <value>Stream</value>
+  </data>
+  <data name="Menu_1M" xml:space="preserve">
+    <value>1Mbps</value>
+  </data>
+  <data name="SetupDevice_SearchDevice" xml:space="preserve">
+    <value>Add Device by Auto Search</value>
+  </data>
+  <data name="Handler_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Menu_About" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="Menu_56K" xml:space="preserve">
+    <value>56Kbps</value>
+  </data>
+  <data name="DevicePanel_Account" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="SetupTitle_Search" xml:space="preserve">
+    <value>Search Device</value>
+  </data>
+  <data name="SetupTitle_SearchEvent" xml:space="preserve">
+    <value>Search Event</value>
+  </data>
+  <data name="LoginForm_SignOutTimeoutSSL" xml:space="preserve">
+    <value>Sign-out timeout. Please check if firewall setting and SSL port are correct.</value>
+  </data>
+  <data name="Snapshot_Button" xml:space="preserve">
+    <value>Take All Snapshots</value>
+  </data>
+  <data name="LoginForm_SIS" xml:space="preserve">
+    <value>SIS</value>
+  </data>
+  <data name="LoginForm_SignOutTimeout" xml:space="preserve">
+    <value>Sign-out timeout. Please check firewall setting.</value>
+  </data>
+  <data name="LoginForm_SignOutFailedAuthFailure" xml:space="preserve">
+    <value>Sign-out failure. Please confirm account and password validity.</value>
+  </data>
+  <data name="SetupDeviceGroup_AddNewGroup" xml:space="preserve">
+    <value>Add new group...</value>
+  </data>
+  <data name="DevicePanel_InUse" xml:space="preserve">
+    <value>(In use)</value>
+  </data>
+  <data name="Handler_Snapshot" xml:space="preserve">
+    <value>Snapshot</value>
+  </data>
+  <data name="LoginForm_SignOutFailedPortOccupation" xml:space="preserve">
+    <value>Sign-out failure. Please verify if port %1 is already used by another application.</value>
+  </data>
+  <data name="LoginForm_SignOutFailed" xml:space="preserve">
+    <value>Sign-out failure</value>
+  </data>
+  <data name="SetupGeneral_StartupOptions" xml:space="preserve">
+    <value>Startup Options</value>
+  </data>
+  <data name="Application_BackupFileAlreadyExists" xml:space="preserve">
+    <value>The "%1" already exists.\n Please confirm to continue.</value>
+  </data>
+  <data name="Event_TemperingDetection" xml:space="preserve">
+    <value>Tempering Detection</value>
+  </data>
+  <data name="DevicePanel_VideoStream" xml:space="preserve">
+    <value>Video Stream Profile</value>
+  </data>
+  <data name="VideoControl_ForRecording" xml:space="preserve">
+    <value>(Recording Stream Profile)</value>
+  </data>
+  <data name="ExportVideo_AddDeviceBeforeExport" xml:space="preserve">
+    <value>Select a device before exporting video.</value>
+  </data>
+  <data name="AmountOfVideoMonitorForm_AmountOfMonitor" xml:space="preserve">
+    <value>Amount of monitor</value>
+  </data>
+  <data name="EditNVRPanel_NumDevice" xml:space="preserve">
+    <value>%1 Device</value>
+  </data>
+  <data name="DevicePanel_Saturation" xml:space="preserve">
+    <value>Saturation</value>
+  </data>
+  <data name="SetupGeneral_BandwidthControlSetting" xml:space="preserve">
+    <value>Bandwidth Control Setting</value>
+  </data>
+  <data name="DevicePanel_VideoStreamID" xml:space="preserve">
+    <value>Video Stream Profile %1</value>
+  </data>
+  <data name="DevicePanel_Resolution" xml:space="preserve">
+    <value>Resolution</value>
+  </data>
+  <data name="DevicePanel_Brand" xml:space="preserve">
+    <value>Brand</value>
+  </data>
+  <data name="SetupGeneral_VideoTitleBar" xml:space="preserve">
+    <value>Video Title Bar</value>
+  </data>
+  <data name="DevicePanel_VideoInPort" xml:space="preserve">
+    <value>Video-In Port</value>
+  </data>
+  <data name="DevicePanel_Brightness" xml:space="preserve">
+    <value>Brightness</value>
+  </data>
+  <data name="Schedule_CustomSchedule" xml:space="preserve">
+    <value>User-defined Schedule</value>
+  </data>
+  <data name="ExportVideo_OverlayOSD" xml:space="preserve">
+    <value>Video OSD</value>
+  </data>
+  <data name="EventResultPanel_Device" xml:space="preserve">
+    <value>Device</value>
+  </data>
+  <data name="DevicePanel_VideoRecording" xml:space="preserve">
+    <value>Video Recording</value>
+  </data>
+  <data name="DevicePanel_RTSPPort" xml:space="preserve">
+    <value>RTSP Port</value>
+  </data>
+  <data name="Application_VideoAnalyticsServer" xml:space="preserve">
+    <value>Video Analytics Server</value>
+  </data>
+  <data name="VideoMonitor_VideoMonitor" xml:space="preserve">
+    <value>Video Monitor</value>
+  </data>
+  <data name="SetupGeneral_GroupView" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="SetupGeneral_ViewTour" xml:space="preserve">
+    <value>View Patrol</value>
+  </data>
+  <data name="NVR_Bandwidth" xml:space="preserve">
+    <value>Bandwidth</value>
+  </data>
+  <data name="SetupGeneral_TotalBitrate" xml:space="preserve">
+    <value>Bandwidth</value>
+  </data>
+  <data name="HandlePanel_Beep" xml:space="preserve">
+    <value>Beep</value>
+  </data>
+  <data name="Schedule_Sat" xml:space="preserve">
+    <value>Sat</value>
+  </data>
+  <data name="DevicePanel_Bitrate" xml:space="preserve">
+    <value>Bitrate</value>
+  </data>
+  <data name="DeviceLayoutPanel_Y" xml:space="preserve">
+    <value>Y</value>
+  </data>
+  <data name="SaveImage_Button" xml:space="preserve">
+    <value>Save All Images</value>
+  </data>
+  <data name="VideoMonitor_NoPermissionToDelete" xml:space="preserve">
+    <value>You do not have permission to delete any shared view.</value>
+  </data>
+  <data name="DeviceLayoutPanel_X" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="PrintImage_NoPermissionToPrint" xml:space="preserve">
+    <value>You do not have permission to print the following device images.</value>
+  </data>
+  <data name="ExportVideoStatus_WriteVideo" xml:space="preserve">
+    <value>Write Video</value>
+  </data>
+  <data name="ExportVideo_Start" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="SetupTitle_Refresh" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="Schedule_Wed" xml:space="preserve">
+    <value>Wed</value>
+  </data>
+  <data name="SetupDevice_SearchResult" xml:space="preserve">
+    <value>Search Result:</value>
+  </data>
+  <data name="ExportVideo_Audio" xml:space="preserve">
+    <value>Audio</value>
+  </data>
+  <data name="HandlePanel_TriggerDO" xml:space="preserve">
+    <value>Trigger DO</value>
+  </data>
+  <data name="Event_AudioDetection" xml:space="preserve">
+    <value>Audio Detection</value>
+  </data>
+  <data name="Schedule_Tue" xml:space="preserve">
+    <value>Tue</value>
+  </data>
+  <data name="DevicePanel_TVStandard" xml:space="preserve">
+    <value>TV Standard</value>
+  </data>
+  <data name="SetupNVR_SearchNVR" xml:space="preserve">
+    <value>Search NVR</value>
+  </data>
+  <data name="Control_Schedule" xml:space="preserve">
+    <value>Schedule</value>
+  </data>
+  <data name="ExportVideoStatus_UnmountUSBDevice" xml:space="preserve">
+    <value>Unmount USB Device</value>
+  </data>
+  <data name="DevicePanel_AspectRatioCorrection" xml:space="preserve">
+    <value>Aspect Ratio Correction</value>
+  </data>
+  <data name="DevicePanel_RemoteRecovery" xml:space="preserve">
+    <value>Seamless Edge Recording</value>
+  </data>
+  <data name="VideoWindowTitleBarPanel_BackgroundColor" xml:space="preserve">
+    <value>Background Color</value>
+  </data>
+  <data name="ExportVideoMsg_USBDeviceUnplugged" xml:space="preserve">
+    <value>USB Device Unplugged</value>
+  </data>
+  <data name="ExportVideoStatus_TranscodeVideo" xml:space="preserve">
+    <value>Transcode Video</value>
+  </data>
+  <data name="SetupDevice_SearchingDevices" xml:space="preserve">
+    <value>Searching Devices</value>
+  </data>
+  <data name="Application_ServerVersionRequire" xml:space="preserve">
+    <value>"%1" server version is %2, requires server version %3.</value>
+  </data>
+  <data name="DevicePanel_Authentication" xml:space="preserve">
+    <value>Authentication</value>
+  </data>
+  <data name="SaveResult_Button" xml:space="preserve">
+    <value>Save Result</value>
+  </data>
+  <data name="DevicePanel_AspectRatio" xml:space="preserve">
+    <value>Aspect Ratio</value>
+  </data>
+  <data name="SetupGeneral_AutoLockApplicationTimer" xml:space="preserve">
+    <value>Auto Lock Application Timer</value>
+  </data>
+  <data name="Loading_User" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="DevicePanel_BacklightCompensation" xml:space="preserve">
+    <value>Backlight Compensation</value>
+  </data>
+  <data name="ExportVideo_AudioOut" xml:space="preserve">
+    <value>Audio-Out</value>
+  </data>
+  <data name="DevicePanel_SuccessorHasHigherPriority" xml:space="preserve">
+    <value>Successor</value>
+  </data>
+  <data name="DevicePanel_AudioInPort" xml:space="preserve">
+    <value>Audio-In Port</value>
+  </data>
+  <data name="ExportVideo_AudioIn" xml:space="preserve">
+    <value>Audio-In</value>
+  </data>
+  <data name="DevicePanel_AudioOutPort" xml:space="preserve">
+    <value>Audio-Out Port</value>
+  </data>
+  <data name="DeviceView_SaveView" xml:space="preserve">
+    <value>Save View</value>
+  </data>
+  <data name="SetupTitle_UpdateDevicePack" xml:space="preserve">
+    <value>Update Device Pack</value>
+  </data>
+  <data name="DevicePermissionPanel_AudioIn" xml:space="preserve">
+    <value>Audio-In</value>
+  </data>
+  <data name="DevicePermissionPanel_AudioOut" xml:space="preserve">
+    <value>Audio-Out</value>
+  </data>
+  <data name="POSException_NoExceptionFound" xml:space="preserve">
+    <value> : Not Found</value>
+  </data>
+  <data name="POSException_NoTransactionFound" xml:space="preserve">
+    <value> : No Transaction Found</value>
+  </data>
+  <data name="Application_ServerIsNotPTS" xml:space="preserve">
+    <value>"%1" is not PTS</value>
+  </data>
+  <data name="LoginForm_LoginLog" xml:space="preserve">
+    <value>%1 Login From %2/%3</value>
+  </data>
+  <data name="LoginForm_LogoutLog" xml:space="preserve">
+    <value>%1 Logout</value>
+  </data>
+  <data name="POSException_PageQuantity" xml:space="preserve">
+    <value>%1 of %2</value>
+  </data>
+  <data name="VideoMonitor_PageQuantity" xml:space="preserve">
+    <value>%1 of %2</value>
+  </data>
+  <data name="DeviceLayoutPanel_Panorama" xml:space="preserve">
+    <value>(%1 Panorama)</value>
+  </data>
+  <data name="ConnectionPanel_NumPOS" xml:space="preserve">
+    <value>(%1 POS)</value>
+  </data>
+  <data name="Common_UsedSeconds" xml:space="preserve">
+    <value>(%1 seconds)</value>
+  </data>
+  <data name="UserGroupPanel_NumUser" xml:space="preserve">
+    <value>(%1 User)</value>
+  </data>
+  <data name="UserGroupPanel_NumUsers" xml:space="preserve">
+    <value>(%1 Users)</value>
+  </data>
+  <data name="Application_64Bit" xml:space="preserve">
+    <value>(64 Bit)</value>
+  </data>
+  <data name="LoginForm_ForgetMe" xml:space="preserve">
+    <value>(Forget me)</value>
+  </data>
+  <data name="ExceptionResultPanel_POSDeleted" xml:space="preserve">
+    <value>(POS Deleted)</value>
+  </data>
+  <data name="POSException_SearchExceptionFound" xml:space="preserve">
+    <value>: %1 Exception</value>
+  </data>
+  <data name="POSException_SearchExceptionsFound" xml:space="preserve">
+    <value>: %1 Exceptions</value>
+  </data>
+  <data name="POSException_SearchTransactionFound" xml:space="preserve">
+    <value>: %1 Transaction</value>
+  </data>
+  <data name="POSException_SearchTransactionsFound" xml:space="preserve">
+    <value>: %1 Transactions</value>
+  </data>
+  <data name="Application_TotalBitrate" xml:space="preserve">
+    <value>[ Total bitrate usage: %1 ]</value>
+  </data>
+  <data name="POSConnection_AcceptPort" xml:space="preserve">
+    <value>Accept Port</value>
+  </data>
+  <data name="EditPOSConnectionPanel_AcceptPortCantEmpty" xml:space="preserve">
+    <value>Accept port can't be empty.</value>
+  </data>
+  <data name="EditPOSConnectionPanel_AcceptPortCantTheSame" xml:space="preserve">
+    <value>Accept port can't be the same. %1 is used by %2.</value>
+  </data>
+  <data name="EditPOSConnectionPanel_AcceptPortOutOfRange" xml:space="preserve">
+    <value>Accept port value must be 1 - 65535.</value>
+  </data>
+  <data name="FtpServer_Account" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="POSConnection_Account" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="LoginForm_Account" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="NVR_Account" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="MailServer_Account" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="Database_Account" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="LoginForm_SignInFailedNoAccount" xml:space="preserve">
+    <value>Account can't be empty.</value>
+  </data>
+  <data name="PointPanel_Add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="TimeTrack_AddBookmark" xml:space="preserve">
+    <value>Add Bookmark</value>
+  </data>
+  <data name="SetupDeviceLayout_AddNewDeviceLayout" xml:space="preserve">
+    <value>Add new device layout...</value>
+  </data>
+  <data name="SetupEvent_AddNewExceptionReport" xml:space="preserve">
+    <value>Add new exception report...</value>
+  </data>
+  <data name="SetupException_AddNewException" xml:space="preserve">
+    <value>Add new Exception...</value>
+  </data>
+  <data name="SetupNVR_AddNewNVR" xml:space="preserve">
+    <value>Add new NVR...</value>
+  </data>
+  <data name="SetupPOSConnection_AddNewPOSConnection" xml:space="preserve">
+    <value>Add new POS Connection...</value>
+  </data>
+  <data name="SetupPOS_AddNewPOS" xml:space="preserve">
+    <value>Add new POS...</value>
+  </data>
+  <data name="SetupSchedule_AddNewScheduleReport" xml:space="preserve">
+    <value>Add new schedule report...</value>
+  </data>
+  <data name="PTSReports_AddNewTemplate" xml:space="preserve">
+    <value>Add new template...</value>
+  </data>
+  <data name="SetupUser_AddNewUser" xml:space="preserve">
+    <value>Add new user...</value>
+  </data>
+  <data name="DownloadCase_AddedToQueue" xml:space="preserve">
+    <value>Add to queue</value>
+  </data>
+  <data name="SetupDeviceLayout_AddedDeviceLayout" xml:space="preserve">
+    <value>Added device layout</value>
+  </data>
+  <data name="SetupException_AddedException" xml:space="preserve">
+    <value>Added Exception</value>
+  </data>
+  <data name="SetupEvent_AddedEventReport" xml:space="preserve">
+    <value>Added exception report</value>
+  </data>
+  <data name="SetupNVR_AddedNVR" xml:space="preserve">
+    <value>Added NVR</value>
+  </data>
+  <data name="SetupPOS_AddedPOS" xml:space="preserve">
+    <value>Added POS</value>
+  </data>
+  <data name="SetupPOSConnection_AddedPOSConnection" xml:space="preserve">
+    <value>Added POS Connection</value>
+  </data>
+  <data name="PTSReports_AddedTemplate" xml:space="preserve">
+    <value>Added template</value>
+  </data>
+  <data name="UserGroup_Administrator" xml:space="preserve">
+    <value>Administrator</value>
+  </data>
+  <data name="Control_AdvancedSearchIcon" xml:space="preserve">
+    <value>Advanced Search</value>
+  </data>
+  <data name="Control_AdvancedSearch" xml:space="preserve">
+    <value>Advanced Search</value>
+  </data>
+  <data name="POSException_All" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="Data_AllDevices" xml:space="preserve">
+    <value>All Devices</value>
+  </data>
+  <data name="PTSReports_AllException" xml:space="preserve">
+    <value>All Exception</value>
+  </data>
+  <data name="SetupLog_AllLog" xml:space="preserve">
+    <value>All log</value>
+  </data>
+  <data name="PTSReports_AllPOS" xml:space="preserve">
+    <value>All POS</value>
+  </data>
+  <data name="PTSReports_AllTag" xml:space="preserve">
+    <value>All Tag</value>
+  </data>
+  <data name="ExceptionResultPanel_Amount" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="PTSReports_Amount" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="Menu_Application" xml:space="preserve">
+    <value>Application</value>
+  </data>
+  <data name="EditGroupPanel_ApplicationPermission" xml:space="preserve">
+    <value>Application Permission</value>
+  </data>
+  <data name="SaveReport_ApplyComment" xml:space="preserve">
+    <value>Apply Comment</value>
+  </data>
+  <data name="Common_April" xml:space="preserve">
+    <value>April</value>
+  </data>
+  <data name="TimeTrack_DeleteBookmarkConfirm" xml:space="preserve">
+    <value>Are you sure you want to delete ALL selected device's bookmarks?</value>
+  </data>
+  <data name="Application_ConfirmLockApp" xml:space="preserve">
+    <value>Are you sure you want to lock application?</value>
+  </data>
+  <data name="DeviceTree_PatrolConfirm" xml:space="preserve">
+    <value>Are you sure you want to patrol device?</value>
+  </data>
+  <data name="Application_ConfirmSignOut" xml:space="preserve">
+    <value>Are you sure you want to sign out?</value>
+  </data>
+  <data name="HandlePanel_Audio" xml:space="preserve">
+    <value>Audio</value>
+  </data>
+  <data name="Menu_AudioIn" xml:space="preserve">
+    <value>Audio In</value>
+  </data>
+  <data name="Menu_AudioOut" xml:space="preserve">
+    <value>Audio Out</value>
+  </data>
+  <data name="Common_August" xml:space="preserve">
+    <value>August</value>
+  </data>
+  <data name="Menu_AutoDropFrame" xml:space="preserve">
+    <value>Auto Drop Frame</value>
+  </data>
+  <data name="AutoSwitchLiveVideoStream_AutoSwitch" xml:space="preserve">
+    <value>Auto switch</value>
+  </data>
+  <data name="AutoSwitchDecodeIFrame_AutoSwitch" xml:space="preserve">
+    <value>Auto switch</value>
+  </data>
+  <data name="SetupGeneral_AutoSwitchDecodeIFrame" xml:space="preserve">
+    <value>Auto switch decode I-frame</value>
+  </data>
+  <data name="SetupGeneral_AutoSwitchLiveVideoStream" xml:space="preserve">
+    <value>Auto switch live video stream</value>
+  </data>
+  <data name="Common_Back" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="SetupServer_Backup" xml:space="preserve">
+    <value>Backup</value>
+  </data>
+  <data name="Application_BackupFailure" xml:space="preserve">
+    <value>Backup failure</value>
+  </data>
+  <data name="Menu_Bandwidth" xml:space="preserve">
+    <value>Bandwidth</value>
+  </data>
+  <data name="VideoWindowTitleBarPanel_Bitrate" xml:space="preserve">
+    <value>Bitrate</value>
+  </data>
+  <data name="DevicePanel_BitrateControl" xml:space="preserve">
+    <value>Bitrate Control</value>
+  </data>
+  <data name="Broadcast_Button" xml:space="preserve">
+    <value>Broadcast</value>
+  </data>
+  <data name="PTSReports_Calculate" xml:space="preserve">
+    <value>Calculate</value>
+  </data>
+  <data name="Control_ReportCalendar" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="Control_ReportCalendarIcon" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="Control_EventCalendar" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="VideoWindowTitleBarPanel_CameraName" xml:space="preserve">
+    <value>Camera name</value>
+  </data>
+  <data name="LoginForm_SignInFailedConnectFailure" xml:space="preserve">
+    <value>Can not connect to server. Please confirm host and port is correct.</value>
+  </data>
+  <data name="LoginForm_SignInFailedCantCreateHttpWebRequest" xml:space="preserve">
+    <value>Can not create HttpWebRequest object.</value>
+  </data>
+  <data name="Common_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Application_RegistrationServerNotAvailable" xml:space="preserve">
+    <value>Can't connect to registration server. (Error code: 1)</value>
+  </data>
+  <data name="Application_CannotConnect" xml:space="preserve">
+    <value>Can't connect to the server. Please login again.</value>
+  </data>
+  <data name="DownloadCase_CantCopyFraudInvestigation" xml:space="preserve">
+    <value>Can't copy 'Fraud Investigation.exe'.</value>
+  </data>
+  <data name="Application_CantCreateFolder" xml:space="preserve">
+    <value>Can't create folder %1</value>
+  </data>
+  <data name="ExportVideo_CantExportDeviceLayout" xml:space="preserve">
+    <value>Can't export device layout video.</value>
+  </data>
+  <data name="Application_NetworkCardNotAvailable" xml:space="preserve">
+    <value>Can't find network card. (Error code: 5)</value>
+  </data>
+  <data name="SetupLicense_CheckLicenseFile" xml:space="preserve">
+    <value>Can't open license key file. Please check the license key file is correct.</value>
+  </data>
+  <data name="Application_LicenseFileCantUpdate" xml:space="preserve">
+    <value>Can't update license file. (Error code: 6)</value>
+  </data>
+  <data name="USBDisk_Capability" xml:space="preserve">
+    <value>Capability</value>
+  </data>
+  <data name="PTSReports_Cashier" xml:space="preserve">
+    <value>Cashier</value>
+  </data>
+  <data name="Control_ReportCashier" xml:space="preserve">
+    <value>Cashier</value>
+  </data>
+  <data name="ExceptionResultPanel_Cashier" xml:space="preserve">
+    <value>Cashier</value>
+  </data>
+  <data name="Control_ReportCashierIcon" xml:space="preserve">
+    <value>Cashier</value>
+  </data>
+  <data name="PTSReports_CashierId" xml:space="preserve">
+    <value>Cashier Id</value>
+  </data>
+  <data name="ExceptionResultPanel_CashierId" xml:space="preserve">
+    <value>Cashier Id</value>
+  </data>
+  <data name="VideoWindowTitleBarPanel_ChannelNumber" xml:space="preserve">
+    <value>Channel number</value>
+  </data>
+  <data name="PTSReports_Chart" xml:space="preserve">
+    <value>Chart</value>
+  </data>
+  <data name="TimeTrack_ClearBookmark" xml:space="preserve">
+    <value>Clear Bookmark</value>
+  </data>
+  <data name="SetupTitle_ClearConditional" xml:space="preserve">
+    <value>Clear conditional</value>
+  </data>
+  <data name="EventPanel_ClearEvent" xml:space="preserve">
+    <value>Clear event log</value>
+  </data>
+  <data name="TimeTrack_ClearSelectionRange" xml:space="preserve">
+    <value>Clear selection range</value>
+  </data>
+  <data name="POSException_ClearTransaction" xml:space="preserve">
+    <value>Clear transaction</value>
+  </data>
+  <data name="Common_Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="InstantPlayback_CloseAfterSec" xml:space="preserve">
+    <value>Close after %1</value>
+  </data>
+  <data name="DownloadCase_Comment" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="PTSReports_Comparison" xml:space="preserve">
+    <value>Comparison</value>
+  </data>
+  <data name="DownloadCase_Completed" xml:space="preserve">
+    <value>Completed</value>
+  </data>
+  <data name="VideoWindowTitleBarPanel_Compression" xml:space="preserve">
+    <value>Compression</value>
+  </data>
+  <data name="PTSReports_Conditional" xml:space="preserve">
+    <value>Conditional</value>
+  </data>
+  <data name="Application_ConfigChange" xml:space="preserve">
+    <value>Config setting has been restored. Please login again.</value>
+  </data>
+  <data name="MessageBox_Confirm" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="User_ConfirmPassword" xml:space="preserve">
+    <value>Confirm Password</value>
+  </data>
+  <data name="POSConnection_ConnectInfo" xml:space="preserve">
+    <value>Connect Info</value>
+  </data>
+  <data name="POSConnection_ConnectPort" xml:space="preserve">
+    <value>Connect Port</value>
+  </data>
+  <data name="EditPOSConnectionPanel_ConnectPortCantEmpty" xml:space="preserve">
+    <value>Connect port can't be empty.</value>
+  </data>
+  <data name="EditPOSConnectionPanel_ConnectPortCantTheSame" xml:space="preserve">
+    <value>Connect port can't be the same. %1 is used by %2.</value>
+  </data>
+  <data name="EditPOSConnectionPanel_ConnectPortOutOfRange" xml:space="preserve">
+    <value>Connect port value must be 1 - 65535.</value>
+  </data>
+  <data name="VideoWindow_Connected" xml:space="preserve">
+    <value>Connected</value>
+  </data>
+  <data name="VideoWindow_Connecting" xml:space="preserve">
+    <value>Connecting...</value>
+  </data>
+  <data name="Application_ConnectionTimeout" xml:space="preserve">
+    <value>Connection Timeout</value>
+  </data>
+  <data name="SetupExceptionReport_CopyExceptionReport" xml:space="preserve">
+    <value>Copy Exception Report</value>
+  </data>
+  <data name="SetupTitle_CopyExceptionReport" xml:space="preserve">
+    <value>Copy Exception Report</value>
+  </data>
+  <data name="SetupExceptionReport_CopyFrom" xml:space="preserve">
+    <value>Copy From</value>
+  </data>
+  <data name="PTSReports_Count" xml:space="preserve">
+    <value>Count</value>
+  </data>
+  <data name="SetupGeneral_CPULoadingUpperBoundary" xml:space="preserve">
+    <value>CPU loading upper boundary</value>
+  </data>
+  <data name="SetupGeneral_CPULoadingUpperBoundaryValue" xml:space="preserve">
+    <value>CPU loading upper boundary should between %1% to %2%</value>
+  </data>
+  <data name="Application_CPUUsage" xml:space="preserve">
+    <value>CPU Usage</value>
+  </data>
+  <data name="DeviceLayoutPanel_Crop" xml:space="preserve">
+    <value>Crop</value>
+  </data>
+  <data name="Application_UserChange" xml:space="preserve">
+    <value>Current login acount has been modified. Please login again.</value>
+  </data>
+  <data name="PTSReports_Custom" xml:space="preserve">
+    <value>Custom</value>
+  </data>
+  <data name="SetupGeneral_Custom" xml:space="preserve">
+    <value>Custom</value>
+  </data>
+  <data name="SetupGeneral_CustomPlaybackSetting" xml:space="preserve">
+    <value>Custom playback setting</value>
+  </data>
+  <data name="PTSReports_Daily" xml:space="preserve">
+    <value>Daily</value>
+  </data>
+  <data name="Control_DailyException" xml:space="preserve">
+    <value>Daily Exception</value>
+  </data>
+  <data name="ScheduleReportPanel_Daily" xml:space="preserve">
+    <value>Daily Report</value>
+  </data>
+  <data name="SetupServer_DB" xml:space="preserve">
+    <value>Database</value>
+  </data>
+  <data name="SetupServer_Database" xml:space="preserve">
+    <value>Database</value>
+  </data>
+  <data name="VideoWindowTitleBarPanel_DateTime" xml:space="preserve">
+    <value>Date &amp; Time</value>
+  </data>
+  <data name="ExceptionResultPanel_DateTime" xml:space="preserve">
+    <value>Date / Time</value>
+  </data>
+  <data name="PTSReports_DateTime" xml:space="preserve">
+    <value>Date / Time</value>
+  </data>
+  <data name="Common_December" xml:space="preserve">
+    <value>December</value>
+  </data>
+  <data name="Menu_DecodeI-frame" xml:space="preserve">
+    <value>Decode I-frame</value>
+  </data>
+  <data name="TimeTrack_DecreaseTimeScale" xml:space="preserve">
+    <value>Decrease time scale</value>
+  </data>
+  <data name="DownloadCaseQueue_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="PointPanel_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="SetupException_DeleteException" xml:space="preserve">
+    <value>Delete Exception</value>
+  </data>
+  <data name="SetupExceptionReport_DeleteExceptionReport" xml:space="preserve">
+    <value>Delete Exception Report</value>
+  </data>
+  <data name="SetupDeviceLayout_DeletePanorama" xml:space="preserve">
+    <value>Delete Panorama</value>
+  </data>
+  <data name="SetupPOS_DeletePOS" xml:space="preserve">
+    <value>Delete POS</value>
+  </data>
+  <data name="SetupPOSConnection_DeletePOSConnection" xml:space="preserve">
+    <value>Delete POS Connection</value>
+  </data>
+  <data name="SetupScheduleReport_DeleteScheduleReport" xml:space="preserve">
+    <value>Delete Schedule Report</value>
+  </data>
+  <data name="DownloadCaseQueue_DeleteSelectedItem" xml:space="preserve">
+    <value>Delete selected item</value>
+  </data>
+  <data name="PTSReports_DeleteTemplate" xml:space="preserve">
+    <value>Delete Template</value>
+  </data>
+  <data name="SetupUser_DeleteDevice" xml:space="preserve">
+    <value>Delete User</value>
+  </data>
+  <data name="LicensePanel_Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="SetupLog_Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="PTSReports_Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="SetupGeneral_Desktop" xml:space="preserve">
+    <value>Desktop</value>
+  </data>
+  <data name="PTSReports_Detail" xml:space="preserve">
+    <value>Detail</value>
+  </data>
+  <data name="Control_ReportDeviation" xml:space="preserve">
+    <value>Deviation</value>
+  </data>
+  <data name="Control_ReportDeviationIcon" xml:space="preserve">
+    <value>Deviation</value>
+  </data>
+  <data name="Control_Device" xml:space="preserve">
+    <value>Device</value>
+  </data>
+  <data name="DeviceLayoutPanel_Device" xml:space="preserve">
+    <value>Device</value>
+  </data>
+  <data name="Control_DeviceIcon" xml:space="preserve">
+    <value>Device</value>
+  </data>
+  <data name="Control_DeviceLayout" xml:space="preserve">
+    <value>Device Layout</value>
+  </data>
+  <data name="EditUserPanel_DevicePermission" xml:space="preserve">
+    <value>Device Permission</value>
+  </data>
+  <data name="NVR_DeviceQuantity" xml:space="preserve">
+    <value>Devices Quantity</value>
+  </data>
+  <data name="PTSReports_Difference" xml:space="preserve">
+    <value>Difference</value>
+  </data>
+  <data name="Event_DigitalInput" xml:space="preserve">
+    <value>Digital Input</value>
+  </data>
+  <data name="Event_DigitalInputIDOff" xml:space="preserve">
+    <value>Digital Input %1 Off</value>
+  </data>
+  <data name="Event_DigitalInputIDOn" xml:space="preserve">
+    <value>Digital Input %1 On</value>
+  </data>
+  <data name="Event_DigitalOutput" xml:space="preserve">
+    <value>Digital Output</value>
+  </data>
+  <data name="Event_DigitalOutputIDOff" xml:space="preserve">
+    <value>Digital Output %1 Off</value>
+  </data>
+  <data name="Event_DigitalOutputIDOn" xml:space="preserve">
+    <value>Digital Output %1 On</value>
+  </data>
+  <data name="Menu_DigitalOutput1" xml:space="preserve">
+    <value>Digital Output 1</value>
+  </data>
+  <data name="Menu_DigitalOutput2" xml:space="preserve">
+    <value>Digital Output 2</value>
+  </data>
+  <data name="Menu_DigitalOutput3" xml:space="preserve">
+    <value>Digital Output 3</value>
+  </data>
+  <data name="Menu_DigitalOutput4" xml:space="preserve">
+    <value>Digital Output 4</value>
+  </data>
+  <data name="Menu_DigitalOutput5" xml:space="preserve">
+    <value>Digital Output 5</value>
+  </data>
+  <data name="Menu_DigitalOutput6" xml:space="preserve">
+    <value>Digital Output 6</value>
+  </data>
+  <data name="Menu_DigitalOutput7" xml:space="preserve">
+    <value>Digital Output 7</value>
+  </data>
+  <data name="Menu_DigitalOutput8" xml:space="preserve">
+    <value>Digital Output 8</value>
+  </data>
+  <data name="DeviceTree_DisableDevicePatrol" xml:space="preserve">
+    <value>Disable device patrol (Interval %1 secs)</value>
+  </data>
+  <data name="Menu_Disconnect" xml:space="preserve">
+    <value>Disconnect</value>
+  </data>
+  <data name="Menu_DisconnectAll" xml:space="preserve">
+    <value>Disconnect All</value>
+  </data>
+  <data name="VideoWindow_Disconnecting" xml:space="preserve">
+    <value>Disconnecting...</value>
+  </data>
+  <data name="SetupGeneral_Display" xml:space="preserve">
+    <value>Display</value>
+  </data>
+  <data name="SetupGeneral_DisplayDeviceId" xml:space="preserve">
+    <value>Display device ID</value>
+  </data>
+  <data name="SetupLog_DisplaySystemLog" xml:space="preserve">
+    <value>Display system log</value>
+  </data>
+  <data name="SetupLog_DisplayUserLog" xml:space="preserve">
+    <value>Display user operation log</value>
+  </data>
+  <data name="SetupServer_DoNotSetPortToBeEqual" xml:space="preserve">
+    <value>Do not set "Server port" and "Database port" to be equal</value>
+  </data>
+  <data name="SetupServer_DoNotSetSSLPortToBeEqual" xml:space="preserve">
+    <value>Do not set "Server port" and "Server SSL port" to be equal</value>
+  </data>
+  <data name="SetupServer_DoNotSetPortToBeEqual2" xml:space="preserve">
+    <value>Do not set "Server SSL port" and "Database port" to be equal</value>
+  </data>
+  <data name="Undo_Warning" xml:space="preserve">
+    <value>Do you want to undo all settings you changed?</value>
+  </data>
+  <data name="NVR_Domain" xml:space="preserve">
+    <value>Domain</value>
+  </data>
+  <data name="Database_Domain" xml:space="preserve">
+    <value>Domain</value>
+  </data>
+  <data name="SetupServer_RestoreLicenseWarning" xml:space="preserve">
+    <value>Don’t restore this license to a different NVR Server. Improper license restoration will make the NVR Server registration fail.</value>
+  </data>
+  <data name="Common_Done" xml:space="preserve">
+    <value>Done</value>
+  </data>
+  <data name="PTZPanel_MoveDown" xml:space="preserve">
+    <value>Down</value>
+  </data>
+  <data name="PTZPanel_MoveDownLeft" xml:space="preserve">
+    <value>Down-Left</value>
+  </data>
+  <data name="DownloadCase_Download" xml:space="preserve">
+    <value>Download</value>
+  </data>
+  <data name="DownloadCase_Downloading" xml:space="preserve">
+    <value>Downloading</value>
+  </data>
+  <data name="PTZPanel_MoveDownRight" xml:space="preserve">
+    <value>Down-Right</value>
+  </data>
+  <data name="VideoWindowTitleBarPanel_DragNote" xml:space="preserve">
+    <value>Drag to order display. (From left to right)</value>
+  </data>
+  <data name="PointPanel_Duration" xml:space="preserve">
+    <value>Duration (Sec)</value>
+  </data>
+  <data name="SetupTitle_EditSetup" xml:space="preserve">
+    <value>Edit Setup</value>
+  </data>
+  <data name="PTSReports_EditTemplate" xml:space="preserve">
+    <value>Edit Template</value>
+  </data>
+  <data name="User_Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="MailServer_EmailAddress" xml:space="preserve">
+    <value>Email address</value>
+  </data>
+  <data name="PTSReports_EmployeesProductivityLossTracking" xml:space="preserve">
+    <value>Employees Productivity Loss Tracking</value>
+  </data>
+  <data name="EditNVRPanel_Enable" xml:space="preserve">
+    <value>Enable</value>
+  </data>
+  <data name="SetupDevice_Enable" xml:space="preserve">
+    <value>Enable</value>
+  </data>
+  <data name="DeviceTree_EnableDevicePatrol" xml:space="preserve">
+    <value>Enable device patrol (Interval %1 secs)</value>
+  </data>
+  <data name="SetupJoystick_EnableJoystick" xml:space="preserve">
+    <value>Enable Joystick</value>
+  </data>
+  <data name="DownloadCaseQueue_EnableScheduleDownload" xml:space="preserve">
+    <value>Enable schedule export</value>
+  </data>
+  <data name="SetupGeneral_Enabled" xml:space="preserve">
+    <value>Enabled</value>
+  </data>
+  <data name="SetupJoystick_Enabled" xml:space="preserve">
+    <value>Enabled</value>
+  </data>
+  <data name="POSException_End" xml:space="preserve">
+    <value>End</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="DownloadCase_WriteComment" xml:space="preserve">
+    <value>Enter Comment Here.</value>
+  </data>
+  <data name="SaveReport_WriteComment" xml:space="preserve">
+    <value>Enter Comment Here.</value>
+  </data>
+  <data name="UnlockAppForm_EnterPassword" xml:space="preserve">
+    <value>Enter the "%1" password to unlock application</value>
+  </data>
+  <data name="PTSReports_Equation" xml:space="preserve">
+    <value>Equation</value>
+  </data>
+  <data name="MessageBox_Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="SetupLicense_EthernetCard" xml:space="preserve">
+    <value>Ethernet Card</value>
+  </data>
+  <data name="Control_EventIcon" xml:space="preserve">
+    <value>Event</value>
+  </data>
+  <data name="Control_Event" xml:space="preserve">
+    <value>Event</value>
+  </data>
+  <data name="Page_Event" xml:space="preserve">
+    <value>Event</value>
+  </data>
+  <data name="Control_EventSearch" xml:space="preserve">
+    <value>Event Search</value>
+  </data>
+  <data name="SetupLog_ExcelFile" xml:space="preserve">
+    <value>Excel file</value>
+  </data>
+  <data name="ScheduleReportPanel_Exception" xml:space="preserve">
+    <value>Exception</value>
+  </data>
+  <data name="PTSReports_Exception" xml:space="preserve">
+    <value>Exception</value>
+  </data>
+  <data name="Control_Exception" xml:space="preserve">
+    <value>Exception</value>
+  </data>
+  <data name="POS_Exception" xml:space="preserve">
+    <value>Exception</value>
+  </data>
+  <data name="ExceptionResultPanel_Exception" xml:space="preserve">
+    <value>Exception</value>
+  </data>
+  <data name="ExceptionReportPanel_Exception" xml:space="preserve">
+    <value>Exception</value>
+  </data>
+  <data name="Control_ExceptionIcon" xml:space="preserve">
+    <value>Exception</value>
+  </data>
+  <data name="POSException_ExceptionAndKeyword" xml:space="preserve">
+    <value>Exception / Keyword</value>
+  </data>
+  <data name="PTSReports_ExceptionAmount" xml:space="preserve">
+    <value>Exception Amount</value>
+  </data>
+  <data name="ExceptionResultPanel_ExceptionAmount" xml:space="preserve">
+    <value>Exception Amount</value>
+  </data>
+  <data name="POS_ExceptionColor" xml:space="preserve">
+    <value>Exception Color</value>
+  </data>
+  <data name="Control_ReportExceptionPercentageIcon" xml:space="preserve">
+    <value>Exception Percentage</value>
+  </data>
+  <data name="Control_ReportExceptionPercentage" xml:space="preserve">
+    <value>Exception Percentage</value>
+  </data>
+  <data name="SetupExceptionReport_ExceptionReport" xml:space="preserve">
+    <value>Exception Report</value>
+  </data>
+  <data name="Control_ExceptionReport" xml:space="preserve">
+    <value>Exception Report</value>
+  </data>
+  <data name="Control_ExceptionReportIcon" xml:space="preserve">
+    <value>Exception Report</value>
+  </data>
+  <data name="POS_ExceptionReport" xml:space="preserve">
+    <value>Exception Report</value>
+  </data>
+  <data name="PTSReports_ExceptionReport" xml:space="preserve">
+    <value>Exception Report</value>
+  </data>
+  <data name="Control_ReportExceptionIcon" xml:space="preserve">
+    <value>Exception Search</value>
+  </data>
+  <data name="Control_ReportException" xml:space="preserve">
+    <value>Exception Search</value>
+  </data>
+  <data name="Control_POSExceptionSearch" xml:space="preserve">
+    <value>Exception Search</value>
+  </data>
+  <data name="PTSReports_ExceptionTracking" xml:space="preserve">
+    <value>Exception Tracking</value>
+  </data>
+  <data name="Control_ReportExceptionTrendIcon" xml:space="preserve">
+    <value>Exception Trend</value>
+  </data>
+  <data name="Control_ReportExceptionTrend" xml:space="preserve">
+    <value>Exception Trend</value>
+  </data>
+  <data name="LicensePanel_Expired" xml:space="preserve">
+    <value>Expired</value>
+  </data>
+  <data name="LicensePanel_ExpiresDate" xml:space="preserve">
+    <value>Expires on GMT %1</value>
+  </data>
+  <data name="DownloadCase_Button" xml:space="preserve">
+    <value>Export Case</value>
+  </data>
+  <data name="DownloadCase_Title" xml:space="preserve">
+    <value>Export Case</value>
+  </data>
+  <data name="DownloadCase_DownloadCaseInProgress" xml:space="preserve">
+    <value>Export case already in progress.\nPlease complete or cancel previous operation.</value>
+  </data>
+  <data name="DownloadCaseQueue_Title" xml:space="preserve">
+    <value>Export Case Queue</value>
+  </data>
+  <data name="Menu_ExportCaseQueue" xml:space="preserve">
+    <value>Export Case Queue</value>
+  </data>
+  <data name="GroupPanel_ExportError" xml:space="preserve">
+    <value>Export Error, Please check the disk permission and capability</value>
+  </data>
+  <data name="GroupPanel_ExportFileFolder" xml:space="preserve">
+    <value>Export File Folder</value>
+  </data>
+  <data name="SetupTitle_ExportTemplate" xml:space="preserve">
+    <value>Export template</value>
+  </data>
+  <data name="Export_Button" xml:space="preserve">
+    <value>Export Video</value>
+  </data>
+  <data name="SetupGeneral_ExportFolderName" xml:space="preserve">
+    <value>Export video folder name is "%1 Video (%2)"</value>
+  </data>
+  <data name="ExportVideo_ExportVideoOptions" xml:space="preserve">
+    <value>Export Video Options</value>
+  </data>
+  <data name="SetupGeneral_ExportVideoPath" xml:space="preserve">
+    <value>Export video path</value>
+  </data>
+  <data name="ExportVideo_ExportSucceed" xml:space="preserve">
+    <value>Export video succeed.</value>
+  </data>
+  <data name="DownloadCase_Failed" xml:space="preserve">
+    <value>Failed</value>
+  </data>
+  <data name="Common_February" xml:space="preserve">
+    <value>February</value>
+  </data>
+  <data name="USBDisk_FileSystem" xml:space="preserve">
+    <value>File System</value>
+  </data>
+  <data name="PageSelector_First" xml:space="preserve">
+    <value>First Page</value>
+  </data>
+  <data name="PTZPanel_Focus" xml:space="preserve">
+    <value>Focus</value>
+  </data>
+  <data name="PTZPanel_FocusFAR" xml:space="preserve">
+    <value>Focus FAR</value>
+  </data>
+  <data name="PTZPanel_FocusNEAR" xml:space="preserve">
+    <value>Focus NEAR</value>
+  </data>
+  <data name="PTZPanel_FocusSTOP" xml:space="preserve">
+    <value>Focus STOP</value>
+  </data>
+  <data name="ScheduleReportPanel_Format" xml:space="preserve">
+    <value>Format</value>
+  </data>
+  <data name="ExceptionReportPanel_Format" xml:space="preserve">
+    <value>Format</value>
+  </data>
+  <data name="VideoWindowTitleBarPanel_FPS" xml:space="preserve">
+    <value>FPS</value>
+  </data>
+  <data name="SetupGeneral_FPS" xml:space="preserve">
+    <value>FPS</value>
+  </data>
+  <data name="PTSReports_FrequentExceptionCategoriesIncurred" xml:space="preserve">
+    <value>Frequent exception categories</value>
+  </data>
+  <data name="PTSReports_FrequentExceptionsIncurredByEmployees" xml:space="preserve">
+    <value>Frequent exception categories by employees</value>
+  </data>
+  <data name="Common_Fri" xml:space="preserve">
+    <value>Fri</value>
+  </data>
+  <data name="Common_Friday" xml:space="preserve">
+    <value>Friday</value>
+  </data>
+  <data name="SetupGeneral_FTPServer" xml:space="preserve">
+    <value>FTP server</value>
+  </data>
+  <data name="Control_General" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="Control_GeneralIcon" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="SetupServer_GeneralSetting" xml:space="preserve">
+    <value>General Setting</value>
+  </data>
+  <data name="PointPanel_GoTo" xml:space="preserve">
+    <value>Go to</value>
+  </data>
+  <data name="User_Group" xml:space="preserve">
+    <value>Group</value>
+  </data>
+  <data name="UserGroup_Guest" xml:space="preserve">
+    <value>Guest</value>
+  </data>
+  <data name="DeviceLayoutPanel_Height" xml:space="preserve">
+    <value>Height</value>
+  </data>
+  <data name="AutoSwitchLiveVideoStream_HighProfileStartLessThen" xml:space="preserve">
+    <value>High profile starts when streaming count less than</value>
+  </data>
+  <data name="AutoSwitchLiveVideoStream_Information" xml:space="preserve">
+    <value>High profile streaming count must be less then low profile streaming count.</value>
+  </data>
+  <data name="LoginForm_Host" xml:space="preserve">
+    <value>Host</value>
+  </data>
+  <data name="Common_Hr" xml:space="preserve">
+    <value>Hr</value>
+  </data>
+  <data name="SetupLog_HTMLFile" xml:space="preserve">
+    <value>HTML file</value>
+  </data>
+  <data name="Control_IOModel" xml:space="preserve">
+    <value>I/O Model</value>
+  </data>
+  <data name="SetupServer_StoreId" xml:space="preserve">
+    <value>Id</value>
+  </data>
+  <data name="PointPanel_ID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="SetupLog_ID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="ExceptionResultPanel_ID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="DeviceLayoutPanel_ID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="PTSReports_ID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="ExportVideo_ID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="NVR_ID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="POSException_ID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="POS_ID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="VideoWindow_Idle" xml:space="preserve">
+    <value>Idle</value>
+  </data>
+  <data name="DeviceTree_ImageStitching" xml:space="preserve">
+    <value>Image Stitching</value>
+  </data>
+  <data name="GroupPanel_Import" xml:space="preserve">
+    <value>Import</value>
+  </data>
+  <data name="SetupTitle_ImportTemplate" xml:space="preserve">
+    <value>Import template</value>
+  </data>
+  <data name="PTSReports_EmployeeProductivityImprovementTrend" xml:space="preserve">
+    <value>Incidence Trend of employees</value>
+  </data>
+  <data name="SetupGeneral_Include" xml:space="preserve">
+    <value>Include</value>
+  </data>
+  <data name="EditNVRPanel_Include" xml:space="preserve">
+    <value>Include</value>
+  </data>
+  <data name="TimeTrack_IncreaseTimeScale" xml:space="preserve">
+    <value>Increase time scale</value>
+  </data>
+  <data name="ExceptionReportPanel_Increment" xml:space="preserve">
+    <value>Increment</value>
+  </data>
+  <data name="EditPOSPanel_Information" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="PTSReports_Information" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="EditUserPanel_Information" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="MessageBox_Information" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="VideoWindowTitleBarPanel_Information" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="EditPOSConnectionPanel_Information" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="EditNVRPanel_Information" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="EditPOSExceptionPanel_Information" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="VideoWindowTitleBarPanel_DisplayNote" xml:space="preserve">
+    <value>Informations will be displayed from left to right on title bar.</value>
+  </data>
+  <data name="Application_InitializeActiveXError" xml:space="preserve">
+    <value>Initialize ActiveX (%1) error.</value>
+  </data>
+  <data name="InstantPlayback_Title" xml:space="preserve">
+    <value>Instant Playback</value>
+  </data>
+  <data name="Menu_InstantPlayback" xml:space="preserve">
+    <value>Instant Playback</value>
+  </data>
+  <data name="Control_ReportInvestigationIcon" xml:space="preserve">
+    <value>Investigation</value>
+  </data>
+  <data name="Control_ReportInvestigation" xml:space="preserve">
+    <value>Investigation</value>
+  </data>
+  <data name="Common_January" xml:space="preserve">
+    <value>January</value>
+  </data>
+  <data name="Control_JoystickIcon" xml:space="preserve">
+    <value>Joystick</value>
+  </data>
+  <data name="Control_Joystick" xml:space="preserve">
+    <value>Joystick</value>
+  </data>
+  <data name="Common_July" xml:space="preserve">
+    <value>July</value>
+  </data>
+  <data name="TimeTrack_JumpNextBookmark" xml:space="preserve">
+    <value>Jump to next bookmark</value>
+  </data>
+  <data name="TimeTrack_JumpNextRecord" xml:space="preserve">
+    <value>Jump to next record</value>
+  </data>
+  <data name="TimeTrack_JumpPresentTime" xml:space="preserve">
+    <value>Jump to present time</value>
+  </data>
+  <data name="TimeTrack_JumpPreviousBookmark" xml:space="preserve">
+    <value>Jump to previous bookmark</value>
+  </data>
+  <data name="TimeTrack_JumpPreviousRecord" xml:space="preserve">
+    <value>Jump to previous record</value>
+  </data>
+  <data name="Common_June" xml:space="preserve">
+    <value>June</value>
+  </data>
+  <data name="PTSReports_Keyword" xml:space="preserve">
+    <value>Keyword</value>
+  </data>
+  <data name="POS_Keyword" xml:space="preserve">
+    <value>Keyword</value>
+  </data>
+  <data name="LoginForm_Language" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="Common_LastMonth" xml:space="preserve">
+    <value>Last month</value>
+  </data>
+  <data name="PageSelector_Last" xml:space="preserve">
+    <value>Last Page</value>
+  </data>
+  <data name="DeviceLayoutPanel_Layout" xml:space="preserve">
+    <value>Layout</value>
+  </data>
+  <data name="Pager_Layout" xml:space="preserve">
+    <value>Layout %1</value>
+  </data>
+  <data name="PTZPanel_MoveLeft" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="Control_LicenseIcon" xml:space="preserve">
+    <value>License</value>
+  </data>
+  <data name="Control_License" xml:space="preserve">
+    <value>License</value>
+  </data>
+  <data name="SetupLicense_LicenseKey" xml:space="preserve">
+    <value>License Key</value>
+  </data>
+  <data name="Application_LicenseKeyWillExpire" xml:space="preserve">
+    <value>License key "%1" will expire on "%2".</value>
+  </data>
+  <data name="Application_LicenseKeyError" xml:space="preserve">
+    <value>License key error. (Error code: 2)</value>
+  </data>
+  <data name="SetupLicense_Filter" xml:space="preserve">
+    <value>License key file</value>
+  </data>
+  <data name="Application_LicenseKeyUsed" xml:space="preserve">
+    <value>License key has been used. (Error code: 3)</value>
+  </data>
+  <data name="Application_LicenseKeyExpired" xml:space="preserve">
+    <value>License key has expired. (Error code: 4)</value>
+  </data>
+  <data name="SetupLicense_LicenseQuantity" xml:space="preserve">
+    <value>License Quantity</value>
+  </data>
+  <data name="SetupLicense_AmountConfirm" xml:space="preserve">
+    <value>License quantity is "%1" .\nConfirm to register?</value>
+  </data>
+  <data name="Application_AmountConfirm" xml:space="preserve">
+    <value>License quantity is "%1" .\nConfirm to register?</value>
+  </data>
+  <data name="Application_RegistrationTimeout" xml:space="preserve">
+    <value>License registration timeout.</value>
+  </data>
+  <data name="SetupServer_LicenseSetting" xml:space="preserve">
+    <value>License Setting</value>
+  </data>
+  <data name="Page_Live" xml:space="preserve">
+    <value>Live</value>
+  </data>
+  <data name="SetupGeneral_LivePatrolInterval" xml:space="preserve">
+    <value>Live patrol interval</value>
+  </data>
+  <data name="SetupLog_LoadingLog" xml:space="preserve">
+    <value>Loading Log</value>
+  </data>
+  <data name="SetupGeneral_LocalTranscode" xml:space="preserve">
+    <value>Local Transcode</value>
+  </data>
+  <data name="Menu_LockApplication" xml:space="preserve">
+    <value>Lock Application</value>
+  </data>
+  <data name="Control_LogIcon" xml:space="preserve">
+    <value>Log</value>
+  </data>
+  <data name="SetupLog_Log" xml:space="preserve">
+    <value>Log</value>
+  </data>
+  <data name="Control_Log" xml:space="preserve">
+    <value>Log</value>
+  </data>
+  <data name="SetupLog_LogFound" xml:space="preserve">
+    <value>Log List : %1  Log Found</value>
+  </data>
+  <data name="SetupLog_LogsFound" xml:space="preserve">
+    <value>Log List : %1  Logs Found</value>
+  </data>
+  <data name="SetupLog_NoLogFound" xml:space="preserve">
+    <value>Log List : No Log Found</value>
+  </data>
+  <data name="LoginForm_SignInFailed" xml:space="preserve">
+    <value>Login failure</value>
+  </data>
+  <data name="LoginForm_SignInFailedAuthFailure" xml:space="preserve">
+    <value>Login failure. Please confirm account and password is correct.</value>
+  </data>
+  <data name="LoginForm_SignInFailedPortOccupation" xml:space="preserve">
+    <value>Login failure. Please verify if port %1 is already used by another application.</value>
+  </data>
+  <data name="LoginForm_SignInTimeoutSSL" xml:space="preserve">
+    <value>Login timeout. Please check firewall setting and SSL port is corrrect.</value>
+  </data>
+  <data name="LoginForm_SignInTimeout" xml:space="preserve">
+    <value>Login timeout. Please check firewall setting.</value>
+  </data>
+  <data name="AutoSwitchLiveVideoStream_LowProfileStartMoreThen" xml:space="preserve">
+    <value>Low profile starts when streaming count more than</value>
+  </data>
+  <data name="LicensePanel_MAC" xml:space="preserve">
+    <value>MAC</value>
+  </data>
+  <data name="SetupGeneral_MailServer" xml:space="preserve">
+    <value>Mail server</value>
+  </data>
+  <data name="Menu_ManualRecord" xml:space="preserve">
+    <value>Manual Record</value>
+  </data>
+  <data name="Event_ManualRecord" xml:space="preserve">
+    <value>Manual Record</value>
+  </data>
+  <data name="NVR_Manufacture" xml:space="preserve">
+    <value>Manufacture</value>
+  </data>
+  <data name="POS_Manufacture" xml:space="preserve">
+    <value>Manufacture</value>
+  </data>
+  <data name="POSConnection_Manufacture" xml:space="preserve">
+    <value>Manufacture</value>
+  </data>
+  <data name="PTSReports_Manufacture" xml:space="preserve">
+    <value>Manufacture</value>
+  </data>
+  <data name="POSException_Manufacture" xml:space="preserve">
+    <value>Manufacture</value>
+  </data>
+  <data name="SetupDevice_AllManufacturer" xml:space="preserve">
+    <value>Manufacturers</value>
+  </data>
+  <data name="Common_March" xml:space="preserve">
+    <value>March</value>
+  </data>
+  <data name="ExportVideo_ExportMaxiFileSize" xml:space="preserve">
+    <value>Maximum file size</value>
+  </data>
+  <data name="Common_May" xml:space="preserve">
+    <value>May</value>
+  </data>
+  <data name="AutoSwitchLiveVideoStream_MediumProfileStartMoreThen" xml:space="preserve">
+    <value>Medium profile starts when streaming count between</value>
+  </data>
+  <data name="Common_Min" xml:space="preserve">
+    <value>Min</value>
+  </data>
+  <data name="ExportVideo_ConvertVideoToMJPEG" xml:space="preserve">
+    <value>MJPEG</value>
+  </data>
+  <data name="POS_Model" xml:space="preserve">
+    <value>Model</value>
+  </data>
+  <data name="POSConnection_Model" xml:space="preserve">
+    <value>Model</value>
+  </data>
+  <data name="NVR_Modified" xml:space="preserve">
+    <value>Modified</value>
+  </data>
+  <data name="Common_Mon" xml:space="preserve">
+    <value>Mon</value>
+  </data>
+  <data name="Common_Monday" xml:space="preserve">
+    <value>Monday</value>
+  </data>
+  <data name="PTSReports_Monthly" xml:space="preserve">
+    <value>Monthly</value>
+  </data>
+  <data name="ScheduleReportPanel_Monthly" xml:space="preserve">
+    <value>Monthly Report</value>
+  </data>
+  <data name="Database_KeepMonths" xml:space="preserve">
+    <value>Months to keep transaction data</value>
+  </data>
+  <data name="Event_MotionID" xml:space="preserve">
+    <value>Motion %1</value>
+  </data>
+  <data name="DevicePanel_MotionThreshold" xml:space="preserve">
+    <value>Motion Threshold</value>
+  </data>
+  <data name="SetupGeneral_Document" xml:space="preserve">
+    <value>My Documents</value>
+  </data>
+  <data name="SetupGeneral_Picture" xml:space="preserve">
+    <value>My Pictures</value>
+  </data>
+  <data name="POSConnection_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="USBDisk_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="SetupServer_StoreName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="DeviceLayoutPanel_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="GroupPanel_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="NVR_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="POSException_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="POS_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="User_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="PointPanel_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="POSConnection_NetworkAddress" xml:space="preserve">
+    <value>Network Address</value>
+  </data>
+  <data name="Event_NetworkLoss" xml:space="preserve">
+    <value>Network Loss</value>
+  </data>
+  <data name="Event_NetworkRecovery" xml:space="preserve">
+    <value>Network Recovery</value>
+  </data>
+  <data name="SetupException_NewException" xml:space="preserve">
+    <value>New Exception</value>
+  </data>
+  <data name="SetupNVR_NewNVR" xml:space="preserve">
+    <value>New NVR</value>
+  </data>
+  <data name="SetupDeviceLayout_NewPanorama" xml:space="preserve">
+    <value>New Panorama</value>
+  </data>
+  <data name="SetupPOS_NewPOS" xml:space="preserve">
+    <value>New POS</value>
+  </data>
+  <data name="SetupPOSConnection_NewPOSConnection" xml:space="preserve">
+    <value>New POS Connection</value>
+  </data>
+  <data name="VideoMonitor_Next" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="PageSelector_Next" xml:space="preserve">
+    <value>Next Page</value>
+  </data>
+  <data name="DeviceManager_NoHandler" xml:space="preserve">
+    <value>No handler</value>
+  </data>
+  <data name="TimeTrack_NoMoreBookmarks" xml:space="preserve">
+    <value>No more bookmarks.</value>
+  </data>
+  <data name="TimeTrack_NoMoreRecord" xml:space="preserve">
+    <value>No other records</value>
+  </data>
+  <data name="SetupServer_NoSelectedFile" xml:space="preserve">
+    <value>No selected file</value>
+  </data>
+  <data name="EventPanel_NoSnapshot" xml:space="preserve">
+    <value>No Snapshot</value>
+  </data>
+  <data name="SetupLog_NoSystemLog" xml:space="preserve">
+    <value>No system log</value>
+  </data>
+  <data name="SetupLog_NoUserLog" xml:space="preserve">
+    <value>No user log</value>
+  </data>
+  <data name="EventPanel_EventNo" xml:space="preserve">
+    <value>No. %1</value>
+  </data>
+  <data name="PTSReports_NotSelectExceptions" xml:space="preserve">
+    <value>Not select exceptions</value>
+  </data>
+  <data name="PTSReports_NotSelectPOS" xml:space="preserve">
+    <value>Not select POS</value>
+  </data>
+  <data name="Data_NotSupport" xml:space="preserve">
+    <value>Not Support</value>
+  </data>
+  <data name="Common_November" xml:space="preserve">
+    <value>November</value>
+  </data>
+  <data name="Control_NVR" xml:space="preserve">
+    <value>NVR</value>
+  </data>
+  <data name="Control_NVRIcon" xml:space="preserve">
+    <value>NVR</value>
+  </data>
+  <data name="EditUserPanel_NVRPermission" xml:space="preserve">
+    <value>NVR Permission</value>
+  </data>
+  <data name="Application_NVRChange" xml:space="preserve">
+    <value>NVR setting changed. Please login again to apply new settings.</value>
+  </data>
+  <data name="Common_October" xml:space="preserve">
+    <value>October</value>
+  </data>
+  <data name="SetupTitle_OfflineRegistration" xml:space="preserve">
+    <value>Offline Registration</value>
+  </data>
+  <data name="Common_OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="SetupTitle_OnlineRegistration" xml:space="preserve">
+    <value>Online Registration</value>
+  </data>
+  <data name="SetupLicense_OnlineRegistration" xml:space="preserve">
+    <value>Online Registration</value>
+  </data>
+  <data name="Menu_OriginalStreaming" xml:space="preserve">
+    <value>Original Streaming</value>
+  </data>
+  <data name="SetupGeneral_OriginalVideo" xml:space="preserve">
+    <value>Original video</value>
+  </data>
+  <data name="ExportVideo_Overlay" xml:space="preserve">
+    <value>Overlay OSD</value>
+  </data>
+  <data name="Application_PageNotFound" xml:space="preserve">
+    <value>Page not found.</value>
+  </data>
+  <data name="Menu_Panic" xml:space="preserve">
+    <value>Panic</value>
+  </data>
+  <data name="Event_Panic" xml:space="preserve">
+    <value>Panic</value>
+  </data>
+  <data name="User_Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="POSConnection_Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="Database_Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="FtpServer_Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="NVR_Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="LoginForm_Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="MailServer_Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="EditUserPanel_PasswordCantEmpty" xml:space="preserve">
+    <value>Password can't be empty.</value>
+  </data>
+  <data name="EditUserPanel_PasswordNotMatch" xml:space="preserve">
+    <value>Password does not match.</value>
+  </data>
+  <data name="UnlockAppForm_PasswordIncorrect" xml:space="preserve">
+    <value>Password is incorrect</value>
+  </data>
+  <data name="SetupGeneral_Patrol" xml:space="preserve">
+    <value>Patrol</value>
+  </data>
+  <data name="NVR_Patrol" xml:space="preserve">
+    <value>Patrol</value>
+  </data>
+  <data name="SetupGeneral_PatrolAllDeviceGroup" xml:space="preserve">
+    <value>Patrol "All Devices" group</value>
+  </data>
+  <data name="SetupGeneral_PatrolIntervaValue" xml:space="preserve">
+    <value>Patrol interval should between %1 secs to %2 hour</value>
+  </data>
+  <data name="PTSReports_Percentage" xml:space="preserve">
+    <value>Percentage</value>
+  </data>
+  <data name="PTSReports_PerformanceDeviationAgainstPredefinedThresholds" xml:space="preserve">
+    <value>Performance deviation against predefined thresholds</value>
+  </data>
+  <data name="PTSReports_Period" xml:space="preserve">
+    <value>Period</value>
+  </data>
+  <data name="Page_Playback" xml:space="preserve">
+    <value>Playback</value>
+  </data>
+  <data name="Menu_Playback" xml:space="preserve">
+    <value>Playback</value>
+  </data>
+  <data name="SetupServer_ConfirmRestoreRestart" xml:space="preserve">
+    <value>Please login again after restoring.</value>
+  </data>
+  <data name="NVR_Port" xml:space="preserve">
+    <value>Port</value>
+  </data>
+  <data name="SetupServer_Port" xml:space="preserve">
+    <value>Port</value>
+  </data>
+  <data name="FtpServer_Port" xml:space="preserve">
+    <value>Port</value>
+  </data>
+  <data name="MailServer_Port" xml:space="preserve">
+    <value>Port</value>
+  </data>
+  <data name="Database_Port" xml:space="preserve">
+    <value>Port</value>
+  </data>
+  <data name="ExceptionResultPanel_POS" xml:space="preserve">
+    <value>POS</value>
+  </data>
+  <data name="ScheduleReportPanel_POS" xml:space="preserve">
+    <value>POS</value>
+  </data>
+  <data name="Control_POS" xml:space="preserve">
+    <value>POS</value>
+  </data>
+  <data name="PTSReports_POS" xml:space="preserve">
+    <value>POS</value>
+  </data>
+  <data name="Control_POSIcon" xml:space="preserve">
+    <value>POS</value>
+  </data>
+  <data name="Control_POSConnectionIcon" xml:space="preserve">
+    <value>POS Connection</value>
+  </data>
+  <data name="Control_POSConnection" xml:space="preserve">
+    <value>POS Connection</value>
+  </data>
+  <data name="Control_POSRegister" xml:space="preserve">
+    <value>POS Register</value>
+  </data>
+  <data name="PTSReports_POSId" xml:space="preserve">
+    <value>POS Register Id</value>
+  </data>
+  <data name="PointPanel_PresetPoint" xml:space="preserve">
+    <value>Preset Point</value>
+  </data>
+  <data name="Control_PresetPoint" xml:space="preserve">
+    <value>Preset Point</value>
+  </data>
+  <data name="PresetPointPanel_PresetPoint" xml:space="preserve">
+    <value>Preset Point</value>
+  </data>
+  <data name="SetupDevice_PresetPointSetting" xml:space="preserve">
+    <value>Preset Point Setting</value>
+  </data>
+  <data name="SetupDevice_PresetTourSetting" xml:space="preserve">
+    <value>Preset Tour Setting</value>
+  </data>
+  <data name="VideoMonitor_Previous" xml:space="preserve">
+    <value>Previous</value>
+  </data>
+  <data name="PageSelector_Prev" xml:space="preserve">
+    <value>Previous Page</value>
+  </data>
+  <data name="PTSReports_PrintTime" xml:space="preserve">
+    <value>Print Time</value>
+  </data>
+  <data name="FolderControl_Private" xml:space="preserve">
+    <value>Private</value>
+  </data>
+  <data name="DevicePanel_ProfileMode" xml:space="preserve">
+    <value>Profile Mode</value>
+  </data>
+  <data name="POSConnection_Protocol" xml:space="preserve">
+    <value>Protocol</value>
+  </data>
+  <data name="LoginForm_PTS" xml:space="preserve">
+    <value>PTS</value>
+  </data>
+  <data name="Menu_OpticalPTZ" xml:space="preserve">
+    <value>PTZ</value>
+  </data>
+  <data name="Control_PTZ" xml:space="preserve">
+    <value>PTZ</value>
+  </data>
+  <data name="ExportVideo_Quality" xml:space="preserve">
+    <value>Quality</value>
+  </data>
+  <data name="ExportVideo_QualityLevel" xml:space="preserve">
+    <value>Quality Level</value>
+  </data>
+  <data name="DownloadCase_Queue" xml:space="preserve">
+    <value>Queue</value>
+  </data>
+  <data name="POSConnection_QueueInfo" xml:space="preserve">
+    <value>Queue Info</value>
+  </data>
+  <data name="PTSReports_Rank" xml:space="preserve">
+    <value>Rank</value>
+  </data>
+  <data name="PTSReports_EmployeeProductivityLossRanking" xml:space="preserve">
+    <value>Ranking of employees with the highest incidence</value>
+  </data>
+  <data name="PTSReports_HighAlertTop2EmployeesExceptionMonitoring" xml:space="preserve">
+    <value>Ranking of incidence with counts and employees</value>
+  </data>
+  <data name="ExportVideo_ConvertVideoToRAW" xml:space="preserve">
+    <value>RAW</value>
+  </data>
+  <data name="SetupDevice_MaximumLicense" xml:space="preserve">
+    <value>Reached maximum license limit "%1"</value>
+  </data>
+  <data name="SetupPOS_MaximumLicense" xml:space="preserve">
+    <value>Reached maximum license limit "%1"</value>
+  </data>
+  <data name="SetupNVR_MaximumLicense" xml:space="preserve">
+    <value>Reached maximum license limit "%1"</value>
+  </data>
+  <data name="ExceptionReportPanel_Recipient" xml:space="preserve">
+    <value>Recipient</value>
+  </data>
+  <data name="ScheduleReportPanel_Recipient" xml:space="preserve">
+    <value>Recipient</value>
+  </data>
+  <data name="Menu_Reconnect" xml:space="preserve">
+    <value>Reconnect</value>
+  </data>
+  <data name="VideoWindow_Reconnecting" xml:space="preserve">
+    <value>Reconnecting...</value>
+  </data>
+  <data name="SetupGeneral_RecordDurationValue" xml:space="preserve">
+    <value>Record duration should between %1 secs to %2 hour</value>
+  </data>
+  <data name="Event_RecordFailed" xml:space="preserve">
+    <value>Record Failed</value>
+  </data>
+  <data name="Event_RecordRecovery" xml:space="preserve">
+    <value>Record Recovery</value>
+  </data>
+  <data name="POSException_Refresh" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="DevicePanel_RefreshSnapshot" xml:space="preserve">
+    <value>Refresh snapshot</value>
+  </data>
+  <data name="POS_RegisterId" xml:space="preserve">
+    <value>Register Id</value>
+  </data>
+  <data name="EditPOSPanel_RegisterIdCantEmpty" xml:space="preserve">
+    <value>Register Id can't be empty.</value>
+  </data>
+  <data name="EditPOSPanel_RegisterIdCantTheSame" xml:space="preserve">
+    <value>Register Id can't be the same. %1 is used by %2.</value>
+  </data>
+  <data name="EditPOSPanel_RegisterIdOutOfRange" xml:space="preserve">
+    <value>Register Id must be 0 - 65535.</value>
+  </data>
+  <data name="Application_RegistrationFailed2" xml:space="preserve">
+    <value>Registration failed. Please check Internet connection and registration key.</value>
+  </data>
+  <data name="Application_RegistrationFailed" xml:space="preserve">
+    <value>Registration failed. Please check the registration key is correct.</value>
+  </data>
+  <data name="Application_RegistrationCompleted" xml:space="preserve">
+    <value>Registration is completed. Quantity of licenses increase to "%1".</value>
+  </data>
+  <data name="SetupLicense_KeyConfirm" xml:space="preserve">
+    <value>Registration key is "%1" .\nConfirm to register?</value>
+  </data>
+  <data name="SetupLicense_CheckLicenseLength" xml:space="preserve">
+    <value>Registration key length is 25. Please check the registration key is correct.</value>
+  </data>
+  <data name="LoginForm_RememberMe" xml:space="preserve">
+    <value>Remember me</value>
+  </data>
+  <data name="Menu_RemoteConnectionMode" xml:space="preserve">
+    <value>Remote Connection Mode</value>
+  </data>
+  <data name="FtpServer_RemoteDirectory" xml:space="preserve">
+    <value>Remote directory</value>
+  </data>
+  <data name="Control_ReportTitle" xml:space="preserve">
+    <value>Report</value>
+  </data>
+  <data name="Control_ReportTracking" xml:space="preserve">
+    <value>Report</value>
+  </data>
+  <data name="Page_Report" xml:space="preserve">
+    <value>Report</value>
+  </data>
+  <data name="Control_ReportTrackingIcon" xml:space="preserve">
+    <value>Report</value>
+  </data>
+  <data name="Menu_Resolution" xml:space="preserve">
+    <value>Resolution</value>
+  </data>
+  <data name="VideoWindowTitleBarPanel_Resolution" xml:space="preserve">
+    <value>Resolution</value>
+  </data>
+  <data name="DevicePanel_ResolutionRegionConfig" xml:space="preserve">
+    <value>Resolution Region Config</value>
+  </data>
+  <data name="SetupServer_Restore" xml:space="preserve">
+    <value>Restore</value>
+  </data>
+  <data name="SetupGeneral_RestoreClient" xml:space="preserve">
+    <value>Restore Client</value>
+  </data>
+  <data name="SetupTitle_RestoreSetting" xml:space="preserve">
+    <value>Restore Setting</value>
+  </data>
+  <data name="EventPanel_ResumeEvent" xml:space="preserve">
+    <value>Resuming receive events</value>
+  </data>
+  <data name="POSException_ResumeEvent" xml:space="preserve">
+    <value>Resuming receive transactions</value>
+  </data>
+  <data name="PTZPanel_MoveRight" xml:space="preserve">
+    <value>Right</value>
+  </data>
+  <data name="Common_Sat" xml:space="preserve">
+    <value>Sat</value>
+  </data>
+  <data name="Common_Saturday" xml:space="preserve">
+    <value>Saturday</value>
+  </data>
+  <data name="SetupTitle_Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="SetupLog_SaveAsComplete" xml:space="preserve">
+    <value>Save "%1" Completed.</value>
+  </data>
+  <data name="SetupTitle_SaveAs" xml:space="preserve">
+    <value>Save as...</value>
+  </data>
+  <data name="Application_SaveCompleted" xml:space="preserve">
+    <value>Save completed</value>
+  </data>
+  <data name="SetupLog_SaveAsFailure" xml:space="preserve">
+    <value>Save Failure.</value>
+  </data>
+  <data name="Menu_SaveImage" xml:space="preserve">
+    <value>Save Image</value>
+  </data>
+  <data name="Event_SaveImage" xml:space="preserve">
+    <value>Save Image</value>
+  </data>
+  <data name="SetupGeneral_SaveFolderName" xml:space="preserve">
+    <value>Save image folder name is "%1 Image (%2)"</value>
+  </data>
+  <data name="SetupGeneral_SaveImagePath" xml:space="preserve">
+    <value>Save image path</value>
+  </data>
+  <data name="SaveReport_Button" xml:space="preserve">
+    <value>Save Report</value>
+  </data>
+  <data name="SetupTitle_SaveReport" xml:space="preserve">
+    <value>Save Report</value>
+  </data>
+  <data name="PTSReports_SaveReport" xml:space="preserve">
+    <value>Save Report</value>
+  </data>
+  <data name="SetupTitle_SaveSetting" xml:space="preserve">
+    <value>Save Setting</value>
+  </data>
+  <data name="VideoWindow_SaveBeforeConnect" xml:space="preserve">
+    <value>Save setting before connecting.</value>
+  </data>
+  <data name="DevicePanel_SaveSettingToGetSnapshot" xml:space="preserve">
+    <value>Save setting to get snapshot</value>
+  </data>
+  <data name="Save_Button" xml:space="preserve">
+    <value>Save Settings</value>
+  </data>
+  <data name="SetupNVR_SaveSetup" xml:space="preserve">
+    <value>Save Setup</value>
+  </data>
+  <data name="Application_SaveTimeout" xml:space="preserve">
+    <value>Saving timeout. Some settings can't be saved to server.</value>
+  </data>
+  <data name="ExportVideo_Scale" xml:space="preserve">
+    <value>Scale</value>
+  </data>
+  <data name="Control_ScheduleReport" xml:space="preserve">
+    <value>Schedule Report</value>
+  </data>
+  <data name="Control_ScheduleReportIcon" xml:space="preserve">
+    <value>Schedule Report</value>
+  </data>
+  <data name="POSException_Search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="PTSReports_SearchConditionsAssociated" xml:space="preserve">
+    <value>Search conditions associated</value>
+  </data>
+  <data name="SetupTitle_SearchException" xml:space="preserve">
+    <value>Search Exception</value>
+  </data>
+  <data name="Control_POSExceptionSearchResult" xml:space="preserve">
+    <value>Search Result</value>
+  </data>
+  <data name="PTSReports_SearchResult" xml:space="preserve">
+    <value>Search Result:</value>
+  </data>
+  <data name="Control_SearchResult" xml:space="preserve">
+    <value>Search Result</value>
+  </data>
+  <data name="SetupLog_SearchResult" xml:space="preserve">
+    <value>Search Result</value>
+  </data>
+  <data name="SearchResult_Result" xml:space="preserve">
+    <value>Search Result</value>
+  </data>
+  <data name="SearchResult_ResultFound" xml:space="preserve">
+    <value>Search Result : %1 Result Found</value>
+  </data>
+  <data name="PTSReports_SearchResultFound" xml:space="preserve">
+    <value> %1 Result Found</value>
+  </data>
+  <data name="SearchResult_ResultsFound" xml:space="preserve">
+    <value>Search Result : %1 Results Found</value>
+  </data>
+  <data name="PTSReports_SearchResultsFound" xml:space="preserve">
+    <value>  %1 Results Found</value>
+  </data>
+  <data name="PTSReports_SearchNoResult" xml:space="preserve">
+    <value>No Result Found</value>
+  </data>
+  <data name="SearchResult_NoResult" xml:space="preserve">
+    <value>Search Result : No Result Found</value>
+  </data>
+  <data name="SearchResult_Searching" xml:space="preserve">
+    <value>Searching</value>
+  </data>
+  <data name="POSException_Searching" xml:space="preserve">
+    <value>Searching</value>
+  </data>
+  <data name="Common_Sec" xml:space="preserve">
+    <value>Sec</value>
+  </data>
+  <data name="MailServer_Security" xml:space="preserve">
+    <value>Security</value>
+  </data>
+  <data name="POSConnection_Security" xml:space="preserve">
+    <value>Security</value>
+  </data>
+  <data name="POS_Segment" xml:space="preserve">
+    <value>Segment</value>
+  </data>
+  <data name="DownloadCase_AddDeviceBeforeDownload" xml:space="preserve">
+    <value>Select device before export case.</value>
+  </data>
+  <data name="ExportVideo_SelectFilePath" xml:space="preserve">
+    <value>Select file path</value>
+  </data>
+  <data name="SetupGeneral_SelectFilePath" xml:space="preserve">
+    <value>Select path</value>
+  </data>
+  <data name="POSException_SelectTransactionBeforeExport" xml:space="preserve">
+    <value>Select transaction before save report.</value>
+  </data>
+  <data name="ScheduleReportPanel_SendDay" xml:space="preserve">
+    <value>Send day</value>
+  </data>
+  <data name="ScheduleReportPanel_SendMail" xml:space="preserve">
+    <value>Send mail</value>
+  </data>
+  <data name="ExceptionReportPanel_SendMail" xml:space="preserve">
+    <value>Send mail</value>
+  </data>
+  <data name="SetupTitle_SendTestEmail" xml:space="preserve">
+    <value>Send test email</value>
+  </data>
+  <data name="ScheduleReportPanel_SendTime" xml:space="preserve">
+    <value>Send time</value>
+  </data>
+  <data name="MailServer_Sender" xml:space="preserve">
+    <value>Sender</value>
+  </data>
+  <data name="Common_September" xml:space="preserve">
+    <value>September</value>
+  </data>
+  <data name="VideoWindowTitleBarPanel_Sequence" xml:space="preserve">
+    <value>Sequence</value>
+  </data>
+  <data name="MailServer_Server" xml:space="preserve">
+    <value>Server</value>
+  </data>
+  <data name="FtpServer_Server" xml:space="preserve">
+    <value>Server</value>
+  </data>
+  <data name="Control_ServerIcon" xml:space="preserve">
+    <value>Server</value>
+  </data>
+  <data name="Control_Server" xml:space="preserve">
+    <value>Server</value>
+  </data>
+  <data name="PTSReports_Server" xml:space="preserve">
+    <value>Server</value>
+  </data>
+  <data name="Application_DaylightChange" xml:space="preserve">
+    <value>Server's daylight saving has been modified.\nDo you want to login again to apply new daylight saving?</value>
+  </data>
+  <data name="Application_PortChange" xml:space="preserve">
+    <value>Server's port has been modified. Please login again using port %1 .</value>
+  </data>
+  <data name="Application_SSLPortChange" xml:space="preserve">
+    <value>Server's SSL port has been modified. Please login again using port %1 .</value>
+  </data>
+  <data name="TimeTrack_SetEndPoint" xml:space="preserve">
+    <value>Set end point</value>
+  </data>
+  <data name="TimeTrack_SetStartPoint" xml:space="preserve">
+    <value>Set start point</value>
+  </data>
+  <data name="SetupServer_SettingFile" xml:space="preserve">
+    <value>Setting File</value>
+  </data>
+  <data name="Control_IconTitle" xml:space="preserve">
+    <value>Setup</value>
+  </data>
+  <data name="Page_Setup" xml:space="preserve">
+    <value>Setup</value>
+  </data>
+  <data name="DeviceLayoutPanel_SetupCrop" xml:space="preserve">
+    <value>Setup Crop</value>
+  </data>
+  <data name="SetupNVR_SetupNVRInProgress" xml:space="preserve">
+    <value>Setup nvr already in progress.\nPlease complete previous operation.</value>
+  </data>
+  <data name="EditGroupPanel_SetupPermission" xml:space="preserve">
+    <value>Setup Permission</value>
+  </data>
+  <data name="FolderControl_Shared" xml:space="preserve">
+    <value>Shared</value>
+  </data>
+  <data name="LoginForm_SignIn" xml:space="preserve">
+    <value>Sign In</value>
+  </data>
+  <data name="LoginForm_SignInAutomatically" xml:space="preserve">
+    <value>Sign me in automatically</value>
+  </data>
+  <data name="Menu_SignOut" xml:space="preserve">
+    <value>Sign Out</value>
+  </data>
+  <data name="AutoSwitchDecodeIFrame_SimultaneousViewingLiveStreamingCountMoreThan" xml:space="preserve">
+    <value>Simultaneous viewing live streaming count more than</value>
+  </data>
+  <data name="Menu_Snapshot" xml:space="preserve">
+    <value>Snapshot</value>
+  </data>
+  <data name="SetupGeneral_SnapshotSaveImage" xml:space="preserve">
+    <value>Snapshot / Save image</value>
+  </data>
+  <data name="LoginForm_SSL" xml:space="preserve">
+    <value>Enable SSL connection</value>
+  </data>
+  <data name="NVR_SSLConnection" xml:space="preserve">
+    <value>SSL Connection</value>
+  </data>
+  <data name="SetupServer_SSLPort" xml:space="preserve">
+    <value>SSL Port</value>
+  </data>
+  <data name="POSException_Start" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="SearchButton_Button" xml:space="preserve">
+    <value>Start Search</value>
+  </data>
+  <data name="DownloadCase_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="NVR_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="PresetPointPanel_Stop" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="PTZPanel_MoveStop" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="DownloadCase_Stop" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="SearchButton_Stop" xml:space="preserve">
+    <value>Stop Search</value>
+  </data>
+  <data name="PTSReports_Store" xml:space="preserve">
+    <value>Store</value>
+  </data>
+  <data name="SetupServer_Store" xml:space="preserve">
+    <value>Store</value>
+  </data>
+  <data name="PTSReports_StoreId" xml:space="preserve">
+    <value>Store Id</value>
+  </data>
+  <data name="PTSReports_StoreInformation" xml:space="preserve">
+    <value>Store Information</value>
+  </data>
+  <data name="VideoWindow_Streaming" xml:space="preserve">
+    <value>Streaming...</value>
+  </data>
+  <data name="Menu_Stretch" xml:space="preserve">
+    <value>Stretch</value>
+  </data>
+  <data name="SetupGeneral_StretchVideo" xml:space="preserve">
+    <value>Stretch video</value>
+  </data>
+  <data name="ScheduleReportPanel_Subject" xml:space="preserve">
+    <value>Subject</value>
+  </data>
+  <data name="ExceptionReportPanel_Subject" xml:space="preserve">
+    <value>Subject</value>
+  </data>
+  <data name="Control_ReportSummaryIcon" xml:space="preserve">
+    <value>Summary</value>
+  </data>
+  <data name="Control_ReportSummary" xml:space="preserve">
+    <value>Summary</value>
+  </data>
+  <data name="PTSReports_Summary" xml:space="preserve">
+    <value>Summary</value>
+  </data>
+  <data name="POSException_Summary" xml:space="preserve">
+    <value>Summary</value>
+  </data>
+  <data name="Common_Sun" xml:space="preserve">
+    <value>Sun</value>
+  </data>
+  <data name="Common_Sunday" xml:space="preserve">
+    <value>Sunday</value>
+  </data>
+  <data name="UserGroup_Superuser" xml:space="preserve">
+    <value>Superuser</value>
+  </data>
+  <data name="EventPanel_PauseEvent" xml:space="preserve">
+    <value>Suspended receive events</value>
+  </data>
+  <data name="POSException_PauseEvent" xml:space="preserve">
+    <value>Suspended receive transactions</value>
+  </data>
+  <data name="Page_SwitchPage" xml:space="preserve">
+    <value>Switch page to %1</value>
+  </data>
+  <data name="SetupTitle_Sync" xml:space="preserve">
+    <value>Sync</value>
+  </data>
+  <data name="SetupNVR_SyncConfirm" xml:space="preserve">
+    <value>Synchronization nvr setting will lost unsaved changes. Are you sure you want to sync settings?</value>
+  </data>
+  <data name="SetupLog_System" xml:space="preserve">
+    <value>System</value>
+  </data>
+  <data name="Segment_Tag" xml:space="preserve">
+    <value>Tag</value>
+  </data>
+  <data name="Exception_Tag" xml:space="preserve">
+    <value>Tag</value>
+  </data>
+  <data name="PTSReports_Tag" xml:space="preserve">
+    <value>Tag</value>
+  </data>
+  <data name="Tag_Tag" xml:space="preserve">
+    <value>Tag</value>
+  </data>
+  <data name="POS_Tag" xml:space="preserve">
+    <value>Tag</value>
+  </data>
+  <data name="Control_ReportTemplate" xml:space="preserve">
+    <value>Template</value>
+  </data>
+  <data name="Control_ReportTemplateIcon" xml:space="preserve">
+    <value>Template</value>
+  </data>
+  <data name="PTSReports_TemplateFormatError" xml:space="preserve">
+    <value>Template file XML format error.</value>
+  </data>
+  <data name="SetupLog_TextFile" xml:space="preserve">
+    <value>Text file</value>
+  </data>
+  <data name="Common_DayBeforeYesterday" xml:space="preserve">
+    <value>The day before yesterday</value>
+  </data>
+  <data name="Application_SomeNVRUnavailable" xml:space="preserve">
+    <value>The following NVR can't connect:</value>
+  </data>
+  <data name="Common_TheMonthBeforeLast" xml:space="preserve">
+    <value>The month before last</value>
+  </data>
+  <data name="Common_ThisMonth" xml:space="preserve">
+    <value>This month</value>
+  </data>
+  <data name="Common_ThisWeek" xml:space="preserve">
+    <value>This week</value>
+  </data>
+  <data name="PTSReports_Threshold" xml:space="preserve">
+    <value>Threshold</value>
+  </data>
+  <data name="POS_Threshold" xml:space="preserve">
+    <value>Threshold</value>
+  </data>
+  <data name="ExceptionReportPanel_Threshold" xml:space="preserve">
+    <value>Threshold</value>
+  </data>
+  <data name="Control_ReportThresholdDeviationIcon" xml:space="preserve">
+    <value>Threshold Deviation</value>
+  </data>
+  <data name="Control_ReportThresholdDeviation" xml:space="preserve">
+    <value>Threshold Deviation</value>
+  </data>
+  <data name="Common_Thu" xml:space="preserve">
+    <value>Thu</value>
+  </data>
+  <data name="Common_Thursday" xml:space="preserve">
+    <value>Thursday</value>
+  </data>
+  <data name="SetupLog_Time" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="SetupGeneral_TimestampWatermark" xml:space="preserve">
+    <value>Timestamp watermark</value>
+  </data>
+  <data name="Common_Today" xml:space="preserve">
+    <value>Today</value>
+  </data>
+  <data name="Control_ReportTop2CashierIcon" xml:space="preserve">
+    <value>Top 2 Cashier</value>
+  </data>
+  <data name="Control_Top2ReportCashier" xml:space="preserve">
+    <value>Top 2 Cashier</value>
+  </data>
+  <data name="PTSReports_Total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="ExceptionResultPanel_Total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="ExceptionResultPanel_TotalExceptionAmount" xml:space="preserve">
+    <value>Total Exception Amount</value>
+  </data>
+  <data name="PTSReports_TotalExceptionAmount" xml:space="preserve">
+    <value>Total Exception Amount</value>
+  </data>
+  <data name="ExceptionResultPanel_TransactionAmount" xml:space="preserve">
+    <value>Transaction Amount</value>
+  </data>
+  <data name="PTSReports_TransactionAmount" xml:space="preserve">
+    <value>Transaction Amount</value>
+  </data>
+  <data name="Control_POSExceptionTransactionDetail" xml:space="preserve">
+    <value>Transaction Details</value>
+  </data>
+  <data name="Control_TransactionInRealTime" xml:space="preserve">
+    <value>Transaction in real-time</value>
+  </data>
+  <data name="PTSReports_TransactionInformation" xml:space="preserve">
+    <value>Transaction Information</value>
+  </data>
+  <data name="PTSReports_TransactionTime" xml:space="preserve">
+    <value>Transaction Time</value>
+  </data>
+  <data name="LicensePanel_Trial" xml:space="preserve">
+    <value>Trial</value>
+  </data>
+  <data name="EventPanel_TriggerInterval" xml:space="preserve">
+    <value>Trigger Interval(Sec)</value>
+  </data>
+  <data name="Common_Tue" xml:space="preserve">
+    <value>Tue</value>
+  </data>
+  <data name="Common_Tuesday" xml:space="preserve">
+    <value>Tuesday</value>
+  </data>
+  <data name="ScheduleReportPanel_Type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="Undo_Button" xml:space="preserve">
+    <value>Undo All Settings</value>
+  </data>
+  <data name="UnlockAppForm_Unlock" xml:space="preserve">
+    <value>Unlock</value>
+  </data>
+  <data name="UnlockAppForm_Title" xml:space="preserve">
+    <value>Unlock Application</value>
+  </data>
+  <data name="PTZPanel_MoveUp" xml:space="preserve">
+    <value>Up</value>
+  </data>
+  <data name="Application_UpdateFail" xml:space="preserve">
+    <value>Update failed. Please try again.</value>
+  </data>
+  <data name="PTZPanel_MoveUpLeft" xml:space="preserve">
+    <value>Up-Left</value>
+  </data>
+  <data name="PTZPanel_MoveUpRight" xml:space="preserve">
+    <value>Up-Right</value>
+  </data>
+  <data name="ExportVideo_USBDisk" xml:space="preserve">
+    <value>USB Disk</value>
+  </data>
+  <data name="USBDisk_USBDiskList" xml:space="preserve">
+    <value>USB Disk List</value>
+  </data>
+  <data name="USBDisk_USBDiskSelect" xml:space="preserve">
+    <value>USB Disk Select</value>
+  </data>
+  <data name="Control_UserIcon" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="UserGroup_User" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="PTSReports_User" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="SetupLog_User" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="Control_User" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="UserDefineGroupForm_UserDefineGroup" xml:space="preserve">
+    <value>User Define Group</value>
+  </data>
+  <data name="Event_UserDefined" xml:space="preserve">
+    <value>User Defined</value>
+  </data>
+  <data name="Application_GroupPermissionNotFound" xml:space="preserve">
+    <value>User group "%1" permission not found.</value>
+  </data>
+  <data name="SetupUser_IdCantBeZero" xml:space="preserve">
+    <value>User Id can't be 0</value>
+  </data>
+  <data name="Application_UserInformationNotFound" xml:space="preserve">
+    <value>User information not found.</value>
+  </data>
+  <data name="EditUserPanel_UserNameCantEmpty" xml:space="preserve">
+    <value>User name can't be empty.</value>
+  </data>
+  <data name="EditUserPanel_UserNameCantTheSame" xml:space="preserve">
+    <value>User name can't be the same.</value>
+  </data>
+  <data name="EditUserPanel_UserNameAcceptNumberAndAlphaOnly" xml:space="preserve">
+    <value>User name only accept letters and numbers.</value>
+  </data>
+  <data name="Application_UtilityInitError" xml:space="preserve">
+    <value>Utility Initialize Error</value>
+  </data>
+  <data name="Exception_Value" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="Segment_Value" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="Tag_Value" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="PTSReports_Value" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="Application_Ver" xml:space="preserve">
+    <value>Ver. %1</value>
+  </data>
+  <data name="SplashForm_Ver" xml:space="preserve">
+    <value>Ver. %1</value>
+  </data>
+  <data name="SetupServer_Version" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="ExportVideo_Video" xml:space="preserve">
+    <value>Video</value>
+  </data>
+  <data name="Event_VideoLoss" xml:space="preserve">
+    <value>Video Loss</value>
+  </data>
+  <data name="Event_VideoRecovery" xml:space="preserve">
+    <value>Video Recovery</value>
+  </data>
+  <data name="Menu_VideoStream1" xml:space="preserve">
+    <value>Video Stream 1</value>
+  </data>
+  <data name="Menu_VideoStream2" xml:space="preserve">
+    <value>Video Stream 2</value>
+  </data>
+  <data name="Menu_VideoStream3" xml:space="preserve">
+    <value>Video Stream 3</value>
+  </data>
+  <data name="Menu_VideoStream4" xml:space="preserve">
+    <value>Video Stream 4</value>
+  </data>
+  <data name="Menu_VideoStream5" xml:space="preserve">
+    <value>Video Stream 5</value>
+  </data>
+  <data name="Menu_VideoStream6" xml:space="preserve">
+    <value>Video Stream 6</value>
+  </data>
+  <data name="Menu_VideoTitleBar" xml:space="preserve">
+    <value>Video Title Bar</value>
+  </data>
+  <data name="SetupGeneral_VideoWindowTitleBar" xml:space="preserve">
+    <value>Video window title bar</value>
+  </data>
+  <data name="Control_DeviceView" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="Common_Wed" xml:space="preserve">
+    <value>Wed</value>
+  </data>
+  <data name="Common_Wednesday" xml:space="preserve">
+    <value>Wednesday</value>
+  </data>
+  <data name="PTSReports_Weekly" xml:space="preserve">
+    <value>Weekly</value>
+  </data>
+  <data name="ScheduleReportPanel_Weekly" xml:space="preserve">
+    <value>Weekly Report</value>
+  </data>
+  <data name="DeviceLayoutPanel_Width" xml:space="preserve">
+    <value>Width</value>
+  </data>
+  <data name="LoginForm_SignInFailedAndRetryAutoLogin" xml:space="preserve">
+    <value>Will re-login after %1 seconds. (Re-logins: %2)</value>
+  </data>
+  <data name="SetupLog_XmlFile" xml:space="preserve">
+    <value>XML file</value>
+  </data>
+  <data name="Common_Yesterday" xml:space="preserve">
+    <value>Yesterday</value>
+  </data>
+  <data name="ExportVideo_NoPermissionToExport" xml:space="preserve">
+    <value>You don't have permission to export the following devices video.</value>
+  </data>
+  <data name="PTZPanel_Zoom" xml:space="preserve">
+    <value>Zoom</value>
+  </data>
+  <data name="PTZPanel_ZoomSTOP" xml:space="preserve">
+    <value>Zoom STOP</value>
+  </data>
+  <data name="PTZPanel_ZoomTELE" xml:space="preserve">
+    <value>Zoom TELE</value>
+  </data>
+  <data name="PTZPanel_ZoomWIDE" xml:space="preserve">
+    <value>Zoom WIDE</value>
+  </data>
+  <data name="PTSReports_CountingDiscrepancies" xml:space="preserve">
+    <value>Counting Discrepancies</value>
+  </data>
+  <data name="PTSReports_TimeIntervel" xml:space="preserve">
+    <value>Time Interval</value>
+  </data>
+  <data name="ExceptionResultPanel_CountingDiscrepancies" xml:space="preserve">
+    <value>Counting Discrepancies</value>
+  </data>
+  <data name="ExceptionResultPanel_CountingDiscrepanciesCompare" xml:space="preserve">
+    <value>%1 (POS: %2, Counting: %3)</value>
+  </data>
+  <data name="Control_GenericPOSSetting" xml:space="preserve">
+    <value>Generic POS Setting</value>
+  </data>
+  <data name="Exception_TagEnd" xml:space="preserve">
+    <value>End of the Tag</value>
+  </data>
+  <data name="POSConnection_Port" xml:space="preserve">
+    <value>Port</value>
+  </data>
+  <data name="POSConnection_Transaction" xml:space="preserve">
+    <value>Transaction</value>
+  </data>
+  <data name="POSException_AddNewException" xml:space="preserve">
+    <value>Add New Exception</value>
+  </data>
+  <data name="POSException_AddNewTag" xml:space="preserve">
+    <value>Add New Tag</value>
+  </data>
+  <data name="POSException_CaptureClear" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="POSException_CaptureExport" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="POSException_CaptureStart" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="POSException_CaptureStop" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="POSException_Import" xml:space="preserve">
+    <value>Import Transaction</value>
+  </data>
+  <data name="POSException_Separator" xml:space="preserve">
+    <value>Separator</value>
+  </data>
+  <data name="POSException_TransactionType" xml:space="preserve">
+    <value>Transaction Type</value>
+  </data>
+  <data name="POS_FilterPOSId" xml:space="preserve">
+    <value>Filter POS Id</value>
+  </data>
+  <data name="POS_FilterPOSIdYes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="SetupException_AddNewExceptionByFile" xml:space="preserve">
+    <value>Add new Exception by file</value>
+  </data>
+  <data name="ExceptionResultPanel_NO" xml:space="preserve">
+    <value>No.</value>
+  </data>
+  <data name="Menu_Original" xml:space="preserve">
+    <value>Original</value>
+  </data>
+</root>

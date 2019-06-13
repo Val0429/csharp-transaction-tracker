@@ -1,0 +1,59 @@
+// NvrProvider.idl : IDL source for NvrProvider
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (NvrProvider.tlb) and marshalling code.
+
+#include "olectl.h"
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(C2E89479-B109-4A23-A7F0-CA790F521450),
+	dual,
+	nonextensible,
+	pointer_default(unique)
+]
+interface INvrViewerProvider : IDispatch{
+	[propget, id(1), helpstring("property Version")] HRESULT Version([out, retval] BSTR* pVal);
+	[propput, id(1), helpstring("property Version")] HRESULT Version([in] BSTR newVal);
+
+	[id(2)] HRESULT SetCanvasFormat([in]BSTR gid, [in] LONG w, [in] LONG h, [in] LONG w_num, [in] LONG h_num);
+	[id(3)] HRESULT SetConnectionConfig([in] LONG id, [in] BSTR svrUrl, [in] BSTR account_name, [in] BSTR account_pwd);
+	[id(4)] HRESULT Connect(void);
+	[id(5)] HRESULT Disconnect(void);
+	[id(6)] HRESULT SetPlayMode([in] LONG isPlay);
+	[id(7)] HRESULT Goto([in] ULONGLONG timestamp);
+	[id(8)] HRESULT SetDecodeI([in] LONG bValue);
+	[id(9)] HRESULT NextFrame(void);
+	[id(10)] HRESULT PreviousFrame(void);
+	[id(11)] HRESULT SetImmerVisionCameraDewarped([in] LONG id, [in] LONG bDewarped, [in] BSTR type, [in] LONG mountType);
+};
+
+[
+	uuid(8D2B344E-BA8E-4720-A6CD-7399BE9C156F),
+	version(1.0),
+]
+library NvrProviderLib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(AC8D5B43-DEBE-42A6-8B45-F68B05F06827)		
+	]
+	dispinterface _INvrViewerProviderEvents
+	{
+		properties:
+		methods:
+	};
+	[
+		uuid(2A9F22C2-0BBB-428D-A301-EFD817125C4F),		
+		control
+	]
+	coclass NvrViewerProvider
+	{
+		[default] interface INvrViewerProvider;
+		[default, source] dispinterface _INvrViewerProviderEvents;
+	};
+};
+

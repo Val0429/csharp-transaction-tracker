@@ -1,0 +1,127 @@
+<Exceptions>
+  <Brand value="MaitreD" editable="true">
+    <Exception key="VOID" dir="++" valueType="">VOID</Exception>
+    <Exception key="CLEAR" dir="--" valueType="" editable="true">CLEAR</Exception>
+    <Exception key="LESS" dir="+" valueType="" editable="true">LESS</Exception>
+    <Exception key="COUPON" dir="=" valueType="" editable="true">COUPON</Exception>
+    <Exception key="NO SALE" dir="" valueType="" editable="true">NO SALE</Exception>
+    <Exception key="200DISCO" dir="=" valueType="" editable="true">2.00 $ DISCO</Exception>
+    <Exception key="15DISCOUNT" dir="=" valueType="" editable="true">15DISCOUNT</Exception>
+    <Exception key="QUALITY DISC" dir="=" valueType="" editable="true">QUALITY DISC</Exception>
+    <Exception key="ADMINISTRATI" dir="=" valueType="" editable="true">ADMINISTRATI</Exception>
+    <Exception key="WAITER DISC." dir="=" valueType="" editable="true">WAITER DISC.</Exception>
+    <Exception key="Charge Disco" dir="=" valueType="" editable="true">Charge Disco</Exception>
+    <Exception key="Free 4 Wings" dir="=" valueType="" editable="true">Free 4 Wings</Exception>
+    <Exception key="PROMO BEER" dir="=" valueType="" editable="true">PROMO BEER</Exception>
+    <Exception key="Gratificatio" dir="=" valueType="" editable="true">Gratificatio</Exception>
+    <Exception key="MANAGER DISC" dir="=" valueType="" editable="true">MANAGER DISC</Exception>
+    <Exception key="COUTERSY DIS" dir="=" valueType="" editable="true">COUTERSY DIS</Exception>
+    <Exception key="OFFER BY MAN" dir="=" valueType="" editable="true">OFFER BY MAN</Exception>
+  </Brand>
+  <Brand value="ActiveMQ" editable="flase">
+    <Exception key="CERTIFICATE BARCODED" dir="=" valueType="$" editable="flase">CERTIFICATE BARCODED</Exception>
+    <Exception key="CHARGE SALE TRANSACTION" dir="=" valueType="$" editable="false">CHARGE SALE TRANSACTION</Exception>
+    <Exception key="COUPON" dir="=" valueType="$" editable="false">COUPON</Exception>
+    <Exception key="DAMAGED PRODUCT" dir="+" valueType="$" editable="false">DAMAGED PRODUCT</Exception>
+    <Exception key="DISCOUNT" dir="+" valueType="$" editable="false">DISCOUNT</Exception>
+    <Exception key="ISSUE BAR-CODED CK" dir="=" valueType="$" editable="false">ISSUE BAR-CODED CK</Exception>
+    <Exception key="MENARD REBATE" dir="=" valueType="$" editable="false">MENARD REBATE</Exception>
+    <Exception key="MERCHANDISE RETURN" dir="+" valueType="$" editable="false">MERCHANDISE RETURN</Exception>
+    <Exception key="NO SALE" dir="+" valueType="$" editable="false">NO SALE</Exception>
+    <Exception key="OPEN SKU SALES" dir="=" valueType="$" editable="false">OPEN SKU SALES</Exception>
+    <Exception key="PRICE OVERRIDE" dir="+" valueType="$" editable="false">PRICE OVERRIDE</Exception>
+    <Exception key="RETURN CHARGE" dir="+" valueType="$" editable="false">RETURN CHARGE</Exception>
+    <Exception key="SALE NO RECEIPT RETURN" dir="+" valueType="$" editable="false">SALE NO RECEIPT RETURN</Exception>
+    <Exception key="SALE TRANSACTION" dir="=" valueType="$" editable="false">SALE TRANSACTION</Exception>
+    <Exception key="VOID" dir="+" valueType="$" editable="false">VOID</Exception>
+    <Exception key="VOID SALE" dir="+" valueType="$" editable="false">VOID SALE</Exception>
+  </Brand>
+  <Brand value="Micros" editable="flase">
+    <Exception key="15% GRATUITY" dir="==" valueType="$" editable="false">15% GRATUITY</Exception>
+    <Exception key="EMPLOYEE" dir="==" valueType="$" editable="false">EMPLOYEE</Exception>
+    <Exception key="OPEN $ FOOD" dir="==" valueType="$" editable="false">OPEN $ FOOD</Exception>
+    <Exception key="NO SALE" dir="" valueType="$" editable="false">NO SALE</Exception>
+    <Exception key="PAID IN" dir="=" valueType="$" editable="false">PAID IN</Exception>
+    <Exception key="PAID OUT" dir="=" valueType="$" editable="false">PAID OUT</Exception>
+    <Exception key="VOID" dir="++" valueType="$" editable="false">-V</Exception>
+    <Exception key="CANCELLED" dir="=" valueType="$" editable="false">CANCELLED</Exception>
+  </Brand>
+  <Brand value="Oracle" editable="flase">
+    <Exception key="CLOSE TRANSACTION" dir="+" valueType="" editable="false">CLOSE</Exception>
+    <Exception key="DISCOUNT" dir="+" valueType="$" editable="false">DISCOUNT</Exception>
+    <Exception key="OPEN TRANSACTION" dir="+" valueType="" editable="false">OPEN</Exception>
+    <Exception key="PULL TRANSACTION" dir="+" valueType="" editable="false">PULL</Exception>
+    <Exception key="RETURN" dir="+" valueType="$" editable="false">(Return)</Exception>
+    <Exception key="RETURN TRANSACTION" dir="+" valueType="" editable="false">RETURN</Exception>
+    <Exception key="VOID" dir="+" valueType="$" editable="false">(Void)</Exception>
+    <Exception key="VOID TRANSACTION" dir="+" valueType="$" editable="false">VOID</Exception>
+  </Brand>
+  <Brand value="Oracle Demo" editable="flase">
+    <Exception key="CLOSE TRANSACTION" dir="+" valueType="" editable="false">CLOSE</Exception>
+    <Exception key="DISCOUNT" dir="+" valueType="$" editable="false">DISCOUNT</Exception>
+    <Exception key="OPEN TRANSACTION" dir="+" valueType="" editable="false">OPEN</Exception>
+    <Exception key="PULL TRANSACTION" dir="+" valueType="" editable="false">PULL</Exception>
+    <Exception key="RETURN" dir="+" valueType="$" editable="false">(Return)</Exception>
+    <Exception key="RETURN TRANSACTION" dir="+" valueType="" editable="false">RETURN</Exception>
+    <Exception key="VOID" dir="+" valueType="$" editable="false">(Void)</Exception>
+    <Exception key="VOID TRANSACTION" dir="+" valueType="$" editable="false">VOID</Exception>
+  </Brand>
+  <Brand value="Radiant" editable="flase">
+    <Exception key="SECURITY INTERFACE ONLINE" dir="" valueType="" editable="false">SECURITY INTERFACE ONLINE</Exception>
+    <Exception key="VOID" dir="" valueType="" editable="false">VOID</Exception>
+    <Exception key="PRICE OVERRIDE" dir="" valueType="" editable="false">PRICE OVERRIDE</Exception>
+    <Exception key="QUANTITY CHANGE" dir="" valueType="" editable="false">QUANTITY CHANGE</Exception>
+    <Exception key="COUPON" dir="" valueType="" editable="false">COUPON</Exception>
+    <Exception key="DISCOUNT" dir="" valueType="" editable="false">DISCOUNT</Exception>
+    <Exception key="COUPON DELETION" dir="" valueType="" editable="false">COUPON DELETION</Exception>
+    <Exception key="DISCOUNT DELETION" dir="" valueType="" editable="false">DISCOUNT DELETION</Exception>
+    <Exception key="TERMINAL LOCK" dir="" valueType="" editable="false">TERMINAL LOCK</Exception>
+    <Exception key="TERMINAL UNLOCK" dir="" valueType="" editable="false">TERMINAL UNLOCK</Exception>
+    <Exception key="SAFE DROP REQUIRED" dir="" valueType="" editable="false">SAFE DROP REQUIRED</Exception>
+    <Exception key="DRAWER OPEN" dir="" valueType="" editable="false">DRAWER OPEN</Exception>
+    <Exception key="DRAWER CLOSE" dir="" valueType="" editable="false">DRAWER CLOSE</Exception>
+    <Exception key="DRAWER OPEN TOO LONG" dir="" valueType="" editable="false">DRAWER OPEN TOO LONG</Exception>
+    <Exception key="POS RESTART" dir="" valueType="" editable="false">POS RESTART</Exception>
+    <Exception key="SERVER OFFLINE" dir="" valueType="" editable="false">SERVER OFFLINE</Exception>
+    <Exception key="MONEY ORDER OFFLINE" dir="" valueType="" editable="false">MONEY ORDER OFFLINE</Exception>
+    <Exception key="VERIFIED CUSTOMER AGE" dir="" valueType="" editable="false">VERIFIED CUSTOMER AGE</Exception>
+    <Exception key="PAYMENT" dir="" valueType="" editable="false">PAYMENT</Exception>
+  </Brand>
+  <Brand value="Retalix" editable="flase">
+    <Exception key="VOID" dir="" valueType="" editable="false">VOID</Exception>
+    <Exception key="COUPON" dir="" valueType="" editable="false">COUPON</Exception>
+    <Exception key="NO SALE" dir="" valueType="" editable="false">NO SALE</Exception>
+    <Exception key="REFUND" dir="" valueType="" editable="false">REFUND</Exception>
+    <Exception key="WASTE" dir="" valueType="" editable="false">WASTE</Exception>
+    <Exception key="VOID TRANSACTION" dir="" valueType="" editable="false">VOID TRANSACTION</Exception>
+    <Exception key="PRICE OVERRIDE" dir="" valueType="" editable="false">PRICE OVERRIDE</Exception>
+    <Exception key="OPEN BANK" dir="" valueType="" editable="false">OPEN BANK</Exception>
+    <Exception key="CLOSE BANK" dir="" valueType="" editable="false">CLOSE BANK</Exception>
+    <Exception key="FLOAT" dir="" valueType="" editable="false">FLOAT</Exception>
+    <Exception key="DROP" dir="" valueType="" editable="false">DROP</Exception>
+    <Exception key="ITEM QTY SETUP" dir="" valueType="" editable="false">ITEM QTY SETUP</Exception>
+    <Exception key="LINE DISCOUNT" dir="" valueType="" editable="false">LINE DISCOUNT</Exception>
+  </Brand>
+  <Brand value="BHG" editable="flase">
+    <Exception key="BHG COUPON" dir="" valueType="" editable="false">立减券</Exception>
+	<Exception key="BHG ITEM RETURN" dir="" valueType="" editable="false">退货</Exception>
+  </Brand>
+  <Brand value="everrich" editable="flase">
+    <Exception key="TRANSACTION VOID" dir="" valueType="" editable="false">作廢</Exception>
+  </Brand>
+  <Brand value="Generic" editable="true">
+    <Exception key="VOID" dir="+" valueType="$" editable="false">VOID</Exception>
+    <Exception key="DISCOUNT" dir="+" valueType="$" editable="false">DISCOUNT</Exception>
+    <Exception key="COUPON" dir="+" valueType="$" editable="false">COUPON</Exception>
+    <Exception key="REFUND" dir="+" valueType="$" editable="false">REFUND</Exception>
+  </Brand>
+  <Brand value="NEC" editable="flase">
+    <Exception key="ORDER CANCEL" dir="" valueType="" editable="false">消单</Exception>
+    <Exception key="ITEM CANCEL" dir="" valueType="" editable="false">消项</Exception>
+    <Exception key="ITEM CHANGE" dir="" valueType="" editable="false">换货</Exception>
+    <Exception key="DISCOUNT" dir="" valueType="" editable="false">打折</Exception>
+    <Exception key="RETURN" dir="" valueType="" editable="false">退货</Exception>
+    <Exception key="MALICIOUS PURCHASING" dir="" valueType="" editable="false">恶意购买</Exception>
+    <Exception key="BLOCK TRADE" dir="" valueType="" editable="false">大金额购买</Exception>
+  </Brand>
+</Exceptions>

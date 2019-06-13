@@ -1,0 +1,2 @@
+regsvr32 CVClientControl64.dll
+regsvr32 CVServerControl64.dll

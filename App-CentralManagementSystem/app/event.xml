@@ -1,0 +1,22 @@
+<Page>
+  <PageName>Event</PageName>
+  <Menus>
+  </Menus>
+  <Blocks>
+    <Block>
+      <Width>auto</Width>
+      <Controls>
+        <Control>
+          <Name>Event</Name>
+          <Assembly>EventPanel.dll</Assembly>
+          <ClassName>EventPanel.EventFlowLayoutPanel</ClassName>
+          <Height>auto</Height>
+        </Control>
+      </Controls>
+    </Block>
+  </Blocks>
+  <Functions>
+  </Functions>
+  <Behaviors>>
+  </Behaviors>
+</Page>
