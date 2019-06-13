@@ -1,0 +1,14 @@
+C:\SNVR\Viewer\SetupLicense.Plugin\bin\x86\Release\SetupLicense.Plugin.dll
+C:\SNVR\Viewer\SetupLicense.Plugin\bin\x86\Release\SetupLicense.Plugin.pdb
+C:\SNVR\Viewer\SetupLicense.Plugin\bin\x86\Release\Constant.dll
+C:\SNVR\Viewer\SetupLicense.Plugin\bin\x86\Release\Interface.dll
+C:\SNVR\Viewer\SetupLicense.Plugin\bin\x86\Release\PanelBase.dll
+C:\SNVR\Viewer\SetupLicense.Plugin\bin\x86\Release\SetupBase.dll
+C:\SNVR\Viewer\SetupLicense.Plugin\bin\x86\Release\SetupLicense.dll
+C:\SNVR\Viewer\SetupLicense.Plugin\obj\x86\Release\ResolveAssemblyReference.cache
+C:\SNVR\Viewer\SetupLicense.Plugin\obj\x86\Release\SetupLicense.Plugin.Properties.Resources.resources
+C:\SNVR\Viewer\SetupLicense.Plugin\obj\x86\Release\SetupLicense.Plugin.Setup.resources
+C:\SNVR\Viewer\SetupLicense.Plugin\obj\x86\Release\ResGen.read.1.tlog
+C:\SNVR\Viewer\SetupLicense.Plugin\obj\x86\Release\ResGen.write.1.tlog
+C:\SNVR\Viewer\SetupLicense.Plugin\obj\x86\Release\SetupLicense.Plugin.dll
+C:\SNVR\Viewer\SetupLicense.Plugin\obj\x86\Release\SetupLicense.Plugin.pdb

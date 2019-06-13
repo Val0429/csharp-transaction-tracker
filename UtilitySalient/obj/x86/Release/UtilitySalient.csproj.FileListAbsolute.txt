@@ -1,0 +1,16 @@
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\UtilitySalient\bin\x86\Release\UtilitySalient.dll
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\UtilitySalient\bin\x86\Release\Constant.dll
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\UtilitySalient\bin\x86\Release\Interface.dll
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\UtilitySalient\bin\x86\Release\DeviceConstant.dll
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\UtilitySalient\bin\x86\Release\Constant.pdb
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\UtilitySalient\bin\x86\Release\Interface.pdb
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\UtilitySalient\bin\x86\Release\DeviceConstant.pdb
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\UtilitySalient\bin\x86\Release\Interop.CVClientControlLib.dll
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\UtilitySalient\bin\x86\Release\AxInterop.CVClientControlLib.dll
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\UtilitySalient\obj\x86\Release\UtilitySalient.csprojResolveAssemblyReference.cache
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\UtilitySalient\obj\x86\Release\Interop.CVClientControlLib.dll
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\UtilitySalient\obj\x86\Release\AxInterop.CVClientControlLib.dll
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\UtilitySalient\obj\x86\Release\UtilitySalient.csproj.ResolveComReference.cache
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\UtilitySalient\obj\x86\Release\UtilitySalient.UtilitySalient.resources
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\UtilitySalient\obj\x86\Release\UtilitySalient.csproj.GenerateResource.Cache
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\UtilitySalient\obj\x86\Release\UtilitySalient.dll

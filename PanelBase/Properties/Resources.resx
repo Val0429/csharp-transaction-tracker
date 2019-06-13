@@ -1,0 +1,440 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="IMGBanner" xml:space="preserve">
+    <value>./PanelBase/Resources/banner.png</value>
+  </data>
+  <data name="IMGCollapse2" xml:space="preserve">
+    <value>./PanelBase/Resources/collapse2.png</value>
+  </data>
+  <data name="IMGMini" xml:space="preserve">
+    <value>./PanelBase/Resources/mini.png</value>
+  </data>
+  <data name="IMGMini2" xml:space="preserve">
+    <value>./PanelBase/Resources/mini2.png</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="mini" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mini.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mini2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mini2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMGStorageBG" xml:space="preserve">
+    <value>./PanelBase/Resources/storageBG.png</value>
+  </data>
+  <data name="IMGKeepSpaceBar" xml:space="preserve">
+    <value>./PanelBase/Resources/keepSpaceBar.png</value>
+  </data>
+  <data name="IMGStorageBar" xml:space="preserve">
+    <value>./PanelBase/Resources/storageBar.png</value>
+  </data>
+  <data name="keepSpaceBar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keepSpaceBar.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="storageBar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\storageBar.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="storageBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\storageBG.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMGStorageBar_activate" xml:space="preserve">
+    <value>./PanelBase/Resources/storageBar_activate.png</value>
+  </data>
+  <data name="storageBar_activate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\storageBar_activate.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="firstPage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\firstPage.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMGFirstPage" xml:space="preserve">
+    <value>./PanelBase/Resources/firstPage.png</value>
+  </data>
+  <data name="IMGLastPage" xml:space="preserve">
+    <value>./PanelBase/Resources/lastPage.png</value>
+  </data>
+  <data name="IMGNextPage" xml:space="preserve">
+    <value>./PanelBase/Resources/nextPage.png</value>
+  </data>
+  <data name="IMGPreviousPage" xml:space="preserve">
+    <value>./PanelBase/Resources/previousPage.png</value>
+  </data>
+  <data name="lastPage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lastPage.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nextPage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nextPage.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="previousPage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\previousPage.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_bg_activate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_bg_activate.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMGIconBGActivate" xml:space="preserve">
+    <value>./PanelBase/Resources/icon_bg_activate.png</value>
+  </data>
+  <data name="banner" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\banner.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMGTitleBarBG" xml:space="preserve">
+    <value>./PanelBase/Resources/titleBarBG.png</value>
+  </data>
+  <data name="titleBarBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\titleBarBG.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMGToolList" xml:space="preserve">
+    <value>./PanelBase/Resources/toolList.png</value>
+  </data>
+  <data name="toolList" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\toolList.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="activate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\activate.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMGActivate" xml:space="preserve">
+    <value>./PanelBase/Resources/activate.png</value>
+  </data>
+  <data name="IMGStorageBG2" xml:space="preserve">
+    <value>./PanelBase/Resources/storageBG2.png</value>
+  </data>
+  <data name="storageBG2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\storageBG2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg_noborder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg_noborder.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="collapse" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\collapse.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="collapse2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\collapse2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="edit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\edit.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="expand" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\expand.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMGBg" xml:space="preserve">
+    <value>./PanelBase/Resources/bg.png</value>
+  </data>
+  <data name="IMGBgNoborder" xml:space="preserve">
+    <value>./PanelBase/Resources/bg_noborder.png</value>
+  </data>
+  <data name="IMGCollapse" xml:space="preserve">
+    <value>./PanelBase/Resources/collapse.png</value>
+  </data>
+  <data name="IMGEdit" xml:space="preserve">
+    <value>./PanelBase/Resources/edit.png</value>
+  </data>
+  <data name="IMGExpand" xml:space="preserve">
+    <value>./PanelBase/Resources/expand.png</value>
+  </data>
+  <data name="IMGInputBgHighlight" xml:space="preserve">
+    <value>./PanelBase/Resources/inputBG_highlight.png</value>
+  </data>
+  <data name="IMGInputBgTitle" xml:space="preserve">
+    <value>./PanelBase/Resources/inputBG_title.png</value>
+  </data>
+  <data name="IMGInputBottomBorder" xml:space="preserve">
+    <value>./PanelBase/Resources/input_b_border.png</value>
+  </data>
+  <data name="IMGInputBottomLeftRound" xml:space="preserve">
+    <value>./PanelBase/Resources/input_bl_round.png</value>
+  </data>
+  <data name="IMGInputBottomRightRound" xml:space="preserve">
+    <value>./PanelBase/Resources/input_br_round.png</value>
+  </data>
+  <data name="IMGInputLeftBorder" xml:space="preserve">
+    <value>./PanelBase/Resources/input_l_border.png</value>
+  </data>
+  <data name="IMGInputLeftHighlight" xml:space="preserve">
+    <value>./PanelBase/Resources/input_left_highlight.png</value>
+  </data>
+  <data name="IMGInputLeftSplit" xml:space="preserve">
+    <value>./PanelBase/Resources/input_left_split.png</value>
+  </data>
+  <data name="IMGInputRightBorder" xml:space="preserve">
+    <value>./PanelBase/Resources/input_r_border.png</value>
+  </data>
+  <data name="IMGInputRightHighlight" xml:space="preserve">
+    <value>./PanelBase/Resources/input_right_highlight.png</value>
+  </data>
+  <data name="IMGInputRightSplit" xml:space="preserve">
+    <value>./PanelBase/Resources/input_right_split.png</value>
+  </data>
+  <data name="IMGInputTopBorder" xml:space="preserve">
+    <value>./PanelBase/Resources/input_t_border.png</value>
+  </data>
+  <data name="IMGInputTopLeftRound" xml:space="preserve">
+    <value>./PanelBase/Resources/input_tl_round.png</value>
+  </data>
+  <data name="IMGInputTopRightRound" xml:space="preserve">
+    <value>./PanelBase/Resources/input_tr_round.png</value>
+  </data>
+  <data name="IMGModify" xml:space="preserve">
+    <value>./PanelBase/Resources/modify.png</value>
+  </data>
+  <data name="IMGNew" xml:space="preserve">
+    <value>./PanelBase/Resources/new.png</value>
+  </data>
+  <data name="IMGSelected" xml:space="preserve">
+    <value>./PanelBase/Resources/selected.png</value>
+  </data>
+  <data name="IMGTzTopLeftHighlight" xml:space="preserve">
+    <value>./PanelBase/Resources/tz_top_left_highlight.png</value>
+  </data>
+  <data name="IMGTzTopLeftTitle" xml:space="preserve">
+    <value>./PanelBase/Resources/tz_top_left_title.png</value>
+  </data>
+  <data name="IMGTzTopRightHighlight" xml:space="preserve">
+    <value>./PanelBase/Resources/tz_top_right_highlight.png</value>
+  </data>
+  <data name="IMGTzTopRightTitle" xml:space="preserve">
+    <value>./PanelBase/Resources/tz_top_right_title.png</value>
+  </data>
+  <data name="IMGUnavailable" xml:space="preserve">
+    <value>./PanelBase/Resources/unavailable.png</value>
+  </data>
+  <data name="inputBG_highlight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\inputBG_highlight.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="inputBG_title" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\inputBG_title.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="input_bl_round" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\input_bl_round.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="input_br_round" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\input_br_round.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="input_b_border" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\input_b_border.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="input_left_highlight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\input_left_highlight.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="input_left_split" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\input_left_split.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="input_l_border" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\input_l_border.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="input_right_highlight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\input_right_highlight.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="input_right_split" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\input_right_split.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="input_r_border" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\input_r_border.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="input_tl_round" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\input_tl_round.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="input_tr_round" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\input_tr_round.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="input_t_border" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\input_t_border.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="modify" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\modify.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="selected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\selected.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tz_top_left_highlight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tz_top_left_highlight.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tz_top_left_title" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tz_top_left_title.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tz_top_right_highlight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tz_top_right_highlight.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tz_top_right_title" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tz_top_right_title.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="unavailable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\unavailable.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_new" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\new.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\banner2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMGBanner2" xml:space="preserve">
+    <value>./PanelBase/Resources/banner2.png</value>
+  </data>
+  <data name="IMGUI2Mini" xml:space="preserve">
+    <value>./PanelBase/Resources/ui2_mini.png</value>
+  </data>
+  <data name="IMGUI2Mini2" xml:space="preserve">
+    <value>./PanelBase/Resources/ui2_mini2.png</value>
+  </data>
+  <data name="ui2_mini" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ui2_mini.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ui2_mini2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ui2_mini2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="loadingClock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\loadingClock.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="progressBar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\progressBar.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="progressBarBg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\progressBarBg.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMGBottomBorder" xml:space="preserve">
+    <value>./PanelBase/Resources/b_border.png</value>
+  </data>
+  <data name="IMGLeftBorder" xml:space="preserve">
+    <value>./PanelBase/Resources/l_border.png</value>
+  </data>
+  <data name="IMGRightBorder" xml:space="preserve">
+    <value>./PanelBase/Resources/r_border.png</value>
+  </data>
+  <data name="IMGTopBorder" xml:space="preserve">
+    <value>./PanelBase/Resources/t_border.png</value>
+  </data>
+  <data name="IMGBottomLeftRound" xml:space="preserve">
+    <value>./PanelBase/Resources/bl_round.png</value>
+  </data>
+  <data name="IMGBottomRightRound" xml:space="preserve">
+    <value>./PanelBase/Resources/br_round.png</value>
+  </data>
+  <data name="IMGTopLeftRound" xml:space="preserve">
+    <value>./PanelBase/Resources/tl_round.png</value>
+  </data>
+  <data name="IMGTopRightRound" xml:space="preserve">
+    <value>./PanelBase/Resources/tr_round.png</value>
+  </data>
+  <data name="IMGLoadingClock" xml:space="preserve">
+    <value>./App/Resources/loadingClock.png</value>
+  </data>
+
+</root>

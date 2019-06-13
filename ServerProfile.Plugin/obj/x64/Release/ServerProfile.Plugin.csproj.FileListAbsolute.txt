@@ -1,0 +1,11 @@
+C:\SNVR\Viewer\ServerProfile.Plugin\bin\x64\Release\ServerProfile.Plugin.dll
+C:\SNVR\Viewer\ServerProfile.Plugin\bin\x64\Release\Constant.dll
+C:\SNVR\Viewer\ServerProfile.Plugin\bin\x64\Release\Interface.dll
+C:\SNVR\Viewer\ServerProfile.Plugin\bin\x64\Release\PanelBase.dll
+C:\SNVR\Viewer\ServerProfile.Plugin\bin\x64\Release\ServerProfile.dll
+C:\SNVR\Viewer\ServerProfile.Plugin\bin\x64\Release\Device.dll
+C:\SNVR\Viewer\ServerProfile.Plugin\bin\x64\Release\UtilityAir.dll
+C:\SNVR\Viewer\ServerProfile.Plugin\bin\x64\Release\AxInterop.AirUtilityLib.dll
+C:\SNVR\Viewer\ServerProfile.Plugin\bin\x64\Release\Interop.AirUtilityLib.dll
+C:\SNVR\Viewer\ServerProfile.Plugin\obj\x64\Release\ResolveAssemblyReference.cache
+C:\SNVR\Viewer\ServerProfile.Plugin\obj\x64\Release\ServerProfile.Plugin.dll

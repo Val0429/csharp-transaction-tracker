@@ -1,0 +1,116 @@
+C:\SNVR\Viewer\SNVR\bin\x86\Debug\SetupLicense.dll
+C:\SNVR\Viewer\SNVR\bin\x86\Debug\SetupLicense.pdb
+C:\SNVR\Viewer\SetupLicense\bin\x86\Debug\SetupLicense.dll
+C:\SNVR\Viewer\SetupLicense\bin\x86\Debug\SetupLicense.pdb
+C:\SNVR\Viewer\SetupLicense\bin\x86\Debug\Constant.dll
+C:\SNVR\Viewer\SetupLicense\bin\x86\Debug\Interface.dll
+C:\SNVR\Viewer\SetupLicense\bin\x86\Debug\PanelBase.dll
+C:\SNVR\Viewer\SetupLicense\bin\x86\Debug\SetupBase.dll
+C:\SNVR\Viewer\SetupLicense\bin\x86\Debug\DeviceConstant.dll
+C:\SNVR\Viewer\SetupLicense\bin\x86\Debug\Interface.pdb
+C:\SNVR\Viewer\SetupLicense\bin\x86\Debug\SetupBase.pdb
+C:\SNVR\Viewer\SetupLicense\bin\x86\Debug\Constant.pdb
+C:\SNVR\Viewer\SetupLicense\bin\x86\Debug\PanelBase.pdb
+C:\SNVR\Viewer\SetupLicense\obj\x86\Debug\SetupLicense.csprojResolveAssemblyReference.cache
+C:\SNVR\Viewer\SetupLicense\obj\x86\Debug\SetupLicense.InfoControl.resources
+C:\SNVR\Viewer\SetupLicense\obj\x86\Debug\SetupLicense.Properties.Resources.resources
+C:\SNVR\Viewer\SetupLicense\obj\x86\Debug\SetupLicense.Setup.resources
+C:\SNVR\Viewer\SetupLicense\obj\x86\Debug\SetupLicense.csproj.GenerateResource.Cache
+C:\SNVR\Viewer\SetupLicense\obj\x86\Debug\SetupLicense.dll
+C:\SNVR\Viewer\SetupLicense\obj\x86\Debug\SetupLicense.pdb
+C:\SNVR\Viewer\SetupLicense\bin\x86\Debug\DeviceConstant.pdb
+F:\Project\NVR CMS PTS TT\Viewer\SetupLicense\bin\x86\Debug\SetupLicense.dll
+F:\Project\NVR CMS PTS TT\Viewer\SetupLicense\bin\x86\Debug\SetupLicense.pdb
+F:\Project\NVR CMS PTS TT\Viewer\SetupLicense\bin\x86\Debug\Constant.dll
+F:\Project\NVR CMS PTS TT\Viewer\SetupLicense\bin\x86\Debug\Interface.dll
+F:\Project\NVR CMS PTS TT\Viewer\SetupLicense\bin\x86\Debug\PanelBase.dll
+F:\Project\NVR CMS PTS TT\Viewer\SetupLicense\bin\x86\Debug\SetupBase.dll
+F:\Project\NVR CMS PTS TT\Viewer\SetupLicense\bin\x86\Debug\DeviceConstant.dll
+F:\Project\NVR CMS PTS TT\Viewer\SetupLicense\bin\x86\Debug\Interface.pdb
+F:\Project\NVR CMS PTS TT\Viewer\SetupLicense\bin\x86\Debug\SetupBase.pdb
+F:\Project\NVR CMS PTS TT\Viewer\SetupLicense\bin\x86\Debug\Constant.pdb
+F:\Project\NVR CMS PTS TT\Viewer\SetupLicense\bin\x86\Debug\PanelBase.pdb
+F:\Project\NVR CMS PTS TT\Viewer\SetupLicense\bin\x86\Debug\DeviceConstant.pdb
+F:\Project\NVR CMS PTS TT\Viewer\SetupLicense\obj\x86\Debug\SetupLicense.csprojResolveAssemblyReference.cache
+F:\Project\NVR CMS PTS TT\Viewer\SetupLicense\obj\x86\Debug\SetupLicense.InfoControl.resources
+F:\Project\NVR CMS PTS TT\Viewer\SetupLicense\obj\x86\Debug\SetupLicense.Properties.Resources.resources
+F:\Project\NVR CMS PTS TT\Viewer\SetupLicense\obj\x86\Debug\SetupLicense.Setup.resources
+F:\Project\NVR CMS PTS TT\Viewer\SetupLicense\obj\x86\Debug\SetupLicense.csproj.GenerateResource.Cache
+F:\Project\NVR CMS PTS TT\Viewer\SetupLicense\obj\x86\Debug\SetupLicense.dll
+F:\Project\NVR CMS PTS TT\Viewer\SetupLicense\obj\x86\Debug\SetupLicense.pdb
+F:\Project\NVR_CMS_PTS_TT\Viewer\SetupLicense\bin\x86\Debug\SetupLicense.dll
+F:\Project\NVR_CMS_PTS_TT\Viewer\SetupLicense\bin\x86\Debug\SetupLicense.pdb
+F:\Project\NVR_CMS_PTS_TT\Viewer\SetupLicense\bin\x86\Debug\Constant.dll
+F:\Project\NVR_CMS_PTS_TT\Viewer\SetupLicense\bin\x86\Debug\Interface.dll
+F:\Project\NVR_CMS_PTS_TT\Viewer\SetupLicense\bin\x86\Debug\PanelBase.dll
+F:\Project\NVR_CMS_PTS_TT\Viewer\SetupLicense\bin\x86\Debug\SetupBase.dll
+F:\Project\NVR_CMS_PTS_TT\Viewer\SetupLicense\bin\x86\Debug\DeviceConstant.dll
+F:\Project\NVR_CMS_PTS_TT\Viewer\SetupLicense\bin\x86\Debug\Interface.pdb
+F:\Project\NVR_CMS_PTS_TT\Viewer\SetupLicense\bin\x86\Debug\SetupBase.pdb
+F:\Project\NVR_CMS_PTS_TT\Viewer\SetupLicense\bin\x86\Debug\Constant.pdb
+F:\Project\NVR_CMS_PTS_TT\Viewer\SetupLicense\bin\x86\Debug\PanelBase.pdb
+F:\Project\NVR_CMS_PTS_TT\Viewer\SetupLicense\bin\x86\Debug\DeviceConstant.pdb
+F:\Project\NVR_CMS_PTS_TT\Viewer\SetupLicense\obj\x86\Debug\SetupLicense.csprojResolveAssemblyReference.cache
+F:\Project\NVR_CMS_PTS_TT\Viewer\SetupLicense\obj\x86\Debug\SetupLicense.InfoControl.resources
+F:\Project\NVR_CMS_PTS_TT\Viewer\SetupLicense\obj\x86\Debug\SetupLicense.Properties.Resources.resources
+F:\Project\NVR_CMS_PTS_TT\Viewer\SetupLicense\obj\x86\Debug\SetupLicense.Setup.resources
+F:\Project\NVR_CMS_PTS_TT\Viewer\SetupLicense\obj\x86\Debug\SetupLicense.csproj.GenerateResource.Cache
+F:\Project\NVR_CMS_PTS_TT\Viewer\SetupLicense\obj\x86\Debug\SetupLicense.dll
+F:\Project\NVR_CMS_PTS_TT\Viewer\SetupLicense\obj\x86\Debug\SetupLicense.pdb
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\SetupLicense\bin\x86\Debug\SetupLicense.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\SetupLicense\bin\x86\Debug\SetupLicense.pdb
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\SetupLicense\bin\x86\Debug\Constant.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\SetupLicense\bin\x86\Debug\Interface.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\SetupLicense\bin\x86\Debug\PanelBase.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\SetupLicense\bin\x86\Debug\SetupBase.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\SetupLicense\bin\x86\Debug\DeviceConstant.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\SetupLicense\bin\x86\Debug\Interface.pdb
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\SetupLicense\bin\x86\Debug\SetupBase.pdb
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\SetupLicense\bin\x86\Debug\Constant.pdb
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\SetupLicense\bin\x86\Debug\PanelBase.pdb
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\SetupLicense\bin\x86\Debug\DeviceConstant.pdb
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\SetupLicense\obj\x86\Debug\SetupLicense.csprojResolveAssemblyReference.cache
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\SetupLicense\obj\x86\Debug\SetupLicense.InfoControl.resources
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\SetupLicense\obj\x86\Debug\SetupLicense.Properties.Resources.resources
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\SetupLicense\obj\x86\Debug\SetupLicense.Setup.resources
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\SetupLicense\obj\x86\Debug\SetupLicense.csproj.GenerateResource.Cache
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\SetupLicense\obj\x86\Debug\SetupLicense.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\SetupLicense\obj\x86\Debug\SetupLicense.pdb
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\SetupLicense\bin\x86\Debug\SetupLicense.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\SetupLicense\bin\x86\Debug\SetupLicense.pdb
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\SetupLicense\bin\x86\Debug\Constant.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\SetupLicense\bin\x86\Debug\Interface.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\SetupLicense\bin\x86\Debug\PanelBase.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\SetupLicense\bin\x86\Debug\SetupBase.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\SetupLicense\bin\x86\Debug\DeviceConstant.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\SetupLicense\bin\x86\Debug\Interface.pdb
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\SetupLicense\bin\x86\Debug\SetupBase.pdb
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\SetupLicense\bin\x86\Debug\Constant.pdb
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\SetupLicense\bin\x86\Debug\PanelBase.pdb
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\SetupLicense\bin\x86\Debug\DeviceConstant.pdb
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\SetupLicense\obj\x86\Debug\SetupLicense.csprojResolveAssemblyReference.cache
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\SetupLicense\obj\x86\Debug\SetupLicense.InfoControl.resources
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\SetupLicense\obj\x86\Debug\SetupLicense.Properties.Resources.resources
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\SetupLicense\obj\x86\Debug\SetupLicense.Setup.resources
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\SetupLicense\obj\x86\Debug\SetupLicense.csproj.GenerateResource.Cache
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\SetupLicense\obj\x86\Debug\SetupLicense.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\SetupLicense\obj\x86\Debug\SetupLicense.pdb
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\SetupLicense\bin\x86\Debug\SetupLicense.dll
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\SetupLicense\bin\x86\Debug\SetupLicense.pdb
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\SetupLicense\bin\x86\Debug\Constant.dll
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\SetupLicense\bin\x86\Debug\Interface.dll
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\SetupLicense\bin\x86\Debug\PanelBase.dll
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\SetupLicense\bin\x86\Debug\SetupBase.dll
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\SetupLicense\bin\x86\Debug\DeviceConstant.dll
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\SetupLicense\bin\x86\Debug\Interface.pdb
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\SetupLicense\bin\x86\Debug\SetupBase.pdb
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\SetupLicense\bin\x86\Debug\Constant.pdb
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\SetupLicense\bin\x86\Debug\PanelBase.pdb
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\SetupLicense\bin\x86\Debug\DeviceConstant.pdb
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\SetupLicense\obj\x86\Debug\SetupLicense.csprojResolveAssemblyReference.cache
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\SetupLicense\obj\x86\Debug\SetupLicense.InfoControl.resources
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\SetupLicense\obj\x86\Debug\SetupLicense.Properties.Resources.resources
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\SetupLicense\obj\x86\Debug\SetupLicense.Setup.resources
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\SetupLicense\obj\x86\Debug\SetupLicense.csproj.GenerateResource.Cache
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\SetupLicense\obj\x86\Debug\SetupLicense.dll
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\SetupLicense\obj\x86\Debug\SetupLicense.pdb

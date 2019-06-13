@@ -1,0 +1,95 @@
+C:\SNVR\Viewer\ViewerSalient\bin\x86\Debug\ViewerSalient.dll
+C:\SNVR\Viewer\ViewerSalient\bin\x86\Debug\ViewerSalient.pdb
+C:\SNVR\Viewer\ViewerSalient\bin\x86\Debug\AxInterop.CVClientControlLib.dll
+C:\SNVR\Viewer\ViewerSalient\bin\x86\Debug\Constant.dll
+C:\SNVR\Viewer\ViewerSalient\bin\x86\Debug\DeviceConstant.dll
+C:\SNVR\Viewer\ViewerSalient\bin\x86\Debug\Interface.dll
+C:\SNVR\Viewer\ViewerSalient\bin\x86\Debug\Interop.CVClientControlLib.dll
+C:\SNVR\Viewer\ViewerSalient\bin\x86\Debug\Constant.pdb
+C:\SNVR\Viewer\ViewerSalient\bin\x86\Debug\Interface.pdb
+C:\SNVR\Viewer\ViewerSalient\obj\x86\Debug\ViewerSalient.csprojResolveAssemblyReference.cache
+C:\SNVR\Viewer\ViewerSalient\obj\x86\Debug\ViewerSalient.csproj.ResolveComReference.cache
+C:\SNVR\Viewer\ViewerSalient\obj\x86\Debug\ViewerSalient.VideoPlayer.resources
+C:\SNVR\Viewer\ViewerSalient\obj\x86\Debug\ViewerSalient.csproj.GenerateResource.Cache
+C:\SNVR\Viewer\ViewerSalient\obj\x86\Debug\ViewerSalient.dll
+C:\SNVR\Viewer\ViewerSalient\obj\x86\Debug\ViewerSalient.pdb
+F:\Project\NVR CMS PTS TT\Viewer\ViewerSalient\bin\x86\Debug\ViewerSalient.dll
+F:\Project\NVR CMS PTS TT\Viewer\ViewerSalient\bin\x86\Debug\ViewerSalient.pdb
+F:\Project\NVR CMS PTS TT\Viewer\ViewerSalient\bin\x86\Debug\AxInterop.CVClientControlLib.dll
+F:\Project\NVR CMS PTS TT\Viewer\ViewerSalient\bin\x86\Debug\Constant.dll
+F:\Project\NVR CMS PTS TT\Viewer\ViewerSalient\bin\x86\Debug\DeviceConstant.dll
+F:\Project\NVR CMS PTS TT\Viewer\ViewerSalient\bin\x86\Debug\Interface.dll
+F:\Project\NVR CMS PTS TT\Viewer\ViewerSalient\bin\x86\Debug\Interop.CVClientControlLib.dll
+F:\Project\NVR CMS PTS TT\Viewer\ViewerSalient\bin\x86\Debug\Constant.pdb
+F:\Project\NVR CMS PTS TT\Viewer\ViewerSalient\bin\x86\Debug\DeviceConstant.pdb
+F:\Project\NVR CMS PTS TT\Viewer\ViewerSalient\bin\x86\Debug\Interface.pdb
+F:\Project\NVR CMS PTS TT\Viewer\ViewerSalient\obj\x86\Debug\ViewerSalient.csprojResolveAssemblyReference.cache
+F:\Project\NVR CMS PTS TT\Viewer\ViewerSalient\obj\x86\Debug\ViewerSalient.csproj.ResolveComReference.cache
+F:\Project\NVR CMS PTS TT\Viewer\ViewerSalient\obj\x86\Debug\ViewerSalient.VideoPlayer.resources
+F:\Project\NVR CMS PTS TT\Viewer\ViewerSalient\obj\x86\Debug\ViewerSalient.csproj.GenerateResource.Cache
+F:\Project\NVR CMS PTS TT\Viewer\ViewerSalient\obj\x86\Debug\ViewerSalient.dll
+F:\Project\NVR CMS PTS TT\Viewer\ViewerSalient\obj\x86\Debug\ViewerSalient.pdb
+F:\Project\NVR_CMS_PTS_TT\Viewer\ViewerSalient\bin\x86\Debug\ViewerSalient.dll
+F:\Project\NVR_CMS_PTS_TT\Viewer\ViewerSalient\bin\x86\Debug\ViewerSalient.pdb
+F:\Project\NVR_CMS_PTS_TT\Viewer\ViewerSalient\bin\x86\Debug\AxInterop.CVClientControlLib.dll
+F:\Project\NVR_CMS_PTS_TT\Viewer\ViewerSalient\bin\x86\Debug\Constant.dll
+F:\Project\NVR_CMS_PTS_TT\Viewer\ViewerSalient\bin\x86\Debug\DeviceConstant.dll
+F:\Project\NVR_CMS_PTS_TT\Viewer\ViewerSalient\bin\x86\Debug\Interface.dll
+F:\Project\NVR_CMS_PTS_TT\Viewer\ViewerSalient\bin\x86\Debug\Interop.CVClientControlLib.dll
+F:\Project\NVR_CMS_PTS_TT\Viewer\ViewerSalient\bin\x86\Debug\Constant.pdb
+F:\Project\NVR_CMS_PTS_TT\Viewer\ViewerSalient\bin\x86\Debug\DeviceConstant.pdb
+F:\Project\NVR_CMS_PTS_TT\Viewer\ViewerSalient\bin\x86\Debug\Interface.pdb
+F:\Project\NVR_CMS_PTS_TT\Viewer\ViewerSalient\obj\x86\Debug\ViewerSalient.csprojResolveAssemblyReference.cache
+F:\Project\NVR_CMS_PTS_TT\Viewer\ViewerSalient\obj\x86\Debug\ViewerSalient.csproj.ResolveComReference.cache
+F:\Project\NVR_CMS_PTS_TT\Viewer\ViewerSalient\obj\x86\Debug\ViewerSalient.VideoPlayer.resources
+F:\Project\NVR_CMS_PTS_TT\Viewer\ViewerSalient\obj\x86\Debug\ViewerSalient.csproj.GenerateResource.Cache
+F:\Project\NVR_CMS_PTS_TT\Viewer\ViewerSalient\obj\x86\Debug\ViewerSalient.dll
+F:\Project\NVR_CMS_PTS_TT\Viewer\ViewerSalient\obj\x86\Debug\ViewerSalient.pdb
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\ViewerSalient\bin\x86\Debug\ViewerSalient.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\ViewerSalient\bin\x86\Debug\ViewerSalient.pdb
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\ViewerSalient\bin\x86\Debug\AxInterop.CVClientControlLib.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\ViewerSalient\bin\x86\Debug\Constant.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\ViewerSalient\bin\x86\Debug\DeviceConstant.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\ViewerSalient\bin\x86\Debug\Interface.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\ViewerSalient\bin\x86\Debug\Interop.CVClientControlLib.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\ViewerSalient\bin\x86\Debug\Constant.pdb
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\ViewerSalient\bin\x86\Debug\DeviceConstant.pdb
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\ViewerSalient\bin\x86\Debug\Interface.pdb
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\ViewerSalient\obj\x86\Debug\ViewerSalient.csprojResolveAssemblyReference.cache
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\ViewerSalient\obj\x86\Debug\ViewerSalient.csproj.ResolveComReference.cache
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\ViewerSalient\obj\x86\Debug\ViewerSalient.VideoPlayer.resources
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\ViewerSalient\obj\x86\Debug\ViewerSalient.csproj.GenerateResource.Cache
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\ViewerSalient\obj\x86\Debug\ViewerSalient.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\ViewerSalient\obj\x86\Debug\ViewerSalient.pdb
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\ViewerSalient\bin\x86\Debug\ViewerSalient.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\ViewerSalient\bin\x86\Debug\ViewerSalient.pdb
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\ViewerSalient\bin\x86\Debug\AxInterop.CVClientControlLib.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\ViewerSalient\bin\x86\Debug\Constant.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\ViewerSalient\bin\x86\Debug\DeviceConstant.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\ViewerSalient\bin\x86\Debug\Interface.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\ViewerSalient\bin\x86\Debug\Interop.CVClientControlLib.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\ViewerSalient\bin\x86\Debug\Constant.pdb
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\ViewerSalient\bin\x86\Debug\DeviceConstant.pdb
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\ViewerSalient\bin\x86\Debug\Interface.pdb
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\ViewerSalient\obj\x86\Debug\ViewerSalient.csprojResolveAssemblyReference.cache
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\ViewerSalient\obj\x86\Debug\ViewerSalient.csproj.ResolveComReference.cache
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\ViewerSalient\obj\x86\Debug\ViewerSalient.VideoPlayer.resources
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\ViewerSalient\obj\x86\Debug\ViewerSalient.csproj.GenerateResource.Cache
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\ViewerSalient\obj\x86\Debug\ViewerSalient.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\ViewerSalient\obj\x86\Debug\ViewerSalient.pdb
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\ViewerSalient\bin\x86\Debug\ViewerSalient.dll
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\ViewerSalient\bin\x86\Debug\ViewerSalient.pdb
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\ViewerSalient\bin\x86\Debug\AxInterop.CVClientControlLib.dll
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\ViewerSalient\bin\x86\Debug\Constant.dll
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\ViewerSalient\bin\x86\Debug\DeviceConstant.dll
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\ViewerSalient\bin\x86\Debug\Interface.dll
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\ViewerSalient\bin\x86\Debug\Interop.CVClientControlLib.dll
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\ViewerSalient\bin\x86\Debug\Constant.pdb
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\ViewerSalient\bin\x86\Debug\DeviceConstant.pdb
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\ViewerSalient\bin\x86\Debug\Interface.pdb
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\ViewerSalient\obj\x86\Debug\ViewerSalient.csprojResolveAssemblyReference.cache
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\ViewerSalient\obj\x86\Debug\ViewerSalient.csproj.ResolveComReference.cache
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\ViewerSalient\obj\x86\Debug\ViewerSalient.VideoPlayer.resources
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\ViewerSalient\obj\x86\Debug\ViewerSalient.csproj.GenerateResource.Cache
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\ViewerSalient\obj\x86\Debug\ViewerSalient.dll
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\ViewerSalient\obj\x86\Debug\ViewerSalient.pdb

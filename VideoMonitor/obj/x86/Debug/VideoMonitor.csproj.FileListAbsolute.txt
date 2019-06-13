@@ -1,0 +1,264 @@
+C:\SNVR\Viewer\VideoMonitor\bin\x86\Debug\VideoMonitor.dll
+C:\SNVR\Viewer\VideoMonitor\bin\x86\Debug\VideoMonitor.pdb
+C:\SNVR\Viewer\VideoMonitor\bin\x86\Debug\Constant.dll
+C:\SNVR\Viewer\VideoMonitor\bin\x86\Debug\Device.dll
+C:\SNVR\Viewer\VideoMonitor\bin\x86\Debug\DeviceConstant.dll
+C:\SNVR\Viewer\VideoMonitor\bin\x86\Debug\Interface.dll
+C:\SNVR\Viewer\VideoMonitor\bin\x86\Debug\Pager.dll
+C:\SNVR\Viewer\VideoMonitor\bin\x86\Debug\PanelBase.dll
+C:\SNVR\Viewer\VideoMonitor\bin\x86\Debug\ServerProfile.dll
+C:\SNVR\Viewer\VideoMonitor\bin\x86\Debug\TimeTrack.dll
+C:\SNVR\Viewer\VideoMonitor\bin\x86\Debug\DeviceCab.dll
+C:\SNVR\Viewer\VideoMonitor\bin\x86\Debug\Report.dll
+C:\SNVR\Viewer\VideoMonitor\bin\x86\Debug\UtilityAir.dll
+C:\SNVR\Viewer\VideoMonitor\bin\x86\Debug\AxInterop.NvrUtilityLib.dll
+C:\SNVR\Viewer\VideoMonitor\bin\x86\Debug\Interop.AxisJoystickModuleLib.dll
+C:\SNVR\Viewer\VideoMonitor\bin\x86\Debug\SharpDX.DirectInput.dll
+C:\SNVR\Viewer\VideoMonitor\bin\x86\Debug\Interop.NvrUtilityLib.dll
+C:\SNVR\Viewer\VideoMonitor\bin\x86\Debug\SharpDX.dll
+C:\SNVR\Viewer\VideoMonitor\bin\x86\Debug\Constant.pdb
+C:\SNVR\Viewer\VideoMonitor\bin\x86\Debug\Device.pdb
+C:\SNVR\Viewer\VideoMonitor\bin\x86\Debug\Interface.pdb
+C:\SNVR\Viewer\VideoMonitor\bin\x86\Debug\Pager.pdb
+C:\SNVR\Viewer\VideoMonitor\bin\x86\Debug\PanelBase.pdb
+C:\SNVR\Viewer\VideoMonitor\bin\x86\Debug\ServerProfile.pdb
+C:\SNVR\Viewer\VideoMonitor\bin\x86\Debug\TimeTrack.pdb
+C:\SNVR\Viewer\VideoMonitor\bin\x86\Debug\DeviceCab.pdb
+C:\SNVR\Viewer\VideoMonitor\bin\x86\Debug\Report.pdb
+C:\SNVR\Viewer\VideoMonitor\bin\x86\Debug\UtilityAir.pdb
+C:\SNVR\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.csprojResolveAssemblyReference.cache
+C:\SNVR\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.AmountOfVideoMonitorForm.resources
+C:\SNVR\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.Broadcast.resources
+C:\SNVR\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.PopupVideoMonitor.resources
+C:\SNVR\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.Snapshot.resources
+C:\SNVR\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.SaveImage.resources
+C:\SNVR\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.ManualRecord.resources
+C:\SNVR\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.InstantPlayback.resources
+C:\SNVR\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.PopupLiveStream.resources
+C:\SNVR\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.Properties.Resources.resources
+C:\SNVR\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.VideoMonitor.resources
+C:\SNVR\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.VideoWindow.resources
+C:\SNVR\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.csproj.GenerateResource.Cache
+C:\SNVR\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.dll
+C:\SNVR\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.pdb
+C:\SNVR\Viewer\VideoMonitor\bin\x86\Debug\DeviceConstant.pdb
+F:\Project\NVR CMS PTS TT\Viewer\VideoMonitor\bin\x86\Debug\VideoMonitor.dll
+F:\Project\NVR CMS PTS TT\Viewer\VideoMonitor\bin\x86\Debug\VideoMonitor.pdb
+F:\Project\NVR CMS PTS TT\Viewer\VideoMonitor\bin\x86\Debug\Constant.dll
+F:\Project\NVR CMS PTS TT\Viewer\VideoMonitor\bin\x86\Debug\Device.dll
+F:\Project\NVR CMS PTS TT\Viewer\VideoMonitor\bin\x86\Debug\DeviceConstant.dll
+F:\Project\NVR CMS PTS TT\Viewer\VideoMonitor\bin\x86\Debug\Interface.dll
+F:\Project\NVR CMS PTS TT\Viewer\VideoMonitor\bin\x86\Debug\Pager.dll
+F:\Project\NVR CMS PTS TT\Viewer\VideoMonitor\bin\x86\Debug\PanelBase.dll
+F:\Project\NVR CMS PTS TT\Viewer\VideoMonitor\bin\x86\Debug\ServerProfile.dll
+F:\Project\NVR CMS PTS TT\Viewer\VideoMonitor\bin\x86\Debug\TimeTrack.dll
+F:\Project\NVR CMS PTS TT\Viewer\VideoMonitor\bin\x86\Debug\DeviceCab.dll
+F:\Project\NVR CMS PTS TT\Viewer\VideoMonitor\bin\x86\Debug\Report.dll
+F:\Project\NVR CMS PTS TT\Viewer\VideoMonitor\bin\x86\Debug\UtilityAir.dll
+F:\Project\NVR CMS PTS TT\Viewer\VideoMonitor\bin\x86\Debug\Interop.AxisJoystickModuleLib.dll
+F:\Project\NVR CMS PTS TT\Viewer\VideoMonitor\bin\x86\Debug\SharpDX.DirectInput.dll
+F:\Project\NVR CMS PTS TT\Viewer\VideoMonitor\bin\x86\Debug\AxInterop.NvrUtilityLib.dll
+F:\Project\NVR CMS PTS TT\Viewer\VideoMonitor\bin\x86\Debug\SharpDX.dll
+F:\Project\NVR CMS PTS TT\Viewer\VideoMonitor\bin\x86\Debug\Interop.NvrUtilityLib.dll
+F:\Project\NVR CMS PTS TT\Viewer\VideoMonitor\bin\x86\Debug\Constant.pdb
+F:\Project\NVR CMS PTS TT\Viewer\VideoMonitor\bin\x86\Debug\DeviceConstant.pdb
+F:\Project\NVR CMS PTS TT\Viewer\VideoMonitor\bin\x86\Debug\Device.pdb
+F:\Project\NVR CMS PTS TT\Viewer\VideoMonitor\bin\x86\Debug\Interface.pdb
+F:\Project\NVR CMS PTS TT\Viewer\VideoMonitor\bin\x86\Debug\Pager.pdb
+F:\Project\NVR CMS PTS TT\Viewer\VideoMonitor\bin\x86\Debug\PanelBase.pdb
+F:\Project\NVR CMS PTS TT\Viewer\VideoMonitor\bin\x86\Debug\ServerProfile.pdb
+F:\Project\NVR CMS PTS TT\Viewer\VideoMonitor\bin\x86\Debug\TimeTrack.pdb
+F:\Project\NVR CMS PTS TT\Viewer\VideoMonitor\bin\x86\Debug\DeviceCab.pdb
+F:\Project\NVR CMS PTS TT\Viewer\VideoMonitor\bin\x86\Debug\Report.pdb
+F:\Project\NVR CMS PTS TT\Viewer\VideoMonitor\bin\x86\Debug\UtilityAir.pdb
+F:\Project\NVR CMS PTS TT\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.csprojResolveAssemblyReference.cache
+F:\Project\NVR CMS PTS TT\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.AmountOfVideoMonitorForm.resources
+F:\Project\NVR CMS PTS TT\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.Broadcast.resources
+F:\Project\NVR CMS PTS TT\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.PopupVideoMonitor.resources
+F:\Project\NVR CMS PTS TT\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.Snapshot.resources
+F:\Project\NVR CMS PTS TT\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.SaveImage.resources
+F:\Project\NVR CMS PTS TT\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.ManualRecord.resources
+F:\Project\NVR CMS PTS TT\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.InstantPlayback.resources
+F:\Project\NVR CMS PTS TT\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.PopupLiveStream.resources
+F:\Project\NVR CMS PTS TT\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.Properties.Resources.resources
+F:\Project\NVR CMS PTS TT\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.VideoMonitor.resources
+F:\Project\NVR CMS PTS TT\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.VideoWindow.resources
+F:\Project\NVR CMS PTS TT\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.csproj.GenerateResource.Cache
+F:\Project\NVR CMS PTS TT\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.dll
+F:\Project\NVR CMS PTS TT\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.pdb
+F:\Project\NVR_CMS_PTS_TT\Viewer\VideoMonitor\bin\x86\Debug\VideoMonitor.dll
+F:\Project\NVR_CMS_PTS_TT\Viewer\VideoMonitor\bin\x86\Debug\VideoMonitor.pdb
+F:\Project\NVR_CMS_PTS_TT\Viewer\VideoMonitor\bin\x86\Debug\Constant.dll
+F:\Project\NVR_CMS_PTS_TT\Viewer\VideoMonitor\bin\x86\Debug\Device.dll
+F:\Project\NVR_CMS_PTS_TT\Viewer\VideoMonitor\bin\x86\Debug\DeviceConstant.dll
+F:\Project\NVR_CMS_PTS_TT\Viewer\VideoMonitor\bin\x86\Debug\Interface.dll
+F:\Project\NVR_CMS_PTS_TT\Viewer\VideoMonitor\bin\x86\Debug\Pager.dll
+F:\Project\NVR_CMS_PTS_TT\Viewer\VideoMonitor\bin\x86\Debug\PanelBase.dll
+F:\Project\NVR_CMS_PTS_TT\Viewer\VideoMonitor\bin\x86\Debug\ServerProfile.dll
+F:\Project\NVR_CMS_PTS_TT\Viewer\VideoMonitor\bin\x86\Debug\TimeTrack.dll
+F:\Project\NVR_CMS_PTS_TT\Viewer\VideoMonitor\bin\x86\Debug\DeviceCab.dll
+F:\Project\NVR_CMS_PTS_TT\Viewer\VideoMonitor\bin\x86\Debug\Report.dll
+F:\Project\NVR_CMS_PTS_TT\Viewer\VideoMonitor\bin\x86\Debug\UtilityAir.dll
+F:\Project\NVR_CMS_PTS_TT\Viewer\VideoMonitor\bin\x86\Debug\Interop.AxisJoystickModuleLib.dll
+F:\Project\NVR_CMS_PTS_TT\Viewer\VideoMonitor\bin\x86\Debug\SharpDX.DirectInput.dll
+F:\Project\NVR_CMS_PTS_TT\Viewer\VideoMonitor\bin\x86\Debug\AxInterop.NvrUtilityLib.dll
+F:\Project\NVR_CMS_PTS_TT\Viewer\VideoMonitor\bin\x86\Debug\SharpDX.dll
+F:\Project\NVR_CMS_PTS_TT\Viewer\VideoMonitor\bin\x86\Debug\Interop.NvrUtilityLib.dll
+F:\Project\NVR_CMS_PTS_TT\Viewer\VideoMonitor\bin\x86\Debug\Constant.pdb
+F:\Project\NVR_CMS_PTS_TT\Viewer\VideoMonitor\bin\x86\Debug\DeviceConstant.pdb
+F:\Project\NVR_CMS_PTS_TT\Viewer\VideoMonitor\bin\x86\Debug\Device.pdb
+F:\Project\NVR_CMS_PTS_TT\Viewer\VideoMonitor\bin\x86\Debug\Interface.pdb
+F:\Project\NVR_CMS_PTS_TT\Viewer\VideoMonitor\bin\x86\Debug\Pager.pdb
+F:\Project\NVR_CMS_PTS_TT\Viewer\VideoMonitor\bin\x86\Debug\PanelBase.pdb
+F:\Project\NVR_CMS_PTS_TT\Viewer\VideoMonitor\bin\x86\Debug\ServerProfile.pdb
+F:\Project\NVR_CMS_PTS_TT\Viewer\VideoMonitor\bin\x86\Debug\TimeTrack.pdb
+F:\Project\NVR_CMS_PTS_TT\Viewer\VideoMonitor\bin\x86\Debug\DeviceCab.pdb
+F:\Project\NVR_CMS_PTS_TT\Viewer\VideoMonitor\bin\x86\Debug\Report.pdb
+F:\Project\NVR_CMS_PTS_TT\Viewer\VideoMonitor\bin\x86\Debug\UtilityAir.pdb
+F:\Project\NVR_CMS_PTS_TT\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.csprojResolveAssemblyReference.cache
+F:\Project\NVR_CMS_PTS_TT\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.AmountOfVideoMonitorForm.resources
+F:\Project\NVR_CMS_PTS_TT\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.Broadcast.resources
+F:\Project\NVR_CMS_PTS_TT\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.PopupVideoMonitor.resources
+F:\Project\NVR_CMS_PTS_TT\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.Snapshot.resources
+F:\Project\NVR_CMS_PTS_TT\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.SaveImage.resources
+F:\Project\NVR_CMS_PTS_TT\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.ManualRecord.resources
+F:\Project\NVR_CMS_PTS_TT\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.InstantPlayback.resources
+F:\Project\NVR_CMS_PTS_TT\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.PopupLiveStream.resources
+F:\Project\NVR_CMS_PTS_TT\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.Properties.Resources.resources
+F:\Project\NVR_CMS_PTS_TT\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.VideoMonitor.resources
+F:\Project\NVR_CMS_PTS_TT\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.VideoWindow.resources
+F:\Project\NVR_CMS_PTS_TT\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.csproj.GenerateResource.Cache
+F:\Project\NVR_CMS_PTS_TT\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.dll
+F:\Project\NVR_CMS_PTS_TT\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.pdb
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\VideoMonitor\bin\x86\Debug\VideoMonitor.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\VideoMonitor\bin\x86\Debug\VideoMonitor.pdb
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\VideoMonitor\bin\x86\Debug\Constant.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\VideoMonitor\bin\x86\Debug\Device.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\VideoMonitor\bin\x86\Debug\DeviceConstant.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\VideoMonitor\bin\x86\Debug\Interface.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\VideoMonitor\bin\x86\Debug\Pager.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\VideoMonitor\bin\x86\Debug\PanelBase.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\VideoMonitor\bin\x86\Debug\ServerProfile.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\VideoMonitor\bin\x86\Debug\TimeTrack.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\VideoMonitor\bin\x86\Debug\DeviceCab.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\VideoMonitor\bin\x86\Debug\Report.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\VideoMonitor\bin\x86\Debug\UtilityAir.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\VideoMonitor\bin\x86\Debug\Interop.AxisJoystickModuleLib.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\VideoMonitor\bin\x86\Debug\SharpDX.DirectInput.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\VideoMonitor\bin\x86\Debug\AxInterop.NvrUtilityLib.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\VideoMonitor\bin\x86\Debug\SharpDX.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\VideoMonitor\bin\x86\Debug\Interop.NvrUtilityLib.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\VideoMonitor\bin\x86\Debug\Constant.pdb
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\VideoMonitor\bin\x86\Debug\DeviceConstant.pdb
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\VideoMonitor\bin\x86\Debug\Device.pdb
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\VideoMonitor\bin\x86\Debug\Interface.pdb
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\VideoMonitor\bin\x86\Debug\Pager.pdb
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\VideoMonitor\bin\x86\Debug\PanelBase.pdb
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\VideoMonitor\bin\x86\Debug\ServerProfile.pdb
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\VideoMonitor\bin\x86\Debug\TimeTrack.pdb
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\VideoMonitor\bin\x86\Debug\DeviceCab.pdb
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\VideoMonitor\bin\x86\Debug\Report.pdb
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\VideoMonitor\bin\x86\Debug\UtilityAir.pdb
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.csprojResolveAssemblyReference.cache
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.AmountOfVideoMonitorForm.resources
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.Broadcast.resources
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.PopupVideoMonitor.resources
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.Snapshot.resources
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.SaveImage.resources
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.ManualRecord.resources
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.InstantPlayback.resources
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.PopupLiveStream.resources
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.Properties.Resources.resources
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.VideoMonitor.resources
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.VideoWindow.resources
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.csproj.GenerateResource.Cache
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.pdb
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\VideoMonitor\bin\x86\Debug\VideoMonitor.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\VideoMonitor\bin\x86\Debug\VideoMonitor.pdb
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\VideoMonitor\bin\x86\Debug\Constant.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\VideoMonitor\bin\x86\Debug\Device.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\VideoMonitor\bin\x86\Debug\DeviceConstant.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\VideoMonitor\bin\x86\Debug\Interface.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\VideoMonitor\bin\x86\Debug\Pager.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\VideoMonitor\bin\x86\Debug\PanelBase.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\VideoMonitor\bin\x86\Debug\ServerProfile.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\VideoMonitor\bin\x86\Debug\TimeTrack.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\VideoMonitor\bin\x86\Debug\DeviceCab.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\VideoMonitor\bin\x86\Debug\Report.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\VideoMonitor\bin\x86\Debug\UtilityAir.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\VideoMonitor\bin\x86\Debug\Interop.AxisJoystickModuleLib.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\VideoMonitor\bin\x86\Debug\SharpDX.DirectInput.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\VideoMonitor\bin\x86\Debug\AxInterop.NvrUtilityLib.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\VideoMonitor\bin\x86\Debug\SharpDX.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\VideoMonitor\bin\x86\Debug\Interop.NvrUtilityLib.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\VideoMonitor\bin\x86\Debug\Constant.pdb
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\VideoMonitor\bin\x86\Debug\DeviceConstant.pdb
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\VideoMonitor\bin\x86\Debug\Device.pdb
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\VideoMonitor\bin\x86\Debug\Interface.pdb
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\VideoMonitor\bin\x86\Debug\Pager.pdb
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\VideoMonitor\bin\x86\Debug\PanelBase.pdb
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\VideoMonitor\bin\x86\Debug\ServerProfile.pdb
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\VideoMonitor\bin\x86\Debug\TimeTrack.pdb
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\VideoMonitor\bin\x86\Debug\DeviceCab.pdb
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\VideoMonitor\bin\x86\Debug\Report.pdb
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\VideoMonitor\bin\x86\Debug\UtilityAir.pdb
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.csprojResolveAssemblyReference.cache
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.AmountOfVideoMonitorForm.resources
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.Broadcast.resources
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.PopupVideoMonitor.resources
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.Snapshot.resources
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.SaveImage.resources
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.ManualRecord.resources
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.InstantPlayback.resources
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.PopupLiveStream.resources
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.Properties.Resources.resources
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.VideoMonitor.resources
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.VideoWindow.resources
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.csproj.GenerateResource.Cache
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.pdb
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\VideoMonitor\bin\x86\Debug\VideoMonitor.dll
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\VideoMonitor\bin\x86\Debug\VideoMonitor.pdb
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\VideoMonitor\bin\x86\Debug\Constant.dll
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\VideoMonitor\bin\x86\Debug\Device.dll
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\VideoMonitor\bin\x86\Debug\DeviceConstant.dll
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\VideoMonitor\bin\x86\Debug\Interface.dll
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\VideoMonitor\bin\x86\Debug\Pager.dll
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\VideoMonitor\bin\x86\Debug\PanelBase.dll
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\VideoMonitor\bin\x86\Debug\ServerProfile.dll
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\VideoMonitor\bin\x86\Debug\TimeTrack.dll
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\VideoMonitor\bin\x86\Debug\DeviceCab.dll
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\VideoMonitor\bin\x86\Debug\Report.dll
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\VideoMonitor\bin\x86\Debug\UtilityAir.dll
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\VideoMonitor\bin\x86\Debug\Interop.AxisJoystickModuleLib.dll
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\VideoMonitor\bin\x86\Debug\SharpDX.DirectInput.dll
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\VideoMonitor\bin\x86\Debug\AxInterop.NvrUtilityLib.dll
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\VideoMonitor\bin\x86\Debug\SharpDX.dll
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\VideoMonitor\bin\x86\Debug\Interop.NvrUtilityLib.dll
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\VideoMonitor\bin\x86\Debug\Constant.pdb
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\VideoMonitor\bin\x86\Debug\DeviceConstant.pdb
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\VideoMonitor\bin\x86\Debug\Device.pdb
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\VideoMonitor\bin\x86\Debug\Interface.pdb
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\VideoMonitor\bin\x86\Debug\Pager.pdb
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\VideoMonitor\bin\x86\Debug\PanelBase.pdb
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\VideoMonitor\bin\x86\Debug\ServerProfile.pdb
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\VideoMonitor\bin\x86\Debug\TimeTrack.pdb
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\VideoMonitor\bin\x86\Debug\DeviceCab.pdb
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\VideoMonitor\bin\x86\Debug\Report.pdb
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\VideoMonitor\bin\x86\Debug\UtilityAir.pdb
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.csprojResolveAssemblyReference.cache
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.AmountOfVideoMonitorForm.resources
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.Broadcast.resources
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.PopupVideoMonitor.resources
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.Snapshot.resources
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.SaveImage.resources
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.ManualRecord.resources
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.InstantPlayback.resources
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.PopupLiveStream.resources
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.Properties.Resources.resources
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.VideoMonitor.resources
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.VideoWindow.resources
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.csproj.GenerateResource.Cache
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.dll
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\VideoMonitor\obj\x86\Debug\VideoMonitor.pdb

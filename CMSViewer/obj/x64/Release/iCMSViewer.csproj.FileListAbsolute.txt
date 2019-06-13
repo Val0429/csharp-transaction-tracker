@@ -1,0 +1,14 @@
+C:\SNVR\Viewer\iCMSViewer\bin\x64\Release\iCMSViewer.dll
+C:\SNVR\Viewer\iCMSViewer\bin\x64\Release\Constant.dll
+C:\SNVR\Viewer\iCMSViewer\bin\x64\Release\DeviceConstant.dll
+C:\SNVR\Viewer\iCMSViewer\bin\x64\Release\Interface.dll
+C:\SNVR\Viewer\iCMSViewer\bin\x64\Release\Interop.iCMSViewerLib.dll
+C:\SNVR\Viewer\iCMSViewer\bin\x64\Release\AxInterop.iCMSViewerLib.dll
+C:\SNVR\Viewer\iCMSViewer\obj\x64\Release\iCMSViewer.csprojResolveAssemblyReference.cache
+C:\SNVR\Viewer\iCMSViewer\obj\x64\Release\Interop.iCMSViewerLib.dll
+C:\SNVR\Viewer\iCMSViewer\obj\x64\Release\AxInterop.iCMSViewerLib.dll
+C:\SNVR\Viewer\iCMSViewer\obj\x64\Release\iCMSViewer.csproj.ResolveComReference.cache
+C:\SNVR\Viewer\iCMSViewer\obj\x64\Release\iCMSViewer.iCMSViewer.resources
+C:\SNVR\Viewer\iCMSViewer\obj\x64\Release\iCMSViewer.Properties.Resources.resources
+C:\SNVR\Viewer\iCMSViewer\obj\x64\Release\iCMSViewer.csproj.GenerateResource.Cache
+C:\SNVR\Viewer\iCMSViewer\obj\x64\Release\iCMSViewer.dll

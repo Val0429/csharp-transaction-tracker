@@ -1,0 +1,175 @@
+<Page ver="2.0">
+	<PageName>Playback</PageName>
+	<Menus>
+		<Menu>Video Title Bar</Menu>
+		<Menu>Disconnect All</Menu>
+	</Menus>
+  <Functions>
+    <Width>70</Width>
+    <Height>265</Height>
+    <Dock>left</Dock>
+    <Function>
+      <Name>Snapshot</Name>
+      <Assembly>VideoMonitor.dll</Assembly>
+      <ClassName>VideoMonitor.Snapshot</ClassName>
+    </Function>
+    <Function>
+      <Name>Save Image</Name>
+      <Assembly>VideoMonitor.dll</Assembly>
+      <ClassName>VideoMonitor.SaveImage</ClassName>
+    </Function>
+    <Function>
+      <Name>Print Image</Name>
+      <Assembly>TimeTrack.dll</Assembly>
+      <ClassName>TimeTrack.PrintImage</ClassName>
+    </Function>
+    <Function>
+      <Name>Export Video</Name>
+      <Assembly>TimeTrack.dll</Assembly>
+      <ClassName>TimeTrack.ExportVideo</ClassName>
+    </Function>
+  </Functions>
+  <Blocks>
+    <Block>
+      <Width>220</Width>
+      <Dock>left</Dock>
+      <Dockable>true</Dockable>
+      <Controls>
+        <Control>
+          <Name>DeviceView</Name>
+          <Assembly>DeviceTree.dll</Assembly>
+          <ClassName>DeviceTree.DeviceView</ClassName>
+          <Height>auto</Height>
+        </Control>
+        <Control>
+          <Name>DeviceList</Name>
+          <Assembly>DeviceTree.dll</Assembly>
+          <ClassName>DeviceTree.DeviceList</ClassName>
+          <Height>auto</Height>
+        </Control>
+      </Controls>
+    </Block>
+    <Block>
+      <Width>auto</Width>
+      <Controls>
+        <Control>
+          <Name>Monitor</Name>
+          <Assembly>VideoMonitor.dll</Assembly>
+          <ClassName>VideoMonitor.VideoMonitor</ClassName>
+          <Height>auto</Height>
+        </Control>
+        <Control>
+          <Name>TimeTrack</Name>
+          <Assembly>TimeTrack.dll</Assembly>
+          <ClassName>TimeTrack.TimeTrack</ClassName>
+          <Height>210</Height>
+        </Control>
+      </Controls>
+    </Block>
+  </Blocks>
+	<Initialize>
+    <Control name="TimeTrack">SetPlaybackProperty</Control>
+    <Control name="Monitor">SetPlaybackProperty</Control>
+	</Initialize>
+  <Behaviors>
+    <Behavior>
+      <Trigger name="Video Title Bar">Click</Trigger>
+      <Receiver name="Monitor">VideoTitleBar</Receiver>
+    </Behavior>
+    <Behavior>
+      <Trigger name="Disconnect All">Click</Trigger>
+      <Receiver name="Monitor">ClearAll</Receiver>
+    </Behavior>
+    <Behavior>
+      <Trigger name="Monitor">OnTitleBarVisibleChange</Trigger>
+      <Receiver name="Video Title Bar">TitleBarVisibleChange</Receiver>
+    </Behavior>
+    <Behavior>
+      <Trigger name="DeviceView">OnDeviceDoubleClick</Trigger>
+      <Trigger name="DeviceList">OnDeviceDoubleClick</Trigger>
+      <Receiver name="Monitor">AppendDevice</Receiver>
+    </Behavior>
+    <Behavior>
+      <Trigger name="DeviceView">OnGroupDoubleClick</Trigger>
+      <Trigger name="DeviceList">OnGroupDoubleClick</Trigger>
+      <Receiver name="Monitor">ShowGroup</Receiver>
+    </Behavior>
+    <Behavior>
+      <Trigger name="DeviceList">OnNVRDoubleClick</Trigger>
+      <Receiver name="Monitor">ShowNVRDevice</Receiver>
+    </Behavior>
+    <Behavior>
+      <Trigger name="Monitor">OnContentChange</Trigger>
+      <Receiver name="TimeTrack">ContentChange</Receiver>
+      <Receiver name="App">ContentChange</Receiver>
+    </Behavior>
+    <Behavior>
+      <Trigger name="Monitor">OnTimecodeChange</Trigger>
+      <Receiver name="TimeTrack">TimecodeChange</Receiver>
+    </Behavior>
+    <Behavior>
+      <Trigger name="Monitor">OnPageChange</Trigger>
+      <Receiver name="TimeTrack">Stop</Receiver>
+    </Behavior>
+    <Behavior>
+      <Trigger name="Monitor">OnPageChange</Trigger>
+      <Receiver name="TimeTrack">Stop</Receiver>
+    </Behavior>
+    <Behavior>
+      <Trigger name="Monitor">OnPageChangeLayout</Trigger>
+      <Receiver name="TimeTrack">PageChangeLayout</Receiver>
+    </Behavior>
+    <Behavior>
+      <Trigger name="TimeTrack">OnPlay</Trigger>
+      <Receiver name="Monitor">Playback</Receiver>
+    </Behavior>
+    <Behavior>
+      <Trigger name="TimeTrack">OnTimecodeChange</Trigger>
+      <Receiver name="Monitor">GoTo</Receiver>
+    </Behavior>
+    <Behavior>
+      <Trigger name="TimeTrack">OnNextFrame</Trigger>
+      <Receiver name="Monitor">NextFrame</Receiver>
+    </Behavior>
+    <Behavior>
+      <Trigger name="TimeTrack">OnPreviousFrame</Trigger>
+      <Receiver name="Monitor">PreviousFrame</Receiver>
+    </Behavior>
+    <Behavior>
+      <Trigger name="Monitor">OnLayoutChange</Trigger>
+      <Receiver name="App">LayoutChange</Receiver>
+    </Behavior>
+    <Behavior>
+      <Trigger name="Save Image">OnSaveImage</Trigger>
+      <Receiver name="Monitor">SaveImage</Receiver>
+    </Behavior>
+    <Behavior>
+      <Trigger name="Snapshot">OnSnapshot</Trigger>
+      <Receiver name="Monitor">Snapshot</Receiver>
+    </Behavior>
+    <Behavior>
+      <Trigger name="Print Image">OnPrintImage</Trigger>
+      <Receiver name="Monitor">PrintImage</Receiver>
+    </Behavior>
+    <Behavior>
+      <Trigger name="Export Video">OnExportVideo</Trigger>
+      <Receiver name="TimeTrack">ExportVideo</Receiver>
+    </Behavior>
+    <Behavior>
+      <Trigger name="Monitor">OnExitFullScreen</Trigger>
+      <Receiver name="App">ExitFullScreen</Receiver>
+    </Behavior>
+    <Behavior>
+      <Trigger name="Monitor">OnBitrateUsageChange</Trigger>
+      <Receiver name="App">BitrateUsageChange</Receiver>
+    </Behavior>
+    <Behavior>
+      <Trigger name="Monitor">OnViewingDeviceNumberChange</Trigger>
+      <Receiver name="App">ViewingDeviceNumberChange</Receiver>
+    </Behavior>
+    <Behavior>
+      <Trigger name="Monitor">OnViewingDeviceListChange</Trigger>
+      <Receiver name="App">ViewingDeviceListChange</Receiver>
+    </Behavior>
+  </Behaviors>
+</Page>

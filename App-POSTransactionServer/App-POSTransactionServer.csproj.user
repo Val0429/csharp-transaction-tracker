@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <StartWorkingDirectory>..\..\..\..\App\bin\x86\Debug\</StartWorkingDirectory>
+    <StartAction>Program</StartAction>
+    <StartProgram>C:\Users\Tom.Yan\Desktop\project\TT\Viewer\App-POSTransactionServer\bin\x86\Debug\TransactionTracker.exe</StartProgram>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <StartAction>Program</StartAction>
+    <StartProgram>C:\Users\Tom.Yan\Desktop\project\TT\Viewer\App-POSTransactionServer\bin\x86\Release\TransactionTracker.exe</StartProgram>
+    <StartWorkingDirectory>..\..\..\..\App\bin\x86\Release\</StartWorkingDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <StartAction>Project</StartAction>
+    <StartWorkingDirectory>C:\SNVR\Viewer\App\bin\x64\Debug\</StartWorkingDirectory>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ProjectView>ProjectFiles</ProjectView>
+  </PropertyGroup>
+</Project>

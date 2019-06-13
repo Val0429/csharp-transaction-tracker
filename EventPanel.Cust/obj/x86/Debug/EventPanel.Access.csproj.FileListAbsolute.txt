@@ -1,0 +1,17 @@
+C:\SNVR\Viewer\EventPanel.Cust\bin\x86\Debug\EventPanel.Access.dll
+C:\SNVR\Viewer\EventPanel.Cust\bin\x86\Debug\EventPanel.Access.pdb
+C:\SNVR\Viewer\EventPanel.Cust\bin\x86\Debug\Constant.dll
+C:\SNVR\Viewer\EventPanel.Cust\bin\x86\Debug\EventPanel.dll
+C:\SNVR\Viewer\EventPanel.Cust\bin\x86\Debug\Interface.dll
+C:\SNVR\Viewer\EventPanel.Cust\bin\x86\Debug\PanelBase.dll
+C:\SNVR\Viewer\EventPanel.Cust\bin\x86\Debug\Constant.pdb
+C:\SNVR\Viewer\EventPanel.Cust\bin\x86\Debug\EventPanel.pdb
+C:\SNVR\Viewer\EventPanel.Cust\bin\x86\Debug\Interface.pdb
+C:\SNVR\Viewer\EventPanel.Cust\bin\x86\Debug\PanelBase.pdb
+C:\SNVR\Viewer\EventPanel.Cust\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\SNVR\Viewer\EventPanel.Cust\obj\x86\Debug\EventPanel.Access.CustomerPanel.resources
+C:\SNVR\Viewer\EventPanel.Cust\obj\x86\Debug\EventPanel.Access.Properties.Resources.resources
+C:\SNVR\Viewer\EventPanel.Cust\obj\x86\Debug\ResGen.read.1.tlog
+C:\SNVR\Viewer\EventPanel.Cust\obj\x86\Debug\ResGen.write.1.tlog
+C:\SNVR\Viewer\EventPanel.Cust\obj\x86\Debug\EventPanel.Access.dll
+C:\SNVR\Viewer\EventPanel.Cust\obj\x86\Debug\EventPanel.Access.pdb

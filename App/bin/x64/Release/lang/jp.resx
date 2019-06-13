@@ -1,0 +1,4356 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="POSException_NoExceptionFound" xml:space="preserve">
+    <value> : 例外処理が見つかりません。</value>
+  </data>
+  <data name="POSException_NoTransactionFound" xml:space="preserve">
+    <value> : トランザクションが見つかりません。</value>
+  </data>
+  <data name="Application_ServerIsNotCMS" xml:space="preserve">
+    <value>"%1" はCMSではありません。</value>
+  </data>
+  <data name="Application_ServerIsNotFOS" xml:space="preserve">
+    <value>"%1" はフェイルオーバー・システムではありません。</value>
+  </data>
+  <data name="Application_ServerIsNotNVR" xml:space="preserve">
+    <value>"%1" はNVRではありません。</value>
+  </data>
+  <data name="Application_ServerIsNotPTS" xml:space="preserve">
+    <value>"%1" はPTSではありません。</value>
+  </data>
+  <data name="Application_ServerIsNotVAS" xml:space="preserve">
+    <value>"%1" はVASではありません。</value>
+  </data>
+  <data name="Application_ServerVersionRequire" xml:space="preserve">
+    <value>"%1" のサーバー・バージョンは %2です。バージョン %3が必要です。</value>
+  </data>
+  <data name="SetupLog_LogFound" xml:space="preserve">
+    <value>%1  ログが見つかりました。</value>
+  </data>
+  <data name="SetupLog_LogsFound" xml:space="preserve">
+    <value>%1  複数のログが見つかりました。</value>
+  </data>
+  <data name="SetupDevice_DeviceSelected" xml:space="preserve">
+    <value>%1 デバイスが選択されました。</value>
+  </data>
+  <data name="SetupDevice_DevicesSelected" xml:space="preserve">
+    <value>%1 複数のデバイスが選択されました。</value>
+  </data>
+  <data name="LoginForm_LoginLog" xml:space="preserve">
+    <value>%1 サインイン %2/%3</value>
+  </data>
+  <data name="LoginForm_LogoutLog" xml:space="preserve">
+    <value>%1 ログアウト</value>
+  </data>
+  <data name="POSException_PageQuantity" xml:space="preserve">
+    <value>%1 of %2</value>
+  </data>
+  <data name="VideoMonitor_PageQuantity" xml:space="preserve">
+    <value>%1 / %2</value>
+  </data>
+  <data name="PTSReports_SearchResultFound" xml:space="preserve">
+    <value>%1 結果が見つかりました。</value>
+  </data>
+  <data name="Investigation_SearchResultFound" xml:space="preserve">
+    <value>%1 結果が見つかりました。</value>
+  </data>
+  <data name="Investigation_SearchResultsFound" xml:space="preserve">
+    <value>%1 複数の結果が見つかりました。</value>
+  </data>
+  <data name="PTSReports_SearchResultsFound" xml:space="preserve">
+    <value>%1 複数の結果が見つかりました。</value>
+  </data>
+  <data name="GroupPanel_NumDevice" xml:space="preserve">
+    <value>(%1 デバイス)</value>
+  </data>
+  <data name="GroupPanel_NumDevices" xml:space="preserve">
+    <value>(%1 複数のデバイス)</value>
+  </data>
+  <data name="FolderControl_NumView" xml:space="preserve">
+    <value>(%1 ビュー)</value>
+  </data>
+  <data name="GroupPanel_NumGroup" xml:space="preserve">
+    <value>(%1 グループ)</value>
+  </data>
+  <data name="FolderControl_NumViews" xml:space="preserve">
+    <value>(%1 複数のビュー)</value>
+  </data>
+  <data name="GroupPanel_NumGroups" xml:space="preserve">
+    <value>(%1 複数のグループ)</value>
+  </data>
+  <data name="DeviceLayoutPanel_Panorama" xml:space="preserve">
+    <value>(%1 パノラマ)</value>
+  </data>
+  <data name="ConnectionPanel_NumPOS" xml:space="preserve">
+    <value>(%1 POS)</value>
+  </data>
+  <data name="Common_UsedSeconds" xml:space="preserve">
+    <value>(%1 秒)</value>
+  </data>
+  <data name="UserGroupPanel_NumUser" xml:space="preserve">
+    <value>(%1 ユーザー)</value>
+  </data>
+  <data name="UserGroupPanel_NumUsers" xml:space="preserve">
+    <value>(%1 複数のユーザー)</value>
+  </data>
+  <data name="Application_64Bit" xml:space="preserve">
+    <value>(64-bit)</value>
+  </data>
+  <data name="DevicePanel_ResolutionRegionConfigCanNotSupportSnapshot" xml:space="preserve">
+    <value>(スナップショットをサポートしていません)</value>
+  </data>
+  <data name="SetupSchedule_PreEventDuration" xml:space="preserve">
+    <value>(イベント前録画時間は  %1 秒から %2 秒です。)</value>
+  </data>
+  <data name="SetupSchedule_PostEventDuration" xml:space="preserve">
+    <value>(イベント後録画時間は %1 秒 ~ %2 時間です。.)</value>
+  </data>
+  <data name="VideoControl_ForRecording" xml:space="preserve">
+    <value>(録画ストリームのプロファイル)</value>
+  </data>
+  <data name="LoginForm_ForgetMe" xml:space="preserve">
+    <value>フォーゲット・ミー</value>
+  </data>
+  <data name="DevicePanel_InUse" xml:space="preserve">
+    <value>(使用中)</value>
+  </data>
+  <data name="ExceptionResultPanel_POSDeleted" xml:space="preserve">
+    <value>(削除されたPOS)</value>
+  </data>
+  <data name="Schedule_WithEventRecording" xml:space="preserve">
+    <value>(+イベント録画)</value>
+  </data>
+  <data name="POSException_SearchExceptionFound" xml:space="preserve">
+    <value>: %1 例外処理が見つかりました。</value>
+  </data>
+  <data name="POSException_SearchExceptionsFound" xml:space="preserve">
+    <value>: %1 複数の例外処理が見つかりました。</value>
+  </data>
+  <data name="POSException_SearchTransactionFound" xml:space="preserve">
+    <value>: %1 トランザクションが見つかりました。</value>
+  </data>
+  <data name="POSException_SearchTransactionsFound" xml:space="preserve">
+    <value>: %1 複数のトランザクションが見つかりました。</value>
+  </data>
+  <data name="SetupWizard_Back" xml:space="preserve">
+    <value>&lt; 戻る</value>
+  </data>
+  <data name="Common_Day" xml:space="preserve">
+    <value>日</value>
+  </data>
+  <data name="Menu_1M" xml:space="preserve">
+    <value>1Mbps</value>
+  </data>
+  <data name="Menu_256K" xml:space="preserve">
+    <value>256Kbps</value>
+  </data>
+  <data name="Menu_512K" xml:space="preserve">
+    <value>512Kbps</value>
+  </data>
+  <data name="Menu_56K" xml:space="preserve">
+    <value>56Kbps</value>
+  </data>
+  <data name="Menu_About" xml:space="preserve">
+    <value>アバウト</value>
+  </data>
+  <data name="POSConnection_AcceptPort" xml:space="preserve">
+    <value>アクセプト・ポート</value>
+  </data>
+  <data name="EditPOSConnectionPanel_AcceptPortCantEmpty" xml:space="preserve">
+    <value>アクセプト・ポートは必ず指定してください。</value>
+  </data>
+  <data name="EditPOSConnectionPanel_AcceptPortCantTheSame" xml:space="preserve">
+    <value>同じアクセプト・ポートは使用できません。 %1 は %2 が使用しています。</value>
+  </data>
+  <data name="EditPOSConnectionPanel_AcceptPortOutOfRange" xml:space="preserve">
+    <value>アクセプト・ポートの値は 1 - 65535 です。</value>
+  </data>
+  <data name="NVR_Account" xml:space="preserve">
+    <value>アカウント</value>
+  </data>
+  <data name="MailServer_Account" xml:space="preserve">
+    <value>アカウント</value>
+  </data>
+  <data name="LoginForm_Account" xml:space="preserve">
+    <value>アカウント</value>
+  </data>
+  <data name="POSConnection_Account" xml:space="preserve">
+    <value>アカウント</value>
+  </data>
+  <data name="FtpServer_Account" xml:space="preserve">
+    <value>アカウント</value>
+  </data>
+  <data name="Database_Account" xml:space="preserve">
+    <value>アカウント</value>
+  </data>
+  <data name="DevicePanel_Account" xml:space="preserve">
+    <value>アカウント</value>
+  </data>
+  <data name="LoginForm_SignInFailedNoAccount" xml:space="preserve">
+    <value>アカウント名は必ず入力してください。</value>
+  </data>
+  <data name="DevicePanel_UriCommandPanel_Action" xml:space="preserve">
+    <value>アクション</value>
+  </data>
+  <data name="DevicePanel_UriCommandPanel_ActionCommand" xml:space="preserve">
+    <value>アクション・コマンド</value>
+  </data>
+  <data name="SetupServer_StatusActive" xml:space="preserve">
+    <value>アクティブ</value>
+  </data>
+  <data name="PointPanel_Add" xml:space="preserve">
+    <value>追加</value>
+  </data>
+  <data name="TimeTrack_AddBookmark" xml:space="preserve">
+    <value>ブックマークを追加</value>
+  </data>
+  <data name="SetupDevice_AddDevice" xml:space="preserve">
+    <value>デバイスを追加</value>
+  </data>
+  <data name="SetupDevice_SearchDevice" xml:space="preserve">
+    <value>自動検索でデバイスを追加</value>
+  </data>
+  <data name="PeopleCounting_AddDeviceFromNVR" xml:space="preserve">
+    <value>NVRからデバイスを追加</value>
+  </data>
+  <data name="SetupSchedule_AddEventHandlingSchedule" xml:space="preserve">
+    <value>イベント処理スケジュールを追加</value>
+  </data>
+  <data name="SetupSchedule_AddEventRecordingSchedule" xml:space="preserve">
+    <value>イベント録画スケジュールを追加</value>
+  </data>
+  <data name="EMap_ButtonAddMap" xml:space="preserve">
+    <value>マップを追加</value>
+  </data>
+  <data name="EMap_MapTransferTooltipForZone" xml:space="preserve">
+    <value>多角形使用によるマップ転写を追加</value>
+  </data>
+  <data name="SetupDeviceLayout_AddNewDeviceLayout" xml:space="preserve">
+    <value>新しいデバイス・レイアウトを追加</value>
+  </data>
+  <data name="SetupDevice_AddNewDevice" xml:space="preserve">
+    <value>デバイスを手動で追加</value>
+  </data>
+  <data name="SetupEvent_AddNewExceptionReport" xml:space="preserve">
+    <value>新しい例外処理レポートを追加</value>
+  </data>
+  <data name="SetupException_AddNewException" xml:space="preserve">
+    <value>新しい例外処理を追加</value>
+  </data>
+  <data name="SetupDeviceGroup_AddNewGroup" xml:space="preserve">
+    <value>新しいグループを追加</value>
+  </data>
+  <data name="SetupNVR_AddNewNVR" xml:space="preserve">
+    <value>新しいNVRを追加</value>
+  </data>
+  <data name="SetupIOModel_AddNewOPCLog" xml:space="preserve">
+    <value>新しいOPC %1 を追加</value>
+  </data>
+  <data name="SetupIOModel_AddNewOPC" xml:space="preserve">
+    <value>新しいOPCサーバーを追加</value>
+  </data>
+  <data name="SetupPOSConnection_AddNewPOSConnection" xml:space="preserve">
+    <value>新しいPOS接続を追加</value>
+  </data>
+  <data name="SetupPOS_AddNewPOS" xml:space="preserve">
+    <value>新しいPOSを追加</value>
+  </data>
+  <data name="SetupSchedule_AddNewScheduleReport" xml:space="preserve">
+    <value>新しいスケジュール・レポートを追加</value>
+  </data>
+  <data name="PTSReports_AddNewTemplate" xml:space="preserve">
+    <value>新しいテンプレートを追加</value>
+  </data>
+  <data name="SetupUser_AddNewUser" xml:space="preserve">
+    <value>ユーザーを追加</value>
+  </data>
+  <data name="PeopleCounting_AddNVRFirst" xml:space="preserve">
+    <value>最初にNVRを追加</value>
+  </data>
+  <data name="DevicePanel_UriCommandPanel_AddPresetPoint" xml:space="preserve">
+    <value>プリセット・ポイントを追加</value>
+  </data>
+  <data name="SetupSchedule_AddRecordingSchedule" xml:space="preserve">
+    <value>録画スケジュールを追加</value>
+  </data>
+  <data name="DownloadCase_AddedToQueue" xml:space="preserve">
+    <value>キューを追加</value>
+  </data>
+  <data name="EMap_ButtonAddTransfer" xml:space="preserve">
+    <value>中継点を追加</value>
+  </data>
+  <data name="SetupDevice_AddedDevice" xml:space="preserve">
+    <value>デバイス・リスト</value>
+  </data>
+  <data name="PeopleCounting_AddedDevice" xml:space="preserve">
+    <value>追加されたデバイス</value>
+  </data>
+  <data name="SetupDeviceLayout_AddedDeviceLayout" xml:space="preserve">
+    <value>追加されたデバイス・レイアウト</value>
+  </data>
+  <data name="SetupException_AddedException" xml:space="preserve">
+    <value>追加された例外処理</value>
+  </data>
+  <data name="SetupEvent_AddedEventReport" xml:space="preserve">
+    <value>追加された例外処理レポート</value>
+  </data>
+  <data name="SetupDeviceGroup_AddedGroup" xml:space="preserve">
+    <value>追加されたグループ</value>
+  </data>
+  <data name="SetupNVR_AddedNVR" xml:space="preserve">
+    <value>追加されたNVR</value>
+  </data>
+  <data name="SetupIOModel_AddedOPC" xml:space="preserve">
+    <value>OPCサーバー・リスト</value>
+  </data>
+  <data name="SetupPOS_AddedPOS" xml:space="preserve">
+    <value>追加されたPOS</value>
+  </data>
+  <data name="SetupPOSConnection_AddedPOSConnection" xml:space="preserve">
+    <value>追加されたPOS接続</value>
+  </data>
+  <data name="PTSReports_AddedTemplate" xml:space="preserve">
+    <value>追加されたテンプレート</value>
+  </data>
+  <data name="SetupServer_StoreAddress" xml:space="preserve">
+    <value>アドレス</value>
+  </data>
+  <data name="UserGroup_Administrator" xml:space="preserve">
+    <value>管理者</value>
+  </data>
+  <data name="Control_AdvancedSearch" xml:space="preserve">
+    <value>詳細検索</value>
+  </data>
+  <data name="Control_AdvancedSearchIcon" xml:space="preserve">
+    <value>詳細検索</value>
+  </data>
+  <data name="POSException_All" xml:space="preserve">
+    <value>全て</value>
+  </data>
+  <data name="Investigation_AllDevice" xml:space="preserve">
+    <value>全てのデバイス</value>
+  </data>
+  <data name="Data_AllDevices" xml:space="preserve">
+    <value>全てのデバイス</value>
+  </data>
+  <data name="PTSReports_AllException" xml:space="preserve">
+    <value>全ての例外処理</value>
+  </data>
+  <data name="SetupLog_AllLog" xml:space="preserve">
+    <value>全てのログ・タイプ</value>
+  </data>
+  <data name="EMap_AllMaps" xml:space="preserve">
+    <value>全てのマップ</value>
+  </data>
+  <data name="PTSReports_AllPOS" xml:space="preserve">
+    <value>全てのPOS</value>
+  </data>
+  <data name="PTSReports_AllTag" xml:space="preserve">
+    <value>全てのタグ</value>
+  </data>
+  <data name="PTSReports_Amount" xml:space="preserve">
+    <value>合計</value>
+  </data>
+  <data name="ExceptionResultPanel_Amount" xml:space="preserve">
+    <value>合計</value>
+  </data>
+  <data name="PrintImage_ErrorCccurred" xml:space="preserve">
+    <value>印刷中にエラーが発生しました。</value>
+  </data>
+  <data name="EMap_Angle" xml:space="preserve">
+    <value>アングル</value>
+  </data>
+  <data name="Menu_Application" xml:space="preserve">
+    <value>アプリケーション</value>
+  </data>
+  <data name="EditGroupPanel_ApplicationPermission" xml:space="preserve">
+    <value>アプリケーションの許可</value>
+  </data>
+  <data name="SaveReport_ApplyComment" xml:space="preserve">
+    <value>コメントを適用</value>
+  </data>
+  <data name="SetupServer_ApplyAllDevicesToKeepDays" xml:space="preserve">
+    <value>数字を選択し、全てのデバイスの継続日数に適用してください。:</value>
+  </data>
+  <data name="Common_April" xml:space="preserve">
+    <value>4月</value>
+  </data>
+  <data name="VideoMonitor_DeleteGroupConfirm" xml:space="preserve">
+    <value>本当に "%1" を削除しますか？</value>
+  </data>
+  <data name="TimeTrack_DeleteBookmarkConfirm" xml:space="preserve">
+    <value>選択したデバイスの全てのブックマークを削除しますか？</value>
+  </data>
+  <data name="SetupServer_ConfirmFormat" xml:space="preserve">
+    <value>本当に %1 をフォーマットしますか？</value>
+  </data>
+  <data name="Application_ConfirmLockApp" xml:space="preserve">
+    <value>本当にアプリケーションをロックしますか。</value>
+  </data>
+  <data name="DeviceTree_PatrolConfirm" xml:space="preserve">
+    <value>本当に続けますか？</value>
+  </data>
+  <data name="SetupServer_ConfirmReboot" xml:space="preserve">
+    <value>本当に再起動しますか？</value>
+  </data>
+  <data name="SetupServer_ConfirmRestore" xml:space="preserve">
+    <value>本当に設定を元に戻しますか？</value>
+  </data>
+  <data name="EMap_RevertConfirm" xml:space="preserve">
+    <value>本当に設定を元に戻しますか？</value>
+  </data>
+  <data name="SetupServer_ConfirmShutdown" xml:space="preserve">
+    <value>本当にシャットダウンしますか？</value>
+  </data>
+  <data name="Application_ConfirmSignOut" xml:space="preserve">
+    <value>サインアウトしますか？</value>
+  </data>
+  <data name="SetupServer_ConfirmUpdateEthernet" xml:space="preserve">
+    <value>本当にイーサネット設定を更新しますか？</value>
+  </data>
+  <data name="SetupServer_ConfirmUpgrade" xml:space="preserve">
+    <value>本当にファームウェアをアップグレードしますか？</value>
+  </data>
+  <data name="DevicePanel_AspectRatio" xml:space="preserve">
+    <value>アスペクト比</value>
+  </data>
+  <data name="DevicePanel_AspectRatioCorrection" xml:space="preserve">
+    <value>アスペクト比を正す</value>
+  </data>
+  <data name="HandlePanel_Audio" xml:space="preserve">
+    <value>オーディオ</value>
+  </data>
+  <data name="ExportVideo_Audio" xml:space="preserve">
+    <value>オーディオ</value>
+  </data>
+  <data name="EMap_AudioIn" xml:space="preserve">
+    <value>オーディオ入力</value>
+  </data>
+  <data name="DevicePermissionPanel_AudioIn" xml:space="preserve">
+    <value>オーディオ入力</value>
+  </data>
+  <data name="Menu_AudioIn" xml:space="preserve">
+    <value>オーディオ入力</value>
+  </data>
+  <data name="ExportVideo_AudioIn" xml:space="preserve">
+    <value>オーディオ入力</value>
+  </data>
+  <data name="DevicePanel_AudioInPort" xml:space="preserve">
+    <value>オーディオ入力ポート</value>
+  </data>
+  <data name="EMap_AudioOut" xml:space="preserve">
+    <value>オーディオ出力</value>
+  </data>
+  <data name="ExportVideo_AudioOut" xml:space="preserve">
+    <value>オーディオ出力</value>
+  </data>
+  <data name="DevicePermissionPanel_AudioOut" xml:space="preserve">
+    <value>オーディオ出力</value>
+  </data>
+  <data name="Menu_AudioOut" xml:space="preserve">
+    <value>オーディオ出力</value>
+  </data>
+  <data name="DevicePanel_AudioOutPort" xml:space="preserve">
+    <value>オーディオ出力ポート</value>
+  </data>
+  <data name="Common_August" xml:space="preserve">
+    <value>8月</value>
+  </data>
+  <data name="DevicePanel_Authentication" xml:space="preserve">
+    <value>権限</value>
+  </data>
+  <data name="Menu_AutoDropFrame" xml:space="preserve">
+    <value>自動ドロップ・フレーム</value>
+  </data>
+  <data name="AutoSwitchLiveVideoStream_AutoSwitch" xml:space="preserve">
+    <value>動的ストリーム・プロファイル・モード</value>
+  </data>
+  <data name="AutoSwitchDecodeIFrame_AutoSwitch" xml:space="preserve">
+    <value>デコードIフレーム自動切替モード</value>
+  </data>
+  <data name="SetupGeneral_AutoSwitchDecodeIFrame" xml:space="preserve">
+    <value>デコードIフレーム設定</value>
+  </data>
+  <data name="SetupGeneral_AutoSwitchLiveVideoStream" xml:space="preserve">
+    <value>動的ストリーム・プロファイル設定</value>
+  </data>
+  <data name="StoragePanel_Available" xml:space="preserve">
+    <value>フリー・スペース</value>
+  </data>
+  <data name="Common_Back" xml:space="preserve">
+    <value>戻る</value>
+  </data>
+  <data name="DevicePanel_BacklightCompensation" xml:space="preserve">
+    <value>逆光補整</value>
+  </data>
+  <data name="SetupServer_Backup" xml:space="preserve">
+    <value>バックアップ</value>
+  </data>
+  <data name="Application_BackupFailure" xml:space="preserve">
+    <value>バックアップ失敗</value>
+  </data>
+  <data name="Menu_Bandwidth" xml:space="preserve">
+    <value>帯域</value>
+  </data>
+  <data name="HandlePanel_Beep" xml:space="preserve">
+    <value>ビープ音</value>
+  </data>
+  <data name="VideoWindowTitleBarPanel_Bitrate" xml:space="preserve">
+    <value>ビットレート</value>
+  </data>
+  <data name="DevicePanel_Bitrate" xml:space="preserve">
+    <value>ビットレート</value>
+  </data>
+  <data name="Application_TotalBitrate" xml:space="preserve">
+    <value>ビットレート %1</value>
+  </data>
+  <data name="DevicePanel_BitrateControl" xml:space="preserve">
+    <value>ビットレート・コントロール</value>
+  </data>
+  <data name="NVR_BlockSize" xml:space="preserve">
+    <value>ブロック・サイズ</value>
+  </data>
+  <data name="DevicePanel_Brand" xml:space="preserve">
+    <value>ブランド</value>
+  </data>
+  <data name="DevicePanel_Brightness" xml:space="preserve">
+    <value>ブライトネス</value>
+  </data>
+  <data name="Broadcast_Button" xml:space="preserve">
+    <value>ブロードキャスト</value>
+  </data>
+  <data name="SetupServer_Browse" xml:space="preserve">
+    <value>ブラウズ</value>
+  </data>
+  <data name="PTSReports_Calculate" xml:space="preserve">
+    <value>計算</value>
+  </data>
+  <data name="Control_ReportCalendarIcon" xml:space="preserve">
+    <value>カレンダー</value>
+  </data>
+  <data name="Control_ReportCalendar" xml:space="preserve">
+    <value>カレンダー</value>
+  </data>
+  <data name="Control_EventCalendar" xml:space="preserve">
+    <value>カレンダー</value>
+  </data>
+  <data name="VideoWindowTitleBarPanel_CameraName" xml:space="preserve">
+    <value>カメラ名</value>
+  </data>
+  <data name="LoginForm_SignInFailedConnectFailure" xml:space="preserve">
+    <value>サーバー接続に失敗しました。ホスト、ポートが正しいか確認してください。</value>
+  </data>
+  <data name="LoginForm_SignInFailedCantCreateHttpWebRequest" xml:space="preserve">
+    <value>HttpWebRequestオブジェクトを作成できません。</value>
+  </data>
+  <data name="Common_Cancel" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="PeopleCounting_ButtonCancelMakingFeature" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="Application_RegistrationServerNotAvailable" xml:space="preserve">
+    <value>レジストレーション・サーバーに接続できません。 (Error code: 1)</value>
+  </data>
+  <data name="Application_CannotConnect" xml:space="preserve">
+    <value>サーバーに接続できません。もう一度サインインしてください。</value>
+  </data>
+  <data name="DownloadCase_CantCopyFraudInvestigation" xml:space="preserve">
+    <value>'Fraud Investigation.exe'をコピーできません。</value>
+  </data>
+  <data name="Application_CantCreateFolder" xml:space="preserve">
+    <value>フォルダー %1 を作成できません。</value>
+  </data>
+  <data name="ExportVideo_CantExportDeviceLayout" xml:space="preserve">
+    <value>デバイス・レイアウトのビデオをエクスポートできません。</value>
+  </data>
+  <data name="Application_NetworkCardNotAvailable" xml:space="preserve">
+    <value>ネットワーク・カードが見つかりません。 (Error code: 5)</value>
+  </data>
+  <data name="SetupLicense_CheckLicenseFile" xml:space="preserve">
+    <value>ライセンス・キー・ファイルが開きません。ライセンス・キーが正しいかどうか確認してください。</value>
+  </data>
+  <data name="Application_LicenseFileCantUpdate" xml:space="preserve">
+    <value>ライセンス・ファイルを更新できません。 (Error code: 6)</value>
+  </data>
+  <data name="USBDisk_Capability" xml:space="preserve">
+    <value>能力</value>
+  </data>
+  <data name="StoragePanel_Capacity" xml:space="preserve">
+    <value>容量</value>
+  </data>
+  <data name="DevicePanel_CaptureCardConfig" xml:space="preserve">
+    <value>キャプチャー・カード設定</value>
+  </data>
+  <data name="Control_ReportCashier" xml:space="preserve">
+    <value>キャッシャー</value>
+  </data>
+  <data name="PTSReports_Cashier" xml:space="preserve">
+    <value>キャッシャー</value>
+  </data>
+  <data name="Control_ReportCashierIcon" xml:space="preserve">
+    <value>キャッシャー</value>
+  </data>
+  <data name="ExceptionResultPanel_Cashier" xml:space="preserve">
+    <value>キャッシャー</value>
+  </data>
+  <data name="PTSReports_CashierId" xml:space="preserve">
+    <value>キャッシャー Id</value>
+  </data>
+  <data name="ExceptionResultPanel_CashierId" xml:space="preserve">
+    <value>キャッシャー Id</value>
+  </data>
+  <data name="Application_CentralManagementSystem" xml:space="preserve">
+    <value>中央管理システム</value>
+  </data>
+  <data name="DevicePanel_ChannelID" xml:space="preserve">
+    <value>チャンネル ID</value>
+  </data>
+  <data name="VideoWindowTitleBarPanel_ChannelNumber" xml:space="preserve">
+    <value>チャンネル番号</value>
+  </data>
+  <data name="PTSReports_Chart" xml:space="preserve">
+    <value>チャート</value>
+  </data>
+  <data name="SetupServer_StatusCheck" xml:space="preserve">
+    <value>チェック</value>
+  </data>
+  <data name="PeopleCounting_ButtonClear" xml:space="preserve">
+    <value>クリア</value>
+  </data>
+  <data name="TimeTrack_ClearBookmark" xml:space="preserve">
+    <value>ブックマークのクリア</value>
+  </data>
+  <data name="SetupTitle_ClearConditional" xml:space="preserve">
+    <value>条件のクリア</value>
+  </data>
+  <data name="EventPanel_ClearEvent" xml:space="preserve">
+    <value>イベント・ログのクリア</value>
+  </data>
+  <data name="TimeTrack_ClearSelectionRange" xml:space="preserve">
+    <value>ビデオ選択のクリア</value>
+  </data>
+  <data name="POSException_ClearTransaction" xml:space="preserve">
+    <value>トランザクションのクリア</value>
+  </data>
+  <data name="EMap_ButtonEventListReload" xml:space="preserve">
+    <value>デバイスからのイベントを再読み込みするときはここをクリックします。</value>
+  </data>
+  <data name="EMap_ButtonEventListReset" xml:space="preserve">
+    <value>イベントを空にする時はここをクリックします。</value>
+  </data>
+  <data name="EMap_PointCompleteHotZone" xml:space="preserve">
+    <value>多角形を完成させる時はここをクリックします。</value>
+  </data>
+  <data name="EMap_AlarmEventList" xml:space="preserve">
+    <value>イベント・リストを表示するときはここをクリックします。</value>
+  </data>
+  <data name="SetupTitle_Clone" xml:space="preserve">
+    <value>クローン</value>
+  </data>
+  <data name="SetupDevice_CloneDevice" xml:space="preserve">
+    <value>デバイスのクローン</value>
+  </data>
+  <data name="PeopleCounting_CloneDevice" xml:space="preserve">
+    <value>デバイスのクローン</value>
+  </data>
+  <data name="Common_Close" xml:space="preserve">
+    <value>閉じる</value>
+  </data>
+  <data name="InstantPlayback_CloseAfterSec" xml:space="preserve">
+    <value> %1 秒後に閉じる</value>
+  </data>
+  <data name="EMap_ButtonEventListClose" xml:space="preserve">
+    <value>イベント・リストを閉じる</value>
+  </data>
+  <data name="LoginForm_CMS" xml:space="preserve">
+    <value>CMS</value>
+  </data>
+  <data name="DevicePanel_ColorEnable" xml:space="preserve">
+    <value>使用できるカラー</value>
+  </data>
+  <data name="DownloadCase_Comment" xml:space="preserve">
+    <value>コメント</value>
+  </data>
+  <data name="PTSReports_Comparison" xml:space="preserve">
+    <value>比較</value>
+  </data>
+  <data name="SetupWizard_Complete" xml:space="preserve">
+    <value>セットアップ完了</value>
+  </data>
+  <data name="DownloadCase_Completed" xml:space="preserve">
+    <value>完了</value>
+  </data>
+  <data name="SetupServer_Component" xml:space="preserve">
+    <value>コンポーネント</value>
+  </data>
+  <data name="DevicePanel_Compression" xml:space="preserve">
+    <value>圧縮</value>
+  </data>
+  <data name="VideoWindowTitleBarPanel_Compression" xml:space="preserve">
+    <value>圧縮</value>
+  </data>
+  <data name="PTSReports_Conditional" xml:space="preserve">
+    <value>条件</value>
+  </data>
+  <data name="Loading_Config" xml:space="preserve">
+    <value>環境設定</value>
+  </data>
+  <data name="Application_ConfigChange" xml:space="preserve">
+    <value>環境設定が元に戻されました。もう一度サインインしてください。</value>
+  </data>
+  <data name="SetupTitle_Confirm" xml:space="preserve">
+    <value>確認</value>
+  </data>
+  <data name="MessageBox_Confirm" xml:space="preserve">
+    <value>確認</value>
+  </data>
+  <data name="User_ConfirmPassword" xml:space="preserve">
+    <value>パスワードの確認</value>
+  </data>
+  <data name="PeopleCounting_DefaultNote" xml:space="preserve">
+    <value>接続に失敗しました。</value>
+  </data>
+  <data name="SetupDevice_MotionRegionDefaultNote" xml:space="preserve">
+    <value>接続に失敗しました。</value>
+  </data>
+  <data name="POSConnection_ConnectPort" xml:space="preserve">
+    <value>接続ポート</value>
+  </data>
+  <data name="EditPOSConnectionPanel_ConnectPortCantEmpty" xml:space="preserve">
+    <value>接続ポートは設定しなければなりません。</value>
+  </data>
+  <data name="EditPOSConnectionPanel_ConnectPortCantTheSame" xml:space="preserve">
+    <value>他と同じ接続ポートは使用できません。 %1 は %2 が使用しています。</value>
+  </data>
+  <data name="EditPOSConnectionPanel_ConnectPortOutOfRange" xml:space="preserve">
+    <value>接続ポートの値は 1 - 65535 です。</value>
+  </data>
+  <data name="VideoWindow_Connected" xml:space="preserve">
+    <value>接続済み</value>
+  </data>
+  <data name="VideoWindow_Connecting" xml:space="preserve">
+    <value>接続中</value>
+  </data>
+  <data name="DevicePanel_Connection" xml:space="preserve">
+    <value>接続</value>
+  </data>
+  <data name="ExportVideoMsg_ConnectionFailed" xml:space="preserve">
+    <value>接続失敗</value>
+  </data>
+  <data name="Application_ConnectionTimeout" xml:space="preserve">
+    <value>接続タイムアウト</value>
+  </data>
+  <data name="DevicePanel_Contrast" xml:space="preserve">
+    <value>コントラスト</value>
+  </data>
+  <data name="DevicePanel_ControlPort" xml:space="preserve">
+    <value>制御ポート</value>
+  </data>
+  <data name="ExportVideo_ConvertVideoToMJPEG" xml:space="preserve">
+    <value>MJPEGへ変換</value>
+  </data>
+  <data name="ExportVideo_ConvertVideoToAVI" xml:space="preserve">
+    <value>ビデオをAVI (MJPEG)へ変換</value>
+  </data>
+  <data name="SetupEvent_CopyEventHandling" xml:space="preserve">
+    <value>イベント処理のコピー</value>
+  </data>
+  <data name="SetupTitle_CopyEventHandling" xml:space="preserve">
+    <value>イベント処理のコピー</value>
+  </data>
+  <data name="SetupExceptionReport_CopyExceptionReport" xml:space="preserve">
+    <value>例外処理レポートのコピー</value>
+  </data>
+  <data name="SetupTitle_CopyExceptionReport" xml:space="preserve">
+    <value>例外処理レポートのコピー</value>
+  </data>
+  <data name="SetupExceptionReport_CopyFrom" xml:space="preserve">
+    <value>コピー元</value>
+  </data>
+  <data name="SetupSchedule_CopyFrom" xml:space="preserve">
+    <value>コピー元</value>
+  </data>
+  <data name="SetupDevice_CopyFrom" xml:space="preserve">
+    <value>コピー元</value>
+  </data>
+  <data name="SetupEvent_CopyFrom" xml:space="preserve">
+    <value>コピー元</value>
+  </data>
+  <data name="SetupTitle_CopySchedule" xml:space="preserve">
+    <value>コピー・スケジュール</value>
+  </data>
+  <data name="SetupSchedule_CopySchedule" xml:space="preserve">
+    <value>コピー・スケジュール</value>
+  </data>
+  <data name="SetupDevice_CopySetting" xml:space="preserve">
+    <value>コピー設定</value>
+  </data>
+  <data name="SetupTitle_CopySetting" xml:space="preserve">
+    <value>コピー設定</value>
+  </data>
+  <data name="SetupDevice_InvalidIP" xml:space="preserve">
+    <value>webページを表示できません (invalid URL)。</value>
+  </data>
+  <data name="PTSReports_Count" xml:space="preserve">
+    <value>カウント</value>
+  </data>
+  <data name="Application_CPUUsage" xml:space="preserve">
+    <value>CPU %1%</value>
+  </data>
+  <data name="SetupGeneral_CPULoadingUpperBoundary" xml:space="preserve">
+    <value>CPU 保護設定</value>
+  </data>
+  <data name="SetupGeneral_CPULoadingUpperBoundaryValue" xml:space="preserve">
+    <value>CPU使用率がユーザーが設定した閾値に達すると、アプリケーションはフレームレートの調整を開始します。閾値の範囲は %1% ~ %2% です。</value>
+  </data>
+  <data name="DeviceLayoutPanel_Crop" xml:space="preserve">
+    <value>クロップ</value>
+  </data>
+  <data name="Application_UserChange" xml:space="preserve">
+    <value>現在のアクティブ・ユーザー・アカウントが修正されました。もう一度サインインしてください。</value>
+  </data>
+  <data name="Investigation_Custom" xml:space="preserve">
+    <value>ユーザー規定</value>
+  </data>
+  <data name="PTSReports_Custom" xml:space="preserve">
+    <value>ユーザー規定</value>
+  </data>
+  <data name="SetupServer_Custom" xml:space="preserve">
+    <value>ユーザー規定</value>
+  </data>
+  <data name="SetupGeneral_Custom" xml:space="preserve">
+    <value>ユーザー規定</value>
+  </data>
+  <data name="SetupGeneral_CustomPlaybackSetting" xml:space="preserve">
+    <value>ユーザー規定の再生設定</value>
+  </data>
+  <data name="Schedule_CustomSchedule" xml:space="preserve">
+    <value>ユーザー規定のスケジュール</value>
+  </data>
+  <data name="PTSReports_Daily" xml:space="preserve">
+    <value>連日</value>
+  </data>
+  <data name="Control_DailyException" xml:space="preserve">
+    <value>連日の例外処理</value>
+  </data>
+  <data name="ScheduleReportPanel_Daily" xml:space="preserve">
+    <value>連日のレポート</value>
+  </data>
+  <data name="RaidDialog_DiskSmartError" xml:space="preserve">
+    <value>S.M.A.R.T.によりドライブ %1 にエラーが見つかりました。</value>
+  </data>
+  <data name="RaidDialog_DiskLost" xml:space="preserve">
+    <value>ドライブ %1 が失われました。</value>
+  </data>
+  <data name="RaidDialog_DiskNeedReplace" xml:space="preserve">
+    <value>直ちにハードディスクを交換してください。</value>
+  </data>
+  <data name="RaidDialog_WarningRecorderStop" xml:space="preserve">
+    <value>警告：HDDの破損により、システムの異常、録画の停止、データが破損する可能性があります。</value>
+  </data>
+  <data name="SetupServer_DescRAID5" xml:space="preserve">
+    <value>ドライブの故障からデータを保護するため、高性能のストレージを使ってください。</value>
+  </data>
+  <data name="SetupServer_Database" xml:space="preserve">
+    <value>データベース</value>
+  </data>
+  <data name="SetupServer_DB" xml:space="preserve">
+    <value>データベース</value>
+  </data>
+  <data name="SetupServer_Time" xml:space="preserve">
+    <value>日付と時刻</value>
+  </data>
+  <data name="VideoWindowTitleBarPanel_DateTime" xml:space="preserve">
+    <value>日付と時刻</value>
+  </data>
+  <data name="PTSReports_DateTime" xml:space="preserve">
+    <value>日付／時刻</value>
+  </data>
+  <data name="ExceptionResultPanel_DateTime" xml:space="preserve">
+    <value>日付／時刻</value>
+  </data>
+  <data name="Investigation_DateTime" xml:space="preserve">
+    <value>日付／時刻</value>
+  </data>
+  <data name="SetupServer_DateTime" xml:space="preserve">
+    <value>日付／時刻</value>
+  </data>
+  <data name="EventResultPanel_DateTime" xml:space="preserve">
+    <value>日付／時刻</value>
+  </data>
+  <data name="Common_December" xml:space="preserve">
+    <value>12月</value>
+  </data>
+  <data name="Menu_DecodeI-frame" xml:space="preserve">
+    <value>Iフレームをデコード</value>
+  </data>
+  <data name="TimeTrack_DecreaseTimeScale" xml:space="preserve">
+    <value>タイムスケールの減少</value>
+  </data>
+  <data name="EMap_DefaultMap" xml:space="preserve">
+    <value>デフォルトのマップ</value>
+  </data>
+  <data name="EMap_MapButtonZoomDefault" xml:space="preserve">
+    <value>デフォルトのマップ・サイズ</value>
+  </data>
+  <data name="SetupServer_StatusDegraded" xml:space="preserve">
+    <value>格下げ</value>
+  </data>
+  <data name="DeviceLayoutPanel_Delete" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="SetupTitle_Delete" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="PeopleCounting_ButtonDelete" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="DownloadCaseQueue_Delete" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="PointPanel_Delete" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="SetupDevice_DeleteDevice" xml:space="preserve">
+    <value>デバイスの削除</value>
+  </data>
+  <data name="PeopleCounting_DeleteDevice" xml:space="preserve">
+    <value>デバイスの削除</value>
+  </data>
+  <data name="SetupDeviceGroup_DeleteDeviceGroup" xml:space="preserve">
+    <value>デバイス・グループの削除</value>
+  </data>
+  <data name="SetupEvent_DeleteEventHandler" xml:space="preserve">
+    <value>イベント処理の削除</value>
+  </data>
+  <data name="SetupException_DeleteException" xml:space="preserve">
+    <value>例外処理の削除</value>
+  </data>
+  <data name="SetupExceptionReport_DeleteExceptionReport" xml:space="preserve">
+    <value>例外処理レポートの削除</value>
+  </data>
+  <data name="PeopleCounting_ButtonClearFeature" xml:space="preserve">
+    <value>機能の削除</value>
+  </data>
+  <data name="EMap_ButtonDeleteMap" xml:space="preserve">
+    <value>マップのの削除</value>
+  </data>
+  <data name="SetupIOModel_DeleteOPC" xml:space="preserve">
+    <value>OPCサーバーの削除</value>
+  </data>
+  <data name="SetupDeviceLayout_DeletePanorama" xml:space="preserve">
+    <value>パノラマの削除</value>
+  </data>
+  <data name="SetupPOS_DeletePOS" xml:space="preserve">
+    <value>POSの削除</value>
+  </data>
+  <data name="SetupPOSConnection_DeletePOSConnection" xml:space="preserve">
+    <value>POS接続の削除</value>
+  </data>
+  <data name="DevicePanel_UriCommandPanel_DeletePresetPoint" xml:space="preserve">
+    <value>プリセット・ポイントの削除</value>
+  </data>
+  <data name="DevicePanel_UriCommandPanel_DeletePresetPointCommand" xml:space="preserve">
+    <value>プリセット・ポイント・コマンドの削除</value>
+  </data>
+  <data name="SetupScheduleReport_DeleteScheduleReport" xml:space="preserve">
+    <value>スケジュール・レポートの削除</value>
+  </data>
+  <data name="DownloadCaseQueue_DeleteSelectedItem" xml:space="preserve">
+    <value>選択アイテムの削除</value>
+  </data>
+  <data name="PTSReports_DeleteTemplate" xml:space="preserve">
+    <value>テンプレートの削除</value>
+  </data>
+  <data name="SetupUser_DeleteDevice" xml:space="preserve">
+    <value>ユーザーの削除</value>
+  </data>
+  <data name="DeviceView_DeleteView" xml:space="preserve">
+    <value>ビューの削除</value>
+  </data>
+  <data name="EMap_Description" xml:space="preserve">
+    <value>説明</value>
+  </data>
+  <data name="SetupLog_Description" xml:space="preserve">
+    <value>説明</value>
+  </data>
+  <data name="LicensePanel_Description" xml:space="preserve">
+    <value>説明</value>
+  </data>
+  <data name="PTSReports_Description" xml:space="preserve">
+    <value>説明</value>
+  </data>
+  <data name="SetupServer_Description" xml:space="preserve">
+    <value>%1の説明：</value>
+  </data>
+  <data name="SetupGeneral_Desktop" xml:space="preserve">
+    <value>デスクトップ</value>
+  </data>
+  <data name="PTSReports_Detail" xml:space="preserve">
+    <value>詳細</value>
+  </data>
+  <data name="Control_ReportDeviation" xml:space="preserve">
+    <value>偏差</value>
+  </data>
+  <data name="Control_ReportDeviationIcon" xml:space="preserve">
+    <value>偏差</value>
+  </data>
+  <data name="SmartSearch_Device" xml:space="preserve">
+    <value>デバイス</value>
+  </data>
+  <data name="DeviceLayoutPanel_Device" xml:space="preserve">
+    <value>デバイス</value>
+  </data>
+  <data name="EventResultPanel_Device" xml:space="preserve">
+    <value>デバイス</value>
+  </data>
+  <data name="Loading_Device" xml:space="preserve">
+    <value>デバイス</value>
+  </data>
+  <data name="Control_Device" xml:space="preserve">
+    <value>デバイス</value>
+  </data>
+  <data name="Investigation_Device" xml:space="preserve">
+    <value>デバイス</value>
+  </data>
+  <data name="Control_DeviceIcon" xml:space="preserve">
+    <value>デバイス</value>
+  </data>
+  <data name="Handler_Device" xml:space="preserve">
+    <value>デバイス</value>
+  </data>
+  <data name="SetupDevice_SearchDeviceFound" xml:space="preserve">
+    <value>見つかったデバイス</value>
+  </data>
+  <data name="SetupServer_DeviceKeepDaysRecording" xml:space="preserve">
+    <value>継続日数設定</value>
+  </data>
+  <data name="SetupServer_KeepDayWarning" xml:space="preserve">
+    <value>継続日数範囲は %1 ~ %2 日間です。.</value>
+  </data>
+  <data name="Control_DeviceLayout" xml:space="preserve">
+    <value>デバイスのレイアウト</value>
+  </data>
+  <data name="EditUserPanel_DevicePermission" xml:space="preserve">
+    <value>デバイスのパーミッション</value>
+  </data>
+  <data name="DeviceLayoutPanel_DeviceResolution" xml:space="preserve">
+    <value>デバイスの解像度</value>
+  </data>
+  <data name="SetupServer_DeviceSetting" xml:space="preserve">
+    <value>デバイス設定</value>
+  </data>
+  <data name="SetupDevice_SearchDevicesFound" xml:space="preserve">
+    <value>見つかったデバイス</value>
+  </data>
+  <data name="NVR_DeviceQuantity" xml:space="preserve">
+    <value>デバイスの数</value>
+  </data>
+  <data name="Menu_Dewarp" xml:space="preserve">
+    <value>魚眼補整</value>
+  </data>
+  <data name="DevicePanel_DewarpType" xml:space="preserve">
+    <value>魚眼補整タイプ</value>
+  </data>
+  <data name="Ethernet_DHCP" xml:space="preserve">
+    <value>DHCP</value>
+  </data>
+  <data name="SetupServer_NoSelectedContent" xml:space="preserve">
+    <value>元に戻す項目が選択されていませ。</value>
+  </data>
+  <data name="PTSReports_Difference" xml:space="preserve">
+    <value>差分</value>
+  </data>
+  <data name="Event_DigitalInput" xml:space="preserve">
+    <value>デジタル入力</value>
+  </data>
+  <data name="Event_DigitalInputIDOff" xml:space="preserve">
+    <value>デジタル入力 %1 Off</value>
+  </data>
+  <data name="Event_DigitalInputIDOn" xml:space="preserve">
+    <value>デジタル入力 %1 On</value>
+  </data>
+  <data name="Event_DigitalOutput" xml:space="preserve">
+    <value>デジタル出力</value>
+  </data>
+  <data name="Event_DigitalOutputIDOff" xml:space="preserve">
+    <value>デジタル出力 %1 Off</value>
+  </data>
+  <data name="Event_DigitalOutputIDOn" xml:space="preserve">
+    <value>デジタル出力 %1 On</value>
+  </data>
+  <data name="Menu_DigitalOutput1" xml:space="preserve">
+    <value>デジタル出力 1</value>
+  </data>
+  <data name="Menu_DigitalOutput2" xml:space="preserve">
+    <value>デジタル出力 2</value>
+  </data>
+  <data name="Menu_DigitalOutput3" xml:space="preserve">
+    <value>デジタル出力 3</value>
+  </data>
+  <data name="Menu_DigitalOutput4" xml:space="preserve">
+    <value>デジタル出力 4</value>
+  </data>
+  <data name="Menu_DigitalOutput5" xml:space="preserve">
+    <value>デジタル出力 5</value>
+  </data>
+  <data name="Menu_DigitalOutput6" xml:space="preserve">
+    <value>デジタル出力 6</value>
+  </data>
+  <data name="Menu_DigitalOutput7" xml:space="preserve">
+    <value>デジタル出力 7</value>
+  </data>
+  <data name="Menu_DigitalOutput8" xml:space="preserve">
+    <value>デジタル出力 8</value>
+  </data>
+  <data name="VAS_Direct" xml:space="preserve">
+    <value>ダイレクト</value>
+  </data>
+  <data name="SetupGeneral_Disabled" xml:space="preserve">
+    <value>無効</value>
+  </data>
+  <data name="DeviceTree_DisableDevicePatrol" xml:space="preserve">
+    <value>パトロールを有効にする (待機時間 %1 秒)</value>
+  </data>
+  <data name="DeviceTree_DisablePatrol" xml:space="preserve">
+    <value>ビュー・パトロールを有効にする (待機時間 %1 秒)</value>
+  </data>
+  <data name="Menu_Disconnect" xml:space="preserve">
+    <value>切断</value>
+  </data>
+  <data name="Menu_DisconnectAll" xml:space="preserve">
+    <value>全てを切断</value>
+  </data>
+  <data name="VideoWindow_Disconnecting" xml:space="preserve">
+    <value>切断中</value>
+  </data>
+  <data name="SetupServer_RAID_DiskStatus_BAD_STATUS" xml:space="preserve">
+    <value>ディスクは危険な状態です。S.M.A.R.Tがディスクの障害を発見しました。</value>
+  </data>
+  <data name="SetupServer_RAID_DiskStatus_BAD_SECTOR" xml:space="preserve">
+    <value>ディスクに不良トラックがあります。S.M.A.R.Tが %1 不良トラックを発見しました。</value>
+  </data>
+  <data name="StorageControl_LessThanRequire" xml:space="preserve">
+    <value>ディスクのサイズが %1GB未満です。録画を停止します。</value>
+  </data>
+  <data name="SetupServer_RAID_DiskStatus_ATTRIBUTE_NOW" xml:space="preserve">
+    <value>ディスクが異常な状態です。S.M.A.R.Tが異常なアクティビティを発見しました。</value>
+  </data>
+  <data name="SetupServer_RAID_DiskStatus_ATTRIBUTE_IN_THE_PAST" xml:space="preserve">
+    <value>ディスクが異常な状態です。S.M.A.R.Tが異常なアクティビティを発見しました。</value>
+  </data>
+  <data name="SetupServer_RAID_DiskStatus_GOOD" xml:space="preserve">
+    <value>ディスクの状態は良好です。S.M.A.R.Tのテストにパスしました。</value>
+  </data>
+  <data name="SetupGeneral_Display" xml:space="preserve">
+    <value>表示</value>
+  </data>
+  <data name="SetupGeneral_DisplayDeviceId" xml:space="preserve">
+    <value>デバイス IDを表示</value>
+  </data>
+  <data name="SetupLog_DisplaySystemLog" xml:space="preserve">
+    <value>システム・ログを表示</value>
+  </data>
+  <data name="SetupLog_DisplayUserLog" xml:space="preserve">
+    <value>ユーザー・オペレーション・ログを表示</value>
+  </data>
+  <data name="SetupServer_DoNotSetPortToBeEqual" xml:space="preserve">
+    <value>"サーバー・ポート"と "データベース・ポート" は同じ設定にできません。</value>
+  </data>
+  <data name="SetupServer_DoNotSetSSLPortToBeEqual" xml:space="preserve">
+    <value>"サーバー・ポート" と "サーバーSSLポート" は同じ設定にできません。</value>
+  </data>
+  <data name="SetupServer_DoNotSetPortToBeEqual2" xml:space="preserve">
+    <value>"サーバーSSLポート" と "データベース・ポート" は同じ設定にできません。</value>
+  </data>
+  <data name="PeopleCounting_MessageBoxClearFeature" xml:space="preserve">
+    <value>機能をクリアしますか？</value>
+  </data>
+  <data name="PeopleCounting_MessageBoxClearRegions" xml:space="preserve">
+    <value>リージョンをクリアしますか？</value>
+  </data>
+  <data name="EMap_MessageBoxRemoveMapConfirm" xml:space="preserve">
+    <value>マップ  "%1" を削除しますか？</value>
+  </data>
+  <data name="EMap_MessageBoxRemoveNVRConfirm" xml:space="preserve">
+    <value>マップからNVR "%1" を削除しますか？</value>
+  </data>
+  <data name="EMap_MessageBoxRemoveViaConfirm" xml:space="preserve">
+    <value>マップから中継点  "%1" を削除しますか？</value>
+  </data>
+  <data name="EMap_MessageBoxRemoveCameraConfirm" xml:space="preserve">
+    <value>マップからカメラ  "%1" を削除しますか？</value>
+  </data>
+  <data name="PeopleCounting_MessageBoxRemoveRegion" xml:space="preserve">
+    <value>このリージョンを削除しますか？</value>
+  </data>
+  <data name="PeopleCounting_MessageBoxDeleteSetting" xml:space="preserve">
+    <value>この設定を削除しますか？</value>
+  </data>
+  <data name="EMap_MessageBoxRemoveTransferZoneConfirm" xml:space="preserve">
+    <value>マップから中継リージョンを削除しますか？</value>
+  </data>
+  <data name="EMap_MessageBoxStartSetupMode" xml:space="preserve">
+    <value>Eマップを編集しますか？</value>
+  </data>
+  <data name="EMap_SaveCompletedRemind" xml:space="preserve">
+    <value>設定モードから離れますか？</value>
+  </data>
+  <data name="EMap_MessageBoxRemindSaveData" xml:space="preserve">
+    <value>設定を保存しますか？</value>
+  </data>
+  <data name="Undo_Warning" xml:space="preserve">
+    <value>本当に全てを元に戻しますか？</value>
+  </data>
+  <data name="DevicePermissionPanel_Domain" xml:space="preserve">
+    <value>ドメイン</value>
+  </data>
+  <data name="NVR_Domain" xml:space="preserve">
+    <value>ドメイン</value>
+  </data>
+  <data name="Database_Domain" xml:space="preserve">
+    <value>ドメイン</value>
+  </data>
+  <data name="SetupServer_RestoreLicenseWarning" xml:space="preserve">
+    <value>このライセンスを別のNVRでレストアしないでください。正しくないライセンスがレストアされると、NVRを正常に認証できなくなります。</value>
+  </data>
+  <data name="DeviceLayoutPanel_Done" xml:space="preserve">
+    <value>実行</value>
+  </data>
+  <data name="Common_Done" xml:space="preserve">
+    <value>実行</value>
+  </data>
+  <data name="Handler_DontAttach" xml:space="preserve">
+    <value>スナップショット添付の実行</value>
+  </data>
+  <data name="DevicePanel_UriCommandPanel_ActionDown" xml:space="preserve">
+    <value>実行</value>
+  </data>
+  <data name="PTZPanel_MoveDown" xml:space="preserve">
+    <value>下へ</value>
+  </data>
+  <data name="DevicePanel_UriCommandPanel_ActionDownLeft" xml:space="preserve">
+    <value>左下へ</value>
+  </data>
+  <data name="DevicePanel_UriCommandPanel_ActionDownRight" xml:space="preserve">
+    <value>右下へ</value>
+  </data>
+  <data name="PTZPanel_MoveDownLeft" xml:space="preserve">
+    <value>左下</value>
+  </data>
+  <data name="DownloadCase_Download" xml:space="preserve">
+    <value>ダウンロード</value>
+  </data>
+  <data name="DownloadCase_Downloading" xml:space="preserve">
+    <value>ダウンロード中</value>
+  </data>
+  <data name="PTZPanel_MoveDownRight" xml:space="preserve">
+    <value>右下</value>
+  </data>
+  <data name="PeopleCounting_RectangleLinePointDescription" xml:space="preserve">
+    <value>ドラッグしてラインの長さを調整してください。</value>
+  </data>
+  <data name="PeopleCounting_RectangleLineDescription" xml:space="preserve">
+    <value>ドラッグしてラインを調整してください。</value>
+  </data>
+  <data name="SetupDevice_MotionRegionRectanglePointDescription" xml:space="preserve">
+    <value>ドラッグして長方形のフレーム・サイズを調整してください。</value>
+  </data>
+  <data name="PeopleCounting_RectanglePointDescription" xml:space="preserve">
+    <value>ドラッグして長方形のサイズを調整してください。</value>
+  </data>
+  <data name="VideoWindowTitleBarPanel_DragNote" xml:space="preserve">
+    <value>ドラッグして動かして表示順序を変更してください。</value>
+  </data>
+  <data name="EMap_CameraDragToAngle" xml:space="preserve">
+    <value>ドラッグしてカメラのアングルを変更してください。</value>
+  </data>
+  <data name="EMap_HotZoneDragToOpacity" xml:space="preserve">
+    <value>ドラッグして他多角形の不透明度を設定してください。</value>
+  </data>
+  <data name="EMap_MapButtonZoomDrag" xml:space="preserve">
+    <value>ドラッグしてズームしてください。</value>
+  </data>
+  <data name="EMap_ButtonDrawingHotZone" xml:space="preserve">
+    <value>マップ・トランスファーをドロー</value>
+  </data>
+  <data name="PeopleCounting_ButtonDrawing" xml:space="preserve">
+    <value>リージョンをドロー</value>
+  </data>
+  <data name="StoragePanel_Drive" xml:space="preserve">
+    <value>ドライブ</value>
+  </data>
+  <data name="SetupTitle_Duplicate" xml:space="preserve">
+    <value>複製</value>
+  </data>
+  <data name="Handler_Duration" xml:space="preserve">
+    <value>期間</value>
+  </data>
+  <data name="PointPanel_Duration" xml:space="preserve">
+    <value>期間（秒）</value>
+  </data>
+  <data name="SetupServer_EnableDynamicIP" xml:space="preserve">
+    <value>動的IPアドレス（DHCP）</value>
+  </data>
+  <data name="SetupTitle_EditSetup" xml:space="preserve">
+    <value>設定編集</value>
+  </data>
+  <data name="PTSReports_EditTemplate" xml:space="preserve">
+    <value>テンプレート編集</value>
+  </data>
+  <data name="ExportVideo_ExportCompleted" xml:space="preserve">
+    <value>経過時間： %1</value>
+  </data>
+  <data name="User_Email" xml:space="preserve">
+    <value>Eメール</value>
+  </data>
+  <data name="MailServer_EmailAddress" xml:space="preserve">
+    <value>Eメール・アドレス</value>
+  </data>
+  <data name="Page_eMap" xml:space="preserve">
+    <value>Eマップ</value>
+  </data>
+  <data name="Control_E-Map" xml:space="preserve">
+    <value>Eマップ</value>
+  </data>
+  <data name="SetupServer_EMapSetting" xml:space="preserve">
+    <value>Eマップ設定</value>
+  </data>
+  <data name="PTSReports_EmployeesProductivityLossTracking" xml:space="preserve">
+    <value>従業員生産性損失追跡</value>
+  </data>
+  <data name="EditNVRPanel_Enable" xml:space="preserve">
+    <value>有効にする</value>
+  </data>
+  <data name="SetupDevice_Enable" xml:space="preserve">
+    <value>有効にする</value>
+  </data>
+  <data name="SetupServer_EnabledDaylight" xml:space="preserve">
+    <value>夏時日間を有効にする</value>
+  </data>
+  <data name="SetupServer_EnabledKeepDays" xml:space="preserve">
+    <value>保存日数による録画ファイル管理</value>
+  </data>
+  <data name="DeviceTree_EnableDevicePatrol" xml:space="preserve">
+    <value>パトロールを有効にする (待機時間 %1 秒)</value>
+  </data>
+  <data name="DeviceTree_EnablePatrol" xml:space="preserve">
+    <value>ビュー・パトロールを有効にするl (待機時間 %1 秒)</value>
+  </data>
+  <data name="SetupJoystick_EnableJoystick" xml:space="preserve">
+    <value>有効にするジョイスティックを選択</value>
+  </data>
+  <data name="PTZPanel_EnablePresetTour" xml:space="preserve">
+    <value>プリセット・ツアーを有効にする</value>
+  </data>
+  <data name="DownloadCaseQueue_EnableScheduleDownload" xml:space="preserve">
+    <value>スケジュール・エクスポートを有効にする</value>
+  </data>
+  <data name="LoginForm_SSL" xml:space="preserve">
+    <value>SSL接続を有効にする</value>
+  </data>
+  <data name="SetupServer_Enabled" xml:space="preserve">
+    <value>有効</value>
+  </data>
+  <data name="DevicePanel_Enabled" xml:space="preserve">
+    <value>有効</value>
+  </data>
+  <data name="SetupJoystick_Enabled" xml:space="preserve">
+    <value>有効</value>
+  </data>
+  <data name="SetupGeneral_Enabled" xml:space="preserve">
+    <value>有効</value>
+  </data>
+  <data name="DevicePanel_Encryption" xml:space="preserve">
+    <value>暗号化</value>
+  </data>
+  <data name="POSException_End" xml:space="preserve">
+    <value>終了</value>
+  </data>
+  <data name="SmartSearch_End" xml:space="preserve">
+    <value>終了</value>
+  </data>
+  <data name="ExportVideo_End" xml:space="preserve">
+    <value>終了</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>日本語</value>
+  </data>
+  <data name="SaveReport_WriteComment" xml:space="preserve">
+    <value>コメントを入力してください。</value>
+  </data>
+  <data name="DownloadCase_WriteComment" xml:space="preserve">
+    <value>コメントを入力してください。</value>
+  </data>
+  <data name="PrintImage_WriteComment" xml:space="preserve">
+    <value>コメントを入力してください。</value>
+  </data>
+  <data name="UnlockAppForm_EnterPassword" xml:space="preserve">
+    <value>アプリケーションを解錠するため "%1" のパスワードを入力してください。</value>
+  </data>
+  <data name="PTSReports_Equation" xml:space="preserve">
+    <value>数式</value>
+  </data>
+  <data name="SetupServer_DiskError" xml:space="preserve">
+    <value>ディスク・エラー</value>
+  </data>
+  <data name="MessageBox_Error" xml:space="preserve">
+    <value>エラー</value>
+  </data>
+  <data name="SetupServer_Ethernet" xml:space="preserve">
+    <value>イーサネット</value>
+  </data>
+  <data name="Ethernet_Ethernet" xml:space="preserve">
+    <value>イーサネット</value>
+  </data>
+  <data name="SetupLicense_EthernetCard" xml:space="preserve">
+    <value>イーサネット・カード</value>
+  </data>
+  <data name="Page_Event" xml:space="preserve">
+    <value>イベント</value>
+  </data>
+  <data name="EventResultPanel_Event" xml:space="preserve">
+    <value>イベント</value>
+  </data>
+  <data name="Control_Event" xml:space="preserve">
+    <value>イベント</value>
+  </data>
+  <data name="Investigation_Event" xml:space="preserve">
+    <value>イベント</value>
+  </data>
+  <data name="Control_EventIcon" xml:space="preserve">
+    <value>イベント</value>
+  </data>
+  <data name="NVR_Event" xml:space="preserve">
+    <value>イベント</value>
+  </data>
+  <data name="SmartSearch_Event" xml:space="preserve">
+    <value>イベント</value>
+  </data>
+  <data name="Investigation_EventColor" xml:space="preserve">
+    <value>イベントのカラー</value>
+  </data>
+  <data name="HandlePanel_EventHandler" xml:space="preserve">
+    <value>イベント処理</value>
+  </data>
+  <data name="SetupSchedule_EventHandling" xml:space="preserve">
+    <value>イベント処理</value>
+  </data>
+  <data name="DevicePanel_EventHandling" xml:space="preserve">
+    <value>イベント処理</value>
+  </data>
+  <data name="SetupSchedule_EventRecordingDuration" xml:space="preserve">
+    <value>イベント録画時間（秒）</value>
+  </data>
+  <data name="Control_EventSearch" xml:space="preserve">
+    <value>イベント検索</value>
+  </data>
+  <data name="SetupLog_ExcelFile" xml:space="preserve">
+    <value>イベント・ファイル</value>
+  </data>
+  <data name="POS_Exception" xml:space="preserve">
+    <value>例外処理</value>
+  </data>
+  <data name="Control_ExceptionIcon" xml:space="preserve">
+    <value>例外処理</value>
+  </data>
+  <data name="Control_Exception" xml:space="preserve">
+    <value>例外処理</value>
+  </data>
+  <data name="ExceptionResultPanel_Exception" xml:space="preserve">
+    <value>例外処理</value>
+  </data>
+  <data name="ExceptionReportPanel_Exception" xml:space="preserve">
+    <value>例外処理</value>
+  </data>
+  <data name="ScheduleReportPanel_Exception" xml:space="preserve">
+    <value>例外処理</value>
+  </data>
+  <data name="PTSReports_Exception" xml:space="preserve">
+    <value>例外処理</value>
+  </data>
+  <data name="POSException_ExceptionAndKeyword" xml:space="preserve">
+    <value>例外処理／キーワード</value>
+  </data>
+  <data name="ExceptionResultPanel_ExceptionAmount" xml:space="preserve">
+    <value>例外処理数</value>
+  </data>
+  <data name="PTSReports_ExceptionAmount" xml:space="preserve">
+    <value>例外処理数</value>
+  </data>
+  <data name="POS_ExceptionColor" xml:space="preserve">
+    <value>例外処理のカラー</value>
+  </data>
+  <data name="Control_ReportExceptionPercentageIcon" xml:space="preserve">
+    <value>例外処理のパーセンテージ</value>
+  </data>
+  <data name="Control_ReportExceptionPercentage" xml:space="preserve">
+    <value>例外処理のパーセンテージ</value>
+  </data>
+  <data name="Control_ExceptionReport" xml:space="preserve">
+    <value>例外処理のレポート</value>
+  </data>
+  <data name="PTSReports_ExceptionReport" xml:space="preserve">
+    <value>例外処理のレポート</value>
+  </data>
+  <data name="Control_ExceptionReportIcon" xml:space="preserve">
+    <value>例外処理のレポート</value>
+  </data>
+  <data name="POS_ExceptionReport" xml:space="preserve">
+    <value>例外処理のレポート</value>
+  </data>
+  <data name="SetupExceptionReport_ExceptionReport" xml:space="preserve">
+    <value>例外処理のレポート</value>
+  </data>
+  <data name="Control_POSExceptionSearch" xml:space="preserve">
+    <value>例外処理検索</value>
+  </data>
+  <data name="Control_ReportException" xml:space="preserve">
+    <value>例外処理検索</value>
+  </data>
+  <data name="Control_ReportExceptionIcon" xml:space="preserve">
+    <value>例外処理検索</value>
+  </data>
+  <data name="PTSReports_ExceptionTracking" xml:space="preserve">
+    <value>例外処理追跡</value>
+  </data>
+  <data name="Control_ReportExceptionTrend" xml:space="preserve">
+    <value>例外処理のトレンド</value>
+  </data>
+  <data name="Control_ReportExceptionTrendIcon" xml:space="preserve">
+    <value>例外処理のトレンド</value>
+  </data>
+  <data name="HandlePanel_Command" xml:space="preserve">
+    <value>コマンドの実行</value>
+  </data>
+  <data name="VideoMonitor_ExitFullScreen" xml:space="preserve">
+    <value>全画面終了</value>
+  </data>
+  <data name="LicensePanel_Expired" xml:space="preserve">
+    <value>終了</value>
+  </data>
+  <data name="LicensePanel_ExpiresDate" xml:space="preserve">
+    <value>GMT %1 で終了します。</value>
+  </data>
+  <data name="ExportVideo_Encode" xml:space="preserve">
+    <value>エクスポート</value>
+  </data>
+  <data name="ExportVideo_Export" xml:space="preserve">
+    <value>エクスポート</value>
+  </data>
+  <data name="DownloadCase_Button" xml:space="preserve">
+    <value>ケースのエクスポート</value>
+  </data>
+  <data name="DownloadCase_Title" xml:space="preserve">
+    <value>ケースのエクスポート</value>
+  </data>
+  <data name="DownloadCase_DownloadCaseInProgress" xml:space="preserve">
+    <value>ケースのエクスポートを実行中です。\n 直前の操作が完了するまで待つかキャンセルしてください。</value>
+  </data>
+  <data name="Menu_ExportCaseQueue" xml:space="preserve">
+    <value>ケース・キューのエクスポート</value>
+  </data>
+  <data name="DownloadCaseQueue_Title" xml:space="preserve">
+    <value>ケース・キューのエクスポート</value>
+  </data>
+  <data name="GroupPanel_ExportError" xml:space="preserve">
+    <value>エクスポートのエラー：ディスクのパーミッションと容量を確認してください。</value>
+  </data>
+  <data name="GroupPanel_ExportFileFolder" xml:space="preserve">
+    <value>ファイル・フォルダーのエクスポート</value>
+  </data>
+  <data name="ExportVideo_ExportOriginalVideo" xml:space="preserve">
+    <value>オリジナル・ビデオのエクスポート</value>
+  </data>
+  <data name="ExportVideo_PathNotAvailable" xml:space="preserve">
+    <value>エクスポート・パスが使用できません。デスクトップにエクスポートします。</value>
+  </data>
+  <data name="SetupTitle_ExportTemplate" xml:space="preserve">
+    <value>テンプレートのエクスポート</value>
+  </data>
+  <data name="Export_Button" xml:space="preserve">
+    <value>ビデオのエクスポート</value>
+  </data>
+  <data name="DevicePermissionPanel_ExportVideo" xml:space="preserve">
+    <value>ビデオのエクスポート</value>
+  </data>
+  <data name="ExportVideo_Title" xml:space="preserve">
+    <value>ビデオのエクスポート</value>
+  </data>
+  <data name="ExportVideo_ExportFailed" xml:space="preserve">
+    <value>ビデオ "%1" のエクスポートに失敗しました。</value>
+  </data>
+  <data name="ExportVideo_ExportVideoInProgress" xml:space="preserve">
+    <value>ビデオをエクスポート中です。\n直前の操作が完了するのを待つか、キャンセルしてください。</value>
+  </data>
+  <data name="ExportVideo_ExportCancelled" xml:space="preserve">
+    <value>ビデオのエエクスポートがキャンセルされました。</value>
+  </data>
+  <data name="ExportVideoStatus_ExportVideoFinish" xml:space="preserve">
+    <value>ビデオのエクスポートが完了しました。</value>
+  </data>
+  <data name="SetupGeneral_ExportFolderName" xml:space="preserve">
+    <value>エクスポートしたビデオのフォルダ名は "%1 Video (%2)" です。</value>
+  </data>
+  <data name="ExportVideo_ExportVideoOptions" xml:space="preserve">
+    <value>ビデオのエクスポート・オプション</value>
+  </data>
+  <data name="SetupGeneral_ExportVideoPath" xml:space="preserve">
+    <value>ビデオのエクスポート・パス</value>
+  </data>
+  <data name="ExportVideo_ExportSucceed" xml:space="preserve">
+    <value>ビデオのエクスポートが成功しました。</value>
+  </data>
+  <data name="DownloadCase_Failed" xml:space="preserve">
+    <value>失敗しました。</value>
+  </data>
+  <data name="NVR_LaunchTime" xml:space="preserve">
+    <value>フェイルオーバー立ち上がり時間</value>
+  </data>
+  <data name="SetupServer_FailoverRecording" xml:space="preserve">
+    <value>フェイルオーバー録画</value>
+  </data>
+  <data name="Event_FailoverDataStartSync" xml:space="preserve">
+    <value>フェイルオーバー録画データの同期開始</value>
+  </data>
+  <data name="Event_FailoverStartRecord" xml:space="preserve">
+    <value>フェイルオーバー録画開始</value>
+  </data>
+  <data name="Event_FailoverSyncCompleted" xml:space="preserve">
+    <value>フェイルオーバー同期完了</value>
+  </data>
+  <data name="Application_FailoverSystem" xml:space="preserve">
+    <value>フェイルオーバー・システム</value>
+  </data>
+  <data name="LoginForm_Failover" xml:space="preserve">
+    <value>フェイルオーバー・システム</value>
+  </data>
+  <data name="SetupNVR_NVRStatusFailures" xml:space="preserve">
+    <value>障害：サーバーの障害。応答なしの状態が100%。</value>
+  </data>
+  <data name="Common_February" xml:space="preserve">
+    <value>2月</value>
+  </data>
+  <data name="EMap_File" xml:space="preserve">
+    <value>ファイル</value>
+  </data>
+  <data name="Handler_FileName" xml:space="preserve">
+    <value>ファイル名</value>
+  </data>
+  <data name="ExportVideoMsg_FileOpenFailed" xml:space="preserve">
+    <value>ファイを開けません。</value>
+  </data>
+  <data name="USBDisk_FileSystem" xml:space="preserve">
+    <value>ファイル・システム</value>
+  </data>
+  <data name="SetupSchedule_FillEventRecording" xml:space="preserve">
+    <value>イベント録画で空白を満たしてください。</value>
+  </data>
+  <data name="PageSelector_First" xml:space="preserve">
+    <value>最初のページ</value>
+  </data>
+  <data name="Menu_Fisheye" xml:space="preserve">
+    <value>魚眼</value>
+  </data>
+  <data name="PTZPanel_Focus" xml:space="preserve">
+    <value>フォーカス</value>
+  </data>
+  <data name="PTZPanel_FocusFAR" xml:space="preserve">
+    <value>フォーカスを遠くへ</value>
+  </data>
+  <data name="DevicePanel_UriCommandPanel_ActionFocusIn" xml:space="preserve">
+    <value>フォーカス・イン</value>
+  </data>
+  <data name="PTZPanel_FocusNEAR" xml:space="preserve">
+    <value>フォーカスを近くへ</value>
+  </data>
+  <data name="DevicePanel_UriCommandPanel_ActionFocusOut" xml:space="preserve">
+    <value>フォーカス・アウト</value>
+  </data>
+  <data name="DevicePanel_UriCommandPanel_ActionFocusStop" xml:space="preserve">
+    <value>フォーカス停止</value>
+  </data>
+  <data name="PTZPanel_FocusSTOP" xml:space="preserve">
+    <value>フォーカス停止</value>
+  </data>
+  <data name="StorageControl_KeepSpaceSuggest4" xml:space="preserve">
+    <value>合計ビットレート 100Mb/s to 150Mb/s = 50GB</value>
+  </data>
+  <data name="StorageControl_KeepSpaceSuggest2" xml:space="preserve">
+    <value>合計ビットレート 10Mb/s to 50Mb/s = 30GB</value>
+  </data>
+  <data name="StorageControl_KeepSpaceSuggest5" xml:space="preserve">
+    <value>合計ビットレート 150Mb/s to 200Mb/s = 60GB</value>
+  </data>
+  <data name="StorageControl_KeepSpaceSuggest3" xml:space="preserve">
+    <value>合計ビットレート 50Mb/s to 100Mb/s = 40GB</value>
+  </data>
+  <data name="StorageControl_KeepSpaceSuggest1" xml:space="preserve">
+    <value>合計ビットレート 10Mb/s以下 = 15GB</value>
+  </data>
+  <data name="ScheduleReportPanel_Format" xml:space="preserve">
+    <value>フォーマット</value>
+  </data>
+  <data name="ExceptionReportPanel_Format" xml:space="preserve">
+    <value>フォーマット</value>
+  </data>
+  <data name="SetupTitle_Format" xml:space="preserve">
+    <value>フォーマット</value>
+  </data>
+  <data name="VideoWindowTitleBarPanel_FPS" xml:space="preserve">
+    <value>FPS</value>
+  </data>
+  <data name="SetupGeneral_FPS" xml:space="preserve">
+    <value>FPS</value>
+  </data>
+  <data name="DevicePanel_FPS" xml:space="preserve">
+    <value>FPS</value>
+  </data>
+  <data name="VAS_Frame" xml:space="preserve">
+    <value>フレーム</value>
+  </data>
+  <data name="PTSReports_FrequentExceptionCategoriesIncurred" xml:space="preserve">
+    <value>よく使用する例外処理のカテゴリー</value>
+  </data>
+  <data name="PTSReports_FrequentExceptionsIncurredByEmployees" xml:space="preserve">
+    <value>従業員によるよく使用する例外処理のカテゴリー</value>
+  </data>
+  <data name="Common_Fri" xml:space="preserve">
+    <value>金曜日</value>
+  </data>
+  <data name="Schedule_Fri" xml:space="preserve">
+    <value>金曜日</value>
+  </data>
+  <data name="Common_Friday" xml:space="preserve">
+    <value>金曜日</value>
+  </data>
+  <data name="SetupGeneral_FTPServer" xml:space="preserve">
+    <value>FTPサーバー</value>
+  </data>
+  <data name="Menu_Fullscreen" xml:space="preserve">
+    <value>全画面</value>
+  </data>
+  <data name="Schedule_FullTime" xml:space="preserve">
+    <value>常時</value>
+  </data>
+  <data name="Schedule_FullTimeEventRecording" xml:space="preserve">
+    <value>常時イベント録画</value>
+  </data>
+  <data name="DevicePanel_Gain" xml:space="preserve">
+    <value>ゲイン</value>
+  </data>
+  <data name="DevicePanel_Gamma" xml:space="preserve">
+    <value>ガンマ</value>
+  </data>
+  <data name="SetupServer_Gateway" xml:space="preserve">
+    <value>ゲートウェイ</value>
+  </data>
+  <data name="Control_General" xml:space="preserve">
+    <value>一般</value>
+  </data>
+  <data name="Control_GeneralIcon" xml:space="preserve">
+    <value>一般</value>
+  </data>
+  <data name="SetupServer_GeneralSetting" xml:space="preserve">
+    <value>一般設定</value>
+  </data>
+  <data name="PeopleCounting_MessageBoxDragSnapshotFail" xml:space="preserve">
+    <value>スナップショットを撮れません。もう一度試してください。</value>
+  </data>
+  <data name="ExportVideoStatus_GetVideoStream" xml:space="preserve">
+    <value>ビデオ・ストリームの取得</value>
+  </data>
+  <data name="ExportVideoMsg_GetVideoStreamFailed" xml:space="preserve">
+    <value>ビデオ・ストリームの取得に失敗しました。</value>
+  </data>
+  <data name="EMap_MapButtonMoveDefault" xml:space="preserve">
+    <value>ホームへ</value>
+  </data>
+  <data name="PointPanel_GoTo" xml:space="preserve">
+    <value>Go to</value>
+  </data>
+  <data name="SetupNVR_NVRStatusGood" xml:space="preserve">
+    <value>良好：応答なしの状態が0%～35%です。</value>
+  </data>
+  <data name="HandlePanel_GotoPreset" xml:space="preserve">
+    <value>プリセットへ</value>
+  </data>
+  <data name="DevicePanel_UriCommandPanel_GotoPresetPoint" xml:space="preserve">
+    <value>プリセット・ポイントへ</value>
+  </data>
+  <data name="DevicePanel_UriCommandPanel_GotoPresetPointCommand" xml:space="preserve">
+    <value>プリセット・ポイント・コマンドへ</value>
+  </data>
+  <data name="Control_DeviceGroup" xml:space="preserve">
+    <value>グループ</value>
+  </data>
+  <data name="User_Group" xml:space="preserve">
+    <value>グループ</value>
+  </data>
+  <data name="Control_DeviceGroupIcon" xml:space="preserve">
+    <value>グループ</value>
+  </data>
+  <data name="UserGroup_Guest" xml:space="preserve">
+    <value>ゲスト</value>
+  </data>
+  <data name="DeviceLayoutPanel_Height" xml:space="preserve">
+    <value>高さ</value>
+  </data>
+  <data name="Menu_HidePanel" xml:space="preserve">
+    <value>パネルを隠す</value>
+  </data>
+  <data name="EMap_HotZoneOpacityHigh" xml:space="preserve">
+    <value>高</value>
+  </data>
+  <data name="AutoSwitchLiveVideoStream_HighProfileStartLessThen" xml:space="preserve">
+    <value>ビデオ・ストリーム数が次の値より少ない時、高プロファイルに切り替え:</value>
+  </data>
+  <data name="AutoSwitchLiveVideoStream_Information" xml:space="preserve">
+    <value>高プロファイルは低い番号のビデオ・ストリームに使用します。低い番号のビデオ・ストリームに高プロファイルを、高い番号のビデオ・ストリームに低プロファイルを設定してください。</value>
+  </data>
+  <data name="SetupServer_DescRAID10" xml:space="preserve">
+    <value>RAID 10はRAID 1よりパフォーマンスに優れ、RAID 0よりデータ保護の信頼性があります。</value>
+  </data>
+  <data name="LoginForm_Host" xml:space="preserve">
+    <value>ホスト</value>
+  </data>
+  <data name="SetupServer_HostName" xml:space="preserve">
+    <value>ホスト名</value>
+  </data>
+  <data name="HandlePanel_Hotspot" xml:space="preserve">
+    <value>ホットスポット</value>
+  </data>
+  <data name="Common_Hr" xml:space="preserve">
+    <value>時間</value>
+  </data>
+  <data name="SetupLog_HTMLFile" xml:space="preserve">
+    <value>HTMLファイル</value>
+  </data>
+  <data name="DevicePanel_HTTPPort" xml:space="preserve">
+    <value>HTTPポート</value>
+  </data>
+  <data name="DevicePanel_Hue" xml:space="preserve">
+    <value>色調</value>
+  </data>
+  <data name="Control_IOModel" xml:space="preserve">
+    <value>I/Oモデル</value>
+  </data>
+  <data name="DevicePanel_IOPort" xml:space="preserve">
+    <value>I/Oポート %1</value>
+  </data>
+  <data name="DevicePanel_IOPortConfig" xml:space="preserve">
+    <value>I/Oポート設定</value>
+  </data>
+  <data name="SetupServer_StoreId" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="Handler_ID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="DevicePanel_ID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="PointPanel_ID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="ExportVideo_ID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="DevicePermissionPanel_ID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="ExceptionResultPanel_ID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="VAS_ID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="DeviceLayoutPanel_ID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="EventResultPanell_ID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="SetupLog_ID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="POSException_ID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="PTSReports_ID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="POS_ID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="NVR_ID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="VideoWindow_Idle" xml:space="preserve">
+    <value>待機</value>
+  </data>
+  <data name="SetupServer_EthernetWarning" xml:space="preserve">
+    <value>不適切な値が入力されると、その値は保存されず、フィールドは空白のままになります。</value>
+  </data>
+  <data name="SetupServer_DateTimeNTPServerWarning" xml:space="preserve">
+    <value>手動で時間を設定するとNTPサーバーは無効になります。</value>
+  </data>
+  <data name="Control_ImageStitchingIcon" xml:space="preserve">
+    <value>イメージ切り替え</value>
+  </data>
+  <data name="Control_ImageStitching" xml:space="preserve">
+    <value>イメージ切り替え</value>
+  </data>
+  <data name="DeviceTree_ImageStitching" xml:space="preserve">
+    <value>イメージ切り替え</value>
+  </data>
+  <data name="GroupPanel_Import" xml:space="preserve">
+    <value>インポート</value>
+  </data>
+  <data name="SetupTitle_ImportTemplate" xml:space="preserve">
+    <value>テンプレートのインポート</value>
+  </data>
+  <data name="SetupServer_DescRAID0" xml:space="preserve">
+    <value>警告：RAID 0で破損したHDDを使用していると、NVRの録画データが破損し、修復できなくなります。</value>
+  </data>
+  <data name="PeopleCounting_PeopleInDescription" xml:space="preserve">
+    <value>In (クリックして切り替え)</value>
+  </data>
+  <data name="SetupServer_StatusInactive" xml:space="preserve">
+    <value>非アクティブ</value>
+  </data>
+  <data name="PTSReports_EmployeeProductivityImprovementTrend" xml:space="preserve">
+    <value>従業員のインシデント・トレンド</value>
+  </data>
+  <data name="SetupGeneral_Include" xml:space="preserve">
+    <value>含む</value>
+  </data>
+  <data name="EditNVRPanel_Include" xml:space="preserve">
+    <value>含む</value>
+  </data>
+  <data name="PrintImage_Include" xml:space="preserve">
+    <value>含む</value>
+  </data>
+  <data name="TimeTrack_IncreaseTimeScale" xml:space="preserve">
+    <value>タイムスケールを増やす</value>
+  </data>
+  <data name="ExceptionReportPanel_Increment" xml:space="preserve">
+    <value>増加</value>
+  </data>
+  <data name="EditUserPanel_Information" xml:space="preserve">
+    <value>情報</value>
+  </data>
+  <data name="EditPOSPanel_Information" xml:space="preserve">
+    <value>情報</value>
+  </data>
+  <data name="VideoWindowTitleBarPanel_Information" xml:space="preserve">
+    <value>情報</value>
+  </data>
+  <data name="EditPOSExceptionPanel_Information" xml:space="preserve">
+    <value>情報</value>
+  </data>
+  <data name="MessageBox_Information" xml:space="preserve">
+    <value>情報</value>
+  </data>
+  <data name="PTSReports_Information" xml:space="preserve">
+    <value>情報</value>
+  </data>
+  <data name="EditNVRPanel_Information" xml:space="preserve">
+    <value>情報</value>
+  </data>
+  <data name="EditPOSConnectionPanel_Information" xml:space="preserve">
+    <value>情報</value>
+  </data>
+  <data name="VideoWindowTitleBarPanel_DisplayNote" xml:space="preserve">
+    <value>情報はビデオ・タイトル・バーの左から右に表示されます。</value>
+  </data>
+  <data name="Application_InitializeActiveXError" xml:space="preserve">
+    <value>ActiveX (%1) の初期化でエラーが発生しました。</value>
+  </data>
+  <data name="Menu_InstantPlayback" xml:space="preserve">
+    <value>インスタント再生</value>
+  </data>
+  <data name="InstantPlayback_Title" xml:space="preserve">
+    <value>インスタント再生</value>
+  </data>
+  <data name="VAS_Interval" xml:space="preserve">
+    <value>間隔</value>
+  </data>
+  <data name="SetupServer_PortWarning" xml:space="preserve">
+    <value>ポートが正しくありません。%1以外を入力してください。</value>
+  </data>
+  <data name="Page_Investigation" xml:space="preserve">
+    <value>調査</value>
+  </data>
+  <data name="Control_ReportInvestigationIcon" xml:space="preserve">
+    <value>調査</value>
+  </data>
+  <data name="Control_ReportInvestigation" xml:space="preserve">
+    <value>調査</value>
+  </data>
+  <data name="SetupServer_IPAddress" xml:space="preserve">
+    <value>IPアドレス</value>
+  </data>
+  <data name="SmartSearch_IVS" xml:space="preserve">
+    <value>IVS</value>
+  </data>
+  <data name="Common_January" xml:space="preserve">
+    <value>1月</value>
+  </data>
+  <data name="Control_Joystick" xml:space="preserve">
+    <value>ジョイスティック</value>
+  </data>
+  <data name="Control_JoystickIcon" xml:space="preserve">
+    <value>ジョイスティック</value>
+  </data>
+  <data name="Common_July" xml:space="preserve">
+    <value>7月</value>
+  </data>
+  <data name="TimeTrack_JumpNextBookmark" xml:space="preserve">
+    <value>次のブックマークへ</value>
+  </data>
+  <data name="TimeTrack_JumpNextRecord" xml:space="preserve">
+    <value>次の録画へ</value>
+  </data>
+  <data name="TimeTrack_JumpPresentTime" xml:space="preserve">
+    <value>現在の時間へ</value>
+  </data>
+  <data name="TimeTrack_JumpPreviousBookmark" xml:space="preserve">
+    <value>前のブックマークへ</value>
+  </data>
+  <data name="TimeTrack_JumpPreviousRecord" xml:space="preserve">
+    <value>前の録画へ</value>
+  </data>
+  <data name="Common_June" xml:space="preserve">
+    <value>6月</value>
+  </data>
+  <data name="StoragePanel_KeepDays" xml:space="preserve">
+    <value>保存日数</value>
+  </data>
+  <data name="StoragePanel_KeepSpace" xml:space="preserve">
+    <value>保存スペース</value>
+  </data>
+  <data name="PTSReports_Keyword" xml:space="preserve">
+    <value>キーワード</value>
+  </data>
+  <data name="POS_Keyword" xml:space="preserve">
+    <value>キーワード</value>
+  </data>
+  <data name="LoginForm_Language" xml:space="preserve">
+    <value>言語</value>
+  </data>
+  <data name="EMap_VideoWindowSizeLarge" xml:space="preserve">
+    <value>拡大</value>
+  </data>
+  <data name="Common_LastMonth" xml:space="preserve">
+    <value>前月</value>
+  </data>
+  <data name="PageSelector_Last" xml:space="preserve">
+    <value>最後のページ</value>
+  </data>
+  <data name="DeviceLayoutPanel_Layout" xml:space="preserve">
+    <value>レイアウト</value>
+  </data>
+  <data name="Pager_Layout" xml:space="preserve">
+    <value>レイアウト %1</value>
+  </data>
+  <data name="PTZPanel_MoveLeft" xml:space="preserve">
+    <value>左</value>
+  </data>
+  <data name="DevicePanel_UriCommandPanel_ActionLeft" xml:space="preserve">
+    <value>左</value>
+  </data>
+  <data name="Control_LicenseIcon" xml:space="preserve">
+    <value>ライセンス</value>
+  </data>
+  <data name="Control_License" xml:space="preserve">
+    <value>ライセンス</value>
+  </data>
+  <data name="Loading_License" xml:space="preserve">
+    <value>ライセンス</value>
+  </data>
+  <data name="SetupLicense_LicenseKey" xml:space="preserve">
+    <value>ライセンス・キー</value>
+  </data>
+  <data name="Application_LicenseKeyWillExpire" xml:space="preserve">
+    <value>ライセンス・キー "%1" は "%2"で期限切れになります。</value>
+  </data>
+  <data name="Application_LicenseKeyError" xml:space="preserve">
+    <value>ライセンス・キーのエラーです。 (Error code: 2)</value>
+  </data>
+  <data name="SetupLicense_Filter" xml:space="preserve">
+    <value>ライセンス・キー・ファイル</value>
+  </data>
+  <data name="Application_LicenseKeyUsed" xml:space="preserve">
+    <value>ライセンス・キーは使用されています。 (Error code: 3)</value>
+  </data>
+  <data name="Application_LicenseKeyExpired" xml:space="preserve">
+    <value>ライセンス・キーが期限切れです。 (Error code: 4)</value>
+  </data>
+  <data name="SetupLicense_LicenseQuantity" xml:space="preserve">
+    <value>ライセンス数</value>
+  </data>
+  <data name="SetupLicense_AmountConfirm" xml:space="preserve">
+    <value>ライセンス数は "%1" です。\n登録しますか？</value>
+  </data>
+  <data name="Application_AmountConfirm" xml:space="preserve">
+    <value>ライセンス数は "%1" です。\n登録の前に確認してください。</value>
+  </data>
+  <data name="Application_RegistrationTimeout" xml:space="preserve">
+    <value>ライセンス登録がタイムアウトしました。</value>
+  </data>
+  <data name="SetupServer_LicenseSetting" xml:space="preserve">
+    <value>ライセンス設定</value>
+  </data>
+  <data name="EMap_NewViaName" xml:space="preserve">
+    <value>リンク先</value>
+  </data>
+  <data name="EMap_LinkToMap" xml:space="preserve">
+    <value>マップへのリンク</value>
+  </data>
+  <data name="Page_Live" xml:space="preserve">
+    <value>ライブ</value>
+  </data>
+  <data name="SetupGeneral_LivePatrolInterval" xml:space="preserve">
+    <value>パトロールの待機時間</value>
+  </data>
+  <data name="DevicePanel_LiveStream" xml:space="preserve">
+    <value>ライブ・ストリーム</value>
+  </data>
+  <data name="App_Loading" xml:space="preserve">
+    <value>ロード中</value>
+  </data>
+  <data name="SetupLog_LoadingLog" xml:space="preserve">
+    <value>ログのロード中</value>
+  </data>
+  <data name="PrintImage_Loading" xml:space="preserve">
+    <value>ロード中</value>
+  </data>
+  <data name="SetupGeneral_LocalTranscode" xml:space="preserve">
+    <value>ローカル変換</value>
+  </data>
+  <data name="Menu_LockApplication" xml:space="preserve">
+    <value>アプリケーションのロック</value>
+  </data>
+  <data name="Control_LogIcon" xml:space="preserve">
+    <value>ログ</value>
+  </data>
+  <data name="SetupLog_Log" xml:space="preserve">
+    <value>ログ</value>
+  </data>
+  <data name="Control_Log" xml:space="preserve">
+    <value>ログ</value>
+  </data>
+  <data name="LoginForm_SignInFailed" xml:space="preserve">
+    <value>サインインに失敗しました。</value>
+  </data>
+  <data name="LoginForm_SignInFailedAuthFailure" xml:space="preserve">
+    <value>サインインに失敗しました。アカウントとパスワードを確認してください。</value>
+  </data>
+  <data name="LoginForm_SignInFailedPortOccupation" xml:space="preserve">
+    <value>サインインに失敗しました。他のアプリケーションでポート %1 が使用されていないか確認してください。</value>
+  </data>
+  <data name="LoginForm_SignInTimeoutSSL" xml:space="preserve">
+    <value>サインインがタイムアウトしました。ファイアウォール設定とSSLポートが正しいか確認してください。</value>
+  </data>
+  <data name="LoginForm_SignInTimeout" xml:space="preserve">
+    <value>サインインがタイムアウトしました。ファイアウォール設定を確認してください。</value>
+  </data>
+  <data name="SetupServer_DiskLost" xml:space="preserve">
+    <value>ロスト</value>
+  </data>
+  <data name="EMap_HotZoneOpacityLow" xml:space="preserve">
+    <value>低</value>
+  </data>
+  <data name="AutoSwitchLiveVideoStream_LowProfileStartMoreThen" xml:space="preserve">
+    <value>ビデオ・ストリーム数が次の値より多い時、低プロファイルへ切り替え:</value>
+  </data>
+  <data name="LicensePanel_MAC" xml:space="preserve">
+    <value>MAC</value>
+  </data>
+  <data name="SetupGeneral_MailServer" xml:space="preserve">
+    <value>メール・サーバー</value>
+  </data>
+  <data name="PeopleCounting_ButtonMakeFeature" xml:space="preserve">
+    <value>機能を追加</value>
+  </data>
+  <data name="DevicePermissionPanel_ManualRecord" xml:space="preserve">
+    <value>手動録画</value>
+  </data>
+  <data name="ManualRecord_Button" xml:space="preserve">
+    <value>手動録画</value>
+  </data>
+  <data name="Event_ManualRecord" xml:space="preserve">
+    <value>手動6課が</value>
+  </data>
+  <data name="SetupGeneral_ManualRecordDuration" xml:space="preserve">
+    <value>手動録画時間</value>
+  </data>
+  <data name="POSException_Manufacture" xml:space="preserve">
+    <value>製造</value>
+  </data>
+  <data name="POSConnection_Manufacture" xml:space="preserve">
+    <value>製造</value>
+  </data>
+  <data name="POS_Manufacture" xml:space="preserve">
+    <value>製造</value>
+  </data>
+  <data name="NVR_Manufacture" xml:space="preserve">
+    <value>製造者</value>
+  </data>
+  <data name="PTSReports_Manufacture" xml:space="preserve">
+    <value>製造</value>
+  </data>
+  <data name="DevicePanel_Manufacturer" xml:space="preserve">
+    <value>製造者</value>
+  </data>
+  <data name="SetupDevice_AllManufacturer" xml:space="preserve">
+    <value>製造者</value>
+  </data>
+  <data name="EMap_TreeMap" xml:space="preserve">
+    <value>マップ</value>
+  </data>
+  <data name="Control_Maps" xml:space="preserve">
+    <value>マップ</value>
+  </data>
+  <data name="Common_March" xml:space="preserve">
+    <value>3月</value>
+  </data>
+  <data name="SetupServer_IPMask" xml:space="preserve">
+    <value>マスク</value>
+  </data>
+  <data name="ExportVideo_ExportMaxiFileSize" xml:space="preserve">
+    <value>ファイル分散サイズ</value>
+  </data>
+  <data name="SetupServer_DescRAID1" xml:space="preserve">
+    <value>重要なデータを最大限保護します。データは複数のドライブに同時に書き込まれます。</value>
+  </data>
+  <data name="Common_May" xml:space="preserve">
+    <value>5月</value>
+  </data>
+  <data name="EMap_VideoWindowSizeMedium" xml:space="preserve">
+    <value>中</value>
+  </data>
+  <data name="AutoSwitchLiveVideoStream_MediumProfileStartMoreThen" xml:space="preserve">
+    <value>次の値の間は中プロファイルに切り替え:</value>
+  </data>
+  <data name="SetupServer_MergeDatabase" xml:space="preserve">
+    <value>データベースの統合</value>
+  </data>
+  <data name="DevicePanel_UriCommandPanel_Method" xml:space="preserve">
+    <value>方法</value>
+  </data>
+  <data name="Common_Min" xml:space="preserve">
+    <value>分</value>
+  </data>
+  <data name="DevicePanel_Mode" xml:space="preserve">
+    <value>モード</value>
+  </data>
+  <data name="DevicePanel_Model" xml:space="preserve">
+    <value>モデル</value>
+  </data>
+  <data name="POSConnection_Model" xml:space="preserve">
+    <value>モデル</value>
+  </data>
+  <data name="POS_Model" xml:space="preserve">
+    <value>モデル</value>
+  </data>
+  <data name="NVR_Modified" xml:space="preserve">
+    <value>修正</value>
+  </data>
+  <data name="SetupIOModel_ModifyIOHandle" xml:space="preserve">
+    <value>I/O処理 %1 を %2/%3 に修正します。</value>
+  </data>
+  <data name="EditOPCPanel_ModifyOPC" xml:space="preserve">
+    <value>I/Oモデル情報を %1 から %2 に修正します。</value>
+  </data>
+  <data name="Schedule_Mon" xml:space="preserve">
+    <value>月曜日</value>
+  </data>
+  <data name="Common_Mon" xml:space="preserve">
+    <value>月曜日</value>
+  </data>
+  <data name="Common_Monday" xml:space="preserve">
+    <value>月曜日</value>
+  </data>
+  <data name="PTSReports_Monthly" xml:space="preserve">
+    <value>毎月</value>
+  </data>
+  <data name="ScheduleReportPanel_Monthly" xml:space="preserve">
+    <value>月間レポート</value>
+  </data>
+  <data name="Database_KeepMonths" xml:space="preserve">
+    <value>トランスコード・データの保存月</value>
+  </data>
+  <data name="Event_Motion" xml:space="preserve">
+    <value>モーション</value>
+  </data>
+  <data name="Event_MotionID" xml:space="preserve">
+    <value>モーション %1</value>
+  </data>
+  <data name="SetupDevice_MotionSetting" xml:space="preserve">
+    <value>モーション・エリア設定</value>
+  </data>
+  <data name="SmartSearch_IVSMotionDetection" xml:space="preserve">
+    <value>モーション検知</value>
+  </data>
+  <data name="DevicePanel_MotionThreshold" xml:space="preserve">
+    <value>モーションの閾値</value>
+  </data>
+  <data name="ExportVideoStatus_MountUSBDevice" xml:space="preserve">
+    <value>USBデバイスをマウント</value>
+  </data>
+  <data name="ExportVideoMsg_MountUSBDeviceFailed" xml:space="preserve">
+    <value>USBデバイスのマウントに失敗しました。</value>
+  </data>
+  <data name="DevicePanel_MulticastNetworkAddress" xml:space="preserve">
+    <value>マルチキャスト・ネットワーク・アドレス</value>
+  </data>
+  <data name="SetupGeneral_Document" xml:space="preserve">
+    <value>マイドキュメント</value>
+  </data>
+  <data name="SetupGeneral_Picture" xml:space="preserve">
+    <value>マイピクチャ</value>
+  </data>
+  <data name="POS_Name" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="PointPanel_Name" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="DeviceLayoutPanel_Name" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="EMap_Name" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="GroupPanel_Name" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="SetupServer_StoreName" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="USBDisk_Name" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="DevicePanel_Name" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="POSException_Name" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="POSConnection_Name" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="User_Name" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="DevicePermissionPanel_Name" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="NVR_Name" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="Ethernet_Network" xml:space="preserve">
+    <value>ネットワーク</value>
+  </data>
+  <data name="POSConnection_NetworkAddress" xml:space="preserve">
+    <value>ネットワーク・アドレス</value>
+  </data>
+  <data name="DevicePanel_NetworkAddress" xml:space="preserve">
+    <value>ネットワーク・アドレス</value>
+  </data>
+  <data name="SetupServer_EthernetOnline" xml:space="preserve">
+    <value>ネットワーク・ケーブルが接続されています。</value>
+  </data>
+  <data name="SetupServer_EthernetOffline" xml:space="preserve">
+    <value>ネットワーク・ケーブルが外れました。</value>
+  </data>
+  <data name="Application_ConfirmEthernetCableUnplugged" xml:space="preserve">
+    <value>ネットワーク・ケーブルが外れました。\n ネットワーク・ケーブルを再接続してください。</value>
+  </data>
+  <data name="Event_NetworkLoss" xml:space="preserve">
+    <value>ネットワーク喪失</value>
+  </data>
+  <data name="Event_NetworkRecovery" xml:space="preserve">
+    <value>ネットワーク回復</value>
+  </data>
+  <data name="Application_NetworkVideoRecorder" xml:space="preserve">
+    <value>ネットワーク・ビデオ・レコーダー</value>
+  </data>
+  <data name="SetupException_NewException" xml:space="preserve">
+    <value>新しい例外処理</value>
+  </data>
+  <data name="SetupDeviceGroup_NewGroup" xml:space="preserve">
+    <value>新しいグループ</value>
+  </data>
+  <data name="EMap_NewMapName" xml:space="preserve">
+    <value>新しいマップ</value>
+  </data>
+  <data name="SetupNVR_NewNVR" xml:space="preserve">
+    <value>新しいNVR</value>
+  </data>
+  <data name="SetupIOModel_NewOPC" xml:space="preserve">
+    <value>新しいOPCサーバー</value>
+  </data>
+  <data name="SetupDeviceLayout_NewPanorama" xml:space="preserve">
+    <value>新しいパノラマ</value>
+  </data>
+  <data name="SetupPOS_NewPOS" xml:space="preserve">
+    <value>新しいPOS</value>
+  </data>
+  <data name="SetupPOSConnection_NewPOSConnection" xml:space="preserve">
+    <value>新しいPOS接続</value>
+  </data>
+  <data name="EMap_HotZoneNewName" xml:space="preserve">
+    <value>新しい中継リージョン</value>
+  </data>
+  <data name="VideoMonitor_Next" xml:space="preserve">
+    <value>次へ</value>
+  </data>
+  <data name="SetupWizard_Next" xml:space="preserve">
+    <value>次へ &gt;</value>
+  </data>
+  <data name="Common_NextMonth" xml:space="preserve">
+    <value>次の月</value>
+  </data>
+  <data name="PageSelector_Next" xml:space="preserve">
+    <value>次のページ</value>
+  </data>
+  <data name="PeopleCounting_NoAvailableDevice" xml:space="preserve">
+    <value>利用できるデバイスがありません。</value>
+  </data>
+  <data name="SetupDevice_SearchNoResult" xml:space="preserve">
+    <value>デバイスが見つかりません。</value>
+  </data>
+  <data name="DeviceManager_NoHandler" xml:space="preserve">
+    <value>なし</value>
+  </data>
+  <data name="SetupLog_NoLogFound" xml:space="preserve">
+    <value>ログが見つかりません。</value>
+  </data>
+  <data name="TimeTrack_NoMoreBookmarks" xml:space="preserve">
+    <value>これ以上のブックマークはありません。</value>
+  </data>
+  <data name="TimeTrack_NoMoreRecord" xml:space="preserve">
+    <value>これ以上の録画はありません。</value>
+  </data>
+  <data name="PTSReports_SearchNoResult" xml:space="preserve">
+    <value>何も見つかりません。</value>
+  </data>
+  <data name="Investigation_SearchNoResult" xml:space="preserve">
+    <value>何も見つかりません。</value>
+  </data>
+  <data name="Schedule_NoSchedule" xml:space="preserve">
+    <value>スケジュールがありません。</value>
+  </data>
+  <data name="SetupServer_NoSelectedFile" xml:space="preserve">
+    <value>選択されたファイルがありません。</value>
+  </data>
+  <data name="EventPanel_NoSnapshot" xml:space="preserve">
+    <value>スナップショットがありません。</value>
+  </data>
+  <data name="SetupLog_NoSystemLog" xml:space="preserve">
+    <value>システム・ログがありません。</value>
+  </data>
+  <data name="SetupLog_NoUserLog" xml:space="preserve">
+    <value>ユーザー・ログがありません。</value>
+  </data>
+  <data name="EventPanel_EventNo" xml:space="preserve">
+    <value> %1がありません。</value>
+  </data>
+  <data name="SetupNVR_NVRStatusNone" xml:space="preserve">
+    <value>注意：ステータスがありません。</value>
+  </data>
+  <data name="Schedule_NonWorkingDay" xml:space="preserve">
+    <value>非営業日</value>
+  </data>
+  <data name="Schedule_NonWorkingTime" xml:space="preserve">
+    <value>非営業時間</value>
+  </data>
+  <data name="SetupNVR_NVRStatusNormal" xml:space="preserve">
+    <value>通常：応答なしの状態が36～70%。</value>
+  </data>
+  <data name="Investigation_NotSelectDevice" xml:space="preserve">
+    <value>選択されたデバイスがありません。</value>
+  </data>
+  <data name="Investigation_NotSelectEvent" xml:space="preserve">
+    <value>選択されたイベントがありません。</value>
+  </data>
+  <data name="PTSReports_NotSelectExceptions" xml:space="preserve">
+    <value>選択された例外処理がありませんん。</value>
+  </data>
+  <data name="PTSReports_NotSelectPOS" xml:space="preserve">
+    <value>POSを選択しないでください。</value>
+  </data>
+  <data name="Data_NotSupport" xml:space="preserve">
+    <value>サポートされていません。</value>
+  </data>
+  <data name="Common_November" xml:space="preserve">
+    <value>11月</value>
+  </data>
+  <data name="SetupServer_NTPServer" xml:space="preserve">
+    <value>NTPサーバー</value>
+  </data>
+  <data name="VAS_NumberThreshold" xml:space="preserve">
+    <value>数</value>
+  </data>
+  <data name="LoginForm_NVR" xml:space="preserve">
+    <value>NVR</value>
+  </data>
+  <data name="Control_NVRIcon" xml:space="preserve">
+    <value>NVR</value>
+  </data>
+  <data name="Control_NVR" xml:space="preserve">
+    <value>NVR</value>
+  </data>
+  <data name="Loading_NVR" xml:space="preserve">
+    <value>NVR</value>
+  </data>
+  <data name="Event_NVRFail" xml:space="preserve">
+    <value>NVRのフェイル</value>
+  </data>
+  <data name="EditUserPanel_NVRPermission" xml:space="preserve">
+    <value>NVRのパーミッション</value>
+  </data>
+  <data name="SetupServer_NVRSetting" xml:space="preserve">
+    <value>NVRの設定</value>
+  </data>
+  <data name="Application_NVRChange" xml:space="preserve">
+    <value>NVRの設定が変更されました。新しい設定を適用するためサインインし直してください。</value>
+  </data>
+  <data name="SetupServer_EnableDynamicDNS" xml:space="preserve">
+    <value>DNSサーバー・アドレスを自動で割り当てます。</value>
+  </data>
+  <data name="Common_October" xml:space="preserve">
+    <value>10月</value>
+  </data>
+  <data name="SetupWizard_Of" xml:space="preserve">
+    <value>of</value>
+  </data>
+  <data name="Handler_Off" xml:space="preserve">
+    <value>オフ</value>
+  </data>
+  <data name="Ethernet_Offline" xml:space="preserve">
+    <value>オフライン</value>
+  </data>
+  <data name="SetupTitle_OfflineRegistration" xml:space="preserve">
+    <value>オフライン登録</value>
+  </data>
+  <data name="Common_OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Handler_On" xml:space="preserve">
+    <value>オン</value>
+  </data>
+  <data name="Ethernet_Online" xml:space="preserve">
+    <value>オンライン</value>
+  </data>
+  <data name="SetupLicense_OnlineRegistration" xml:space="preserve">
+    <value>オンライン登録</value>
+  </data>
+  <data name="SetupTitle_OnlineRegistration" xml:space="preserve">
+    <value>オンライン登録</value>
+  </data>
+  <data name="EMap_HotZoneOpacity" xml:space="preserve">
+    <value>不透明度</value>
+  </data>
+  <data name="SetupTitle_OpenWebPage" xml:space="preserve">
+    <value>webページを開く</value>
+  </data>
+  <data name="Menu_OriginalStreaming" xml:space="preserve">
+    <value>オリジナルのストリーミング</value>
+  </data>
+  <data name="SetupGeneral_OriginalVideo" xml:space="preserve">
+    <value>オリジナルのビデオ</value>
+  </data>
+  <data name="PeopleCounting_PeopleOutDescription" xml:space="preserve">
+    <value>アウト（切り替えのためクリック）</value>
+  </data>
+  <data name="ExportVideoStatus_OutputFileName" xml:space="preserve">
+    <value>出力ファイル名</value>
+  </data>
+  <data name="PrintImage_OverlayInformation" xml:space="preserve">
+    <value>デバイス情報OSDを有効にする。</value>
+  </data>
+  <data name="ExportVideo_Overlay" xml:space="preserve">
+    <value>オーバーレイOSD</value>
+  </data>
+  <data name="ExportVideo_OverlayOSD" xml:space="preserve">
+    <value>ビデオOSD</value>
+  </data>
+  <data name="Application_PageNotFound" xml:space="preserve">
+    <value>ページが見つかりません。</value>
+  </data>
+  <data name="EMap_MapButtonMoveDown" xml:space="preserve">
+    <value>ページ・ダウン</value>
+  </data>
+  <data name="EMap_MapButtonMoveLeft" xml:space="preserve">
+    <value>左へパン</value>
+  </data>
+  <data name="EMap_MapButtonMoveRight" xml:space="preserve">
+    <value>右へパン</value>
+  </data>
+  <data name="EMap_MapButtonMoveUp" xml:space="preserve">
+    <value>上へパン</value>
+  </data>
+  <data name="Event_Panic" xml:space="preserve">
+    <value>パニック・ボタン</value>
+  </data>
+  <data name="Menu_Panic" xml:space="preserve">
+    <value>パ゜ニック・ボタン</value>
+  </data>
+  <data name="DevicePanel_UriCommandPanel_PostParameter" xml:space="preserve">
+    <value>ポストするパラメーター  (例: direction=up&amp;speed=2)</value>
+  </data>
+  <data name="User_Password" xml:space="preserve">
+    <value>パスワード</value>
+  </data>
+  <data name="POSConnection_Password" xml:space="preserve">
+    <value>パスワード</value>
+  </data>
+  <data name="LoginForm_Password" xml:space="preserve">
+    <value>パスワード</value>
+  </data>
+  <data name="DevicePanel_Password" xml:space="preserve">
+    <value>パスワード</value>
+  </data>
+  <data name="FtpServer_Password" xml:space="preserve">
+    <value>パスワード</value>
+  </data>
+  <data name="MailServer_Password" xml:space="preserve">
+    <value>パスワード</value>
+  </data>
+  <data name="Database_Password" xml:space="preserve">
+    <value>パスワード</value>
+  </data>
+  <data name="NVR_Password" xml:space="preserve">
+    <value>パスワード</value>
+  </data>
+  <data name="EditUserPanel_PasswordCantEmpty" xml:space="preserve">
+    <value>パスワードは必ず入力してください。</value>
+  </data>
+  <data name="EditUserPanel_PasswordNotMatch" xml:space="preserve">
+    <value>パスワードが正しくありません。</value>
+  </data>
+  <data name="UnlockAppForm_PasswordIncorrect" xml:space="preserve">
+    <value>パスワードが正しくありません。</value>
+  </data>
+  <data name="ExportVideo_Path" xml:space="preserve">
+    <value>パス</value>
+  </data>
+  <data name="SetupGeneral_Patrol" xml:space="preserve">
+    <value>パトロール</value>
+  </data>
+  <data name="NVR_Patrol" xml:space="preserve">
+    <value>パトロール</value>
+  </data>
+  <data name="SetupGeneral_PatrolIntervaValue" xml:space="preserve">
+    <value>パトロール待機時間の範囲は %1 秒から %2 時間です。</value>
+  </data>
+  <data name="Control_PeopleCountingIcon" xml:space="preserve">
+    <value>人数カウンティング</value>
+  </data>
+  <data name="Control_PeopleCounting" xml:space="preserve">
+    <value>人数カウンティング</value>
+  </data>
+  <data name="PeopleCounting_LabelPeopleIn" xml:space="preserve">
+    <value>イン人数</value>
+  </data>
+  <data name="PeopleCounting_LabelPeopleOut" xml:space="preserve">
+    <value>アウト人数</value>
+  </data>
+  <data name="PTSReports_Percentage" xml:space="preserve">
+    <value>パーセンテージ</value>
+  </data>
+  <data name="PTSReports_PerformanceDeviationAgainstPredefinedThresholds" xml:space="preserve">
+    <value>決められた閾値に対するパフォーマンス偏差</value>
+  </data>
+  <data name="PTSReports_Period" xml:space="preserve">
+    <value>期間</value>
+  </data>
+  <data name="SmartSearch_Period" xml:space="preserve">
+    <value>期間</value>
+  </data>
+  <data name="VAS_Person" xml:space="preserve">
+    <value>人</value>
+  </data>
+  <data name="SetupServer_StorePhone" xml:space="preserve">
+    <value>電話</value>
+  </data>
+  <data name="Page_Playback" xml:space="preserve">
+    <value>再生</value>
+  </data>
+  <data name="Menu_Playback" xml:space="preserve">
+    <value>再生</value>
+  </data>
+  <data name="EMap_MessageLabelRemindAddMap" xml:space="preserve">
+    <value>新しいマップを追加してください。</value>
+  </data>
+  <data name="EMap_MessageBoxRemindAddMap" xml:space="preserve">
+    <value>新しいマップを追加してください。</value>
+  </data>
+  <data name="SetupServer_ConfirmUpgradeRestart" xml:space="preserve">
+    <value> %1 分後にもう一度サインインしてください。</value>
+  </data>
+  <data name="SetupServer_ConfirmRestoreRestart" xml:space="preserve">
+    <value>リストア後にもう一度サインインしてください。</value>
+  </data>
+  <data name="SetupServer_WrongContent" xml:space="preserve">
+    <value> "%1" ファイルでリストアしてください。</value>
+  </data>
+  <data name="SetupServer_ConfirmFormatEmptyError" xml:space="preserve">
+    <value>RAIDモードを選択してください。</value>
+  </data>
+  <data name="SmartSearch_NoCriteria" xml:space="preserve">
+    <value>検索条件を選択してください。</value>
+  </data>
+  <data name="EMap_TryAgain" xml:space="preserve">
+    <value>もう一度試してください。</value>
+  </data>
+  <data name="HandlePanel_PopupPlayback" xml:space="preserve">
+    <value>ポップアップ再生</value>
+  </data>
+  <data name="Database_Port" xml:space="preserve">
+    <value>ポート</value>
+  </data>
+  <data name="SetupServer_Port" xml:space="preserve">
+    <value>ポート</value>
+  </data>
+  <data name="DevicePermissionPanel_Port" xml:space="preserve">
+    <value>ポート</value>
+  </data>
+  <data name="NVR_Port" xml:space="preserve">
+    <value>ポート</value>
+  </data>
+  <data name="FtpServer_Port" xml:space="preserve">
+    <value>ポート</value>
+  </data>
+  <data name="MailServer_Port" xml:space="preserve">
+    <value>ポート</value>
+  </data>
+  <data name="PTSReports_POS" xml:space="preserve">
+    <value>POS</value>
+  </data>
+  <data name="ExceptionResultPanel_POS" xml:space="preserve">
+    <value>POS</value>
+  </data>
+  <data name="ScheduleReportPanel_POS" xml:space="preserve">
+    <value>POS</value>
+  </data>
+  <data name="Control_POS" xml:space="preserve">
+    <value>POS</value>
+  </data>
+  <data name="Control_POSIcon" xml:space="preserve">
+    <value>POS</value>
+  </data>
+  <data name="Loading_POS" xml:space="preserve">
+    <value>POS</value>
+  </data>
+  <data name="Control_POSConnection" xml:space="preserve">
+    <value>POS接続</value>
+  </data>
+  <data name="Control_POSConnectionIcon" xml:space="preserve">
+    <value>POS接続</value>
+  </data>
+  <data name="Control_POSRegister" xml:space="preserve">
+    <value>POSレジスター</value>
+  </data>
+  <data name="PTSReports_POSId" xml:space="preserve">
+    <value>POSレジスターId</value>
+  </data>
+  <data name="SetupSchedule_PostEventRecording" xml:space="preserve">
+    <value>イベント後録画</value>
+  </data>
+  <data name="DevicePanel_PostEventRecording" xml:space="preserve">
+    <value>イベント後録画</value>
+  </data>
+  <data name="SetupServer_Power" xml:space="preserve">
+    <value>Power</value>
+  </data>
+  <data name="DevicePanel_PowerFrequency" xml:space="preserve">
+    <value>Power Frequency</value>
+  </data>
+  <data name="DevicePanel_PreEventRecording" xml:space="preserve">
+    <value>イベント前録画</value>
+  </data>
+  <data name="SetupSchedule_PreEventRecording" xml:space="preserve">
+    <value>イベント前録画</value>
+  </data>
+  <data name="PointPanel_PresetPoint" xml:space="preserve">
+    <value>プリセット・ポイント</value>
+  </data>
+  <data name="PresetPointPanel_PresetPoint" xml:space="preserve">
+    <value>プリセット・ポイント</value>
+  </data>
+  <data name="Control_PresetPoint" xml:space="preserve">
+    <value>プリセット・ポイント</value>
+  </data>
+  <data name="Handler_PresetPoint" xml:space="preserve">
+    <value>プリセット・ポイント</value>
+  </data>
+  <data name="SetupDevice_PresetPointSetting" xml:space="preserve">
+    <value>プリセット・ポイント設定</value>
+  </data>
+  <data name="SetupDevice_PresetTourSetting" xml:space="preserve">
+    <value>プリセット・ツアー設定</value>
+  </data>
+  <data name="VideoMonitor_Previous" xml:space="preserve">
+    <value>前</value>
+  </data>
+  <data name="Common_PreviousMonth" xml:space="preserve">
+    <value>前月</value>
+  </data>
+  <data name="PageSelector_Prev" xml:space="preserve">
+    <value>前のページ</value>
+  </data>
+  <data name="SetupServer_PrimaryDNS" xml:space="preserve">
+    <value>プライマリDNS</value>
+  </data>
+  <data name="PrintImage_Print" xml:space="preserve">
+    <value>印刷</value>
+  </data>
+  <data name="PrintImage_PrintInformation" xml:space="preserve">
+    <value>デバイス情報とユーザーのコメントも印刷する</value>
+  </data>
+  <data name="PrintImage_Title" xml:space="preserve">
+    <value>イメージを印刷</value>
+  </data>
+  <data name="DevicePermissionPanel_PrintImage" xml:space="preserve">
+    <value>イメージを印刷</value>
+  </data>
+  <data name="Print_Button" xml:space="preserve">
+    <value>イメージを印刷</value>
+  </data>
+  <data name="PrintImage_PrintImageInProgress" xml:space="preserve">
+    <value>イメージを印刷中です。\n作業が終了するのを待つかキャンセルしてください。</value>
+  </data>
+  <data name="PTSReports_PrintTime" xml:space="preserve">
+    <value>時間を印刷</value>
+  </data>
+  <data name="FolderControl_Private" xml:space="preserve">
+    <value>プライベート</value>
+  </data>
+  <data name="DevicePanel_ProfileMode" xml:space="preserve">
+    <value>プロファイル・モード</value>
+  </data>
+  <data name="SetupServer_Progress" xml:space="preserve">
+    <value>進行</value>
+  </data>
+  <data name="Control_Properties" xml:space="preserve">
+    <value>プロパティ</value>
+  </data>
+  <data name="POSConnection_Protocol" xml:space="preserve">
+    <value>プロトコル</value>
+  </data>
+  <data name="DevicePanel_Protocol" xml:space="preserve">
+    <value>プロトコル</value>
+  </data>
+  <data name="LoginForm_PTS" xml:space="preserve">
+    <value>PTS</value>
+  </data>
+  <data name="Control_PTZ" xml:space="preserve">
+    <value>PTZ</value>
+  </data>
+  <data name="DevicePermissionPanel_PTZ" xml:space="preserve">
+    <value>PTZ</value>
+  </data>
+  <data name="Menu_OpticalPTZ" xml:space="preserve">
+    <value>PTZ</value>
+  </data>
+  <data name="DevicePanel_PtzCommand" xml:space="preserve">
+    <value>PTZコマンド</value>
+  </data>
+  <data name="ExportVideo_Quality" xml:space="preserve">
+    <value>品質</value>
+  </data>
+  <data name="DevicePanel_Quality" xml:space="preserve">
+    <value>品質</value>
+  </data>
+  <data name="ExportVideo_QualityLevel" xml:space="preserve">
+    <value>品質ベル</value>
+  </data>
+  <data name="DownloadCase_Queue" xml:space="preserve">
+    <value>キュー</value>
+  </data>
+  <data name="POSConnection_QueueInfo" xml:space="preserve">
+    <value>キュー情報</value>
+  </data>
+  <data name="EMap_MapTransferTooltipForPoint" xml:space="preserve">
+    <value>マップ転送をすぐに追加します。</value>
+  </data>
+  <data name="SetupServer_RAID" xml:space="preserve">
+    <value>RAID</value>
+  </data>
+  <data name="SetupServer_RAIDCompleted" xml:space="preserve">
+    <value>RAIDの準備ができましした。</value>
+  </data>
+  <data name="Event_RAIDDegraded" xml:space="preserve">
+    <value>格下げRAID</value>
+  </data>
+  <data name="Event_RAIDInactive" xml:space="preserve">
+    <value>非アクティブRAID</value>
+  </data>
+  <data name="SetupServer_RAIDUnselected" xml:space="preserve">
+    <value>RAIDモードが選択されていません。</value>
+  </data>
+  <data name="PTSReports_Rank" xml:space="preserve">
+    <value>ランク</value>
+  </data>
+  <data name="PTSReports_EmployeeProductivityLossRanking" xml:space="preserve">
+    <value>最も高いインシデントの従業員のランキング</value>
+  </data>
+  <data name="PTSReports_HighAlertTop2EmployeesExceptionMonitoring" xml:space="preserve">
+    <value>カウントと従業員を含むインシデントのランキング</value>
+  </data>
+  <data name="ExportVideo_ConvertVideoToRAW" xml:space="preserve">
+    <value>RAW</value>
+  </data>
+  <data name="SetupDevice_MaximumLicense" xml:space="preserve">
+    <value>ライセンスの上限に達しました: "%1"</value>
+  </data>
+  <data name="PeopleCounting_MaximumLicense" xml:space="preserve">
+    <value>ライセンス制限の上限に達しました "%1"</value>
+  </data>
+  <data name="SetupNVR_MaximumLicense" xml:space="preserve">
+    <value>ライセンス制限の上限に達しました "%1"</value>
+  </data>
+  <data name="SetupPOS_MaximumLicense" xml:space="preserve">
+    <value>ライセンス制限の上限に達しました "%1"</value>
+  </data>
+  <data name="EMap_MessageBoxReadImageFailed" xml:space="preserve">
+    <value>マップの読み込みに失敗しました。もう一度試してください。</value>
+  </data>
+  <data name="SetupServer_Reboot" xml:space="preserve">
+    <value>再起動</value>
+  </data>
+  <data name="SetupServer_DiskRebuild" xml:space="preserve">
+    <value>再構築</value>
+  </data>
+  <data name="NVR_ListenEvent" xml:space="preserve">
+    <value>イベントの取得</value>
+  </data>
+  <data name="ScheduleReportPanel_Recipient" xml:space="preserve">
+    <value>受信者</value>
+  </data>
+  <data name="ExceptionReportPanel_Recipient" xml:space="preserve">
+    <value>受信者</value>
+  </data>
+  <data name="Menu_Reconnect" xml:space="preserve">
+    <value>再接続</value>
+  </data>
+  <data name="VideoWindow_Reconnecting" xml:space="preserve">
+    <value>再接続中</value>
+  </data>
+  <data name="SetupGeneral_RecordDurationValue" xml:space="preserve">
+    <value>録画時間の範囲は %1 秒から %2 時間です。</value>
+  </data>
+  <data name="Event_RecordFailed" xml:space="preserve">
+    <value>録画に失敗しました。</value>
+  </data>
+  <data name="Event_RecordRecovery" xml:space="preserve">
+    <value>録画を回復します。</value>
+  </data>
+  <data name="DevicePanel_RecordingStream" xml:space="preserve">
+    <value>録画ストリーム</value>
+  </data>
+  <data name="SetupServer_StatusRecovery" xml:space="preserve">
+    <value>回復</value>
+  </data>
+  <data name="POSException_Refresh" xml:space="preserve">
+    <value>リフレッシュ</value>
+  </data>
+  <data name="SetupTitle_Refresh" xml:space="preserve">
+    <value>リフレッシュ</value>
+  </data>
+  <data name="DevicePanel_RefreshSnapshot" xml:space="preserve">
+    <value>スナップショットのリフレッシュ</value>
+  </data>
+  <data name="PeopleCounting_ButtonRefresh" xml:space="preserve">
+    <value>スナップショットのリフレッシュ</value>
+  </data>
+  <data name="PeopleCounting_MessageBoxRefreshSnapshotFail" xml:space="preserve">
+    <value>スナップショットのリフレッシュに失敗しました。もう一度試してください。</value>
+  </data>
+  <data name="POS_RegisterId" xml:space="preserve">
+    <value>登録Id</value>
+  </data>
+  <data name="EditPOSPanel_RegisterIdCantEmpty" xml:space="preserve">
+    <value>登録Idは必ず入力してください。</value>
+  </data>
+  <data name="EditPOSPanel_RegisterIdCantTheSame" xml:space="preserve">
+    <value>同じ登録Idは使用できません。 %1 は %2 が使用しています。</value>
+  </data>
+  <data name="EditPOSPanel_RegisterIdOutOfRange" xml:space="preserve">
+    <value>登録Idは 1 - 65535 です。</value>
+  </data>
+  <data name="Application_RegistrationFailed2" xml:space="preserve">
+    <value>登録に失敗しました。インターネット接続とレジストレーション・キーを確認してください。</value>
+  </data>
+  <data name="Application_RegistrationFailed" xml:space="preserve">
+    <value>登録に失敗しました。レジストレーション・キーが正しいか確認してください。</value>
+  </data>
+  <data name="Application_RegistrationCompleted" xml:space="preserve">
+    <value>登録が完了しました。ライセンス数は "%1" です。</value>
+  </data>
+  <data name="SetupLicense_KeyConfirm" xml:space="preserve">
+    <value>レジストレーション・キーは "%1"です。\n登録を確認してください。</value>
+  </data>
+  <data name="SetupLicense_CheckLicenseLength" xml:space="preserve">
+    <value>レジストレーション・キーの長さは25です。レジストレーション・キーが正しいか確認してください</value>
+  </data>
+  <data name="Menu_RemoteConnectionMode" xml:space="preserve">
+    <value>遠隔接続モード</value>
+  </data>
+  <data name="FtpServer_RemoteDirectory" xml:space="preserve">
+    <value>遠隔ディレクトリー</value>
+  </data>
+  <data name="EMap_Remove" xml:space="preserve">
+    <value>取り外し</value>
+  </data>
+  <data name="PeopleCounting_ButtonRemove" xml:space="preserve">
+    <value>取り外し</value>
+  </data>
+  <data name="EMap_RemoveCameraNVRViaToolTip" xml:space="preserve">
+    <value> %1を取り外し</value>
+  </data>
+  <data name="SetupSchedule_RemoveEventHandlingSchedule" xml:space="preserve">
+    <value>イベント処理スケジュールを削除</value>
+  </data>
+  <data name="SetupIOModel_RemoveOPCs" xml:space="preserve">
+    <value>OPC %1 を削除</value>
+  </data>
+  <data name="SetupSchedule_RemoveRecordingSchedule" xml:space="preserve">
+    <value>録画スケジュールを削除</value>
+  </data>
+  <data name="Handler_Repetition" xml:space="preserve">
+    <value>時間</value>
+  </data>
+  <data name="Control_ReportTitle" xml:space="preserve">
+    <value>レポート</value>
+  </data>
+  <data name="Control_ReportTrackingIcon" xml:space="preserve">
+    <value>レポート</value>
+  </data>
+  <data name="Page_Report" xml:space="preserve">
+    <value>レポート</value>
+  </data>
+  <data name="Control_ReportTracking" xml:space="preserve">
+    <value>レポート</value>
+  </data>
+  <data name="Menu_Resolution" xml:space="preserve">
+    <value>解像度</value>
+  </data>
+  <data name="DevicePanel_Resolution" xml:space="preserve">
+    <value>解像度</value>
+  </data>
+  <data name="VideoWindowTitleBarPanel_Resolution" xml:space="preserve">
+    <value>解像度</value>
+  </data>
+  <data name="DevicePanel_ResolutionRegionConfig" xml:space="preserve">
+    <value>Resolution Region Config</value>
+  </data>
+  <data name="SetupServer_Restore" xml:space="preserve">
+    <value>レストア</value>
+  </data>
+  <data name="SetupGeneral_RestoreClient" xml:space="preserve">
+    <value>クライアントをレストア</value>
+  </data>
+  <data name="SetupTitle_RestoreSetting" xml:space="preserve">
+    <value>設定をレストア</value>
+  </data>
+  <data name="EventPanel_ResumeEvent" xml:space="preserve">
+    <value>イベント取得の再開</value>
+  </data>
+  <data name="POSException_ResumeEvent" xml:space="preserve">
+    <value>トランザクション取得の再開</value>
+  </data>
+  <data name="SetupServer_StatusResync" xml:space="preserve">
+    <value>再同期</value>
+  </data>
+  <data name="VAS_Retry" xml:space="preserve">
+    <value>リトライ</value>
+  </data>
+  <data name="EMap_Revert" xml:space="preserve">
+    <value>設定を元に戻す</value>
+  </data>
+  <data name="DevicePanel_UriCommandPanel_ActionRight" xml:space="preserve">
+    <value>右</value>
+  </data>
+  <data name="PTZPanel_MoveRight" xml:space="preserve">
+    <value>右</value>
+  </data>
+  <data name="PeopleCounting_ButtonRotateLine" xml:space="preserve">
+    <value>ラインを回転</value>
+  </data>
+  <data name="DevicePanel_RTSPPort" xml:space="preserve">
+    <value>RTSPポート</value>
+  </data>
+  <data name="SetupServer_RAID_DiskStatus_SMART_PARSE_ERROR" xml:space="preserve">
+    <value>S.M.A.R.Tに失敗しました。</value>
+  </data>
+  <data name="SetupServer_RAID_DiskStatus_SMART_NOT_SUPPORT" xml:space="preserve">
+    <value>S.M.A.R.Tはサポートしていません。</value>
+  </data>
+  <data name="Schedule_Sat" xml:space="preserve">
+    <value>土曜日</value>
+  </data>
+  <data name="Common_Sat" xml:space="preserve">
+    <value>土曜日</value>
+  </data>
+  <data name="DevicePanel_Saturation" xml:space="preserve">
+    <value>彩度</value>
+  </data>
+  <data name="Common_Saturday" xml:space="preserve">
+    <value>土曜日</value>
+  </data>
+  <data name="SetupTitle_Save" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="Save_Button" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="SetupLog_SaveAsComplete" xml:space="preserve">
+    <value>"%1" の保存に成功しました。</value>
+  </data>
+  <data name="SetupTitle_SaveAs" xml:space="preserve">
+    <value>Save as</value>
+  </data>
+  <data name="Application_SaveCompleted" xml:space="preserve">
+    <value>保存に成功しました。</value>
+  </data>
+  <data name="SetupLog_SaveAsFailure" xml:space="preserve">
+    <value>保存に失敗しました。</value>
+  </data>
+  <data name="PeopleCounting_ButtonSaveMakingFeature" xml:space="preserve">
+    <value>保存失敗</value>
+  </data>
+  <data name="Event_SaveImage" xml:space="preserve">
+    <value>イメージの保存</value>
+  </data>
+  <data name="SaveImage_Button" xml:space="preserve">
+    <value>イメージの保存</value>
+  </data>
+  <data name="Menu_SaveImage" xml:space="preserve">
+    <value>イメージの保存</value>
+  </data>
+  <data name="SetupGeneral_SaveFolderName" xml:space="preserve">
+    <value>保存したイメージ・フォルダー名は "%1 Image (%2)"です。</value>
+  </data>
+  <data name="SetupGeneral_SaveImagePath" xml:space="preserve">
+    <value>イメージ・パスの保存</value>
+  </data>
+  <data name="SetupTitle_SaveReport" xml:space="preserve">
+    <value>レポートの保存</value>
+  </data>
+  <data name="PTSReports_SaveReport" xml:space="preserve">
+    <value>レポートの保存</value>
+  </data>
+  <data name="Investigation_SaveReport" xml:space="preserve">
+    <value>レポートの保存</value>
+  </data>
+  <data name="SaveReport_Button" xml:space="preserve">
+    <value>レポートの保存</value>
+  </data>
+  <data name="SaveResult_Button" xml:space="preserve">
+    <value>結果の保存</value>
+  </data>
+  <data name="SetupTitle_SaveSetting" xml:space="preserve">
+    <value>設定の保存</value>
+  </data>
+  <data name="VideoWindow_SaveBeforeConnect" xml:space="preserve">
+    <value>接続する前に設定を保存</value>
+  </data>
+  <data name="DevicePanel_SaveSettingToGetSnapshot" xml:space="preserve">
+    <value>スナップショット取得のための設定を保存</value>
+  </data>
+  <data name="SetupNVR_SaveSetup" xml:space="preserve">
+    <value>設定を保存</value>
+  </data>
+  <data name="DeviceView_SaveView" xml:space="preserve">
+    <value>ビューを保存</value>
+  </data>
+  <data name="Application_SaveTimeout" xml:space="preserve">
+    <value>保存がタイムアウトしました。設定は完全には上書きできませんでした。</value>
+  </data>
+  <data name="ExportVideo_Scale" xml:space="preserve">
+    <value>スケール</value>
+  </data>
+  <data name="Control_Schedule" xml:space="preserve">
+    <value>スケジュール</value>
+  </data>
+  <data name="Control_ScheduleIcon" xml:space="preserve">
+    <value>スケジュール</value>
+  </data>
+  <data name="Control_ScheduleReportIcon" xml:space="preserve">
+    <value>スケジュール・レポート</value>
+  </data>
+  <data name="Control_ScheduleReport" xml:space="preserve">
+    <value>スケジュール・レポート</value>
+  </data>
+  <data name="SmartSearch_Search" xml:space="preserve">
+    <value>検索</value>
+  </data>
+  <data name="POSException_Search" xml:space="preserve">
+    <value>検索</value>
+  </data>
+  <data name="PTSReports_SearchConditionsAssociated" xml:space="preserve">
+    <value>関連検索条件</value>
+  </data>
+  <data name="SetupTitle_Search" xml:space="preserve">
+    <value>デバイスを検索</value>
+  </data>
+  <data name="SetupTitle_SearchEvent" xml:space="preserve">
+    <value>イベントを検索</value>
+  </data>
+  <data name="SetupTitle_SearchException" xml:space="preserve">
+    <value>例外処理を検索</value>
+  </data>
+  <data name="Control_POSExceptionSearchResult" xml:space="preserve">
+    <value>結果を検索</value>
+  </data>
+  <data name="Control_SearchResult" xml:space="preserve">
+    <value>結果を検索</value>
+  </data>
+  <data name="SearchResult_Result" xml:space="preserve">
+    <value>結果を検索</value>
+  </data>
+  <data name="SetupDevice_SearchResult" xml:space="preserve">
+    <value>結果を検索:</value>
+  </data>
+  <data name="Investigation_SearchResult" xml:space="preserve">
+    <value>検索結果:</value>
+  </data>
+  <data name="PTSReports_SearchResult" xml:space="preserve">
+    <value>検索結果:</value>
+  </data>
+  <data name="SetupLog_SearchResult" xml:space="preserve">
+    <value>検索結果:</value>
+  </data>
+  <data name="SearchResult_ResultFound" xml:space="preserve">
+    <value>検索結果 : %1 の結果が見つかりました。</value>
+  </data>
+  <data name="SearchResult_ResultsFound" xml:space="preserve">
+    <value>検索結果 : %1 の結果が見つかりました。</value>
+  </data>
+  <data name="SearchResult_NoResult" xml:space="preserve">
+    <value>検索結果 : 何も見つかりません。</value>
+  </data>
+  <data name="POSException_Searching" xml:space="preserve">
+    <value>検索中</value>
+  </data>
+  <data name="SearchResult_Searching" xml:space="preserve">
+    <value>検索中</value>
+  </data>
+  <data name="SetupDevice_SearchingDevices" xml:space="preserve">
+    <value>デバイスの検索中</value>
+  </data>
+  <data name="Common_Sec" xml:space="preserve">
+    <value>秒</value>
+  </data>
+  <data name="SetupServer_SecondDNS" xml:space="preserve">
+    <value>セカンダリNS</value>
+  </data>
+  <data name="POSConnection_Security" xml:space="preserve">
+    <value>セキュリティ</value>
+  </data>
+  <data name="MailServer_Security" xml:space="preserve">
+    <value>セキュリティ</value>
+  </data>
+  <data name="POS_Segment" xml:space="preserve">
+    <value>セグメント</value>
+  </data>
+  <data name="EMap_HotZoneTooltipSelectColor" xml:space="preserve">
+    <value>カラーの選択</value>
+  </data>
+  <data name="DownloadCase_AddDeviceBeforeDownload" xml:space="preserve">
+    <value>ケースをエクスポートする前にデバイスを選択してください。</value>
+  </data>
+  <data name="ExportVideo_AddDeviceBeforeExport" xml:space="preserve">
+    <value>ビデオをエクスポートする前にデバイスを選択してください。</value>
+  </data>
+  <data name="PrintImage_AddDeviceBeforePrint" xml:space="preserve">
+    <value>イメージを印刷する前にデバイスを選択してください。</value>
+  </data>
+  <data name="ExportVideo_SelectFilePath" xml:space="preserve">
+    <value>ファイル・パスを選択してください。</value>
+  </data>
+  <data name="EMap_SelectFilePath" xml:space="preserve">
+    <value>イメージ・パスを選択してください。</value>
+  </data>
+  <data name="SetupGeneral_SelectFilePath" xml:space="preserve">
+    <value>パスを選択してください。</value>
+  </data>
+  <data name="POSException_SelectTransactionBeforeExport" xml:space="preserve">
+    <value>レポートをを保存する前にトランザクションを選択してください。</value>
+  </data>
+  <data name="ScheduleReportPanel_SendDay" xml:space="preserve">
+    <value>Send Day</value>
+  </data>
+  <data name="ScheduleReportPanel_SendMail" xml:space="preserve">
+    <value>メール送信</value>
+  </data>
+  <data name="ExceptionReportPanel_SendMail" xml:space="preserve">
+    <value>メール送信</value>
+  </data>
+  <data name="HandlePanel_SendMail" xml:space="preserve">
+    <value>メール送信</value>
+  </data>
+  <data name="SetupTitle_SendTestEmail" xml:space="preserve">
+    <value>テスト・メール送信</value>
+  </data>
+  <data name="ScheduleReportPanel_SendTime" xml:space="preserve">
+    <value>Send time</value>
+  </data>
+  <data name="MailServer_Sender" xml:space="preserve">
+    <value>送信者</value>
+  </data>
+  <data name="DevicePanel_SensorMode" xml:space="preserve">
+    <value>センサー・モード</value>
+  </data>
+  <data name="Common_September" xml:space="preserve">
+    <value>9月</value>
+  </data>
+  <data name="VideoWindowTitleBarPanel_Sequence" xml:space="preserve">
+    <value>順番</value>
+  </data>
+  <data name="StoragePanel_Sequence" xml:space="preserve">
+    <value>順番</value>
+  </data>
+  <data name="FtpServer_Server" xml:space="preserve">
+    <value>サーバー</value>
+  </data>
+  <data name="PTSReports_Server" xml:space="preserve">
+    <value>サーバー</value>
+  </data>
+  <data name="MailServer_Server" xml:space="preserve">
+    <value>サーバー</value>
+  </data>
+  <data name="Loading_Server" xml:space="preserve">
+    <value>サーバー</value>
+  </data>
+  <data name="Control_ServerIcon" xml:space="preserve">
+    <value>サーバー</value>
+  </data>
+  <data name="Control_Server" xml:space="preserve">
+    <value>サーバー</value>
+  </data>
+  <data name="SetupServer_ServerSetting" xml:space="preserve">
+    <value>サーバー設定</value>
+  </data>
+  <data name="Application_DaylightChange" xml:space="preserve">
+    <value>サーバーの夏時間設定が変更されました。\n変更内容を更新するため、サインインし直してください。</value>
+  </data>
+  <data name="Application_PortChange" xml:space="preserve">
+    <value>サーバーのポートかが変更されました。ポート %1 を使ってサインインし直してください。</value>
+  </data>
+  <data name="Application_SSLPortChange" xml:space="preserve">
+    <value>サーバーのSSLポートが変更されました。ポート %1 を使ってサインインし直してください。</value>
+  </data>
+  <data name="Application_TimezoneChange" xml:space="preserve">
+    <value>サーバーのタイム・ゾーンが\n "%1" から "%2" に変更されました。\n変更内容を更新するため、サインインし直してください。</value>
+  </data>
+  <data name="DeviceLayoutPanel_Set" xml:space="preserve">
+    <value>セット</value>
+  </data>
+  <data name="EMap_VideoWindowSizeDefault" xml:space="preserve">
+    <value>全てのウィンドウをオリジナル・サイズにセットする</value>
+  </data>
+  <data name="TimeTrack_SetEndPoint" xml:space="preserve">
+    <value>終了ポイントをセットする</value>
+  </data>
+  <data name="StorageControl_KeepSpaceValue" xml:space="preserve">
+    <value>最適のパフォーマンスを維持するため %1GB ~ %2GB のスペースを確保してください。</value>
+  </data>
+  <data name="DevicePanel_UriCommandPanel_SetPresetPointCommand" xml:space="preserve">
+    <value>プリセット・ポイント・コマンドをセットする</value>
+  </data>
+  <data name="TimeTrack_SetStartPoint" xml:space="preserve">
+    <value>開始ポイントをセットする</value>
+  </data>
+  <data name="UserDefineGroupForm_SetToShared" xml:space="preserve">
+    <value>ビューを共有し、誰でも共有して見つけられるようにします。</value>
+  </data>
+  <data name="HandlePanel_Setting" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="SetupServer_SettingFile" xml:space="preserve">
+    <value>設定ファイル</value>
+  </data>
+  <data name="SetupDeviceGroup_SetGroupLayout" xml:space="preserve">
+    <value>グループ・レイアウト設定</value>
+  </data>
+  <data name="Menu_Setup" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="Page_Setup" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="Control_IconTitle" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="SmartSearch_SetupAnalysisRange" xml:space="preserve">
+    <value>解析範囲の設定</value>
+  </data>
+  <data name="DeviceLayoutPanel_SetupCrop" xml:space="preserve">
+    <value>クロップの設定</value>
+  </data>
+  <data name="Menu_SetupMap" xml:space="preserve">
+    <value>マップの設定</value>
+  </data>
+  <data name="SetupNVR_SetupNVRInProgress" xml:space="preserve">
+    <value>NVRを設定中です。\n完了するまでお待ちください。</value>
+  </data>
+  <data name="EditGroupPanel_SetupPermission" xml:space="preserve">
+    <value>パーミッションの設定</value>
+  </data>
+  <data name="SetupWizard_Title" xml:space="preserve">
+    <value>設定ウィザード</value>
+  </data>
+  <data name="FolderControl_Shared" xml:space="preserve">
+    <value>共有</value>
+  </data>
+  <data name="DevicePanel_Sharpness" xml:space="preserve">
+    <value>シャープネス</value>
+  </data>
+  <data name="Menu_ShowPanel" xml:space="preserve">
+    <value>パネルを表示</value>
+  </data>
+  <data name="SetupServer_Shutdown" xml:space="preserve">
+    <value>シャットダウン</value>
+  </data>
+  <data name="LoginForm_SignIn" xml:space="preserve">
+    <value>サインイン</value>
+  </data>
+  <data name="LoginForm_SignInAutomatically" xml:space="preserve">
+    <value>自動サインイン</value>
+  </data>
+  <data name="Menu_SignOut" xml:space="preserve">
+    <value>サインアウト</value>
+  </data>
+  <data name="AutoSwitchDecodeIFrame_SimultaneousViewingLiveStreamingCountMoreThan" xml:space="preserve">
+    <value>NVRシステムはビデオ・ストリーム数が達した時、システムの負荷を軽減するためにデコードIフレーム・モードに切り替わります。</value>
+  </data>
+  <data name="EMap_VideoWindowSizeSmall" xml:space="preserve">
+    <value>小</value>
+  </data>
+  <data name="Page_SmartSearch" xml:space="preserve">
+    <value>スマート検索</value>
+  </data>
+  <data name="Control_SmartSearch" xml:space="preserve">
+    <value>スマート検索</value>
+  </data>
+  <data name="Snapshot_Button" xml:space="preserve">
+    <value>スナップショット</value>
+  </data>
+  <data name="Handler_Snapshot" xml:space="preserve">
+    <value>スナップショット</value>
+  </data>
+  <data name="Menu_Snapshot" xml:space="preserve">
+    <value>スナップショット</value>
+  </data>
+  <data name="SetupGeneral_SnapshotSaveImage" xml:space="preserve">
+    <value>スナップショット／イメージの保存</value>
+  </data>
+  <data name="NVR_SSLConnection" xml:space="preserve">
+    <value>SSL接続</value>
+  </data>
+  <data name="SetupServer_SSLPort" xml:space="preserve">
+    <value>SSLポート</value>
+  </data>
+  <data name="SetupServer_StatusStabdBy" xml:space="preserve">
+    <value>スタンバイ</value>
+  </data>
+  <data name="SetupServer_Standby" xml:space="preserve">
+    <value>スタンバイ</value>
+  </data>
+  <data name="ExportVideo_Start" xml:space="preserve">
+    <value>開始</value>
+  </data>
+  <data name="SmartSearch_Start" xml:space="preserve">
+    <value>開始</value>
+  </data>
+  <data name="POSException_Start" xml:space="preserve">
+    <value>開始</value>
+  </data>
+  <data name="SearchButton_Button" xml:space="preserve">
+    <value>検索</value>
+  </data>
+  <data name="PeopleCounting_ButtonStartVerify" xml:space="preserve">
+    <value>検査開始</value>
+  </data>
+  <data name="Ethernet_Static" xml:space="preserve">
+    <value>固定</value>
+  </data>
+  <data name="Handler_Status" xml:space="preserve">
+    <value>状態</value>
+  </data>
+  <data name="NVR_Status" xml:space="preserve">
+    <value>状態</value>
+  </data>
+  <data name="SetupServer_Status" xml:space="preserve">
+    <value>状態</value>
+  </data>
+  <data name="Ethernet_Status" xml:space="preserve">
+    <value>状態</value>
+  </data>
+  <data name="DownloadCase_Status" xml:space="preserve">
+    <value>状態</value>
+  </data>
+  <data name="SetupWizard_Step" xml:space="preserve">
+    <value>ステップ</value>
+  </data>
+  <data name="DownloadCase_Stop" xml:space="preserve">
+    <value>停止</value>
+  </data>
+  <data name="PTZPanel_MoveStop" xml:space="preserve">
+    <value>停止</value>
+  </data>
+  <data name="PresetPointPanel_Stop" xml:space="preserve">
+    <value>停止</value>
+  </data>
+  <data name="DevicePanel_UriCommandPanel_ActionStop" xml:space="preserve">
+    <value>停止</value>
+  </data>
+  <data name="SmartSearch_Stop" xml:space="preserve">
+    <value>停止</value>
+  </data>
+  <data name="SearchButton_Stop" xml:space="preserve">
+    <value>検索停止</value>
+  </data>
+  <data name="PeopleCounting_ButtonStopVerify" xml:space="preserve">
+    <value>検査停止</value>
+  </data>
+  <data name="SetupServer_Storage" xml:space="preserve">
+    <value>ストレージ</value>
+  </data>
+  <data name="SetupGeneral_StorageAlert" xml:space="preserve">
+    <value>選択されたアラートのストレージがありません。</value>
+  </data>
+  <data name="SetupServer_StorageSetting" xml:space="preserve">
+    <value>ストレージ設定</value>
+  </data>
+  <data name="SetupServer_Store" xml:space="preserve">
+    <value>ストア</value>
+  </data>
+  <data name="PTSReports_Store" xml:space="preserve">
+    <value>ストア</value>
+  </data>
+  <data name="PTSReports_StoreId" xml:space="preserve">
+    <value>ストアId</value>
+  </data>
+  <data name="PTSReports_StoreInformation" xml:space="preserve">
+    <value>ストア情報</value>
+  </data>
+  <data name="DevicePanel_StreamPort" xml:space="preserve">
+    <value>ストリーム・ポート</value>
+  </data>
+  <data name="VideoWindow_Streaming" xml:space="preserve">
+    <value>ストリーミング</value>
+  </data>
+  <data name="Menu_Stretch" xml:space="preserve">
+    <value>ビデオストレッチ機能</value>
+  </data>
+  <data name="SetupGeneral_StretchVideo" xml:space="preserve">
+    <value>ディスプレイ・パネルにフィットするよう、ビデオストレッチ機能を有効にする</value>
+  </data>
+  <data name="ScheduleReportPanel_Subject" xml:space="preserve">
+    <value>件名</value>
+  </data>
+  <data name="ExceptionReportPanel_Subject" xml:space="preserve">
+    <value>件名</value>
+  </data>
+  <data name="StorageControl_KeepSpaceSuggest" xml:space="preserve">
+    <value>推奨最小キープ・サイズ：</value>
+  </data>
+  <data name="POSException_Summary" xml:space="preserve">
+    <value>サマリー</value>
+  </data>
+  <data name="Control_ReportSummary" xml:space="preserve">
+    <value>サマリー</value>
+  </data>
+  <data name="Control_ReportSummaryIcon" xml:space="preserve">
+    <value>サマリー</value>
+  </data>
+  <data name="PTSReports_Summary" xml:space="preserve">
+    <value>サマリー</value>
+  </data>
+  <data name="Common_Sun" xml:space="preserve">
+    <value>日曜日</value>
+  </data>
+  <data name="Schedule_Sun" xml:space="preserve">
+    <value>日曜日</value>
+  </data>
+  <data name="Common_Sunday" xml:space="preserve">
+    <value>日曜日</value>
+  </data>
+  <data name="UserGroup_Superuser" xml:space="preserve">
+    <value>スーパーユーザー</value>
+  </data>
+  <data name="EventPanel_PauseEvent" xml:space="preserve">
+    <value>イベント取得の中断</value>
+  </data>
+  <data name="POSException_PauseEvent" xml:space="preserve">
+    <value>トランザクション取得の中断</value>
+  </data>
+  <data name="Page_SwitchPage" xml:space="preserve">
+    <value>ページ %1へ切り替え</value>
+  </data>
+  <data name="PeopleCounting_ButtonSwitchPeopleInOut" xml:space="preserve">
+    <value>人数イン／アウトの切り替え</value>
+  </data>
+  <data name="SetupTitle_Sync" xml:space="preserve">
+    <value>同期</value>
+  </data>
+  <data name="SetupNVR_SyncConfirm" xml:space="preserve">
+    <value>NVR同期設定により保存されていな変更は失われます。同期設定しますか？</value>
+  </data>
+  <data name="SetupServer_Synchronize" xml:space="preserve">
+    <value>同期</value>
+  </data>
+  <data name="SetupLog_System" xml:space="preserve">
+    <value>システム</value>
+  </data>
+  <data name="Tag_Tag" xml:space="preserve">
+    <value>タグ</value>
+  </data>
+  <data name="Segment_Tag" xml:space="preserve">
+    <value>タグ</value>
+  </data>
+  <data name="POS_Tag" xml:space="preserve">
+    <value>タグ</value>
+  </data>
+  <data name="PTSReports_Tag" xml:space="preserve">
+    <value>タグ</value>
+  </data>
+  <data name="Exception_Tag" xml:space="preserve">
+    <value>タグ</value>
+  </data>
+  <data name="Control_ReportTemplate" xml:space="preserve">
+    <value>テンプレート</value>
+  </data>
+  <data name="Control_ReportTemplateIcon" xml:space="preserve">
+    <value>テンプレート</value>
+  </data>
+  <data name="PTSReports_TemplateFormatError" xml:space="preserve">
+    <value>テンプレート・ファイルにXMLフォーマットのエラーがあります。</value>
+  </data>
+  <data name="SetupLog_TextFile" xml:space="preserve">
+    <value>テキスト・ファイル</value>
+  </data>
+  <data name="Application_BackupFileAlreadyExists" xml:space="preserve">
+    <value>"%1" は既に存在します。\n 確認の上、続けてください。</value>
+  </data>
+  <data name="EMap_MessageEventWithNoCameraInMap" xml:space="preserve">
+    <value>カメラ "%1" はとどのマップにも存在しません。</value>
+  </data>
+  <data name="Common_DayBeforeYesterday" xml:space="preserve">
+    <value>一昨日</value>
+  </data>
+  <data name="SetupWizard_Done" xml:space="preserve">
+    <value>これが最後のステップです。"実行"をクリックして設定を保存してください。後から設定ページで修正することができます。</value>
+  </data>
+  <data name="Application_SomeNVRUnavailable" xml:space="preserve">
+    <value>次のNVRに接続できません：</value>
+  </data>
+  <data name="Common_TheMonthBeforeLast" xml:space="preserve">
+    <value>2カ月前</value>
+  </data>
+  <data name="EMap_MapNameEmpty" xml:space="preserve">
+    <value>マップの名称は必ず入力してください。</value>
+  </data>
+  <data name="SetupServer_NoStorageDiskSelected" xml:space="preserve">
+    <value>ストレージ・ディスクが選択されていません。</value>
+  </data>
+  <data name="EMap_MessageMapExist" xml:space="preserve">
+    <value>このデバイスはマップに存在しています。</value>
+  </data>
+  <data name="EMap_MessageBoxDrawingHotZoneFailed" xml:space="preserve">
+    <value>これは多角形ではありません。描画を終了しますか？</value>
+  </data>
+  <data name="Common_ThisMonth" xml:space="preserve">
+    <value>今月</value>
+  </data>
+  <data name="EMap_MessageNVRExist" xml:space="preserve">
+    <value>このNVRはマップ上に存在しています。</value>
+  </data>
+  <data name="Common_ThisWeek" xml:space="preserve">
+    <value>今週</value>
+  </data>
+  <data name="VAS_Threshold" xml:space="preserve">
+    <value>閾値</value>
+  </data>
+  <data name="ExceptionReportPanel_Threshold" xml:space="preserve">
+    <value>閾値</value>
+  </data>
+  <data name="POS_Threshold" xml:space="preserve">
+    <value>閾値</value>
+  </data>
+  <data name="PTSReports_Threshold" xml:space="preserve">
+    <value>閾値</value>
+  </data>
+  <data name="Control_ReportThresholdDeviationIcon" xml:space="preserve">
+    <value>閾値の偏差</value>
+  </data>
+  <data name="Control_ReportThresholdDeviation" xml:space="preserve">
+    <value>閾値の偏差</value>
+  </data>
+  <data name="Schedule_Thu" xml:space="preserve">
+    <value>木曜日</value>
+  </data>
+  <data name="Common_Thu" xml:space="preserve">
+    <value>木曜日</value>
+  </data>
+  <data name="Common_Thursday" xml:space="preserve">
+    <value>木曜日</value>
+  </data>
+  <data name="SetupLog_Time" xml:space="preserve">
+    <value>時間</value>
+  </data>
+  <data name="SetupServer_TimeZone" xml:space="preserve">
+    <value>タイム・ゾーン</value>
+  </data>
+  <data name="SetupGeneral_TimestampWatermark" xml:space="preserve">
+    <value>OSDタイムスタンプ</value>
+  </data>
+  <data name="Handler_To" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="Common_Today" xml:space="preserve">
+    <value>今日</value>
+  </data>
+  <data name="Control_ReportTop2CashierIcon" xml:space="preserve">
+    <value>トップ2キャッシャー</value>
+  </data>
+  <data name="Control_Top2ReportCashier" xml:space="preserve">
+    <value>トップ2キャッシャー</value>
+  </data>
+  <data name="ExceptionResultPanel_Total" xml:space="preserve">
+    <value>合計</value>
+  </data>
+  <data name="PTSReports_Total" xml:space="preserve">
+    <value>合計</value>
+  </data>
+  <data name="ExceptionResultPanel_TotalExceptionAmount" xml:space="preserve">
+    <value>例外処理の合計数</value>
+  </data>
+  <data name="PTSReports_TotalExceptionAmount" xml:space="preserve">
+    <value>例外処理の合計数</value>
+  </data>
+  <data name="PTSReports_TransactionAmount" xml:space="preserve">
+    <value>トランザクションの合計数</value>
+  </data>
+  <data name="ExceptionResultPanel_TransactionAmount" xml:space="preserve">
+    <value>トランザクションの合計数</value>
+  </data>
+  <data name="Control_POSExceptionTransactionDetail" xml:space="preserve">
+    <value>トランザクションの詳細</value>
+  </data>
+  <data name="Control_TransactionInRealTime" xml:space="preserve">
+    <value>リアルタイムのトランザクション</value>
+  </data>
+  <data name="PTSReports_TransactionInformation" xml:space="preserve">
+    <value>トランザクションの情報</value>
+  </data>
+  <data name="PTSReports_TransactionTime" xml:space="preserve">
+    <value>トランザクションの時間</value>
+  </data>
+  <data name="ExportVideoStatus_TranscodeVideo" xml:space="preserve">
+    <value>ビデオの変換</value>
+  </data>
+  <data name="LicensePanel_Trial" xml:space="preserve">
+    <value>トライアル</value>
+  </data>
+  <data name="HandlePanel_TriggerDO" xml:space="preserve">
+    <value>トリガーDO</value>
+  </data>
+  <data name="EventPanel_TriggerInterval" xml:space="preserve">
+    <value>トリガー間隔（秒）</value>
+  </data>
+  <data name="Schedule_Tue" xml:space="preserve">
+    <value>火曜日</value>
+  </data>
+  <data name="Common_Tue" xml:space="preserve">
+    <value>火曜日</value>
+  </data>
+  <data name="Common_Tuesday" xml:space="preserve">
+    <value>通う日々</value>
+  </data>
+  <data name="DevicePanel_TVStandard" xml:space="preserve">
+    <value>TV標準</value>
+  </data>
+  <data name="ScheduleReportPanel_Type" xml:space="preserve">
+    <value>タイプ</value>
+  </data>
+  <data name="Ethernet_Type" xml:space="preserve">
+    <value>タイプ</value>
+  </data>
+  <data name="Undo_Button" xml:space="preserve">
+    <value>元に戻す</value>
+  </data>
+  <data name="Ethernet_Unknow" xml:space="preserve">
+    <value>未知</value>
+  </data>
+  <data name="UnlockAppForm_Unlock" xml:space="preserve">
+    <value>解錠</value>
+  </data>
+  <data name="UnlockAppForm_Title" xml:space="preserve">
+    <value>アプリケーションの解錠</value>
+  </data>
+  <data name="ExportVideoStatus_UnmountUSBDevice" xml:space="preserve">
+    <value>USBデバイスの取り外し</value>
+  </data>
+  <data name="SetupServer_DiskUnuse" xml:space="preserve">
+    <value>未使用ディスク</value>
+  </data>
+  <data name="PTZPanel_MoveUp" xml:space="preserve">
+    <value>上</value>
+  </data>
+  <data name="DevicePanel_UriCommandPanel_ActionUp" xml:space="preserve">
+    <value>上</value>
+  </data>
+  <data name="DevicePanel_UriCommandPanel_ActionUpLeft" xml:space="preserve">
+    <value>左上</value>
+  </data>
+  <data name="DevicePanel_UriCommandPanel_ActionUpRight" xml:space="preserve">
+    <value>右上</value>
+  </data>
+  <data name="SetupTitle_UpdateEthernet" xml:space="preserve">
+    <value>アップデート</value>
+  </data>
+  <data name="SetupServer_UpdateEthernet" xml:space="preserve">
+    <value>アップデート</value>
+  </data>
+  <data name="Application_UpdateFail" xml:space="preserve">
+    <value>アップデートに失敗しました。もう一度試してください。</value>
+  </data>
+  <data name="SetupServer_EthernetUpdateCableStatus" xml:space="preserve">
+    <value>アップデートの状態</value>
+  </data>
+  <data name="SetupServer_Upgrade" xml:space="preserve">
+    <value>アップグレード</value>
+  </data>
+  <data name="SetupServer_UpgradeFail" xml:space="preserve">
+    <value>アップグレードに失敗しました。アップグレード・ファイルが正しいか確認してください。</value>
+  </data>
+  <data name="SetupTitle_UpgradeFirmware" xml:space="preserve">
+    <value>ファームウェアのアップグレード</value>
+  </data>
+  <data name="PTZPanel_MoveUpLeft" xml:space="preserve">
+    <value>左上</value>
+  </data>
+  <data name="EMap_MessageBoxUploadMapFail" xml:space="preserve">
+    <value>アップロードに失敗しました。もう一度試してください。</value>
+  </data>
+  <data name="EMap_MessageBoxUploadMapWrongGetExtension" xml:space="preserve">
+    <value>アップロードに失敗しました。ファイル・フォーマットが正しくありません。</value>
+  </data>
+  <data name="HandlePanel_UploadFTP" xml:space="preserve">
+    <value>FTPによるアップロード</value>
+  </data>
+  <data name="PTZPanel_MoveUpRight" xml:space="preserve">
+    <value>右上</value>
+  </data>
+  <data name="DevicePanel_URI" xml:space="preserve">
+    <value>URI</value>
+  </data>
+  <data name="Control_URI" xml:space="preserve">
+    <value>URI</value>
+  </data>
+  <data name="StoragePanel_Usage" xml:space="preserve">
+    <value>使用率 %</value>
+  </data>
+  <data name="Application_StorageUsage" xml:space="preserve">
+    <value>ストレージ使用率: %1%    使用中の容量: %2 GB    空き容量: %3 GB</value>
+  </data>
+  <data name="ExportVideoMsg_USBDeviceUnplugged" xml:space="preserve">
+    <value>USBデバイスが取り外されました。</value>
+  </data>
+  <data name="ExportVideo_USBDisk" xml:space="preserve">
+    <value>USBディスク</value>
+  </data>
+  <data name="USBDisk_USBDiskList" xml:space="preserve">
+    <value>USBディスクのリスト</value>
+  </data>
+  <data name="USBDisk_USBDiskSelect" xml:space="preserve">
+    <value>USBディスクの選択</value>
+  </data>
+  <data name="SetupServer_DiskUse" xml:space="preserve">
+    <value>使用中ディスク</value>
+  </data>
+  <data name="SetupWizard_Message2" xml:space="preserve">
+    <value>設定ウィザードを使えばライセンス、時間、ストレージ、デバイスの設定を簡単に行えます。「次へ」をクリックして先に進めてください。</value>
+  </data>
+  <data name="SetupWizard_Message" xml:space="preserve">
+    <value>設定ウィザードを使えばライセンス、時間、ストレージ、デバイスの設定を簡単に行えます。「次へ」をクリックして先に進めてください。</value>
+  </data>
+  <data name="StoragePanel_Used" xml:space="preserve">
+    <value>使用中容量</value>
+  </data>
+  <data name="Loading_User" xml:space="preserve">
+    <value>ユーザー</value>
+  </data>
+  <data name="Control_User" xml:space="preserve">
+    <value>ユーザー</value>
+  </data>
+  <data name="PTSReports_User" xml:space="preserve">
+    <value>ユーザー</value>
+  </data>
+  <data name="UserGroup_User" xml:space="preserve">
+    <value>ユーザー</value>
+  </data>
+  <data name="SetupLog_User" xml:space="preserve">
+    <value>ユーザー</value>
+  </data>
+  <data name="Control_UserIcon" xml:space="preserve">
+    <value>ユーザー</value>
+  </data>
+  <data name="PrintImage_PrintText" xml:space="preserve">
+    <value>ユーザー : %1, サーバー : %2, 印刷時間 : %3</value>
+  </data>
+  <data name="UserDefineGroupForm_UserDefineGroup" xml:space="preserve">
+    <value>ビューを保存</value>
+  </data>
+  <data name="Event_UserDefined" xml:space="preserve">
+    <value>ユーザー定義</value>
+  </data>
+  <data name="Application_GroupPermissionNotFound" xml:space="preserve">
+    <value>ユーザー・グループ "%1" のパーミッションが見つかりません。</value>
+  </data>
+  <data name="SetupUser_IdCantBeZero" xml:space="preserve">
+    <value>ユーザーIDに0は使用できません。</value>
+  </data>
+  <data name="Application_UserInformationNotFound" xml:space="preserve">
+    <value>ユーザー情報が見つかりません。</value>
+  </data>
+  <data name="EditUserPanel_UserNameCantEmpty" xml:space="preserve">
+    <value>ユーザー名は必ず入力してください。</value>
+  </data>
+  <data name="EditUserPanel_UserNameCantTheSame" xml:space="preserve">
+    <value>このユーザー名は既に使用されています。</value>
+  </data>
+  <data name="EditUserPanel_UserNameAcceptNumberAndAlphaOnly" xml:space="preserve">
+    <value>ユーザー名には半角英数のみ使用できます（記号は使えません）。</value>
+  </data>
+  <data name="SetupServer_UserSetting" xml:space="preserve">
+    <value>ユーザー設定</value>
+  </data>
+  <data name="EMap_MapTransferUsing" xml:space="preserve">
+    <value>使用中</value>
+  </data>
+  <data name="Application_UtilityInitError" xml:space="preserve">
+    <value>ユーティリティの初期化でエラーが発生しました。</value>
+  </data>
+  <data name="PTSReports_Value" xml:space="preserve">
+    <value>値</value>
+  </data>
+  <data name="Segment_Value" xml:space="preserve">
+    <value>値</value>
+  </data>
+  <data name="Exception_Value" xml:space="preserve">
+    <value>値</value>
+  </data>
+  <data name="Tag_Value" xml:space="preserve">
+    <value>値</value>
+  </data>
+  <data name="LoginForm_VAS" xml:space="preserve">
+    <value>VAS</value>
+  </data>
+  <data name="SplashForm_Ver" xml:space="preserve">
+    <value>バージョン %1</value>
+  </data>
+  <data name="Application_Ver" xml:space="preserve">
+    <value>バージョン %1</value>
+  </data>
+  <data name="SetupServer_Version" xml:space="preserve">
+    <value>バージョン</value>
+  </data>
+  <data name="ExportVideo_Video" xml:space="preserve">
+    <value>ビデオ</value>
+  </data>
+  <data name="Application_VideoAnalyticsServer" xml:space="preserve">
+    <value>ビデオ解析サーバー</value>
+  </data>
+  <data name="DevicePanel_VideoInPort" xml:space="preserve">
+    <value>ビデオ入力ポート</value>
+  </data>
+  <data name="Event_VideoLoss" xml:space="preserve">
+    <value>ビデオ喪失</value>
+  </data>
+  <data name="SetupSchedule_VideoRecording" xml:space="preserve">
+    <value>録画ビデオ</value>
+  </data>
+  <data name="DevicePanel_VideoRecording" xml:space="preserve">
+    <value>録画ビデオ</value>
+  </data>
+  <data name="Event_VideoRecovery" xml:space="preserve">
+    <value>回復ビデオ</value>
+  </data>
+  <data name="DevicePanel_VideoStream" xml:space="preserve">
+    <value>ビデオ・ストリームのプロファイル</value>
+  </data>
+  <data name="DevicePanel_VideoStreamID" xml:space="preserve">
+    <value>ビデオ・ストリームのプロファイル %1</value>
+  </data>
+  <data name="Menu_VideoStream1" xml:space="preserve">
+    <value>ビデオ・ストリームのプロファイル 1</value>
+  </data>
+  <data name="Menu_VideoStream2" xml:space="preserve">
+    <value>ビデオ・ストリームのプロファイル 2</value>
+  </data>
+  <data name="Menu_VideoStream3" xml:space="preserve">
+    <value>ビデオ・ストリームのプロファイル 3</value>
+  </data>
+  <data name="Menu_VideoStream4" xml:space="preserve">
+    <value>ビデオ・ストリームのプロファイル 4</value>
+  </data>
+  <data name="Menu_VideoStream5" xml:space="preserve">
+    <value>ビデオ・ストリームのプロファイル 5</value>
+  </data>
+  <data name="Menu_VideoStream6" xml:space="preserve">
+    <value>ビデオ・ストリームのプロファイル 6</value>
+  </data>
+  <data name="Menu_VideoTitleBar" xml:space="preserve">
+    <value>ビデオのタイトル・バー</value>
+  </data>
+  <data name="EMap_VideoWindowSize" xml:space="preserve">
+    <value>ビデオのウィンドウ・サイズ</value>
+  </data>
+  <data name="SetupGeneral_VideoWindowTitleBar" xml:space="preserve">
+    <value>ビデオのタイトル・バー設定</value>
+  </data>
+  <data name="Control_DeviceView" xml:space="preserve">
+    <value>ビュー</value>
+  </data>
+  <data name="SetupServer_DiskWarning" xml:space="preserve">
+    <value>警告</value>
+  </data>
+  <data name="SetupNVR_NVRStatusWarning" xml:space="preserve">
+    <value>警告：応答なしの状態が 71% から 99%です。</value>
+  </data>
+  <data name="Schedule_Wed" xml:space="preserve">
+    <value>水曜日</value>
+  </data>
+  <data name="Common_Wed" xml:space="preserve">
+    <value>水曜日</value>
+  </data>
+  <data name="Common_Wednesday" xml:space="preserve">
+    <value>水曜日</value>
+  </data>
+  <data name="PTSReports_Weekly" xml:space="preserve">
+    <value>毎週</value>
+  </data>
+  <data name="ScheduleReportPanel_Weekly" xml:space="preserve">
+    <value>週間レポート</value>
+  </data>
+  <data name="SetupWizard_Welcome" xml:space="preserve">
+    <value>Welcome</value>
+  </data>
+  <data name="SetupServer_DateTimeChangeWarning" xml:space="preserve">
+    <value>日付と時刻を調整したとき、新しいデータが元の日付に対し1日より早い時は、元のデータと新しいデータの間のログは消去されます。</value>
+  </data>
+  <data name="DevicePanel_WhiteBalance" xml:space="preserve">
+    <value>ホワイト・バランス</value>
+  </data>
+  <data name="DeviceLayoutPanel_Width" xml:space="preserve">
+    <value>幅</value>
+  </data>
+  <data name="LoginForm_SignInFailedAndRetryAutoLogin" xml:space="preserve">
+    <value>システムは %1 秒後に自動でサインインします。 (サインイン: %2)</value>
+  </data>
+  <data name="Schedule_WorkingDay" xml:space="preserve">
+    <value>営業日</value>
+  </data>
+  <data name="Schedule_WorkingTime" xml:space="preserve">
+    <value>営業時間</value>
+  </data>
+  <data name="ExportVideoStatus_WriteVideo" xml:space="preserve">
+    <value>ビデオの書き出し</value>
+  </data>
+  <data name="DeviceLayoutPanel_X" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="SetupLog_XmlFile" xml:space="preserve">
+    <value>XMLファイル</value>
+  </data>
+  <data name="DeviceLayoutPanel_Y" xml:space="preserve">
+    <value>Y</value>
+  </data>
+  <data name="Common_Yesterday" xml:space="preserve">
+    <value>昨日</value>
+  </data>
+  <data name="SetupServer_ConfirmFormatStatusError" xml:space="preserve">
+    <value>"%1" ではフォーマットできません。</value>
+  </data>
+  <data name="SetupServer_ConfirmFormatError" xml:space="preserve">
+    <value> %1 ではフォーマットできません。別のモードを選択してください。</value>
+  </data>
+  <data name="VideoMonitor_NoPermissionToDelete" xml:space="preserve">
+    <value>共有ビューを削除する権限がありません。</value>
+  </data>
+  <data name="ExportVideo_NoPermissionToExport" xml:space="preserve">
+    <value>以下のデバイスのビデオをエクスポートする権限がありません。</value>
+  </data>
+  <data name="PrintImage_NoPermissionToPrint" xml:space="preserve">
+    <value>以下のデバイスのイメージを印刷する権限がありません。</value>
+  </data>
+  <data name="PTZPanel_Zoom" xml:space="preserve">
+    <value>ズーム</value>
+  </data>
+  <data name="DevicePanel_UriCommandPanel_ActionZoomIn" xml:space="preserve">
+    <value>ズーム・イン</value>
+  </data>
+  <data name="EMap_MapButtonZoomIn" xml:space="preserve">
+    <value>ズーム・イン</value>
+  </data>
+  <data name="EMap_MapButtonZoomOut" xml:space="preserve">
+    <value>ズーム・アウト</value>
+  </data>
+  <data name="DevicePanel_UriCommandPanel_ActionZoomOut" xml:space="preserve">
+    <value>ズーム・アウト</value>
+  </data>
+  <data name="DevicePanel_UriCommandPanel_ActionZoomStop" xml:space="preserve">
+    <value>ズーム停止</value>
+  </data>
+  <data name="PTZPanel_ZoomSTOP" xml:space="preserve">
+    <value>ズーム停止</value>
+  </data>
+  <data name="PTZPanel_ZoomTELE" xml:space="preserve">
+    <value>ズーム（遠）</value>
+  </data>
+  <data name="PTZPanel_ZoomWIDE" xml:space="preserve">
+    <value>ズーム（近）</value>
+  </data>
+  <data name="SetupDeviceGroup_NewView" xml:space="preserve">
+    <value>新しいビュー</value>
+  </data>
+  <data name="Application_ServerChange" xml:space="preserve">
+    <value>サーバー設定が修正されました。サインインし直してください。</value>
+  </data>
+  <data name="Common_Hide" xml:space="preserve">
+    <value>隠す</value>
+  </data>
+  <data name="DevicePanel_HighProfile" xml:space="preserve">
+    <value>高プロファイル</value>
+  </data>
+  <data name="DevicePanel_LowProfile" xml:space="preserve">
+    <value>低プロファイル</value>
+  </data>
+  <data name="DevicePanel_MediumProfile" xml:space="preserve">
+    <value>中プロファイル</value>
+  </data>
+  <data name="DevicePanel_MultiStreaming" xml:space="preserve">
+    <value>マルチストリーミング</value>
+  </data>
+  <data name="EventPanel_EventHelper" xml:space="preserve">
+    <value>イベント処理ヘルパー</value>
+  </data>
+  <data name="LoginForm_SignOutFailed" xml:space="preserve">
+    <value>サインアウトに失敗しました。</value>
+  </data>
+  <data name="LoginForm_SignOutFailedAuthFailure" xml:space="preserve">
+    <value>サインアウトに失敗しました。アカウントとパスワードを確認してくたさい。</value>
+  </data>
+  <data name="LoginForm_SignOutFailedPortOccupation" xml:space="preserve">
+    <value>サインアウトに失敗しました。ポート %1 が別のアプリケーションで使用されていないか確認してください。</value>
+  </data>
+  <data name="LoginForm_SignOutTimeout" xml:space="preserve">
+    <value>サインアウトがタイムアウトしました。ファイアウォール設定を確認してください。</value>
+  </data>
+  <data name="LoginForm_SignOutTimeoutSSL" xml:space="preserve">
+    <value>サインアウトがタイムアウトしました。ファイアウォール設定とSSLポートが正しいか確認してください。</value>
+  </data>
+  <data name="Menu_ManualRecord" xml:space="preserve">
+    <value>手動録画</value>
+  </data>
+  <data name="SetupGeneral_FullScreen" xml:space="preserve">
+    <value>全画面</value>
+  </data>
+  <data name="SetupGeneral_GroupView" xml:space="preserve">
+    <value>ビュー</value>
+  </data>
+  <data name="SetupGeneral_HidePanel" xml:space="preserve">
+    <value>パネルを隠す</value>
+  </data>
+  <data name="SetupGeneral_LatestView" xml:space="preserve">
+    <value>最新のビュー</value>
+  </data>
+  <data name="SetupGeneral_StartupOptions" xml:space="preserve">
+    <value>開始オプション</value>
+  </data>
+  <data name="SetupGeneral_TotalBitrate" xml:space="preserve">
+    <value>帯域</value>
+  </data>
+  <data name="SetupGeneral_ViewTour" xml:space="preserve">
+    <value>ビューのパトロール</value>
+  </data>
+  <data name="SetupServer_StatusFormat" xml:space="preserve">
+    <value>フォーマット</value>
+  </data>
+  <data name="HandlePanel_PopupLive" xml:space="preserve">
+    <value>ポップアップ・ライブ</value>
+  </data>
+  <data name="LiveStream_Title" xml:space="preserve">
+    <value>ライブ・ストリーム</value>
+  </data>
+  <data name="Application_DevicePackUpdate" xml:space="preserve">
+    <value>新しいデバイス・パックが見つかりました (バージョン %1)。アップグレードを確認してください。</value>
+  </data>
+  <data name="Application_DevicePackVer" xml:space="preserve">
+    <value>デバイス・パック・バージョン %1</value>
+  </data>
+  <data name="SetupServer_DevicePackVersion" xml:space="preserve">
+    <value>デバイス・パック・バージョン</value>
+  </data>
+  <data name="SetupTitle_UpdateDevicePack" xml:space="preserve">
+    <value>デバイス・パックのアップデート</value>
+  </data>
+  <data name="Application_DevicePackChange" xml:space="preserve">
+    <value>デバイス・パックがアップデートされました。サインインし直してください。</value>
+  </data>
+  <data name="SetupServer_DevicePackFile" xml:space="preserve">
+    <value>デバイス・パックのファイル</value>
+  </data>
+  <data name="SetupServer_ConfirmDevicePack" xml:space="preserve">
+    <value>本当にデバイス・パックをアップデートしますか？</value>
+  </data>
+  <data name="SetupDeviceGroup_MaximumAmount" xml:space="preserve">
+    <value>上限 "%1"に達しました。</value>
+  </data>
+  <data name="SetupGeneral_None" xml:space="preserve">
+    <value>なし</value>
+  </data>
+  <data name="SetupGeneral_DisplayGroupId" xml:space="preserve">
+    <value>表示ビューID</value>
+  </data>
+  <data name="LoginForm_ErrorCode" xml:space="preserve">
+    <value>エラー・コード:</value>
+  </data>
+  <data name="DeviceTree_EnableMultiScreenDevicePatrol" xml:space="preserve">
+    <value>マルチスクリーンデバイスパトロールを有効にする</value>
+  </data>
+  <data name="LoginForm_RememberMe" xml:space="preserve">
+    <value>ログイン情報を記憶</value>
+  </data>
+  <data name="SetupNVR_NVRDevice" xml:space="preserve">
+    <value>デバイス</value>
+  </data>
+</root>

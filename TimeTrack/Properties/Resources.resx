@@ -1,0 +1,635 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="FastReverseBlack" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FastReverseBlack.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FastPlayBlack" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FastPlayBlack.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ReverseBlack" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ReverseBlack.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FastReverseList" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FastReverseList.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FastReverse" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FastReverse.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pointer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pointer.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pause" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pause.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Play" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Play.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Reverse" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Reverse.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FastPlay" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FastPlay.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FastPlayList" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FastPlayList.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mini" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mini.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mini2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mini2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="export_video" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\export_video.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="print_image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\print_image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="export_range_left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\export_range_left.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="export_range_right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\export_range_right.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="minus_scale" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\minus_scale.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="plus_scale" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\plus_scale.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="scaleBar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\scaleBar.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="scalePoint" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\scalePoint.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="scalePoint_select" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\scalePoint_select.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="next_bookmark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\next_bookmark.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="previous_bookmark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\previous_bookmark.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="next_record" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\next_record.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="previous_record" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\previous_record.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="expand" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\expand.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\banner.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="deviceContainerBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\deviceContainerBG.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bookmark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bookmark.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="controllerBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\controllerBG.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Black" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Black.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="current" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\current.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="eraser" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eraser.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="scale" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\scale.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="set_clear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\set_clear.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="set_end" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\set_end.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="set_start" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\set_start.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BGBanner" xml:space="preserve">
+    <value>./TimeTrack/Resources/banner.png</value>
+  </data>
+  <data name="BGButton" xml:space="preserve">
+    <value>./TimeTrack/Resources/button.png</value>
+  </data>
+  <data name="BGControllerBG" xml:space="preserve">
+    <value>./TimeTrack/Resources/controllerBG.png</value>
+  </data>
+  <data name="BGDeviceContainerBG" xml:space="preserve">
+    <value>./TimeTrack/Resources/deviceContainerBG.png</value>
+  </data>
+  <data name="IMGBlack" xml:space="preserve">
+    <value>./TimeTrack/Resources/Black.png</value>
+  </data>
+  <data name="IMGBookmark" xml:space="preserve">
+    <value>./TimeTrack/Resources/bookmark.png</value>
+  </data>
+  <data name="IMGCurrent" xml:space="preserve">
+    <value>./TimeTrack/Resources/current.png</value>
+  </data>
+  <data name="IMGEraser" xml:space="preserve">
+    <value>./TimeTrack/Resources/eraser.png</value>
+  </data>
+  <data name="IMGExpand" xml:space="preserve">
+    <value>./TimeTrack/Resources/expand.png</value>
+  </data>
+  <data name="IMGExport_range_left" xml:space="preserve">
+    <value>./TimeTrack/Resources/export_range_left.png</value>
+  </data>
+  <data name="IMGExport_range_right" xml:space="preserve">
+    <value>./TimeTrack/Resources/export_range_right.png</value>
+  </data>
+  <data name="IMGExport_video" xml:space="preserve">
+    <value>./TimeTrack/Resources/export_video.png</value>
+  </data>
+  <data name="IMGFastPlay" xml:space="preserve">
+    <value>./TimeTrack/Resources/FastPlay.png</value>
+  </data>
+  <data name="IMGFastPlayList" xml:space="preserve">
+    <value>./TimeTrack/Resources/FastPlayList.png</value>
+  </data>
+  <data name="IMGFastReverse" xml:space="preserve">
+    <value>./TimeTrack/Resources/FastReverse.png</value>
+  </data>
+  <data name="IMGFastReverseBlack" xml:space="preserve">
+    <value>./TimeTrack/Resources/FastReverseBlack.png</value>
+  </data>
+  <data name="IMGFastReverseList" xml:space="preserve">
+    <value>./TimeTrack/Resources/FastReverseList.png</value>
+  </data>
+  <data name="IMGIcon" xml:space="preserve">
+    <value>./TimeTrack/Resources/icon.png</value>
+  </data>
+  <data name="IMGMini" xml:space="preserve">
+    <value>./TimeTrack/Resources/mini.png</value>
+  </data>
+  <data name="IMGMini2" xml:space="preserve">
+    <value>./TimeTrack/Resources/mini2.png</value>
+  </data>
+  <data name="IMGMinus_scale" xml:space="preserve">
+    <value>./TimeTrack/Resources/minus_scale.png</value>
+  </data>
+  <data name="IMGNext_bookmark" xml:space="preserve">
+    <value>./TimeTrack/Resources/next_bookmark.png</value>
+  </data>
+  <data name="IMGNext_record" xml:space="preserve">
+    <value>./TimeTrack/Resources/next_record.png</value>
+  </data>
+  <data name="IMGPause" xml:space="preserve">
+    <value>./TimeTrack/Resources/Pause.png</value>
+  </data>
+  <data name="IMGPlay" xml:space="preserve">
+    <value>./TimeTrack/Resources/Play.png</value>
+  </data>
+  <data name="IMGPlus_scale" xml:space="preserve">
+    <value>./TimeTrack/Resources/plus_scale.png</value>
+  </data>
+  <data name="IMGPointer" xml:space="preserve">
+    <value>./TimeTrack/Resources/pointer.png</value>
+  </data>
+  <data name="IMGPrevious_bookmark" xml:space="preserve">
+    <value>./TimeTrack/Resources/previous_bookmark.png</value>
+  </data>
+  <data name="IMGPrevious_record" xml:space="preserve">
+    <value>./TimeTrack/Resources/previous_record.png</value>
+  </data>
+  <data name="IMGPrintImage" xml:space="preserve">
+    <value>./TimeTrack/Resources/print_image.png</value>
+  </data>
+  <data name="IMGReverse" xml:space="preserve">
+    <value>./TimeTrack/Resources/Reverse.png</value>
+  </data>
+  <data name="IMGReverseBlack" xml:space="preserve">
+    <value>./TimeTrack/Resources/ReverseBlack.png</value>
+  </data>
+  <data name="IMGScale" xml:space="preserve">
+    <value>./TimeTrack/Resources/scale.png</value>
+  </data>
+  <data name="IMGScaleBar" xml:space="preserve">
+    <value>./TimeTrack/Resources/scaleBar.png</value>
+  </data>
+  <data name="IMGScalePoint" xml:space="preserve">
+    <value>./TimeTrack/Resources/scalePoint.png</value>
+  </data>
+  <data name="IMGScalePoint_select" xml:space="preserve">
+    <value>./TimeTrack/Resources/scalePoint_select.png</value>
+  </data>
+  <data name="IMGSet_clear" xml:space="preserve">
+    <value>./TimeTrack/Resources/set_clear.png</value>
+  </data>
+  <data name="IMGSet_end" xml:space="preserve">
+    <value>./TimeTrack/Resources/set_end.png</value>
+  </data>
+  <data name="IMGSet_start" xml:space="preserve">
+    <value>./TimeTrack/Resources/set_start.png</value>
+  </data>
+  <data name="di" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\di.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMGDI" xml:space="preserve">
+    <value>./TimeTrack/Resources/di.png</value>
+  </data>
+  <data name="IMGDO" xml:space="preserve">
+    <value>./TimeTrack/Resources/do.png</value>
+  </data>
+  <data name="IMGManualRecord" xml:space="preserve">
+    <value>./TimeTrack/Resources/manualrecord.png</value>
+  </data>
+  <data name="IMGMotion" xml:space="preserve">
+    <value>./TimeTrack/Resources/motion.png</value>
+  </data>
+  <data name="IMGNetworkLoss" xml:space="preserve">
+    <value>./TimeTrack/Resources/networkloss.png</value>
+  </data>
+  <data name="IMGNetworkRecovery" xml:space="preserve">
+    <value>./TimeTrack/Resources/networkrecovery.png</value>
+  </data>
+  <data name="IMGVideoLoss" xml:space="preserve">
+    <value>./TimeTrack/Resources/videoloss.png</value>
+  </data>
+  <data name="IMGVideoRecovery" xml:space="preserve">
+    <value>./TimeTrack/Resources/videorecovery.png</value>
+  </data>
+  <data name="manualrecord" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\manualrecord.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="motion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\motion.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="networkloss" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\networkloss.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="networkrecovery" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\networkrecovery.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="videoloss" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\videoloss.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="videorecovery" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\videorecovery.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_do" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\do.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="audioin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\audioin.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="audioout" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\audioout.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMGAudioIn" xml:space="preserve">
+    <value>./TimeTrack/Resources/audioin.png</value>
+  </data>
+  <data name="IMGAudioOut" xml:space="preserve">
+    <value>./TimeTrack/Resources/audioout.png</value>
+  </data>
+  <data name="audioin_on" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\audioin_on.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="audioout_on" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\audioout_on.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="di_on" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\di_on.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="do_on" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\do_on.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMGAudioInOn" xml:space="preserve">
+    <value>./TimeTrack/Resources/audioin_on.png</value>
+  </data>
+  <data name="IMGAudioOutOn" xml:space="preserve">
+    <value>./TimeTrack/Resources/audioout_on.png</value>
+  </data>
+  <data name="IMGDIOn" xml:space="preserve">
+    <value>./TimeTrack/Resources/di_on.png</value>
+  </data>
+  <data name="IMGDOOn" xml:space="preserve">
+    <value>./TimeTrack/Resources/do_on.png</value>
+  </data>
+  <data name="IMGLeft" xml:space="preserve">
+    <value>./TimeTrack/Resources/left.png</value>
+  </data>
+  <data name="IMGManualRecordOn" xml:space="preserve">
+    <value>./TimeTrack/Resources/manualrecord_on.png</value>
+  </data>
+  <data name="IMGMotionOn" xml:space="preserve">
+    <value>./TimeTrack/Resources/motion_on.png</value>
+  </data>
+  <data name="IMGNetworkLossOn" xml:space="preserve">
+    <value>./TimeTrack/Resources/networkloss_on.png</value>
+  </data>
+  <data name="IMGNetworkRecoveryOn" xml:space="preserve">
+    <value>./TimeTrack/Resources/networkrecovery_on.png</value>
+  </data>
+  <data name="IMGPanic" xml:space="preserve">
+    <value>./TimeTrack/Resources/panic.png</value>
+  </data>
+  <data name="IMGPanicOn" xml:space="preserve">
+    <value>./TimeTrack/Resources/panic_on.png</value>
+  </data>
+  <data name="IMGVideoLossOn" xml:space="preserve">
+    <value>./TimeTrack/Resources/videoloss_on.png</value>
+  </data>
+  <data name="IMGVideoRecoveryOn" xml:space="preserve">
+    <value>./TimeTrack/Resources/videorecovery_on.png</value>
+  </data>
+  <data name="left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\left.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="manualrecord_on" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\manualrecord_on.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="motion_on" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\motion_on.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="networkloss_on" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\networkloss_on.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="networkrecovery_on" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\networkrecovery_on.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="panic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\panic.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="panic_on" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\panic_on.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="videoloss_on" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\videoloss_on.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="videorecovery_on" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\videorecovery_on.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMGFastPlayBlack" xml:space="preserve">
+    <value>./TimeTrack/Resources/FastPlayBlack.png</value>
+  </data>
+  <data name="IMGPlayBlack" xml:space="preserve">
+    <value>./TimeTrack/Resources/PlayBlack.png</value>
+  </data>
+  <data name="PlayBlack" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PlayBlack.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\down.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="down_on" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\down_on.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMGDown" xml:space="preserve">
+    <value>./TimeTrack/Resources/down.png</value>
+  </data>
+  <data name="IMGDownOn" xml:space="preserve">
+    <value>./TimeTrack/Resources/down_on.png</value>
+  </data>
+  <data name="IMGUp" xml:space="preserve">
+    <value>./TimeTrack/Resources/up.png</value>
+  </data>
+  <data name="IMGUpOn" xml:space="preserve">
+    <value>./TimeTrack/Resources/up_on.png</value>
+  </data>
+  <data name="up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\up.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="up_on" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\up_on.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button_click" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button_click.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="crossline" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\crossline.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="crossline_on" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\crossline_on.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMGCrossLine" xml:space="preserve">
+    <value>./TimeTrack/Resources/crossline.png</value>
+  </data>
+  <data name="IMGCrossLineOn" xml:space="preserve">
+    <value>./TimeTrack/Resources/crossline_on.png</value>
+  </data>
+  <data name="begin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\begin.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMGBegin" xml:space="preserve">
+    <value>./TimeTrack/Resources/begin.png</value>
+  </data>
+  <data name="IMGIntrusionDetection" xml:space="preserve">
+    <value>./TimeTrack/Resources/intrusionDetection.png</value>
+  </data>
+  <data name="IMGIntrusionDetectionOn" xml:space="preserve">
+    <value>./TimeTrack/Resources/intrusionDetection_on.png</value>
+  </data>
+  <data name="IMGLoiteringDetection" xml:space="preserve">
+    <value>./TimeTrack/Resources/loiteringDetection.png</value>
+  </data>
+  <data name="IMGLoiteringDetectionOn" xml:space="preserve">
+    <value>./TimeTrack/Resources/loiteringDetection_on.png</value>
+  </data>
+  <data name="IMGObjectCountingIn" xml:space="preserve">
+    <value>./TimeTrack/Resources/objectCountingIn.png</value>
+  </data>
+  <data name="IMGObjectCountingInOn" xml:space="preserve">
+    <value>./TimeTrack/Resources/objectCountingIn_on.png</value>
+  </data>
+  <data name="IMGObjectCountingOut" xml:space="preserve">
+    <value>./TimeTrack/Resources/objectCountingOut.png</value>
+  </data>
+  <data name="IMGObjectCountingOutOn" xml:space="preserve">
+    <value>./TimeTrack/Resources/objectCountingOut_on.png</value>
+  </data>
+  <data name="intrusionDetection" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\intrusionDetection.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="intrusionDetection_on" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\intrusionDetection_on.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="loiteringDetection" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\loiteringDetection.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="loiteringDetection_on" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\loiteringDetection_on.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="objectCountingIn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\objectCountingIn.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="objectCountingIn_on" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\objectCountingIn_on.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="objectCountingOut" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\objectCountingOut.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="objectCountingOut_on" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\objectCountingOut_on.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="audioDetection" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\audioDetection.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="audioDetection_on" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\audioDetection_on.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMGAudioDetection" xml:space="preserve">
+    <value>./TimeTrack/Resources/audioDetection.png</value>
+  </data>
+  <data name="IMGAudioDetectionOn" xml:space="preserve">
+    <value>./TimeTrack/Resources/audioDetection_on.png</value>
+  </data>
+  <data name="IMGTemperingDetection" xml:space="preserve">
+    <value>./TimeTrack/Resources/TemperingDetection.png</value>
+  </data>
+  <data name="IMGTemperingDetectionOn" xml:space="preserve">
+    <value>./TimeTrack/Resources/TemperingDetection_on.png</value>
+  </data>
+  <data name="temperingDetection" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\temperingDetection.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="temperingDetection_on" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\temperingDetection_on.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="userdefine" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\userdefine.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="userdefine_on" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\userdefine_on.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMGUserDefine" xml:space="preserve">
+    <value>./TimeTrack/Resources/userdefine.png</value>
+  </data>
+  <data name="IMGUserDefineOn" xml:space="preserve">
+    <value>./TimeTrack/Resources/userdefine_on.png</value>
+  </data>
+</root>

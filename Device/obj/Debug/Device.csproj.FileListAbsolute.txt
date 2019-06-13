@@ -1,0 +1,9 @@
+C:\SNVR\Viewer\Device\bin\Debug\Device.dll
+C:\SNVR\Viewer\Device\bin\Debug\Device.pdb
+C:\SNVR\Viewer\Device\bin\Debug\Constant.dll
+C:\SNVR\Viewer\Device\bin\Debug\Interface.dll
+C:\SNVR\Viewer\Device\bin\Debug\Constant.pdb
+C:\SNVR\Viewer\Device\bin\Debug\Interface.pdb
+C:\SNVR\Viewer\Device\obj\Debug\ResolveAssemblyReference.cache
+C:\SNVR\Viewer\Device\obj\Debug\Device.dll
+C:\SNVR\Viewer\Device\obj\Debug\Device.pdb

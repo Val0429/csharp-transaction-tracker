@@ -1,0 +1,15 @@
+C:\SNVR\Viewer\ExportVideoForm\bin\Debug\ExportVideoForm.dll
+C:\SNVR\Viewer\ExportVideoForm\bin\Debug\ExportVideoForm.pdb
+C:\SNVR\Viewer\ExportVideoForm\bin\Debug\Constant.dll
+C:\SNVR\Viewer\ExportVideoForm\bin\Debug\Interface.dll
+C:\SNVR\Viewer\ExportVideoForm\bin\Debug\PanelBase.dll
+C:\SNVR\Viewer\ExportVideoForm\bin\Debug\Constant.pdb
+C:\SNVR\Viewer\ExportVideoForm\bin\Debug\Interface.pdb
+C:\SNVR\Viewer\ExportVideoForm\bin\Debug\PanelBase.pdb
+C:\SNVR\Viewer\ExportVideoForm\obj\Debug\ResolveAssemblyReference.cache
+C:\SNVR\Viewer\ExportVideoForm\obj\Debug\ExportVideoForm.ExportVideo.resources
+C:\SNVR\Viewer\ExportVideoForm\obj\Debug\ExportVideoForm.Properties.Resources.resources
+C:\SNVR\Viewer\ExportVideoForm\obj\Debug\ResGen.read.1.tlog
+C:\SNVR\Viewer\ExportVideoForm\obj\Debug\ResGen.write.1.tlog
+C:\SNVR\Viewer\ExportVideoForm\obj\Debug\ExportVideoForm.dll
+C:\SNVR\Viewer\ExportVideoForm\obj\Debug\ExportVideoForm.pdb

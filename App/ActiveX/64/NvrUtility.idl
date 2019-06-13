@@ -1,0 +1,101 @@
+// NvrUtility.idl : IDL source for NvrUtility
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (NvrUtility.tlb) and marshalling code.
+
+#include "olectl.h"
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(01463DE6-7ABD-4093-948F-513FFC821FB1),
+	dual,
+	nonextensible,
+	helpstring("INvrUtility Interface"),
+	pointer_default(unique)
+]
+interface INvrUtility : IDispatch{
+	[propget, id(1), helpstring("property ServerIp")] HRESULT ServerIp([out, retval] BSTR* pVal);
+	[propput, id(1), helpstring("property ServerIp")] HRESULT ServerIp([in] BSTR newVal);
+	[propget, id(2), helpstring("property ServerUsername")] HRESULT ServerUsername([out, retval] BSTR* pVal);
+	[propput, id(2), helpstring("property ServerUsername")] HRESULT ServerUsername([in] BSTR newVal);
+	[propget, id(3), helpstring("property ServerPassword")] HRESULT ServerPassword([out, retval] BSTR* pVal);
+	[propput, id(3), helpstring("property ServerPassword")] HRESULT ServerPassword([in] BSTR newVal);
+	[propget, id(4), helpstring("property ServerPort")] HRESULT ServerPort([out, retval] LONG* pVal);
+	[propput, id(4), helpstring("property ServerPort")] HRESULT ServerPort([in] LONG newVal);
+	[propget, id(5), helpstring("property Version")] HRESULT Version([out, retval] BSTR* pVal);
+	[propput, id(5), helpstring("property Version")] HRESULT Version([in] BSTR newVal);
+	[propget, id(30), helpstring("property TrackId")] HRESULT TrackId([out, retval] BSTR* pVal);
+	[propput, id(30), helpstring("property TrackId")] HRESULT TrackId([in] BSTR newVal);
+	[propget, id(33), helpstring("property ServerSSL")] HRESULT ServerSSL([out, retval] LONG* pVal);
+	[propput, id(33), helpstring("property ServerSSL")] HRESULT ServerSSL([in] LONG newVal);
+
+	[id(6), helpstring("method OpenFolderDialog")] HRESULT OpenFolderDialog([in] BSTR title, [in] BSTR rootDir, [out,retval] BSTR* retVal);
+	[id(7), helpstring("method OpenFileDialog")] HRESULT OpenFileDialog([in] LONG isOpenDlg, [in] BSTR ext, [in] BSTR filter, [out,retval] BSTR* retVal);
+	[id(8), helpstring("method GetSpecialFolderPath")] HRESULT GetSpecialFolderPath([in] LONG FolderVal, [out,retval] BSTR* retVal);	
+	[id(9), helpstring("method InitJoystick")] HRESULT InitJoystick([out,retval] LONG* retVal);
+	[id(10), helpstring("method ExInitJoystick")] HRESULT ExInitJoystick(void);	
+	[id(11), helpstring("method PlaySystemSound")] HRESULT PlaySystemSound([in] LONG Frequency, [in] LONG Duration, [in] LONG Interval);
+	[id(12), helpstring("method StopSystemSound")] HRESULT StopSystemSound(void);
+	[id(13), helpstring("method ReadXml")] HRESULT ReadXml([in] BSTR path, [out,retval] BSTR* retVal);
+	[id(14), helpstring("method ReadLic")] HRESULT ReadLic([in] BSTR path, [out,retval] BSTR* retVal);
+	[id(15), helpstring("method WriteXml")] HRESULT WriteXml([in] BSTR path, [in] BSTR Content);
+	[id(16), helpstring("method StartAudioTransfer")] HRESULT StartAudioTransfer([in] BSTR identName, [out,retval] LONG* retVal);
+	[id(17), helpstring("method StopAudioTransfer")] HRESULT StopAudioTransfer(void);
+	[id(18), helpstring("method StartEventReceive")] HRESULT StartEventReceive([in] BSTR listenCh, [out,retval] LONG* retVal);
+	[id(19), helpstring("method StopEventReceive")] HRESULT StopEventReceive(void);		
+	[id(20), helpstring("method GetAllChannelStatus")] HRESULT GetAllChannelStatus(void);
+	[id(21), helpstring("method GetChannelStatus")] HRESULT GetChannelStatus([in] BSTR id);	
+	[id(23), helpstring("method ManualDelete")] HRESULT ManualDelete([in] BSTR id, [in] BSTR path);
+	[id(24), helpstring("method SendEvent")] HRESULT SendEvent([in] BSTR id, [in] BSTR eventType, [in] BSTR msg);
+	[id(25), helpstring("method UpdateEventRecive")] HRESULT UpdateEventRecive([in] BSTR ch);
+	[id(27), helpstring("method SetExportAVITimeZone")] HRESULT SetExportAVITimeZone([in] LONG sec);		
+	[id(29), helpstring("method CreateFolder")] HRESULT CreateFolder([in] BSTR strFolderPath, [out,retval] BSTR* strReturnVal);
+		
+	[id(34), helpstring("method ExportFile")] HRESULT ExportFile([in] ULONG BeginTime, [in] ULONG EndTime, [in] LONG CameraID, [in] BSTR track, [in] BSTR strSaveLoc, [in] BSTR prefix, [in] ULONGLONG split_size, [in] LONG type, [in] LONG jpeg_quality, [in] LONG resize_type, [in] LONG bOSD_Watermark, [in] BSTR strOSDText, [in] BSTR strWatermarkFont, [in] LONG WatermarkFontSize, [in] LONG WatermarkFontColor, [in] BSTR strWatermarkText, [out,retval] LONG *retVal);	
+	[id(35), helpstring("method StopExportFile")] HRESULT StopExportFile(void);
+	//type 0:raw, 1:original, 2:mjpeg
+	//bOSD_Watermark 0:disable 1:enable osd, 2:enable watermark, 3:enable osd and watermark
+	//resize_type 0:original 1:1/2,  2:1/4,  3:1/8  4:1/16
+
+	[id(36), helpstring("method UploadPack")] HRESULT UploadPack(BSTR filename);
+	[id(37), helpstring("method StopUploadPack")] HRESULT StopUploadPack(void);
+};
+
+[
+	uuid(25A2D11B-9DA8-4FEC-8C73-C29C885A383D),
+	version(1.0),
+	helpstring("NvrUtility 1.0 Type Library")
+]
+library NvrUtilityLib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(34ED8837-A657-4918-A0B0-BA8D032B1634),
+		helpstring("_INvrUtilityEvents Interface")
+	]
+	dispinterface _INvrUtilityEvents
+	{
+		properties:
+		methods:
+			[id(1), helpstring("method OnPTZChanged")] void OnPTZChanged([in] BSTR Command, [in] LONG Speed, [in] LONG value);
+			[id(2), helpstring("method OnJoystickReady")] void OnJoystickReady([in] LONG buttons);
+			[id(3), helpstring("method OnJoystickButtonClicked")] void OnJoystickButtonClicked([in] LONG buttonId);
+			[id(4), helpstring("method OnServerEventReceive")] HRESULT OnServerEventReceive([in] BSTR cameraID, [in] BSTR dateTime, [in] BSTR eventType, [in] BSTR msg);
+			[id(5), helpstring("method OnAudioOutStatus")] void OnAudioOutStatus([in] BSTR status);
+			[id(6), helpstring("method OnExportStatus")] void OnExportStatus([in] LONG progress, [in] LONG status);			
+			[id(7), helpstring("method OnUploadProgress")] void OnUploadProgress([in] LONG progress);
+	};
+	[
+		uuid(830C9644-F61D-444F-832E-EC2FAE1DC9E3),
+		control,
+		helpstring("NvrUtility Class")
+	]
+	coclass NvrUtility
+	{
+		[default] interface INvrUtility;
+		[default, source] dispinterface _INvrUtilityEvents;
+	};
+};

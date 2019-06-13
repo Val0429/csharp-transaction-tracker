@@ -1,0 +1,12 @@
+C:\SNVR\Viewer\App-LoginForm\obj\x86\Release\App-LoginForm.csprojResolveAssemblyReference.cache
+C:\SNVR\Viewer\App-LoginForm\obj\x86\Release\App_LoginForm.LoginForm.resources
+C:\SNVR\Viewer\App-LoginForm\obj\x86\Release\App_LoginForm.Properties.Resources.resources
+C:\SNVR\Viewer\App-LoginForm\obj\x86\Release\App-LoginForm.csproj.GenerateResource.Cache
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\App-LoginForm\obj\x86\Release\App-LoginForm.csprojResolveAssemblyReference.cache
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\App-LoginForm\obj\x86\Release\App_LoginForm.LoginForm.resources
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\App-LoginForm\obj\x86\Release\App_LoginForm.Properties.Resources.resources
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\App-LoginForm\obj\x86\Release\App-LoginForm.csproj.GenerateResource.Cache
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\App-LoginForm\obj\x86\Release\App-LoginForm.csprojResolveAssemblyReference.cache
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\App-LoginForm\obj\x86\Release\App_LoginForm.LoginForm.resources
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\App-LoginForm\obj\x86\Release\App_LoginForm.Properties.Resources.resources
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\App-LoginForm\obj\x86\Release\App-LoginForm.csproj.GenerateResource.Cache

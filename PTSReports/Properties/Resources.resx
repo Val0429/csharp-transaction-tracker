@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg_noborder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg_noborder.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="calendarIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\calendarIcon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="calendarIcon_activate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\calendarIcon_activate.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="deviationIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\deviationIcon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="deviationIcon_activate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\deviationIcon_activate.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="exceptionIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\exceptionIcon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="exceptionIcon_activate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\exceptionIcon_activate.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMGBg" xml:space="preserve">
+    <value>./PTSReports/Resources/bg.png</value>
+  </data>
+  <data name="IMGBgNoborder" xml:space="preserve">
+    <value>./PTSReports/Resources/bg_noborder.png</value>
+  </data>
+  <data name="investigationIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\investigationIcon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="investigationIcon_activate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\investigationIcon_activate.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="summaryIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\summaryIcon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="summaryIcon_activate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\summaryIcon_activate.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="templateIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\templateIcon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="templateIcon_activate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\templateIcon_activate.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMGCalendarIcon" xml:space="preserve">
+    <value>./PTSReports/Resources/calendarIcon.png</value>
+  </data>
+  <data name="IMGCalendarIconActivate" xml:space="preserve">
+    <value>./PTSReports/Resources/calendarIcon_activate.png</value>
+  </data>
+  <data name="IMGDeviationIcon" xml:space="preserve">
+    <value>./PTSReports/Resources/deviationIcon.png</value>
+  </data>
+  <data name="IMGDeviationIconActivate" xml:space="preserve">
+    <value>./PTSReports/Resources/deviationIcon_activate.png</value>
+  </data>
+  <data name="IMGExceptionActivate" xml:space="preserve">
+    <value>./PTSReports/Resources/exceptionIcon_activate.png</value>
+  </data>
+  <data name="IMGExceptionIcon" xml:space="preserve">
+    <value>./PTSReports/Resources/exceptionIcon.png</value>
+  </data>
+  <data name="IMGInvestigationActivate" xml:space="preserve">
+    <value>./PTSReports/Resources/investigationIcon_activate.png</value>
+  </data>
+  <data name="IMGInvestigationIcon" xml:space="preserve">
+    <value>./PTSReports/Resources/investigationIcon.png</value>
+  </data>
+  <data name="IMGSummaryActivate" xml:space="preserve">
+    <value>./PTSReports/Resources/summaryIcon_activate.png</value>
+  </data>
+  <data name="IMGSummaryIcon" xml:space="preserve">
+    <value>./PTSReports/Resources/summaryIcon.png</value>
+  </data>
+  <data name="IMGTemplateIcon" xml:space="preserve">
+    <value>./PTSReports/Resources/templateIcon.png</value>
+  </data>
+  <data name="IMGTemplateIconActivate" xml:space="preserve">
+    <value>./PTSReports/Resources/templateIcon_activate.png</value>
+  </data>
+  <data name="image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMGImage" xml:space="preserve">
+    <value>./PTSReports/Resources/image.png</value>
+  </data>
+  <data name="IMGNo_image" xml:space="preserve">
+    <value>./PTSReports/Resources/no_image.png</value>
+  </data>
+  <data name="no_image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\no_image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMGNext" xml:space="preserve">
+    <value>./PTSReports/Resources/next.png</value>
+  </data>
+  <data name="IMGPrevious" xml:space="preserve">
+    <value>./PTSReports/Resources/previous.png</value>
+  </data>
+  <data name="next" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\next.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="previous" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\previous.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMGReport" xml:space="preserve">
+    <value>./PTSReports/Resources/report.png</value>
+  </data>
+  <data name="report" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\report.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMGTrackingIcon" xml:space="preserve">
+    <value>./PTSReports/Resources/trackingIcon.png</value>
+  </data>
+  <data name="IMGTrackingIconActivate" xml:space="preserve">
+    <value>./PTSReports/Resources/trackingIcon_activate.png</value>
+  </data>
+  <data name="trackingIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\trackingIcon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="trackingIcon_activate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\trackingIcon_activate.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMGDownload" xml:space="preserve">
+    <value>./PTSReports/Resources/download.png</value>
+  </data>
+  <data name="advancedSearchIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\advancedSearchIcon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="advancedSearchIcon_activate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\advancedSearchIcon_activate.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMGAdvancedSearchActivate" xml:space="preserve">
+    <value>./PTSReports/Resources/advancedSearchIcon_activate.png</value>
+  </data>
+  <data name="IMGAdvancedSearchIcon" xml:space="preserve">
+    <value>./PTSReports/Resources/advancedSearchIcon.png</value>
+  </data>
+  <data name="cashierIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cashierIcon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cashierIcon_activate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cashierIcon_activate.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMGCashierIcon" xml:space="preserve">
+    <value>./PTSReports/Resources/cashierIcon.png</value>
+  </data>
+  <data name="IMGCashierIconActivate" xml:space="preserve">
+    <value>./PTSReports/Resources/cashierIcon_activate.png</value>
+  </data>
+  <data name="IMGTop2Icon" xml:space="preserve">
+    <value>./PTSReports/Resources/top2Icon.png</value>
+  </data>
+  <data name="IMGTop2IconActivate" xml:space="preserve">
+    <value>./PTSReports/Resources/top2Icon_activate.png</value>
+  </data>
+  <data name="top2Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\top2Icon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="top2Icon_activate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\top2Icon_activate.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="exceptionPercentageIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\exceptionPercentageIcon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="exceptionPercentageIcon_activate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\exceptionPercentageIcon_activate.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMGExceptionPercentageIcon" xml:space="preserve">
+    <value>./PTSReports/Resources/exceptionPercentageIcon.png</value>
+  </data>
+  <data name="IMGExceptionPercentageIconActivate" xml:space="preserve">
+    <value>./PTSReports/Resources/exceptionPercentageIcon_activate.png</value>
+  </data>
+  <data name="IMGTrendIcon" xml:space="preserve">
+    <value>./PTSReports/Resources/trendIcon.png</value>
+  </data>
+  <data name="IMGTrendIconActivate" xml:space="preserve">
+    <value>./PTSReports/Resources/trendIcon_activate.png</value>
+  </data>
+  <data name="trendIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\trendIcon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="trendIcon_activate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\trendIcon_activate.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMGThredholdActivate" xml:space="preserve">
+    <value>./PTSReports/Resources/thresholdIcon_activate.png</value>
+  </data>
+  <data name="IMGThredholdIcon" xml:space="preserve">
+    <value>./PTSReports/Resources/thresholdIcon.png</value>
+  </data>
+  <data name="thresholdIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\thresholdIcon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="thresholdIcon_activate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\thresholdIcon_activate.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button_click" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button_click.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="download" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

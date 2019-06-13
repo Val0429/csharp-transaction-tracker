@@ -1,0 +1,13 @@
+C:\SNVR\Viewer\DeviceTree.Sort\bin\Debug\DeviceTree.Sort.dll
+C:\SNVR\Viewer\DeviceTree.Sort\bin\Debug\DeviceTree.Sort.pdb
+C:\SNVR\Viewer\DeviceTree.Sort\bin\Debug\Constant.dll
+C:\SNVR\Viewer\DeviceTree.Sort\bin\Debug\DeviceTree.dll
+C:\SNVR\Viewer\DeviceTree.Sort\bin\Debug\Interface.dll
+C:\SNVR\Viewer\DeviceTree.Sort\bin\Debug\PanelBase.dll
+C:\SNVR\Viewer\DeviceTree.Sort\bin\Debug\Constant.pdb
+C:\SNVR\Viewer\DeviceTree.Sort\bin\Debug\DeviceTree.pdb
+C:\SNVR\Viewer\DeviceTree.Sort\bin\Debug\Interface.pdb
+C:\SNVR\Viewer\DeviceTree.Sort\bin\Debug\PanelBase.pdb
+C:\SNVR\Viewer\DeviceTree.Sort\obj\Debug\ResolveAssemblyReference.cache
+C:\SNVR\Viewer\DeviceTree.Sort\obj\Debug\DeviceTree.Sort.dll
+C:\SNVR\Viewer\DeviceTree.Sort\obj\Debug\DeviceTree.Sort.pdb

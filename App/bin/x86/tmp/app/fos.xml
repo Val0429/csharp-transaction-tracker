@@ -1,0 +1,94 @@
+<Page ver="2.0">
+  <PageName>Setup</PageName>
+  <Functions>
+    <Width>200</Width>
+    <Height>120</Height>
+    <Dock>left</Dock>
+    <Function>
+      <Name>Save Setting</Name>
+      <Assembly>SetupBase.dll</Assembly>
+      <ClassName>SetupBase.SaveUI2</ClassName>
+    </Function>
+  </Functions>
+  <Blocks>
+    <Block>
+      <Width>auto</Width>
+      <Dockable>true</Dockable>
+      <Controls>
+        <Control>
+          <Name>Title</Name>
+          <Assembly>SetupBase.dll</Assembly>
+          <ClassName>SetupBase.TitleUI2</ClassName>
+          <Height>31</Height>
+        </Control>
+        <Control>
+          <Name>Server</Name>
+          <Assembly>SetupServer.dll</Assembly>
+          <ClassName>SetupServer.Setup</ClassName>
+          <Height>auto</Height>
+        </Control>
+        <Control>
+          <Name>NVR</Name>
+          <Assembly>SetupNVR.dll</Assembly>
+          <ClassName>SetupNVR.Setup</ClassName>
+          <Height>auto</Height>
+        </Control>
+        <Control>
+          <Name>General</Name>
+          <Assembly>SetupGeneral.dll</Assembly>
+          <ClassName>SetupGeneral.Setup</ClassName>
+          <Height>auto</Height>
+        </Control>
+        <Control>
+          <Name>User</Name>
+          <Assembly>SetupUser.dll</Assembly>
+          <ClassName>SetupUser.Setup</ClassName>
+          <Height>auto</Height>
+        </Control>
+        <Control>
+          <Name>Event</Name>
+          <Assembly>SetupEvent.dll</Assembly>
+          <ClassName>SetupEvent.Setup</ClassName>
+          <Height>auto</Height>
+        </Control>
+        <Control>
+          <Name>License</Name>
+          <Assembly>SetupLicense.dll</Assembly>
+          <ClassName>SetupLicense.Setup</ClassName>
+          <Height>auto</Height>
+        </Control>
+        <Control>
+          <Name>Log</Name>
+          <Assembly>SetupLog.dll</Assembly>
+          <ClassName>SetupLog.Setup</ClassName>
+          <Height>auto</Height>
+        </Control>
+      </Controls>
+    </Block>
+  </Blocks>
+  <Initialize>
+    <Control name="Server">Maximize</Control>
+  </Initialize>
+  <Behaviors>
+    <Behavior>
+      <Trigger name="Server">OnSelectionChange</Trigger>
+      <Trigger name="NVR">OnSelectionChange</Trigger>
+      <Trigger name="General">OnSelectionChange</Trigger>
+      <Trigger name="User">OnSelectionChange</Trigger>
+      <Trigger name="Event">OnSelectionChange</Trigger>
+      <Trigger name="License">OnSelectionChange</Trigger>
+      <Trigger name="Log">OnSelectionChange</Trigger>
+      <Receiver name="Title">DisplayTitle</Receiver>
+    </Behavior>
+    <Behavior>
+      <Trigger name="Title">OnSelectionChange</Trigger>
+      <Receiver name="Server">SelectionChange</Receiver>
+      <Receiver name="NVR">SelectionChange</Receiver>
+      <Receiver name="General">SelectionChange</Receiver>
+      <Receiver name="User">SelectionChange</Receiver>
+      <Receiver name="Event">SelectionChange</Receiver>
+      <Receiver name="License">SelectionChange</Receiver>
+      <Receiver name="Log">SelectionChange</Receiver>
+    </Behavior>
+  </Behaviors>
+</Page>

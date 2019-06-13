@@ -1,0 +1,387 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<style type="text/css">
+	body{
+		font:13px arial,helvetica,clean,sans-serif;
+	}
+	#controlDiv{
+		width:360px;
+		height:330px;
+		background-color:Black;
+	}
+	#functionDiv{
+		position:absolute;
+		top:10px;
+		left:380px;
+		width:200px;
+		border:1px solid gray;	
+		padding:10px;	
+	}
+	#eventDiv{
+		position:absolute;
+		top:10px;
+		left:610px;
+		width:250px;
+		border:1px solid gray;	
+		padding:10px;	
+	}
+	#NvrViewer{ 
+		width:100%;
+		height:100%;
+	}
+	#settingDiv{
+		width:340px;
+		//background-color:Silver;
+		border:1px solid gray;
+		padding:10px;
+	}
+	#host{
+		width:100px;	
+	}
+	#port, #channel{
+		width:40px;	
+	}
+	#account, #password{
+		width:60px;	
+	}
+</style>
+<body>
+    <div id="controlDiv"></div>
+	<span id="versionSpan"></span>
+	<br>
+	<div id="settingDiv">
+		<b><u>Setting</u></b>
+		<br><br>
+		Host : <input id="host" value="127.0.0.1" />
+		<br><br>
+		Port : <input id="port" value="80" />
+		<br><br>
+		Channel : <input id="channel" value="1" />
+		<br><br>
+		Account : <input id="account" value="Admin" />
+		<br><br>
+		Password : <input id="password" value="123456" />
+	</div>
+	<div id="functionDiv">
+		<b><u>Function</u></b>
+		<br><br>
+		<button onclick="live()">Live</button>
+		<br>
+		<button onclick="playback()">1X Playback</button>
+		<br>
+		<button onclick="gotoTimestamp()">Goto Timestamp</button>
+		<button onclick="reverse()">-</button>
+		<button onclick="forward()">+</button>
+		<br>
+		<button onclick="disconnect()">Disconnect</button>
+		<br><br>
+		<button onclick="stretch()">Stretch</button>
+		<br>
+		<button onclick="mute()">Mute</button>
+		<br>
+		<button onclick="active()">Active</button>
+		<br>
+		<button onclick="fullScreen()">Full Screen</button>
+		<br>
+		<button onclick="displayTitleBar()">Display Title Bar</button>		
+		<br><br>
+		<button onclick="decodeIframe()">Decode Iframe</button>
+		<br>
+		<button onclick="autoDropFrame()">Auto Drop Frame</button>
+		<br><br>
+		<button onclick="snapShot()">SnapShot (Clipboard)</button>		
+		<br>
+		<button onclick="snapShotFile()">SnapShot (C:\)</button>				
+		<br><br>
+		<button onclick="digitalPTZ()">Digital PTZ</button>
+		<br>
+		<button onclick="mousePTZ()">Mouse PTZ</button>
+		<br>
+		<button onclick="disablePTZ()">Disable PTZ</button>
+		<br>
+		<button onclick="getPTZMode()">Get PTZ Mode</button>		
+		<br><br>
+		<button onclick="setText()">Set OSD Text</button>
+		<br>
+		<button onclick="clearText()">Clear OSD Text</button>
+		<br><br>
+		<button onclick="setupMotionStart()">Setup Motioin Start (IVS)</button>
+		<br>
+		<button onclick="setupMotionEnd()">Setup Motioin End</button>
+	</div>
+	<div id="eventDiv">
+		<b><u>NvrViewer Event</u></b>
+		<br><br>
+		<div id="eventMsg"></div>
+	</div>
+</body>   
+
+<Html>
+
+<script type="text/javascript">
+
+var control;
+var eventMsg = document.getElementById("eventMsg");
+var hostInput = document.getElementById("host");
+var portInput = document.getElementById("port");
+var channelInput = document.getElementById("channel");
+var accountInput = document.getElementById("account");
+var passwordInput = document.getElementById("password");
+
+function createActiveXControl(){
+	var controlDiv = document.getElementById("controlDiv");
+    control = document.createElement("object");
+	
+	control.id = "NvrViewer";
+    control.classid = "CLSID:9D48009D-DD8F-4FC8-AA16-E7B449BE7FB4";
+    //control.SetDateTimeLayout("%Y-%m-%d %H:%M:%S");
+	controlDiv.appendChild(control);
+	var versionSpan = document.getElementById("versionSpan");
+	versionSpan.innerText = "NVRViewer Ver. " + control.Version;
+}
+
+function AttachIE11Event(obj,_strEventId, _functionCallback) {
+	var nameFromToStringRegex = /^function\s?([^\s(]*)/;
+	var paramsFromToStringRegex = /\(\)|\(.+\)/;
+	var params = _functionCallback.toString().match(paramsFromToStringRegex)[0];
+	var functionName = _functionCallback.name || _functionCallback.toString().match(nameFromToStringRegex)[1];
+	alert(functionName);
+	var handler;
+	try {
+		handler = document.createElement("script");
+		handler.setAttribute("for", obj.id);
+	}
+	catch(ex) {
+		handler = document.createElement('<script for="' + obj.id + '">');
+	}
+	handler.event = _strEventId + params;
+	handler.appendChild(document.createTextNode(functionName + params + ";"));
+	document.body.appendChild(handler);
+};
+
+function connectSetting(){
+	control.ServerIp = hostInput.value;
+	control.ServerPort = portInput.value;
+	control.ServerUsername = accountInput.value;
+	control.ServerPassword = passwordInput.value
+	
+	control.Caption = hostInput.value + " - CH." + channelInput.value + "  ";
+    control.AutoReconnect = 1;
+    control.AudioTrack = 1;
+    control.Mute = 0;
+}
+
+var playMode;
+function live(){	
+	playMode = "live";
+	connectSetting();
+	
+	control.ServerUri = "/airvideo/media?channel=channel" + channelInput.value + "&stream=1";
+	control.SetPlayMode(0);//live
+	control.Connect();
+}
+
+function playback(){
+	playMode = "playback";
+	connectSetting();
+	
+	control.ServerUri = "/airvideo/playback?channel=channel" + channelInput.value;
+	control.SetPlayMode(1);//playback
+	control.Connect();
+	
+	control.Goto(new Date().valueOf(), 2);//1 playback
+}
+
+function gotoTimestamp(){	
+	playMode = "gotoTimestamp";
+	connectSetting();
+	
+	control.ServerUri = "/airvideo/playback?channel=channel" + channelInput.value;
+	control.SetPlayMode(1);//playback
+	control.Connect();
+	
+	control.Goto(new Date().valueOf(), 1);//Goto Timestamp
+}
+function reverse(){
+	if(playMode != "gotoTimestamp"){
+		alert("Effective in \"Goto Timestamp\" mode");
+		return;
+	}
+	
+	if(!controlTimecode)
+		control.Goto(new Date().valueOf(), 1);
+	else
+		control.Goto(controlTimecode - 1000, 1);
+}
+function forward(){
+	if(playMode != "gotoTimestamp"){
+		alert("Effective in \"Goto Timestamp\" mode");
+		return;
+	}
+	
+	if(!controlTimecode)
+		control.Goto(new Date().valueOf(), 1);
+	else
+		control.Goto(controlTimecode + 1000, 1);
+}
+
+function disconnect(){
+	control.Disconnect();
+}
+
+function stretch(){
+	control.StretchToFit = (control.StretchToFit == 1) ? 0 : 1;
+}
+
+function mute(){
+	control.Mute = (control.Mute == 1) ? 0 : 1;
+}
+var isActive = false;
+function active(){
+	isActive = !isActive;
+	control.SetControlActive((isActive) ? 1 : 0);
+}
+
+function fullScreen(){
+	control.EnableFullScreen();
+}
+
+var displayTitle = true;
+function displayTitleBar(){
+	displayTitle = !displayTitle;
+	control.DisplayTitleBar((displayTitle ? 1 : 0));
+}
+
+function decodeIframe(){
+	control.SetDecodeI(1);
+}
+
+function autoDropFrame(){
+	control.SetDecodeI(0);
+}
+
+function snapShot(){
+	control.SnapShot(1, "", 0, 1);
+}
+
+function snapShotFile(){
+	control.SnapShot(1, "C:\\snapshot.jpg", 0, 1);
+}
+
+function digitalPTZ(){
+	disablePTZ();
+	control.EnableMouseDigitalPTZ();
+}
+
+function mousePTZ(){
+	disablePTZ();
+	control.EnableMousePTZ();
+}
+
+function disablePTZ(){
+	control.DisableMousePTZ();
+	control.DisableMouseDigitalPTZ();
+}
+function getPTZMode(){
+	var mode = control.GetPTZMode();
+	if(mode == 1)
+		alert("Digital PTZ");
+	else if(mode == 2)
+		alert("Optical PTZ");
+	else
+		alert("Disable");
+}
+
+function setText(){
+	var fontHeight = 34, fontWeight = 22;
+	var fontX = 0, fontY = 25;
+	var colorRed = 255;
+	var colorGreen = 0;
+	var colorBlue = 0;
+	
+	control.SetTextOut(0, fontX, fontY, ">Test<", "Arial", 0, fontWeight, fontHeight, colorRed, colorGreen, colorBlue);
+}
+
+function setupMotionStart(){
+	if(playMode != "gotoTimestamp"){
+		alert("Effective in \"Goto Timestamp\" mode");
+		return;
+	}
+    control.EnableMotionDetection(1);
+    control.SetupMotionStart();
+}
+
+function setupMotionEnd(){
+	var result = control.SetupMotionEnd();
+	control.EnableMotionDetection(0);
+	alert("Motion Region\n" + result.replace(new RegExp("><" ,"g"), ">\n<"));
+}
+
+function clearText(){
+	control.SetTextOut(0, 0, 0, "", "Arial", 0, 0, 0, 0, 0, 0);
+}
+
+//------------EVENT----------------
+function onMouseKeyDoubleClick(button, x, y){
+	EventMsgTrim("OnMouseKeyDoubleClick\nButton: " + button +"\nX: " + x +"\nY: " + y);	
+}
+function onMouseKeyDown(button, x, y){
+	EventMsgTrim("OnMouseKeyDown\nButton: " + button +"\nX: " + x +"\nY: " + y);	
+}
+function onMouseKeyUp(button, x, y){
+	EventMsgTrim("OnMouseKeyUp\nButton: " + button +"\nX: " + x +"\nY: " + y);	
+}
+function onConnect(success){
+	EventMsgTrim("OnConnect\nSuccess: " + success);	
+}
+function onPlay(){
+	EventMsgTrim("OnPlay");	
+}
+function onDisconnect(){
+	EventMsgTrim("OnDisconnect");	
+}
+function onNetworkLoss(){
+	EventMsgTrim("OnNetworkLoss");	
+}
+function onConnectionRecovery(){
+	EventMsgTrim("OnConnectionRecovery");	
+}
+var controlTimecode;
+function onTimeCode(timecode){
+	controlTimecode = parseInt(timecode);
+	EventMsgTrim("OnTimeCode:\nTimecode: " + timecode);	
+}
+
+function EventMsgTrim(msg){
+	eventMsg.innerText = msg + "\n\n" + eventMsg.innerText;	
+	var count = eventMsg.innerText.split("\n");
+	if(count.length > 35)	
+		eventMsg.innerText = count.splice(0, 35).join("");
+}
+
+createActiveXControl();
+</script>
+<script for="NvrViewer" event="onMouseKeyDoubleClick(button, x, y)">
+    onMouseKeyDoubleClick(button, x, y);
+</script>
+<script for="NvrViewer" event="onMouseKeyDown(button, x, y)">
+    onMouseKeyDown(button, x, y);
+</script>
+<script for="NvrViewer" event="onMouseKeyUp(button, x, y)">
+    onMouseKeyUp(button, x, y);
+</script>
+<script for="NvrViewer" event="onConnect(suss)">
+    onConnect(suss);
+</script>
+<script for="NvrViewer" event="onPlay()">
+    onPlay();
+</script>
+<script for="NvrViewer" event="onDisconnect()">
+    onDisconnect();
+</script>
+<script for="NvrViewer" event="onNetworkLoss()">
+    onNetworkLoss();
+</script>
+<script for="NvrViewer" event="onTimeCode(timecode)">
+    onTimeCode(timecode);
+</script>

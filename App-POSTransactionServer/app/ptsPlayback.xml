@@ -1,0 +1,204 @@
+<Page ver="2.0">
+	<PageName>Playback</PageName>
+	<Menus>
+		<!--Menu>Video Title Bar</Menu-->
+		<Menu>Save Image</Menu>
+		<Menu>Disconnect All</Menu>
+		<Menu>Export Case Queue</Menu>
+	</Menus>
+  <Functions>
+    <Function>
+      <Name>Save Report</Name>
+      <Assembly>PTSReports.dll</Assembly>
+      <ClassName>PTSReports.SaveReport</ClassName>
+    </Function>
+    <Function>
+      <Name>Download Case</Name>
+      <Assembly>PTSReports.dll</Assembly>
+      <ClassName>PTSReports.DownloadCase</ClassName>
+    </Function>
+  </Functions>
+	<Blocks>
+		<Block>
+      <Width>295</Width>
+      <Dock>left</Dock>
+      <Dockable>true</Dockable>
+			<Controls>
+				<Control>
+					<Name>POSExceptionSearch</Name>
+					<Assembly>POSException.dll</Assembly>
+					<ClassName>POSException.ExceptionSearch</ClassName>
+					<Height>auto</Height>
+				</Control>
+				<Control>
+					<Name>POSRegister</Name>
+					<Assembly>POSRegister.dll</Assembly>
+					<ClassName>POSRegister.POSRegister</ClassName>
+					<Height>auto</Height>
+				</Control>
+				<Control>
+					<Name>Device</Name>
+					<Assembly>DeviceTree.dll</Assembly>
+					<ClassName>DeviceTree.DeviceList</ClassName>
+					<Height>auto</Height>
+				</Control>
+			</Controls>
+		</Block>
+		<Block>
+			<Width>auto</Width>
+			<Controls>
+				<Control>
+					<Name>Monitor</Name>
+					<Assembly>VideoMonitor.dll</Assembly>
+					<ClassName>VideoMonitor.VideoMonitor</ClassName>
+					<Height>auto</Height>
+				</Control>
+				<Control>
+					<Name>POSExceptionTransactionDetail</Name>
+					<Assembly>POSException.dll</Assembly>
+					<ClassName>POSException.TransactionDetail</ClassName>
+					<Height>150</Height>
+				</Control>
+				<Control>
+					<Name>TimeTrack</Name>
+					<Assembly>TimeTrack.dll</Assembly>
+					<ClassName>TimeTrack.TimeTrack</ClassName>
+					<Height>210</Height>
+				</Control>
+			</Controls>
+		</Block>
+	</Blocks>
+	<Initialize>
+    <Control name="POSExceptionSearch">Maximize</Control>
+    <Control name="POSRegister">Minimize</Control>
+		<Control name="Device">Minimize</Control>
+		<Control name="POSExceptionTransactionDetail">Minimize</Control>
+		<Control name="POSRegister">SetSwitchPage</Control>
+		<Control name="TimeTrack">SetPlaybackProperty</Control>
+		<Control name="Monitor">SetPlaybackProperty</Control>
+		<Control name="Pager">SetPlaybackProperty</Control>
+	</Initialize>
+	<Behaviors>
+		<!--Behavior>
+			<Trigger name="Video Title Bar">Click</Trigger>
+			<Receiver name="Monitor">VideoTitleBar</Receiver>
+		</Behavior-->
+		<Behavior>
+			<Trigger name="Disconnect All">Click</Trigger>
+			<Receiver name="Monitor">ClearAll</Receiver>
+      <Receiver name="POSExceptionSearch">ClearAll</Receiver>
+		</Behavior>
+		<Behavior>
+			<Trigger name="Save Image">Click</Trigger>
+			<Receiver name="Monitor">Snapshot</Receiver>
+		</Behavior>
+		<Behavior>
+			<Trigger name="Export Case Queue">Click</Trigger>
+			<Receiver name="App">ShowDownloadCaseQueue</Receiver>
+		</Behavior>    
+		<Behavior>
+			<Trigger name="Monitor">OnTitleBarVisibleChange</Trigger>
+			<Receiver name="Video Title Bar">TitleBarVisibleChange</Receiver>
+		</Behavior>
+		<Behavior>
+			<Trigger name="POSRegister">OnDeviceDoubleClick</Trigger>
+			<Receiver name="Monitor">AppendDevice</Receiver>
+		</Behavior>
+		<Behavior>
+			<Trigger name="POSRegister">OnPOSDoubleClick</Trigger>
+			<Receiver name="Monitor">ShowGroup</Receiver>
+		</Behavior>
+		<Behavior>
+			<Trigger name="Device">OnDeviceDoubleClick</Trigger>
+			<Receiver name="Monitor">AppendDevice</Receiver>
+		</Behavior>
+		<Behavior>
+			<Trigger name="Device">OnGroupDoubleClick</Trigger>
+			<Receiver name="Monitor">ShowGroup</Receiver>
+		</Behavior>
+		<Behavior>
+			<Trigger name="Device">OnNVRDoubleClick</Trigger>
+			<Receiver name="Monitor">ShowNVR</Receiver>
+		</Behavior>
+		<Behavior>
+			<Trigger name="Monitor">OnContentChange</Trigger>
+			<Receiver name="TimeTrack">ContentChange</Receiver>
+		</Behavior>
+		<Behavior>
+			<Trigger name="Monitor">OnTimecodeChange</Trigger>
+			<Receiver name="TimeTrack">TimecodeChange</Receiver>
+		</Behavior>
+		<Behavior>
+			<Trigger name="Monitor">OnPageChange</Trigger>
+			<Receiver name="TimeTrack">Stop</Receiver>
+		</Behavior>
+		<Behavior>
+			<Trigger name="TimeTrack">OnContentChange</Trigger>
+			<Trigger name="POSExceptionSearch">OnSelectionChange</Trigger>
+			<Receiver name="Monitor">ContentChange</Receiver>
+		</Behavior>
+		<Behavior>
+			<Trigger name="TimeTrack">OnPlay</Trigger>
+			<Receiver name="Monitor">Playback</Receiver>
+		</Behavior>
+		<Behavior>
+			<Trigger name="TimeTrack">OnTimecodeChange</Trigger>
+			<Receiver name="Monitor">GoTo</Receiver>
+			<Receiver name="POSExceptionTransactionDetail">GoTo</Receiver>
+		</Behavior>
+		<Behavior>
+			<Trigger name="TimeTrack">OnNextFrame</Trigger>
+			<Receiver name="Monitor">NextFrame</Receiver>
+		</Behavior>
+		<Behavior>
+			<Trigger name="TimeTrack">OnPreviousFrame</Trigger>
+			<Receiver name="Monitor">PreviousFrame</Receiver>
+		</Behavior>
+		<Behavior>
+			<Trigger name="Pager">OnLayoutChange</Trigger>
+			<Receiver name="Monitor">LayoutChange</Receiver>
+		</Behavior>
+		<Behavior>
+			<Trigger name="Monitor">OnLayoutChange</Trigger>
+			<Receiver name="Pager">LayoutChange</Receiver>
+		</Behavior>
+		<Behavior>
+			<Trigger name="Download Case">OnDownloadCase</Trigger>
+			<Receiver name="TimeTrack">DownloadCase</Receiver>
+			<Receiver name="POSExceptionTransactionDetail">DownloadCase</Receiver>
+		</Behavior>
+		<Behavior>
+			<Trigger name="Save Report">OnSaveReport</Trigger>
+			<Receiver name="POSExceptionTransactionDetail">SaveReport</Receiver>
+		</Behavior>
+		<!--<Behavior>
+			<Trigger name="POSExceptionSearch">OnSearchResult</Trigger>
+			<Receiver name="POSExceptionSearchResult">UpdateSearchResult</Receiver>
+		</Behavior>
+		<Behavior>
+			<Trigger name="POSExceptionSearch">OnSearchStart</Trigger>
+			<Receiver name="POSExceptionSearchResult">ClearSearchResult</Receiver>
+		</Behavior>-->
+		<Behavior>
+			<Trigger name="POSExceptionSearch">OnTransactionSelectionChange</Trigger>
+			<Receiver name="POSExceptionTransactionDetail">UpdateSearchResult</Receiver>
+		</Behavior>
+		<!--<Behavior>
+			<Trigger name="POSExceptionSearchResult">OnPageChange</Trigger>
+			<Receiver name="POSExceptionSearch">SearchByCondition</Receiver>
+		</Behavior>-->
+		<Behavior>
+			<Trigger name="POSExceptionSearch">OnTimecodeChange</Trigger>
+			<Trigger name="POSExceptionTransactionDetail">OnTimecodeChange</Trigger>
+			<Receiver name="TimeTrack">GoTo</Receiver>
+		</Behavior>
+		<Behavior>
+			<Trigger name="POSExceptionTransactionDetail">OnExportDateTime</Trigger>
+			<Receiver name="TimeTrack">ExportDateTimeChange</Receiver>
+		</Behavior>
+    <Behavior>
+      <Trigger name="Monitor">OnExitFullScreen</Trigger>
+      <Receiver name="App">ExitFullScreen</Receiver>
+    </Behavior>
+	</Behaviors>
+</Page>

@@ -1,0 +1,2 @@
+C:\SNVR\Viewer\App_ConfigurationToOrder\obj\x86\Release\App_ConfigurationToOrder.csprojResolveAssemblyReference.cache
+C:\SNVR\Viewer\App_ConfigurationToOrder\obj\x86\Release\App_ConfigurationToOrder.csproj.GenerateResource.Cache

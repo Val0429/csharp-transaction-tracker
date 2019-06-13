@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6532B9B2-AD88-46FF-AB07-D0DD5991BD04}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SetupBase</RootNamespace>
+    <AssemblyName>SetupBase</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <StartupObject>
+    </StartupObject>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>bin\x86\Release\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <PlatformTarget>x64</PlatformTarget>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <PlatformTarget>x64</PlatformTarget>
+    <OutputPath>bin\x64\Release\</OutputPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ItemGroup>
+    <Compile Include="Manager.cs" />
+    <Compile Include="Paint.cs" />
+    <Compile Include="TitleUI2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TitleUI2.Designer.cs">
+      <DependentUpon>TitleUI2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SaveUI2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SaveUI2.Designer.cs">
+      <DependentUpon>SaveUI2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UndoUI2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UndoUI2.Designer.cs">
+      <DependentUpon>UndoUI2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IconUI2.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Undo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Undo.Designer.cs">
+      <DependentUpon>Undo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Icon.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Icon.Designer.cs">
+      <DependentUpon>Icon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Save.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Save.Designer.cs">
+      <DependentUpon>Save.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Title.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Title.Designer.cs">
+      <DependentUpon>Title.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="TitleUI2.resx">
+      <DependentUpon>TitleUI2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SaveUI2.resx">
+      <DependentUpon>SaveUI2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UndoUI2.resx">
+      <DependentUpon>UndoUI2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Undo.resx">
+      <DependentUpon>Undo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Icon.resx">
+      <DependentUpon>Icon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Save.resx">
+      <DependentUpon>Save.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Title.resx">
+      <DependentUpon>Title.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Constant\Constant.csproj">
+      <Project>{8553A011-E74A-444A-B1CA-AFB25C95D5E1}</Project>
+      <Name>Constant</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Interface\Interface.csproj">
+      <Project>{04D2D06D-6C89-44F4-9756-BC9F21229FF9}</Project>
+      <Name>Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PanelBase\PanelBase.csproj">
+      <Project>{459A5098-C546-4B9C-906D-0FF7CCA03FAD}</Project>
+      <Name>PanelBase</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button.png" />
+    <None Include="Resources\controllerBG.png" />
+    <None Include="Resources\icon.png" />
+    <None Include="Resources\save.png" />
+    <None Include="Resources\tagBG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back_left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back_right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\modify.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\selected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\input_left_highlight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\input_right_highlight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inputBG_highlight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unavailable.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tz_top_left_highlight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tz_top_right_highlight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\back2.png" />
+    <Content Include="Resources\back_left2.png" />
+    <Content Include="Resources\back_right2.png" />
+    <Content Include="Resources\bg.png" />
+    <Content Include="Resources\bg_noborder.png" />
+    <Content Include="Resources\cancelButotn.png" />
+    <Content Include="Resources\inputBG_title.png" />
+    <Content Include="Resources\saveButton.png" />
+    <Content Include="Resources\titleBG.png" />
+    <Content Include="Resources\tz_top_left_title.png" />
+    <Content Include="Resources\tz_top_right_title.png" />
+    <Content Include="Resources\undo.png" />
+    <None Include="Resources\collapse.png" />
+    <None Include="Resources\expand.png" />
+    <Content Include="Resources\input_bl_round.png" />
+    <None Include="Resources\input_t_border.png" />
+    <None Include="Resources\input_b_border.png" />
+    <None Include="Resources\input_br_round.png" />
+    <Content Include="Resources\input_left_split.png" />
+    <Content Include="Resources\input_l_border.png" />
+    <None Include="Resources\input_r_border.png" />
+    <None Include="Resources\input_tr_round.png" />
+    <None Include="Resources\input_right_split.png" />
+    <Content Include="Resources\input_tl_round.png" />
+  </ItemGroup>
+  <PropertyGroup>
+    <PostBuildEvent>copy $(TargetPath) $(SolutionDir)App\$(OutDir)
+
+REM if  not exist "$(SolutionDir)App\$(OutDir)$(ProjectName)\Resources" mkdir $(SolutionDir)App\$(OutDir)$(ProjectName)\Resources
+REM copy $(ProjectDir)\Resources\*.* $(SolutionDir)App\$(OutDir)$(ProjectName)\Resources</PostBuildEvent>
+  </PropertyGroup>
+</Project>

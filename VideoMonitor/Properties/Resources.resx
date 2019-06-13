@@ -1,0 +1,552 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="instantplayback" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\instantplayback.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="reconnect" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\reconnect.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snapshot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\snapshot.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="previousPage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\previousPage.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nextPage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nextPage.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="opticalptz_activate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\opticalptz_activate.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="disconnect" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\disconnect.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="opticalptz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\opticalptz.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="viewerBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\viewerBG.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="monitorBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\monitorBG.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="instantplayback_activate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\instantplayback_activate.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="playback" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\playback.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\banner.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="audioout" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\audioout.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="audioout_activate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\audioout_activate.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="audioin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\audioin.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="audioin_activate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\audioin_activate.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="broadcast" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\broadcast.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="broadcast_activate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\broadcast_activate.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stretch" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stretch.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="search" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\search.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stretch_activate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stretch_activate.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="record" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\record.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="save_image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\save_image.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="digital_output1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\digital_output1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="digital_output1_activate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\digital_output1_activate.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="digital_output2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\digital_output2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="digital_output2_activate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\digital_output2_activate.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="digital_output3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\digital_output3.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="digital_output3_activate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\digital_output3_activate.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="digital_output4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\digital_output4.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="digital_output4_activate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\digital_output4_activate.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="record_activate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\record_activate.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="audioin_disable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\audioin_disable.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BGBanner" xml:space="preserve">
+    <value>./VideoMonitor/Resources/banner.png</value>
+  </data>
+  <data name="BGMonitorBG" xml:space="preserve">
+    <value>./VideoMonitor/Resources/monitorBG.png</value>
+  </data>
+  <data name="BGViewerBG" xml:space="preserve">
+    <value>./VideoMonitor/Resources/viewerBG.png</value>
+  </data>
+  <data name="IMGAudioin" xml:space="preserve">
+    <value>./VideoMonitor/Resources/audioin.png</value>
+  </data>
+  <data name="IMGAudioin_activate" xml:space="preserve">
+    <value>./VideoMonitor/Resources/audioin_activate.png</value>
+  </data>
+  <data name="IMGAudioin_disable" xml:space="preserve">
+    <value>./VideoMonitor/Resources/audioin_disable.png</value>
+  </data>
+  <data name="IMGAudioout" xml:space="preserve">
+    <value>./VideoMonitor/Resources/audioout.png</value>
+  </data>
+  <data name="IMGAudioout_activate" xml:space="preserve">
+    <value>./VideoMonitor/Resources/audioout_activate.png</value>
+  </data>
+  <data name="IMGBroadcast" xml:space="preserve">
+    <value>./VideoMonitor/Resources/broadcast.png</value>
+  </data>
+  <data name="IMGBroadcast_activate" xml:space="preserve">
+    <value>./VideoMonitor/Resources/broadcast_activate.png</value>
+  </data>
+  <data name="IMGDigital_output1" xml:space="preserve">
+    <value>./VideoMonitor/Resources/digital_output1.png</value>
+  </data>
+  <data name="IMGDigital_output1_activate" xml:space="preserve">
+    <value>./VideoMonitor/Resources/digital_output1_activate.png</value>
+  </data>
+  <data name="IMGDigital_output2" xml:space="preserve">
+    <value>./VideoMonitor/Resources/digital_output2.png</value>
+  </data>
+  <data name="IMGDigital_output2_activate" xml:space="preserve">
+    <value>./VideoMonitor/Resources/digital_output2_activate.png</value>
+  </data>
+  <data name="IMGDigital_output3" xml:space="preserve">
+    <value>./VideoMonitor/Resources/digital_output3.png</value>
+  </data>
+  <data name="IMGDigital_output3_activate" xml:space="preserve">
+    <value>./VideoMonitor/Resources/digital_output3_activate.png</value>
+  </data>
+  <data name="IMGDigital_output4" xml:space="preserve">
+    <value>./VideoMonitor/Resources/digital_output4.png</value>
+  </data>
+  <data name="IMGDigital_output4_activate" xml:space="preserve">
+    <value>./VideoMonitor/Resources/digital_output4_activate.png</value>
+  </data>
+  <data name="IMGDisconnect" xml:space="preserve">
+    <value>./VideoMonitor/Resources/disconnect.png</value>
+  </data>
+  <data name="IMGInstantplayback" xml:space="preserve">
+    <value>./VideoMonitor/Resources/instantplayback.png</value>
+  </data>
+  <data name="IMGInstantplayback_activate" xml:space="preserve">
+    <value>./VideoMonitor/Resources/instantplayback_activate.png</value>
+  </data>
+  <data name="IMGNextPage" xml:space="preserve">
+    <value>./VideoMonitor/Resources/nextPage.png</value>
+  </data>
+  <data name="IMGOpticalptz" xml:space="preserve">
+    <value>./VideoMonitor/Resources/opticalptz.png</value>
+  </data>
+  <data name="IMGOpticalptz_activate" xml:space="preserve">
+    <value>./VideoMonitor/Resources/opticalptz_activate.png</value>
+  </data>
+  <data name="IMGPlayback" xml:space="preserve">
+    <value>./VideoMonitor/Resources/playback.png</value>
+  </data>
+  <data name="IMGPreviousPage" xml:space="preserve">
+    <value>./VideoMonitor/Resources/previousPage.png</value>
+  </data>
+  <data name="IMGReconnect" xml:space="preserve">
+    <value>./VideoMonitor/Resources/reconnect.png</value>
+  </data>
+  <data name="IMGRecord" xml:space="preserve">
+    <value>./VideoMonitor/Resources/record.png</value>
+  </data>
+  <data name="IMGRecord_activate" xml:space="preserve">
+    <value>./VideoMonitor/Resources/record_activate.png</value>
+  </data>
+  <data name="IMGSave_image" xml:space="preserve">
+    <value>./VideoMonitor/Resources/save_image.png</value>
+  </data>
+  <data name="IMGSearch" xml:space="preserve">
+    <value>./VideoMonitor/Resources/search.png</value>
+    <comment>No Use</comment>
+  </data>
+  <data name="IMGSnapshot" xml:space="preserve">
+    <value>./VideoMonitor/Resources/snapshot.png</value>
+  </data>
+  <data name="IMGStretch" xml:space="preserve">
+    <value>./VideoMonitor/Resources/stretch.png</value>
+  </data>
+  <data name="IMGStretch_activate" xml:space="preserve">
+    <value>./VideoMonitor/Resources/stretch_activate.png</value>
+  </data>
+  <data name="digital_output5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\digital_output5.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="digital_output5_activate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\digital_output5_activate.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="digital_output6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\digital_output6.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="digital_output6_activate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\digital_output6_activate.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="digital_output7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\digital_output7.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="digital_output7_activate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\digital_output7_activate.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="digital_output8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\digital_output8.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="digital_output8_activate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\digital_output8_activate.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMGDigital_output5" xml:space="preserve">
+    <value>./VideoMonitor/Resources/digital_output5.png</value>
+  </data>
+  <data name="IMGDigital_output5_activate" xml:space="preserve">
+    <value>./VideoMonitor/Resources/digital_output5_activate.png</value>
+  </data>
+  <data name="IMGDigital_output6" xml:space="preserve">
+    <value>./VideoMonitor/Resources/digital_output6.png</value>
+  </data>
+  <data name="IMGDigital_output6_activate" xml:space="preserve">
+    <value>./VideoMonitor/Resources/digital_output6_activate.png</value>
+  </data>
+  <data name="IMGDigital_output7" xml:space="preserve">
+    <value>./VideoMonitor/Resources/digital_output7.png</value>
+  </data>
+  <data name="IMGDigital_output7_activate" xml:space="preserve">
+    <value>./VideoMonitor/Resources/digital_output7_activate.png</value>
+  </data>
+  <data name="IMGDigital_output8" xml:space="preserve">
+    <value>./VideoMonitor/Resources/digital_output8.png</value>
+  </data>
+  <data name="IMGDigital_output8_activate" xml:space="preserve">
+    <value>./VideoMonitor/Resources/digital_output8_activate.png</value>
+  </data>
+  <data name="fisheye" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fisheye.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMGFisheye_activate" xml:space="preserve">
+    <value>./VideoMonitor/Resources/fisheye_activate.png</value>
+  </data>
+  <data name="IMGFisheye" xml:space="preserve">
+    <value>./VideoMonitor/Resources/fisheye.png</value>
+  </data>
+  <data name="fisheye_activate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fisheye_activate.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMGPanic" xml:space="preserve">
+    <value>./VideoMonitor/Resources/panic.png</value>
+  </data>
+  <data name="panic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\panic.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMGStream1" xml:space="preserve">
+    <value>./VideoMonitor/Resources/stream1.png</value>
+  </data>
+  <data name="IMGStream1_activate" xml:space="preserve">
+    <value>./VideoMonitor/Resources/stream1_activate.png</value>
+  </data>
+  <data name="IMGStream2" xml:space="preserve">
+    <value>./VideoMonitor/Resources/stream2.png</value>
+  </data>
+  <data name="IMGStream2_activate" xml:space="preserve">
+    <value>./VideoMonitor/Resources/stream2_activate.png</value>
+  </data>
+  <data name="IMGStream3" xml:space="preserve">
+    <value>./VideoMonitor/Resources/stream3.png</value>
+  </data>
+  <data name="IMGStream3_activate" xml:space="preserve">
+    <value>./VideoMonitor/Resources/stream3_activate.png</value>
+  </data>
+  <data name="IMGStream4" xml:space="preserve">
+    <value>./VideoMonitor/Resources/stream4.png</value>
+  </data>
+  <data name="IMGStream4_activate" xml:space="preserve">
+    <value>./VideoMonitor/Resources/stream4_activate.png</value>
+  </data>
+  <data name="IMGStream5" xml:space="preserve">
+    <value>./VideoMonitor/Resources/stream5.png</value>
+  </data>
+  <data name="IMGStream5_activate" xml:space="preserve">
+    <value>./VideoMonitor/Resources/stream5_activate.png</value>
+  </data>
+  <data name="IMGStream6" xml:space="preserve">
+    <value>./VideoMonitor/Resources/stream6.png</value>
+  </data>
+  <data name="IMGStream6_activate" xml:space="preserve">
+    <value>./VideoMonitor/Resources/stream6_activate.png</value>
+  </data>
+  <data name="stream1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stream1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stream1_activate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stream1_activate.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stream2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stream2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stream2_activate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stream2_activate.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stream3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stream3.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stream3_activate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stream3_activate.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stream4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stream4.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stream4_activate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stream4_activate.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stream5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stream5.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stream5_activate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stream5_activate.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stream6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stream6.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stream6_activate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stream6_activate.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMGPanic_activate" xml:space="preserve">
+    <value>./VideoMonitor/Resources/panic_activate.png</value>
+  </data>
+  <data name="panic_activate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\panic_activate.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="recordButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\recordButton.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="save_imageButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\save_imageButton.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snapshotButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\snapshotButton.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="toolBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\toolBG.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMGLeft" xml:space="preserve">
+    <value>./VideoMonitor/Resources/left.png</value>
+  </data>
+  <data name="IMGRight" xml:space="preserve">
+    <value>./VideoMonitor/Resources/right.png</value>
+  </data>
+  <data name="left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\left.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\right.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button_click" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button_click.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMGRecordButton" xml:space="preserve">
+    <value>./VideoMonitor/Resources/recordButton.png</value>
+  </data>
+  <data name="IMGSaveImageButton" xml:space="preserve">
+    <value>./VideoMonitor/Resources/save_imageButton.png</value>
+  </data>
+  <data name="IMGSnapshotButton" xml:space="preserve">
+    <value>./VideoMonitor/Resources/save_imageButton.png</value>
+  </data>
+  <data name="IMGPopup" xml:space="preserve">
+    <value>./VideoMonitor/Resources/popup.png</value>
+  </data>
+  <data name="popup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\popup.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BGControllerBG" xml:space="preserve">
+    <value>./VideoMonitor/controllerBG.png</value>
+  </data>
+  <data name="cancelButotn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cancelButotn.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="controllerBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\controllerBG.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMGCancelButotn" xml:space="preserve">
+    <value>./VideoMonitor/Resources/cancelButotn.png</value>
+  </data>
+  <data name="IMGOKButton" xml:space="preserve">
+    <value>./VideoMonitor/Resources/okButton.png</value>
+  </data>
+  <data name="okButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\okButton.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="fisheye_activate1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fisheye_activate1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fisheye_activate2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fisheye_activate2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fisheye_activate3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fisheye_activate3.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMGFisheye_activate1" xml:space="preserve">
+    <value>./VideoMonitor/Resources/fisheye_activate1.png</value>
+  </data>
+  <data name="IMGFisheye_activate2" xml:space="preserve">
+    <value>./VideoMonitor/Resources/fisheye_activate2.png</value>
+  </data>
+  <data name="IMGFisheye_activate3" xml:space="preserve">
+    <value>./VideoMonitor/Resources/fisheye_activate3.png</value>
+  </data>
+</root>

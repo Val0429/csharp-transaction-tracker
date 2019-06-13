@@ -1,0 +1,110 @@
+CGI: cgi-bin/posdbquery?method=ReadDailyReportByStationGroupByException                             
+Condition: <Request><RegisterId>SF25</RegisterId><StartUTC>1541952000000</StartUTC><EndUTC>1542005903092</EndUTC></Request>
+Elapsed Time: 14:58:23 -> 14:58:23                                                                  
+Result: <Result startUTC="1541952000000" endUTC="1542005903092" status="200" />                     
+--------------------------------------------------------------------------------                    
+CGI: cgi-bin/posdbquery?method=ReadDailyReportByStationGroupByException                             
+Condition: <Request><RegisterId>SF25</RegisterId><StartUTC>1541952000000</StartUTC><EndUTC>1542005940409</EndUTC></Request>
+Elapsed Time: 14:59:00 -> 14:59:00                                                                  
+Result: <Result startUTC="1541952000000" endUTC="1542005940409" status="200" />                     
+--------------------------------------------------------------------------------                    
+CGI: cgi-bin/posdbquery?method=ReadDailyReportByStationGroupByException                             
+Condition: <Request><RegisterId>SF25</RegisterId><StartUTC>1541952000000</StartUTC><EndUTC>1542006219462</EndUTC></Request>
+Elapsed Time: 15:03:39 -> 15:03:39                                                                  
+Result: <Result startUTC="1541952000000" endUTC="1542006219462" status="200" />                     
+--------------------------------------------------------------------------------                    
+CGI: cgi-bin/posdbquery?method=ReadDailyReportByStationGroupByException                             
+Condition: <Request><RegisterId>SF25</RegisterId><StartUTC>1541952000000</StartUTC><EndUTC>1542006314978</EndUTC></Request>
+Elapsed Time: 15:05:15 -> 15:05:15                                                                  
+Result: <Result startUTC="1541952000000" endUTC="1542006314978" status="200" />                     
+--------------------------------------------------------------------------------                    
+CGI: cgi-bin/posdbquery?method=ReadDailyReportByStationGroupByException                             
+Condition: <Request><RegisterId>SF25</RegisterId><StartUTC>1541952000000</StartUTC><EndUTC>1542006793930</EndUTC></Request>
+Elapsed Time: 15:13:14 -> 15:13:14                                                                  
+Result: <Result startUTC="1541952000000" endUTC="1542006793930" status="200" />                     
+--------------------------------------------------------------------------------                    
+CGI: cgi-bin/posdbquery?method=ReadDailyReportByStationGroupByException                             
+Condition: <Request><RegisterId>SF25</RegisterId><StartUTC>1541952000000</StartUTC><EndUTC>1542006939376</EndUTC></Request>
+Elapsed Time: 15:15:39 -> 15:15:39                                                                  
+Result: <Result startUTC="1541952000000" endUTC="1542006939376" status="200" />                     
+--------------------------------------------------------------------------------                    
+CGI: cgi-bin/posdbquery?method=ReadDailyReportByStationGroupByException                             
+Condition: <Request><RegisterId>SF25</RegisterId><StartUTC>1541952000000</StartUTC><EndUTC>1542007086753</EndUTC></Request>
+Elapsed Time: 15:18:06 -> 15:18:07                                                                  
+Result: <Result startUTC="1541952000000" endUTC="1542007086753" status="200" />                     
+--------------------------------------------------------------------------------                    
+CGI: cgi-bin/posdbquery?method=ReadDailyReportByStationGroupByException                             
+Condition: <Request><RegisterId>SF25</RegisterId><StartUTC>1541952000000</StartUTC><EndUTC>1542011465100</EndUTC></Request>
+Elapsed Time: 16:31:05 -> 16:31:05                                                                  
+Result: <Result startUTC="1541952000000" endUTC="1542011465100" status="200" />                     
+--------------------------------------------------------------------------------                    
+CGI: cgi-bin/posdbquery?method=ReadDailyReportByStationGroupByException                             
+Condition: <Request><RegisterId>SF25</RegisterId><StartUTC>1541952000000</StartUTC><EndUTC>1542011911003</EndUTC></Request>
+Elapsed Time: 16:38:31 -> 16:38:31                                                                  
+Result: <Result startUTC="1541952000000" endUTC="1542011911003" status="200" />                     
+--------------------------------------------------------------------------------                    
+CGI: cgi-bin/posdbquery?method=ReadDailyReportByStationGroupByException                             
+Condition: <Request><RegisterId>SF25</RegisterId><StartUTC>1541952000000</StartUTC><EndUTC>1542011988469</EndUTC></Request>
+Elapsed Time: 16:39:48 -> 16:39:48                                                                  
+Result: <Result startUTC="1541952000000" endUTC="1542011988469" status="200" />                     
+--------------------------------------------------------------------------------                    
+CGI: cgi-bin/posdbquery?method=ReadDailyReportByStationGroupByException                             
+Condition: <Request><RegisterId>101</RegisterId><StartUTC>1542038400000</StartUTC><EndUTC>1542093942301</EndUTC></Request>
+Elapsed Time: 15:25:42 -> 15:25:47                                                                  
+Result:                                                                                             
+--------------------------------------------------------------------------------                    
+CGI: cgi-bin/posdbquery?method=ReadDailyReportByStationGroupByException                             
+Condition: <Request><RegisterId>101</RegisterId><StartUTC>1542038400000</StartUTC><EndUTC>1542094004094</EndUTC></Request>
+Elapsed Time: 15:26:44 -> 15:26:47                                                                  
+Result:                                                                                             
+--------------------------------------------------------------------------------                    
+CGI: cgi-bin/posdbquery?method=ReadDailyReportByStationGroupByException                             
+Condition: <Request><RegisterId>Op21</RegisterId><RegisterId>PTS</RegisterId><StartUTC>1542211200000</StartUTC><EndUTC>1542273081522</EndUTC></Request>
+Elapsed Time: 17:11:22 -> 17:11:28                                                                  
+Result: <Result startUTC="1542211200000" endUTC="1542273081522" status="200" />                     
+--------------------------------------------------------------------------------                    
+CGI: cgi-bin/posdbquery?method=ReadDailyReportByStationGroupByException                             
+Condition: <Request><RegisterId>S06553</RegisterId><RegisterId>1</RegisterId><RegisterId>2</RegisterId><RegisterId>3</RegisterId><RegisterId>PTS</RegisterId><StartUTC>1547136000000</StartUTC><EndUTC>1547197002305</EndUTC></Request>
+Elapsed Time: 16:56:40 -> 16:56:40                                                                  
+Result: <Result startUTC="1547136000000" endUTC="1547197002305" status="200"><Exception name="COUPON">378</Exception></Result>
+--------------------------------------------------------------------------------                    
+CGI: cgi-bin/posdbquery?method=ReadDailyReportByStationGroupByException                             
+Condition: <Request><RegisterId>S06553</RegisterId><RegisterId>1</RegisterId><RegisterId>2</RegisterId><RegisterId>3</RegisterId><RegisterId>PTS</RegisterId><StartUTC>1547136000000</StartUTC><EndUTC>1547197968423</EndUTC></Request>
+Elapsed Time: 17:12:46 -> 17:12:46                                                                  
+Result: <Result startUTC="1547136000000" endUTC="1547197968423" status="200"><Exception name="COUPON">378</Exception></Result>
+--------------------------------------------------------------------------------                    
+CGI: cgi-bin/posdbquery?method=ReadDailyReportByStationGroupByException                             
+Condition: <Request><RegisterId>S06553</RegisterId><RegisterId>1</RegisterId><StartUTC>1550073600000</StartUTC><EndUTC>1550121050174</EndUTC></Request>
+Elapsed Time: 13:10:50 -> 13:10:50                                                                  
+Result: <Result startUTC="1550073600000" endUTC="1550121050174" status="200" />                     
+--------------------------------------------------------------------------------                    
+CGI: cgi-bin/posdbquery?method=ReadDailyReportByStationGroupByException                             
+Condition: <Request><RegisterId>S06553</RegisterId><RegisterId>1</RegisterId><StartUTC>1550073600000</StartUTC><EndUTC>1550121216176</EndUTC></Request>
+Elapsed Time: 13:13:36 -> 13:13:36                                                                  
+Result: <Result startUTC="1550073600000" endUTC="1550121216176" status="200" />                     
+--------------------------------------------------------------------------------                    
+CGI: cgi-bin/posdbquery?method=ReadDailyReportByStationGroupByException                             
+Condition: <Request><RegisterId>S06553</RegisterId><RegisterId>1</RegisterId><StartUTC>1550073600000</StartUTC><EndUTC>1550121750488</EndUTC></Request>
+Elapsed Time: 13:22:30 -> 13:22:30                                                                  
+Result: <Result startUTC="1550073600000" endUTC="1550121750488" status="200" />                     
+--------------------------------------------------------------------------------                    
+CGI: cgi-bin/posdbquery?method=ReadDailyReportByStationGroupByException                             
+Condition: <Request><RegisterId>S06553</RegisterId><RegisterId>1</RegisterId><StartUTC>1550073600000</StartUTC><EndUTC>1550121915873</EndUTC></Request>
+Elapsed Time: 13:25:16 -> 13:25:16                                                                  
+Result: <Result startUTC="1550073600000" endUTC="1550121915873" status="200" />                     
+--------------------------------------------------------------------------------                    
+CGI: cgi-bin/posdbquery?method=ReadDailyReportByStationGroupByException                             
+Condition: <Request><RegisterId>S06553</RegisterId><RegisterId>1</RegisterId><StartUTC>1550073600000</StartUTC><EndUTC>1550122004628</EndUTC></Request>
+Elapsed Time: 13:26:44 -> 13:26:45                                                                  
+Result: <Result startUTC="1550073600000" endUTC="1550122004628" status="200" />                     
+--------------------------------------------------------------------------------                    
+CGI: cgi-bin/posdbquery?method=ReadDailyReportByStationGroupByException                             
+Condition: <Request><RegisterId>S06553</RegisterId><RegisterId>1</RegisterId><StartUTC>1550073600000</StartUTC><EndUTC>1550122375289</EndUTC></Request>
+Elapsed Time: 13:32:55 -> 13:32:55                                                                  
+Result: <Result startUTC="1550073600000" endUTC="1550122375289" status="200" />                     
+--------------------------------------------------------------------------------                    
+CGI: cgi-bin/posdbquery?method=ReadDailyReportByStationGroupByException                             
+Condition: <Request><RegisterId>S06553</RegisterId><RegisterId>1</RegisterId><StartUTC>1550073600000</StartUTC><EndUTC>1550123152781</EndUTC></Request>
+Elapsed Time: 13:45:53 -> 13:45:53                                                                  
+Result: <Result startUTC="1550073600000" endUTC="1550123152781" status="200" />                     
+--------------------------------------------------------------------------------                    

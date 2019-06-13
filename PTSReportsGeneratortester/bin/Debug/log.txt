@@ -1,0 +1,130 @@
+TYPE: Exception                                                                                     
+REPORT: <Result endUTC="1518451199000" startUTC="1518364800000" status="200" timeZone="28800000"><Store id="1"><Date date="2018-02-12" dateUTC="1518393600000"><Excpetion name="DISCOUNT">2</Excpetion><Excpetion name="ORDER CANCEL">2</Excpetion></Date></Store></Result>
+NVR:                                                                                                
+FILE TYPE: PDF                                                                                      
+Parse Report Done                                                                                   02-13 16:24:16.228
+Parse NVR Done                                                                                      02-13 16:24:20.508
+Error:An error occurred during local report processing.                                             02-13 16:24:24.295
+Type:Exception                                                                                      02-13 16:24:24.296
+ReportXmlDoc:<Result endUTC="1518451199000" startUTC="1518364800000" status="200" timeZone="28800000"><Store id="1"><Date date="2018-02-12" dateUTC="1518393600000"><Excpetion name="DISCOUNT">2</Excpetion><Excpetion name="ORDER CANCEL">2</Excpetion></Date></Store></Result>02-13 16:24:24.296
+Convert File Done                                                                                   02-13 16:24:26.327
+TYPE: Exception                                                                                     
+REPORT: <Result endUTC="1518451199000" startUTC="1518364800000" status="200" timeZone="28800000"><Store id="1"><Date date="2018-02-12" dateUTC="1518393600000"><Excpetion name="DISCOUNT">2</Excpetion><Excpetion name="ORDER CANCEL">2</Excpetion></Date></Store></Result>
+NVR:                                                                                                
+FILE TYPE: PDF                                                                                      
+Parse Report Done                                                                                   02-13 16:25:06.278
+Parse NVR Done                                                                                      02-13 16:25:06.283
+Error:An error occurred during local report processing.                                             02-13 16:26:00.108
+Type:Exception                                                                                      02-13 16:26:03.287
+TYPE: Exception                                                                                     
+REPORT: <Result endUTC="1518451199000" startUTC="1518364800000" status="200" timeZone="28800000"><Store id="1"><Date date="2018-02-12" dateUTC="1518393600000"><Excpetion name="DISCOUNT">2</Excpetion><Excpetion name="ORDER CANCEL">2</Excpetion></Date></Store></Result>
+NVR:                                                                                                
+FILE TYPE: PDF                                                                                      
+Parse Report Done                                                                                   02-13 16:26:19.162
+Parse NVR Done                                                                                      02-13 16:26:19.168
+Error:An error occurred during local report processing.                                             02-13 16:26:31.101
+Type:Exception                                                                                      02-13 16:26:31.101
+ReportXmlDoc:<Result endUTC="1518451199000" startUTC="1518364800000" status="200" timeZone="28800000"><Store id="1"><Date date="2018-02-12" dateUTC="1518393600000"><Excpetion name="DISCOUNT">2</Excpetion><Excpetion name="ORDER CANCEL">2</Excpetion></Date></Store></Result>02-13 16:26:31.101
+Convert File Done                                                                                   02-13 16:26:31.101
+Save File Exception: Microsoft.Reporting.WinForms.LocalProcessingException: An error occurred during local report processing. ---> Microsoft.Reporting.DefinitionInvalidException: The definition of the report '' is invalid. ---> Microsoft.ReportingServices.ReportProcessing.ReportPublishingException: The Value expression for the text box ‘POS’ refers to the field ‘POS’.  Report item expressions can only refer to fields within the current dataset scope or, if inside an aggregate, the specified dataset scope.
+   於 Microsoft.ReportingServices.ReportPublishing.ReportPublishing.CreateIntermediateFormat(ICatalogItemContext reportContext, Byte[] definition, IChunkFactory createChunkCallback, CheckSharedDataSource checkDataSourceCallback, ResolveTemporaryDataSource resolveTemporaryDataSourceCallback, DataSourceInfoCollection originalDataSources, PublishingErrorContext errorContext, AppDomain compilationTempAppDomain, Boolean generateExpressionHostWithRefusedPermissions, IDataProtection dataProtection, String& description, String& language, ParameterInfoCollection& parameters, DataSourceInfoCollection& dataSources, UserLocationFlags& userReferenceLocation, ArrayList& dataSetsName, Boolean& hasExternalImages, Boolean& hasHyperlinks)
+   於 Microsoft.ReportingServices.ReportProcessing.ReportProcessing.CompileOdpReport(ICatalogItemContext reportContext, Byte[] reportDefinition, IChunkFactory createChunkCallback, CheckSharedDataSource checkDataSourceCallback, ResolveTemporaryDataSource resolveTemporaryDataSourceCallback, DataSourceInfoCollection originalDataSources, PublishingErrorContext errorContext, AppDomain compilationTempAppDomain, Boolean generateExpressionHostWithRefusedPermissions, IDataProtection dataProtection, String& reportDescription, String& reportLanguage, ParameterInfoCollection& parameters, DataSourceInfoCollection& dataSources, UserLocationFlags& userReferenceLocation, ArrayList& dataSetsName, Boolean& hasExternalImages, Boolean& hasHyperlinks)
+   於 Microsoft.ReportingServices.ReportProcessing.ReportProcessing.CreateIntermediateFormat(ICatalogItemContext reportContext, Byte[] reportDefinition, IChunkFactory createChunkFactory, CheckSharedDataSource checkDataSourceCallback, ResolveTemporaryDataSource resolveTemporaryDataSourceCallback, DataSourceInfoCollection originalDataSources, AppDomain compilationTempAppDomain, Boolean generateExpressionHostWithRefusedPermissions, ReportProcessingFlags processingFlags, IDataProtection dataProtection)
+   於 Microsoft.ReportingServices.ReportProcessing.ReportProcessing.CreateIntermediateFormat(ICatalogItemContext reportContext, Byte[] reportDefinition, IChunkFactory createChunkFactory, CheckSharedDataSource checkDataSourceCallback, AppDomain compilationTempAppDomain, Boolean generateExpressionHostWithRefusedPermissions, ReportProcessingFlags processingFlags, IDataProtection dataProtection)
+   於 Microsoft.Reporting.ReportCompiler.CompileReport(ICatalogItemContext context, Byte[] reportDefinition, Boolean generateExpressionHostWithRefusedPermissions, ControlSnapshot& snapshot)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 Microsoft.Reporting.ReportCompiler.CompileReport(ICatalogItemContext context, Byte[] reportDefinition, Boolean generateExpressionHostWithRefusedPermissions, ControlSnapshot& snapshot)
+   於 Microsoft.Reporting.PreviewStore.StoredReport.EnsureCompiled(CatalogItemContextBase itemContext)
+   於 Microsoft.Reporting.PreviewStore.GetCompiledReport(CatalogItemContextBase context, Boolean rebuild, Byte[]& reportDefinition, ControlSnapshot& snapshot)
+   於 Microsoft.Reporting.PreviewStore.GetCompiledReport(CatalogItemContextBase context, Boolean rebuild, ControlSnapshot& snapshot)
+   於 Microsoft.Reporting.LocalService.GetCompiledReport(CatalogItemContextBase itemContext, Boolean rebuild, ControlSnapshot& snapshot)
+   於 Microsoft.Reporting.LocalService.CompileReport(CatalogItemContextBase itemContext, Boolean rebuild)
+   於 Microsoft.Reporting.WinForms.LocalReport.EnsureExecutionSession()
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 Microsoft.Reporting.WinForms.LocalReport.EnsureExecutionSession()
+   於 Microsoft.Reporting.WinForms.LocalReport.InternalRender(String format, Boolean allowInternalRenderers, String deviceInfo, PageCountMode pageCountMode, CreateAndRegisterStream createStreamCallback, Warning[]& warnings)
+   於 Microsoft.Reporting.WinForms.LocalReport.InternalRender(String format, Boolean allowInternalRenderers, String deviceInfo, PageCountMode pageCountMode, String& mimeType, String& encoding, String& fileNameExtension, String[]& streams, Warning[]& warnings)
+   於 Microsoft.Reporting.WinForms.LocalReport.Render(String format, String deviceInfo, PageCountMode pageCountMode, String& mimeType, String& encoding, String& fileNameExtension, String[]& streams, Warning[]& warnings)
+   於 Microsoft.Reporting.WinForms.Report.Render(String format, String deviceInfo, String& mimeType, String& encoding, String& fileNameExtension, String[]& streams, Warning[]& warnings)
+   於 PTSReportsGenerator.PTSReportViewer.SaveAs(String path, String type) 於 F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\PTSReportsGenerator\PTSReportViewer.cs: 行 278
+   於 PTSReportsGenerator.PTSReportViewer.SaveAsPDF(String path) 於 F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\PTSReportsGenerator\PTSReportViewer.cs: 行 255
+   於 PTSReportsGenerator.PTSReportViewer.CreateReport(String reportType, String reportXml, String nvrXml, String fileType, String fileNamePrefix, String fileNameSuffix) 於 F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\PTSReportsGenerator\PTSReportViewer.cs: 行 218
+-----------------------------------------                                                           02-13 16:26:31.176
+TYPE: Exception                                                                                     
+REPORT: <Result endUTC="1518451199000" startUTC="1518364800000" status="200" timeZone="28800000"><Store id="1"><Date date="2018-02-12" dateUTC="1518393600000"><Excpetion name="DISCOUNT">2</Excpetion><Excpetion name="ORDER CANCEL">2</Excpetion></Date></Store></Result>
+NVR:                                                                                                
+FILE TYPE: PDF                                                                                      
+Parse Report Done                                                                                   02-13 16:26:33.104
+Parse NVR Done                                                                                      02-13 16:26:33.104
+TYPE: Exception                                                                                     
+REPORT: <Result endUTC="1518451199000" startUTC="1518364800000" status="200" timeZone="28800000"><Store id="1"><Date date="2018-02-12" dateUTC="1518393600000"><Excpetion name="DISCOUNT">2</Excpetion><Excpetion name="ORDER CANCEL">2</Excpetion></Date></Store></Result>
+NVR:                                                                                                
+FILE TYPE: PDF                                                                                      
+Parse Report Done                                                                                   02-13 16:27:59.714
+Parse NVR Done                                                                                      02-13 16:27:59.719
+TYPE: Exception                                                                                     
+REPORT: <Result endUTC="1518451199000" startUTC="1518364800000" status="200" timeZone="28800000"><Store id="1"><Date date="2018-02-12" dateUTC="1518393600000"><Excpetion name="DISCOUNT">2</Excpetion><Excpetion name="ORDER CANCEL">2</Excpetion></Date></Store></Result>
+NVR:                                                                                                
+FILE TYPE: PDF                                                                                      
+Parse Report Done                                                                                   02-13 16:55:38.501
+Parse NVR Done                                                                                      02-13 16:55:38.506
+Success!!                                                                                           02-13 16:56:03.046
+Type:Exception                                                                                      02-13 16:56:03.046
+ReportXmlDoc:<Result endUTC="1518451199000" startUTC="1518364800000" status="200" timeZone="28800000"><Store id="1"><Date date="2018-02-12" dateUTC="1518393600000"><Excpetion name="DISCOUNT">2</Excpetion><Excpetion name="ORDER CANCEL">2</Excpetion></Date></Store></Result>02-13 16:56:03.046
+Convert File Done                                                                                   02-13 16:56:03.046
+Save File Done                                                                                      02-13 16:56:04.050
+-----------------------------------------                                                           02-13 16:56:04.050
+TYPE: Exception                                                                                     
+REPORT: <Result endUTC="1518451199000" startUTC="1518364800000" status="200" timeZone="28800000"><Store id="1"><Date date="2018-02-12" dateUTC="1518393600000"><Excpetion name="DISCOUNT">2</Excpetion><Excpetion name="ORDER CANCEL">2</Excpetion></Date></Store></Result>
+NVR:                                                                                                
+FILE TYPE: PDF                                                                                      
+Parse Report Done                                                                                   02-13 16:56:20.175
+Parse NVR Done                                                                                      02-13 16:56:20.182
+Success!!                                                                                           02-13 16:56:23.706
+Type:Exception                                                                                      02-13 16:56:23.706
+ReportXmlDoc:<Result endUTC="1518451199000" startUTC="1518364800000" status="200" timeZone="28800000"><Store id="1"><Date date="2018-02-12" dateUTC="1518393600000"><Excpetion name="DISCOUNT">2</Excpetion><Excpetion name="ORDER CANCEL">2</Excpetion></Date></Store></Result>02-13 16:56:23.706
+Convert File Done                                                                                   02-13 16:56:23.707
+Save File Done                                                                                      02-13 16:56:24.579
+-----------------------------------------                                                           02-13 16:56:24.579
+TYPE: Exception                                                                                     
+REPORT: <Result endUTC="1518451199000" startUTC="1518364800000" status="200" timeZone="28800000"><Store id="1"><Date date="2018-02-12" dateUTC="1518393600000"><Excpetion name="DISCOUNT">2</Excpetion><Excpetion name="ORDER CANCEL">2</Excpetion></Date></Store></Result>
+NVR:                                                                                                
+FILE TYPE: PDF                                                                                      
+Parse Report Done                                                                                   02-13 16:59:31.878
+Parse NVR Done                                                                                      02-13 16:59:31.878
+TYPE: Exception                                                                                     
+REPORT: <Result endUTC="1518451199000" startUTC="1518364800000" status="200" timeZone="28800000"><Store id="1"><Date date="2018-02-12" dateUTC="1518393600000"><Excpetion name="DISCOUNT">2</Excpetion><Excpetion name="ORDER CANCEL">2</Excpetion></Date></Store></Result>
+NVR:                                                                                                
+FILE TYPE: PDF                                                                                      
+Parse Report Done                                                                                   02-13 17:00:03.255
+Parse NVR Done                                                                                      02-13 17:00:03.260
+TYPE: Exception                                                                                     
+REPORT: <Result endUTC="1518451199000" startUTC="1518364800000" status="200" timeZone="28800000"><Store id="1"><Date date="2018-02-12" dateUTC="1518393600000"><Excpetion name="DISCOUNT">2</Excpetion><Excpetion name="ORDER CANCEL">2</Excpetion></Date></Store></Result>
+NVR:                                                                                                
+FILE TYPE: PDF                                                                                      
+Parse Report Done                                                                                   02-13 17:01:15.653
+Parse NVR Done                                                                                      02-13 17:01:15.658
+Success!!                                                                                           02-13 17:01:32.293
+Type:Exception                                                                                      02-13 17:01:32.293
+ReportXmlDoc:<Result endUTC="1518451199000" startUTC="1518364800000" status="200" timeZone="28800000"><Store id="1"><Date date="2018-02-12" dateUTC="1518393600000"><Excpetion name="DISCOUNT">2</Excpetion><Excpetion name="ORDER CANCEL">2</Excpetion></Date></Store></Result>02-13 17:01:32.293
+Convert File Done                                                                                   02-13 17:01:32.293
+Save File Done                                                                                      02-13 17:01:33.158
+-----------------------------------------                                                           02-13 17:01:33.158
+TYPE: Exception                                                                                     
+REPORT: <Result endUTC="1518451199000" startUTC="1518364800000" status="200" timeZone="28800000"><Store id="1"><Date date="2018-02-12" dateUTC="1518393600000"><Excpetion name="DISCOUNT">2</Excpetion><Excpetion name="ORDER CANCEL">2</Excpetion></Date></Store></Result>
+NVR:                                                                                                
+FILE TYPE: PDF                                                                                      
+Parse Report Done                                                                                   02-13 17:02:09.435
+Parse NVR Done                                                                                      02-13 17:02:09.435
+TYPE: Exception                                                                                     
+REPORT: <Result endUTC="1518451199000" startUTC="1518364800000" status="200" timeZone="28800000"><Store id="1"><Date date="2018-02-12" dateUTC="1518393600000"><Exception name="DISCOUNT">2</Exception><Exception name="ORDER CANCEL">2</Exception></Date></Store></Result>
+NVR:                                                                                                
+FILE TYPE: PDF                                                                                      
+Parse Report Done                                                                                   02-13 17:04:34.119
+Parse NVR Done                                                                                      02-13 17:04:34.125
+Success!!                                                                                           02-13 17:04:49.211
+Type:Exception                                                                                      02-13 17:04:49.211
+ReportXmlDoc:<Result endUTC="1518451199000" startUTC="1518364800000" status="200" timeZone="28800000"><Store id="1"><Date date="2018-02-12" dateUTC="1518393600000"><Exception name="DISCOUNT">2</Exception><Exception name="ORDER CANCEL">2</Exception></Date></Store></Result>02-13 17:04:49.211
+Convert File Done                                                                                   02-13 17:04:49.211
+Save File Done                                                                                      02-13 17:04:50.327
+-----------------------------------------                                                           02-13 17:04:50.327

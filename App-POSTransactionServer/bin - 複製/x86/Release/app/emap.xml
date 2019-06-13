@@ -1,0 +1,187 @@
+<Page ver="2.0">
+	<PageName>eMap</PageName>
+	<Menus>
+		<Menu>Disconnect All</Menu>
+	</Menus>
+  <Functions>
+    <Function>
+      <Name>Setup</Name>
+      <Assembly>EMap.dll</Assembly>
+      <ClassName>EMap.Setup</ClassName>
+    </Function>
+    <Function>
+      <Name>Revert Map</Name>
+      <Assembly>EMap.dll</Assembly>
+      <ClassName>EMap.Revert</ClassName>
+    </Function>
+    <Function>
+      <Name>Save Map</Name>
+      <Assembly>EMap.dll</Assembly>
+      <ClassName>EMap.Save</ClassName>
+    </Function>
+  </Functions>
+	<Blocks>
+		<Block>
+      <Width>220</Width>
+      <Dock>left</Dock>
+      <Dockable>true</Dockable>
+			<Controls>
+        <Control>
+          <Name>Maps</Name>
+          <Assembly>EMap.dll</Assembly>
+          <ClassName>EMap.MapSetting</ClassName>
+          <Height>auto</Height>
+        </Control>
+        <Control>
+          <Name>DeviceList</Name>
+          <Assembly>DeviceTree.dll</Assembly>
+          <ClassName>DeviceTree.DeviceList</ClassName>
+          <Height>auto</Height>
+        </Control>
+				<!--<Control>
+					<Name>Properties</Name>
+					<Assembly>EMap.dll</Assembly>
+					<ClassName>EMap.PropertiesSetting</ClassName>
+					<Height>220</Height>
+				</Control>-->
+				<Control>
+					<Name>Event</Name>
+					<Assembly>EventPanel.dll</Assembly>
+					<ClassName>EventPanel.EventPanel</ClassName>
+					<Height>auto</Height>
+				</Control>
+			</Controls>
+		</Block>
+		<Block>
+			<Width>auto</Width>
+			<Controls>
+				<Control>
+					<Name>E-Map</Name>
+					<Assembly>EMap.dll</Assembly>
+					<ClassName>EMap.MapControl</ClassName>
+					<Height>auto</Height>
+				</Control>
+			</Controls>
+		</Block>
+	</Blocks>
+	<Initialize>
+    <Control name="DeviceList">Minimize</Control>
+    <Control name="Maps">Maximize</Control>
+		<Control name="Event">SetEMapProperty</Control>
+	</Initialize>
+	<Behaviors>
+		<Behavior>
+			<Trigger name="Disconnect All">Click</Trigger>
+			<Receiver name="E-Map">DisconnectAll</Receiver>
+		</Behavior>
+		<Behavior>
+			<Trigger name="Setup">OnSetupMap</Trigger>
+			<Receiver name="Maps">SetupMap</Receiver>
+		</Behavior>
+		<Behavior>
+			<Trigger name="E-Map">OnStartToSetup</Trigger>
+			<Receiver name="Maps">SetupMap</Receiver>
+		</Behavior>
+		<Behavior>
+			<Trigger name="Maps">OnChangeSetupMode</Trigger>
+			<Receiver name="Setup Map">SetupMapModeChange</Receiver>
+			<Receiver name="E-Map">ChangeSetupMode</Receiver>
+      <Receiver name="Setup">ChangeSetupMode</Receiver>
+			<Receiver name="Save Map">ChangeSetupMode</Receiver>
+			<Receiver name="Revert Map">ChangeSetupMode</Receiver>
+		</Behavior>
+    <Behavior>
+      <Trigger name="Maps">OnCheckUserPermission</Trigger>
+      <Receiver name="Setup">CheckUserPermission</Receiver>
+    </Behavior>
+		<Behavior>
+			<Trigger name="Save Map">OnSaveClick</Trigger>
+			<Receiver name="Maps">SaveMapData</Receiver>
+		</Behavior>
+		<Behavior>
+			<Trigger name="E-Map">OnWebLinkClick</Trigger>
+			<Receiver name="Web Page Container">WebLinkClick</Receiver>
+		</Behavior>
+		<Behavior>
+			<Trigger name="Maps">OnChangeMap</Trigger>
+			<Receiver name="E-Map">ChangeMapById</Receiver>
+		</Behavior>
+		<Behavior>
+			<Trigger name="Maps">OnChangeMapFromProperties</Trigger>
+			<Receiver name="E-Map">ChangeMapById</Receiver>
+		</Behavior>
+		<Behavior>
+			<Trigger name="E-Map">OnChangeMapFromEMap</Trigger>
+			<Receiver name="Maps">ChangeMapById</Receiver>
+		</Behavior>
+		<Behavior>
+			<Trigger name="Maps">OnChangeMapNameFromProperties</Trigger>
+			<Receiver name="E-Map">ChangeMapNameById</Receiver>
+		</Behavior>
+		<Behavior>
+			<Trigger name="Maps">OnChangeMapCountFromMaps</Trigger>
+			<Receiver name="E-Map">ChangeMapCount</Receiver>
+		</Behavior>
+		<Behavior>
+			<Trigger name="E-Map">OnModifyCamera</Trigger>
+			<Receiver name="Maps">ReadCameraData</Receiver>
+		</Behavior>
+		<Behavior>
+			<Trigger name="Maps">OnModifyCameraFromProperties</Trigger>
+			<Receiver name="E-Map">ReadCameraDataUpdateById</Receiver>
+		</Behavior>
+		<Behavior>
+			<Trigger name="E-Map">OnModifyVia</Trigger>
+			<Receiver name="Maps">ReadViaData</Receiver>
+		</Behavior>
+		<Behavior>
+			<Trigger name="E-Map">OnModifyNVR</Trigger>
+			<Receiver name="Maps">ReadNVRData</Receiver>
+		</Behavior>
+		<Behavior>
+			<Trigger name="E-Map">OnModifyAnyAboutMap</Trigger>
+			<Receiver name="Maps">ReceiveMapIsChanged</Receiver>
+		</Behavior>
+		<Behavior>
+			<Trigger name="Revert Map">OnRefreshMap</Trigger>
+			<Receiver name="Maps">ReloadMap</Receiver>
+			<Receiver name="E-Map">ReloadMap</Receiver>
+		</Behavior>
+		<Behavior>
+			<Trigger name="Device">OnDeviceDoubleClick</Trigger>
+			<Receiver name="Maps">MoveToMapByCamera</Receiver>
+		</Behavior>
+		<Behavior>
+			<Trigger name="Device">OnNVRDoubleClick</Trigger>
+			<Receiver name="Maps">MoveToMapByNVR</Receiver>
+		</Behavior>
+		<Behavior>
+			<Trigger name="Maps">OnRemoveAllActivateCameras</Trigger>
+			<Receiver name="E-Map">RemoveAllActivateCameras</Receiver>
+		</Behavior>
+		<!--<Behavior>
+			<Trigger name="Maps">OnBoxHeightChange</Trigger>
+			<Receiver name="Properties">ChangeBoxHeight</Receiver>
+		</Behavior>-->
+		<Behavior>
+			<Trigger name="Event">OnLogDoubleClick</Trigger>
+			<Receiver name="E-Map">ClickEvent</Receiver>
+		</Behavior>
+		<Behavior>
+			<Trigger name="E-Map">OnLogEventAlarmToMaps</Trigger>
+			<Receiver name="Maps">LogEventAlarm</Receiver>
+		</Behavior>
+		<Behavior>
+			<Trigger name="Maps">OnDrawHotZone</Trigger>
+			<Receiver name="E-Map">StartDrawHotZone</Receiver>
+		</Behavior>
+		<Behavior>
+			<Trigger name="Maps">OnAddVia</Trigger>
+			<Receiver name="E-Map">StartAddVia</Receiver>
+		</Behavior>
+		<Behavior>
+			<Trigger name="E-Map">OnClickDrawHotZone</Trigger>
+			<Receiver name="Maps">ReadHotZoneData</Receiver>
+		</Behavior>
+	</Behaviors>
+</Page>

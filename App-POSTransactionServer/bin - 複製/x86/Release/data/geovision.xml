@@ -1,0 +1,84 @@
+<Devices>
+  <Device>
+    <Manufacture>GeoVision</Manufacture>
+    <Model>GV-BX120D/BX120D-E</Model>
+    <Type>MP Box</Type>
+    <ConnectionProtocol>RTSP Over UDP</ConnectionProtocol>
+    <ProfileMode value="2">
+      <Profile id="1">
+        <Compression>H264,MJPEG</Compression>
+        <FrameRate>2,6,10,15,30</FrameRate>
+        <Resolution value="448x252,320x240,320x256">
+          <Bitrate>128K,256K,512K,1M</Bitrate>
+        </Resolution>
+        <Resolution value="640x360,640x480,640x512">
+          <Bitrate>512K,1M,2M,3M</Bitrate>
+        </Resolution>
+        <Resolution value="1280x720,1280x960,1280x1024">
+          <Bitrate>1M,2M,4M,6M</Bitrate>
+        </Resolution>
+      </Profile>
+      <Profile id="2">
+        <Compression>H264,MJPEG,MPEG4</Compression>
+        <FrameRate>2,6,10,15,30</FrameRate>
+        <Resolution value="448x252,320x240,320x256">
+          <Bitrate>128K,256K,512K,1M</Bitrate>
+        </Resolution>
+        <Resolution value="640x360,640x480,640x512">
+          <Bitrate>512K,1M,2M,3M</Bitrate>
+        </Resolution>
+      </Profile>
+    </ProfileMode>
+    <NumberOfChannel>1</NumberOfChannel>
+    <NumberOfAudioIn>1</NumberOfAudioIn>
+    <NumberOfAudioOut>0</NumberOfAudioOut>
+    <NumberOfDI>0</NumberOfDI>
+    <NumberOfDO>0</NumberOfDO>
+    <NumberOfMotion>3</NumberOfMotion>
+    <PanSupport>false</PanSupport>
+    <TiltSupport>false</TiltSupport>
+    <ZoomSupport>false</ZoomSupport>
+    <FocusSupport>false</FocusSupport>
+  </Device>
+  <Device>
+    <Manufacture>GeoVision</Manufacture>
+    <Model>GV-MFD120</Model>
+    <Type>MP Box</Type>
+    <ConnectionProtocol>RTSP Over UDP</ConnectionProtocol>
+    <ProfileMode value="2">
+      <Profile id="1">
+        <Compression>H264,MJPEG</Compression>
+        <FrameRate>2,6,10,15,30</FrameRate>
+        <Resolution value="448x252,320x240,320x256">
+          <Bitrate>128K,256K,512K,1M</Bitrate>
+        </Resolution>
+        <Resolution value="640x360,640x480,640x512">
+          <Bitrate>512K,1M,2M,3M</Bitrate>
+        </Resolution>
+        <Resolution value="1280x720,1280x960,1280x1024">
+          <Bitrate>1M,2M,4M,6M</Bitrate>
+        </Resolution>
+      </Profile>
+      <Profile id="2">
+        <Compression>H264,MJPEG,MPEG4</Compression>
+        <FrameRate>2,6,10,15,30</FrameRate>
+        <Resolution value="448x252,320x240,320x256">
+          <Bitrate>128K,256K,512K,1M</Bitrate>
+        </Resolution>
+        <Resolution value="640x360,640x480,640x512">
+          <Bitrate>512K,1M,2M,3M</Bitrate>
+        </Resolution>
+      </Profile>
+    </ProfileMode>
+    <NumberOfChannel>1</NumberOfChannel>
+    <NumberOfAudioIn>1</NumberOfAudioIn>
+    <NumberOfAudioOut>0</NumberOfAudioOut>
+    <NumberOfDI>0</NumberOfDI>
+    <NumberOfDO>0</NumberOfDO>
+    <NumberOfMotion>3</NumberOfMotion>
+    <PanSupport>false</PanSupport>
+    <TiltSupport>false</TiltSupport>
+    <ZoomSupport>false</ZoomSupport>
+    <FocusSupport>false</FocusSupport>
+  </Device>
+</Devices>

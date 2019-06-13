@@ -1,0 +1,16 @@
+C:\SNVR\Viewer\EventPanel\bin\Debug\EventPanel.dll
+C:\SNVR\Viewer\EventPanel\bin\Debug\EventPanel.pdb
+C:\SNVR\Viewer\EventPanel\bin\Debug\Constant.dll
+C:\SNVR\Viewer\EventPanel\bin\Debug\Interface.dll
+C:\SNVR\Viewer\EventPanel\bin\Debug\PanelBase.dll
+C:\SNVR\Viewer\EventPanel\bin\Debug\Constant.pdb
+C:\SNVR\Viewer\EventPanel\bin\Debug\Interface.pdb
+C:\SNVR\Viewer\EventPanel\bin\Debug\PanelBase.pdb
+C:\SNVR\Viewer\EventPanel\obj\Debug\ResolveAssemblyReference.cache
+C:\SNVR\Viewer\EventPanel\obj\Debug\EventPanel.EventFlowLayoutPanel.resources
+C:\SNVR\Viewer\EventPanel\obj\Debug\EventPanel.EventPanel.resources
+C:\SNVR\Viewer\EventPanel\obj\Debug\EventPanel.Properties.Resources.resources
+C:\SNVR\Viewer\EventPanel\obj\Debug\ResGen.read.1.tlog
+C:\SNVR\Viewer\EventPanel\obj\Debug\ResGen.write.1.tlog
+C:\SNVR\Viewer\EventPanel\obj\Debug\EventPanel.dll
+C:\SNVR\Viewer\EventPanel\obj\Debug\EventPanel.pdb

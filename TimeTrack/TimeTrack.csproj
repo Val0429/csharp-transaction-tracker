@@ -1,0 +1,400 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7E9E01B8-E280-47E0-8CD5-564D89BB944A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TimeTrack</RootNamespace>
+    <AssemblyName>TimeTrack</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <StartupObject>
+    </StartupObject>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>bin\x86\Release\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <PlatformTarget>x64</PlatformTarget>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <PlatformTarget>x64</PlatformTarget>
+    <OutputPath>bin\x64\Release\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bookmark.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EventButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="EventButton.Designer.cs">
+      <DependentUpon>EventButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JogDial.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SwitchPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EventSearch.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Scale.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="JumpRecord.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SelectionRange.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PrintImage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PrintImage.Designer.cs">
+      <DependentUpon>PrintImage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MiniTimeTrackController.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MiniTimeTrackController.Designer.cs">
+      <DependentUpon>MiniTimeTrackController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeviceContainer.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="EventButton.resx">
+      <DependentUpon>EventButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintImage.resx">
+      <DependentUpon>PrintImage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MiniTimeTrackController.resx">
+      <DependentUpon>MiniTimeTrackController.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExportVideo.resx">
+      <DependentUpon>ExportVideo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TimeTrack.resx">
+      <DependentUpon>TimeTrack.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TimeTrackController.resx">
+      <DependentUpon>TimeTrackController.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="ExportVideo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ExportVideo.Designer.cs">
+      <DependentUpon>ExportVideo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TimeTrack.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TimeTrack.Designer.cs">
+      <DependentUpon>TimeTrack.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TimeTrackController.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TimeTrackController.Designer.cs">
+      <DependentUpon>TimeTrackController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tracker.cs" />
+    <Compile Include="TrackerContainer.cs">
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Constant\Constant.csproj">
+      <Project>{8553A011-E74A-444A-B1CA-AFB25C95D5E1}</Project>
+      <Name>Constant</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DeviceConstant\DeviceConstant.csproj">
+      <Project>{0537C312-6599-4A8D-BBEA-765669092C5C}</Project>
+      <Name>DeviceConstant</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Interface\Interface.csproj">
+      <Project>{04D2D06D-6C89-44F4-9756-BC9F21229FF9}</Project>
+      <Name>Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PanelBase\PanelBase.csproj">
+      <Project>{459A5098-C546-4B9C-906D-0FF7CCA03FAD}</Project>
+      <Name>PanelBase</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ReverseBlack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FastPlay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FastPlayBlack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FastReverse.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FastReverseBlack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pause.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Play.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Reverse.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FastReverseList.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FastPlayList.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Black.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pointer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\banner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mini.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mini2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\deviceContainerBG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bookmark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\export_video.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print_image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\export_range_left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\export_range_right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\controllerBG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minus_scale.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus_scale.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scaleBar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scalePoint.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scalePoint_select.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\next_bookmark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\previous_bookmark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\next_record.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\previous_record.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\expand.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\current.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eraser.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scale.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\set_end.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\set_start.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\set_clear.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\audioDetection.png" />
+    <None Include="Resources\audioDetection_on.png" />
+    <Content Include="Resources\audioin.png" />
+    <Content Include="Resources\audioin_on.png" />
+    <Content Include="Resources\audioout.png" />
+    <Content Include="Resources\audioout_on.png" />
+    <None Include="Resources\begin.png" />
+    <Content Include="Resources\button_click.png" />
+    <Content Include="Resources\crossline.png" />
+    <Content Include="Resources\crossline_on.png" />
+    <Content Include="Resources\di.png" />
+    <Content Include="Resources\di_on.png" />
+    <Content Include="Resources\do.png" />
+    <Content Include="Resources\down.png" />
+    <Content Include="Resources\down_on.png" />
+    <Content Include="Resources\do_on.png" />
+    <None Include="Resources\intrusionDetection.png" />
+    <None Include="Resources\intrusionDetection_on.png" />
+    <Content Include="Resources\left.png" />
+    <None Include="Resources\loiteringDetection.png" />
+    <None Include="Resources\loiteringDetection_on.png" />
+    <Content Include="Resources\manualrecord.png" />
+    <Content Include="Resources\manualrecord_on.png" />
+    <Content Include="Resources\motion.png" />
+    <Content Include="Resources\motion_on.png" />
+    <Content Include="Resources\networkloss.png" />
+    <Content Include="Resources\networkloss_on.png" />
+    <Content Include="Resources\networkrecovery.png" />
+    <Content Include="Resources\networkrecovery_on.png" />
+    <None Include="Resources\objectCountingIn.png" />
+    <None Include="Resources\objectCountingIn_on.png" />
+    <None Include="Resources\objectCountingOut.png" />
+    <None Include="Resources\objectCountingOut_on.png" />
+    <Content Include="Resources\panic.png" />
+    <Content Include="Resources\panic_on.png" />
+    <Content Include="Resources\PlayBlack.png" />
+    <None Include="Resources\temperingDetection.png" />
+    <None Include="Resources\temperingDetection_on.png" />
+    <Content Include="Resources\up.png" />
+    <Content Include="Resources\up_on.png" />
+    <Content Include="Resources\userdefine.png" />
+    <Content Include="Resources\userdefine_on.png" />
+    <Content Include="Resources\videoloss.png" />
+    <Content Include="Resources\videoloss_on.png" />
+    <Content Include="Resources\videorecovery.png" />
+    <Content Include="Resources\videorecovery_on.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>copy $(TargetPath) $(SolutionDir)App\$(OutDir)
+
+REM if  not exist "$(SolutionDir)App\$(OutDir)$(ProjectName)\Resources" mkdir $(SolutionDir)App\$(OutDir)$(ProjectName)\Resources
+
+REM copy $(ProjectDir)\Resources\*.* $(SolutionDir)App\$(OutDir)$(ProjectName)\Resources</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

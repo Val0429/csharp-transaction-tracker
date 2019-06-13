@@ -1,0 +1,4 @@
+C:\SNVR\Viewer\App-FailoverSystem\obj\x64\Debug\ResolveAssemblyReference.cache
+C:\SNVR\Viewer\App-FailoverSystem\obj\x64\Debug\ResGen.read.1.tlog
+C:\SNVR\Viewer\App-FailoverSystem\obj\x64\Debug\ResGen.write.1.tlog
+C:\SNVR\Viewer\App-FailoverSystem\bin\x64\Debug\Failover.exe.config

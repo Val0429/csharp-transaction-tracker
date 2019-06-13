@@ -1,0 +1,17 @@
+C:\SNVR\Viewer\SNVR\bin\x86\Debug\PresetPointPanel.dll
+C:\SNVR\Viewer\SNVR\bin\x86\Debug\PresetPointPanel.pdb
+C:\SNVR\Viewer\PresetPointPanel\bin\x86\Debug\PresetPointPanel.dll
+C:\SNVR\Viewer\PresetPointPanel\bin\x86\Debug\PresetPointPanel.pdb
+C:\SNVR\Viewer\PresetPointPanel\bin\x86\Debug\Constant.dll
+C:\SNVR\Viewer\PresetPointPanel\bin\x86\Debug\Interface.dll
+C:\SNVR\Viewer\PresetPointPanel\bin\x86\Debug\PanelBase.dll
+C:\SNVR\Viewer\PresetPointPanel\bin\x86\Debug\Constant.pdb
+C:\SNVR\Viewer\PresetPointPanel\bin\x86\Debug\Interface.pdb
+C:\SNVR\Viewer\PresetPointPanel\bin\x86\Debug\PanelBase.pdb
+C:\SNVR\Viewer\PresetPointPanel\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\SNVR\Viewer\PresetPointPanel\obj\x86\Debug\PresetPointPanel.PresetPointPanel.resources
+C:\SNVR\Viewer\PresetPointPanel\obj\x86\Debug\PresetPointPanel.Properties.Resources.resources
+C:\SNVR\Viewer\PresetPointPanel\obj\x86\Debug\ResGen.read.1.tlog
+C:\SNVR\Viewer\PresetPointPanel\obj\x86\Debug\ResGen.write.1.tlog
+C:\SNVR\Viewer\PresetPointPanel\obj\x86\Debug\PresetPointPanel.dll
+C:\SNVR\Viewer\PresetPointPanel\obj\x86\Debug\PresetPointPanel.pdb

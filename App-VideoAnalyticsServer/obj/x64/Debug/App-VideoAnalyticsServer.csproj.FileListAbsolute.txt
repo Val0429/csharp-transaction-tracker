@@ -1,0 +1,3 @@
+C:\SNVR\Viewer\App-VideoAnalyticsServer\obj\x64\Debug\ResolveAssemblyReference.cache
+C:\SNVR\Viewer\App-VideoAnalyticsServer\obj\x64\Debug\ResGen.read.1.tlog
+C:\SNVR\Viewer\App-VideoAnalyticsServer\obj\x64\Debug\ResGen.write.1.tlog

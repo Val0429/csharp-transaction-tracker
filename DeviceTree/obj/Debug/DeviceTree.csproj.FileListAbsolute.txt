@@ -1,0 +1,17 @@
+C:\SNVR\Viewer\DeviceTree\bin\Debug\DeviceTree.dll
+C:\SNVR\Viewer\DeviceTree\bin\Debug\DeviceTree.pdb
+C:\SNVR\Viewer\DeviceTree\bin\Debug\Constant.dll
+C:\SNVR\Viewer\DeviceTree\bin\Debug\Device.dll
+C:\SNVR\Viewer\DeviceTree\bin\Debug\Interface.dll
+C:\SNVR\Viewer\DeviceTree\bin\Debug\PanelBase.dll
+C:\SNVR\Viewer\DeviceTree\bin\Debug\Constant.pdb
+C:\SNVR\Viewer\DeviceTree\bin\Debug\Device.pdb
+C:\SNVR\Viewer\DeviceTree\bin\Debug\Interface.pdb
+C:\SNVR\Viewer\DeviceTree\bin\Debug\PanelBase.pdb
+C:\SNVR\Viewer\DeviceTree\obj\Debug\ResolveAssemblyReference.cache
+C:\SNVR\Viewer\DeviceTree\obj\Debug\DeviceTree.DeviceTree.resources
+C:\SNVR\Viewer\DeviceTree\obj\Debug\DeviceTree.Properties.Resources.resources
+C:\SNVR\Viewer\DeviceTree\obj\Debug\ResGen.read.1.tlog
+C:\SNVR\Viewer\DeviceTree\obj\Debug\ResGen.write.1.tlog
+C:\SNVR\Viewer\DeviceTree\obj\Debug\DeviceTree.dll
+C:\SNVR\Viewer\DeviceTree\obj\Debug\DeviceTree.pdb

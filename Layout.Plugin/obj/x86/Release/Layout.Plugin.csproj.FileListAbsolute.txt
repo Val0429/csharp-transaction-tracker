@@ -1,0 +1,11 @@
+C:\SNVR\Viewer\Layout.Plugin\bin\x86\Release\Layout.Plugin.dll
+C:\SNVR\Viewer\Layout.Plugin\bin\x86\Release\Behavior.dll
+C:\SNVR\Viewer\Layout.Plugin\bin\x86\Release\Constant.dll
+C:\SNVR\Viewer\Layout.Plugin\bin\x86\Release\Interface.dll
+C:\SNVR\Viewer\Layout.Plugin\bin\x86\Release\Layout.dll
+C:\SNVR\Viewer\Layout.Plugin\bin\x86\Release\PanelBase.dll
+C:\SNVR\Viewer\Layout.Plugin\obj\x86\Release\ResolveAssemblyReference.cache
+C:\SNVR\Viewer\Layout.Plugin\obj\x86\Release\Layout.Plugin.Properties.Resources.resources
+C:\SNVR\Viewer\Layout.Plugin\obj\x86\Release\ResGen.read.1.tlog
+C:\SNVR\Viewer\Layout.Plugin\obj\x86\Release\ResGen.write.1.tlog
+C:\SNVR\Viewer\Layout.Plugin\obj\x86\Release\Layout.Plugin.dll

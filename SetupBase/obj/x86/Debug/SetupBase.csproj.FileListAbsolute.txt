@@ -1,0 +1,134 @@
+C:\SNVR\Viewer\SNVR\bin\x86\Debug\SetupBase.dll
+C:\SNVR\Viewer\SNVR\bin\x86\Debug\SetupBase.pdb
+C:\SNVR\Viewer\SetupBase\bin\x86\Debug\SetupBase.dll
+C:\SNVR\Viewer\SetupBase\bin\x86\Debug\SetupBase.pdb
+C:\SNVR\Viewer\SetupBase\bin\x86\Debug\Constant.dll
+C:\SNVR\Viewer\SetupBase\bin\x86\Debug\Interface.dll
+C:\SNVR\Viewer\SetupBase\bin\x86\Debug\PanelBase.dll
+C:\SNVR\Viewer\SetupBase\bin\x86\Debug\DeviceConstant.dll
+C:\SNVR\Viewer\SetupBase\bin\x86\Debug\Constant.pdb
+C:\SNVR\Viewer\SetupBase\bin\x86\Debug\Interface.pdb
+C:\SNVR\Viewer\SetupBase\bin\x86\Debug\PanelBase.pdb
+C:\SNVR\Viewer\SetupBase\obj\x86\Debug\SetupBase.csprojResolveAssemblyReference.cache
+C:\SNVR\Viewer\SetupBase\obj\x86\Debug\SetupBase.TitleUI2.resources
+C:\SNVR\Viewer\SetupBase\obj\x86\Debug\SetupBase.SaveUI2.resources
+C:\SNVR\Viewer\SetupBase\obj\x86\Debug\SetupBase.UndoUI2.resources
+C:\SNVR\Viewer\SetupBase\obj\x86\Debug\SetupBase.Undo.resources
+C:\SNVR\Viewer\SetupBase\obj\x86\Debug\SetupBase.Icon.resources
+C:\SNVR\Viewer\SetupBase\obj\x86\Debug\SetupBase.Properties.Resources.resources
+C:\SNVR\Viewer\SetupBase\obj\x86\Debug\SetupBase.Save.resources
+C:\SNVR\Viewer\SetupBase\obj\x86\Debug\SetupBase.Title.resources
+C:\SNVR\Viewer\SetupBase\obj\x86\Debug\SetupBase.csproj.GenerateResource.Cache
+C:\SNVR\Viewer\SetupBase\obj\x86\Debug\SetupBase.dll
+C:\SNVR\Viewer\SetupBase\obj\x86\Debug\SetupBase.pdb
+C:\SNVR\Viewer\SetupBase\bin\x86\Debug\DeviceConstant.pdb
+F:\Project\NVR CMS PTS TT\Viewer\SetupBase\bin\x86\Debug\SetupBase.dll
+F:\Project\NVR CMS PTS TT\Viewer\SetupBase\bin\x86\Debug\SetupBase.pdb
+F:\Project\NVR CMS PTS TT\Viewer\SetupBase\bin\x86\Debug\Constant.dll
+F:\Project\NVR CMS PTS TT\Viewer\SetupBase\bin\x86\Debug\Interface.dll
+F:\Project\NVR CMS PTS TT\Viewer\SetupBase\bin\x86\Debug\PanelBase.dll
+F:\Project\NVR CMS PTS TT\Viewer\SetupBase\bin\x86\Debug\DeviceConstant.dll
+F:\Project\NVR CMS PTS TT\Viewer\SetupBase\bin\x86\Debug\Constant.pdb
+F:\Project\NVR CMS PTS TT\Viewer\SetupBase\bin\x86\Debug\Interface.pdb
+F:\Project\NVR CMS PTS TT\Viewer\SetupBase\bin\x86\Debug\PanelBase.pdb
+F:\Project\NVR CMS PTS TT\Viewer\SetupBase\bin\x86\Debug\DeviceConstant.pdb
+F:\Project\NVR CMS PTS TT\Viewer\SetupBase\obj\x86\Debug\SetupBase.csprojResolveAssemblyReference.cache
+F:\Project\NVR CMS PTS TT\Viewer\SetupBase\obj\x86\Debug\SetupBase.TitleUI2.resources
+F:\Project\NVR CMS PTS TT\Viewer\SetupBase\obj\x86\Debug\SetupBase.SaveUI2.resources
+F:\Project\NVR CMS PTS TT\Viewer\SetupBase\obj\x86\Debug\SetupBase.UndoUI2.resources
+F:\Project\NVR CMS PTS TT\Viewer\SetupBase\obj\x86\Debug\SetupBase.Undo.resources
+F:\Project\NVR CMS PTS TT\Viewer\SetupBase\obj\x86\Debug\SetupBase.Icon.resources
+F:\Project\NVR CMS PTS TT\Viewer\SetupBase\obj\x86\Debug\SetupBase.Properties.Resources.resources
+F:\Project\NVR CMS PTS TT\Viewer\SetupBase\obj\x86\Debug\SetupBase.Save.resources
+F:\Project\NVR CMS PTS TT\Viewer\SetupBase\obj\x86\Debug\SetupBase.Title.resources
+F:\Project\NVR CMS PTS TT\Viewer\SetupBase\obj\x86\Debug\SetupBase.csproj.GenerateResource.Cache
+F:\Project\NVR CMS PTS TT\Viewer\SetupBase\obj\x86\Debug\SetupBase.dll
+F:\Project\NVR CMS PTS TT\Viewer\SetupBase\obj\x86\Debug\SetupBase.pdb
+F:\Project\NVR_CMS_PTS_TT\Viewer\SetupBase\bin\x86\Debug\SetupBase.dll
+F:\Project\NVR_CMS_PTS_TT\Viewer\SetupBase\bin\x86\Debug\SetupBase.pdb
+F:\Project\NVR_CMS_PTS_TT\Viewer\SetupBase\bin\x86\Debug\Constant.dll
+F:\Project\NVR_CMS_PTS_TT\Viewer\SetupBase\bin\x86\Debug\Interface.dll
+F:\Project\NVR_CMS_PTS_TT\Viewer\SetupBase\bin\x86\Debug\PanelBase.dll
+F:\Project\NVR_CMS_PTS_TT\Viewer\SetupBase\bin\x86\Debug\DeviceConstant.dll
+F:\Project\NVR_CMS_PTS_TT\Viewer\SetupBase\bin\x86\Debug\Constant.pdb
+F:\Project\NVR_CMS_PTS_TT\Viewer\SetupBase\bin\x86\Debug\Interface.pdb
+F:\Project\NVR_CMS_PTS_TT\Viewer\SetupBase\bin\x86\Debug\PanelBase.pdb
+F:\Project\NVR_CMS_PTS_TT\Viewer\SetupBase\bin\x86\Debug\DeviceConstant.pdb
+F:\Project\NVR_CMS_PTS_TT\Viewer\SetupBase\obj\x86\Debug\SetupBase.TitleUI2.resources
+F:\Project\NVR_CMS_PTS_TT\Viewer\SetupBase\obj\x86\Debug\SetupBase.SaveUI2.resources
+F:\Project\NVR_CMS_PTS_TT\Viewer\SetupBase\obj\x86\Debug\SetupBase.UndoUI2.resources
+F:\Project\NVR_CMS_PTS_TT\Viewer\SetupBase\obj\x86\Debug\SetupBase.Undo.resources
+F:\Project\NVR_CMS_PTS_TT\Viewer\SetupBase\obj\x86\Debug\SetupBase.Icon.resources
+F:\Project\NVR_CMS_PTS_TT\Viewer\SetupBase\obj\x86\Debug\SetupBase.Properties.Resources.resources
+F:\Project\NVR_CMS_PTS_TT\Viewer\SetupBase\obj\x86\Debug\SetupBase.Save.resources
+F:\Project\NVR_CMS_PTS_TT\Viewer\SetupBase\obj\x86\Debug\SetupBase.Title.resources
+F:\Project\NVR_CMS_PTS_TT\Viewer\SetupBase\obj\x86\Debug\SetupBase.csproj.GenerateResource.Cache
+F:\Project\NVR_CMS_PTS_TT\Viewer\SetupBase\obj\x86\Debug\SetupBase.dll
+F:\Project\NVR_CMS_PTS_TT\Viewer\SetupBase\obj\x86\Debug\SetupBase.pdb
+F:\Project\NVR_CMS_PTS_TT\Viewer\SetupBase\obj\x86\Debug\SetupBase.csprojResolveAssemblyReference.cache
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\SetupBase\bin\x86\Debug\SetupBase.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\SetupBase\bin\x86\Debug\SetupBase.pdb
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\SetupBase\bin\x86\Debug\Constant.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\SetupBase\bin\x86\Debug\Interface.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\SetupBase\bin\x86\Debug\PanelBase.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\SetupBase\bin\x86\Debug\DeviceConstant.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\SetupBase\bin\x86\Debug\Constant.pdb
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\SetupBase\bin\x86\Debug\Interface.pdb
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\SetupBase\bin\x86\Debug\PanelBase.pdb
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\SetupBase\bin\x86\Debug\DeviceConstant.pdb
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\SetupBase\obj\x86\Debug\SetupBase.csprojResolveAssemblyReference.cache
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\SetupBase\obj\x86\Debug\SetupBase.TitleUI2.resources
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\SetupBase\obj\x86\Debug\SetupBase.SaveUI2.resources
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\SetupBase\obj\x86\Debug\SetupBase.UndoUI2.resources
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\SetupBase\obj\x86\Debug\SetupBase.Undo.resources
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\SetupBase\obj\x86\Debug\SetupBase.Icon.resources
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\SetupBase\obj\x86\Debug\SetupBase.Properties.Resources.resources
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\SetupBase\obj\x86\Debug\SetupBase.Save.resources
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\SetupBase\obj\x86\Debug\SetupBase.Title.resources
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\SetupBase\obj\x86\Debug\SetupBase.csproj.GenerateResource.Cache
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\SetupBase\obj\x86\Debug\SetupBase.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\SetupBase\obj\x86\Debug\SetupBase.pdb
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\SetupBase\bin\x86\Debug\SetupBase.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\SetupBase\bin\x86\Debug\SetupBase.pdb
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\SetupBase\bin\x86\Debug\Constant.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\SetupBase\bin\x86\Debug\Interface.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\SetupBase\bin\x86\Debug\PanelBase.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\SetupBase\bin\x86\Debug\DeviceConstant.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\SetupBase\bin\x86\Debug\Constant.pdb
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\SetupBase\bin\x86\Debug\Interface.pdb
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\SetupBase\bin\x86\Debug\PanelBase.pdb
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\SetupBase\bin\x86\Debug\DeviceConstant.pdb
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\SetupBase\obj\x86\Debug\SetupBase.csprojResolveAssemblyReference.cache
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\SetupBase\obj\x86\Debug\SetupBase.TitleUI2.resources
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\SetupBase\obj\x86\Debug\SetupBase.SaveUI2.resources
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\SetupBase\obj\x86\Debug\SetupBase.UndoUI2.resources
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\SetupBase\obj\x86\Debug\SetupBase.Undo.resources
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\SetupBase\obj\x86\Debug\SetupBase.Icon.resources
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\SetupBase\obj\x86\Debug\SetupBase.Properties.Resources.resources
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\SetupBase\obj\x86\Debug\SetupBase.Save.resources
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\SetupBase\obj\x86\Debug\SetupBase.Title.resources
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\SetupBase\obj\x86\Debug\SetupBase.csproj.GenerateResource.Cache
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\SetupBase\obj\x86\Debug\SetupBase.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\SetupBase\obj\x86\Debug\SetupBase.pdb
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\SetupBase\bin\x86\Debug\SetupBase.dll
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\SetupBase\bin\x86\Debug\SetupBase.pdb
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\SetupBase\bin\x86\Debug\Constant.dll
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\SetupBase\bin\x86\Debug\Interface.dll
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\SetupBase\bin\x86\Debug\PanelBase.dll
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\SetupBase\bin\x86\Debug\DeviceConstant.dll
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\SetupBase\bin\x86\Debug\Constant.pdb
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\SetupBase\bin\x86\Debug\Interface.pdb
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\SetupBase\bin\x86\Debug\PanelBase.pdb
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\SetupBase\bin\x86\Debug\DeviceConstant.pdb
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\SetupBase\obj\x86\Debug\SetupBase.csprojResolveAssemblyReference.cache
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\SetupBase\obj\x86\Debug\SetupBase.TitleUI2.resources
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\SetupBase\obj\x86\Debug\SetupBase.SaveUI2.resources
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\SetupBase\obj\x86\Debug\SetupBase.UndoUI2.resources
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\SetupBase\obj\x86\Debug\SetupBase.Undo.resources
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\SetupBase\obj\x86\Debug\SetupBase.Icon.resources
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\SetupBase\obj\x86\Debug\SetupBase.Properties.Resources.resources
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\SetupBase\obj\x86\Debug\SetupBase.Save.resources
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\SetupBase\obj\x86\Debug\SetupBase.Title.resources
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\SetupBase\obj\x86\Debug\SetupBase.csproj.GenerateResource.Cache
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\SetupBase\obj\x86\Debug\SetupBase.dll
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\SetupBase\obj\x86\Debug\SetupBase.pdb

@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{ED722FF7-58BB-4099-BFC2-78CFAC0412D2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SetupSchedule</RootNamespace>
+    <AssemblyName>SetupSchedule</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <StartupObject>
+    </StartupObject>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>bin\x86\Release\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <PlatformTarget>x64</PlatformTarget>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <PlatformTarget>x64</PlatformTarget>
+    <OutputPath>bin\x64\Release\</OutputPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ItemGroup>
+    <EmbeddedResource Include="CopySchedulePanel.resx">
+      <DependentUpon>CopySchedulePanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListPanel.resx">
+      <DependentUpon>ListPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NVRListPanel.resx">
+      <DependentUpon>NVRListPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SchedulePanel.resx">
+      <DependentUpon>SchedulePanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ScheduleControl.resx">
+      <DependentUpon>ScheduleControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setup.resx">
+      <DependentUpon>Setup.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CopySchedulePanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CopySchedulePanel.Designer.cs">
+      <DependentUpon>CopySchedulePanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Icon.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ListPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ListPanel.Designer.cs">
+      <DependentUpon>ListPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NVRListPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NVRListPanel.Designer.cs">
+      <DependentUpon>NVRListPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ScheduleDayControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SchedulePanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SchedulePanel.Designer.cs">
+      <DependentUpon>SchedulePanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ScheduleControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ScheduleControl.Designer.cs">
+      <DependentUpon>ScheduleControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Setup.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Setup.Designer.cs">
+      <DependentUpon>Setup.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DeviceConstant\DeviceConstant.csproj">
+      <Project>{0537C312-6599-4A8D-BBEA-765669092C5C}</Project>
+      <Name>DeviceConstant</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Interface\Interface.csproj">
+      <Project>{04D2D06D-6C89-44F4-9756-BC9F21229FF9}</Project>
+      <Name>Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PanelBase\PanelBase.csproj">
+      <Project>{459A5098-C546-4B9C-906D-0FF7CCA03FAD}</Project>
+      <Name>PanelBase</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SetupBase\SetupBase.csproj">
+      <Project>{6532B9B2-AD88-46FF-AB07-D0DD5991BD04}</Project>
+      <Name>SetupBase</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Constant\Constant.csproj">
+      <Project>{8553A011-E74A-444A-B1CA-AFB25C95D5E1}</Project>
+      <Name>Constant</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SetupDevice\SetupDevice.csproj">
+      <Project>{4EA06F0B-57C5-4C8F-AC86-019BB0E5035E}</Project>
+      <Name>SetupDevice</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_activate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inputBG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inputBG_middle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eraser_bg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eraser_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\event_bg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\event_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\record_bg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\record_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tool_bg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tool_bg2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alarm_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sh_bottom_left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sh_bottom_right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sh_left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sh_right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sh_top_left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sh_top_right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <PostBuildEvent>copy $(TargetPath) $(SolutionDir)App\$(OutDir)
+
+REM if  not exist "$(SolutionDir)App\$(OutDir)$(ProjectName)\Resources" mkdir $(SolutionDir)App\$(OutDir)$(ProjectName)\Resources
+REM copy $(ProjectDir)\Resources\*.* $(SolutionDir)App\$(OutDir)$(ProjectName)\Resources</PostBuildEvent>
+  </PropertyGroup>
+</Project>

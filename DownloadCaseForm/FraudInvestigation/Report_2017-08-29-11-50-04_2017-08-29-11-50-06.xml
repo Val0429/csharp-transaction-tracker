@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<Result status="200">
+  <Transaction brand="NEC" checkNo="2-51305170829-013" storeId="500538" transactionTime="2017/08/29 11:50:04" startTime="1503978604000" endTime="1503978604000" cashier="" cashierId="" cashRegisterId="50053851305">
+    <Tags>
+      <Tag type="STORE ID" datetime="1503978604000" value="500538" valueType="" seq="1">店号 : 500538</Tag>
+      <Tag type="POS ID" datetime="1503978604000" value="51305" valueType="" seq="2">POS编号 : 51305</Tag>
+      <Tag type="CASHIER ID" datetime="1503978604000" value="" valueType="" seq="3">员工编号 : </Tag>
+      <Tag type="TRANSACTION NUMBER" datetime="1503978604000" value="2-51305170829-013" valueType="" seq="4">单号 : 2-51305170829-013</Tag>
+      <Tag type="TRANSACTION DATE" datetime="1503978604000" value="2017/08/29" valueType="" seq="5">日期 : 2017/08/29</Tag>
+      <Tag type="TRANSACTION START TIME" datetime="1503978604000" value="11:50:04" valueType="" seq="6">交易开始时间 : 11:50:04</Tag>
+      <Tag type="TRANSACTION END TIME" datetime="1503978604000" value="11:50:04" valueType="" seq="7">交易结束时间 : 11:50:04</Tag>
+      <Tag type="TRANSACTION TYPE" datetime="1503978604000" value="打折" valueType="" seq="8">交易类型 : 打折	交易编号 : 1</Tag>
+      <Tag type="TRANSACTION TYPE" datetime="1503978604000" value="打折" valueType="" seq="9">交易类型 : 打折	交易编号 : 2</Tag>
+      <Tag type="TRANSACTION TYPE" datetime="1503978604000" value="打折" valueType="" seq="10">交易类型 : 打折	交易编号 : 3</Tag>
+      <Tag type="TRANSACTION TYPE" datetime="1503978604000" value="打折" valueType="" seq="11">交易类型 : 打折	交易编号 : 4</Tag>
+      <Tag type="TRANSACTION TYPE" datetime="1503978604000" value="打折" valueType="" seq="12">交易类型 : 打折	交易编号 : 5</Tag>
+      <Tag type="TRANSACTION TYPE" datetime="1503978604000" value="打折" valueType="" seq="13">交易类型 : 打折	交易编号 : 6</Tag>
+      <Tag type="TRANSACTION TYPE" datetime="1503978604000" value="打折" valueType="" seq="14">交易类型 : 打折	交易编号 : 7</Tag>
+      <Tag type="TRANSACTION TYPE" datetime="1503978604000" value="打折" valueType="" seq="15">交易类型 : 打折	交易编号 : 8</Tag>
+      <Tag type="TRANSACTION TYPE" datetime="1503978604000" value="打折" valueType="" seq="16">交易类型 : 打折	交易编号 : 9</Tag>
+      <Tag type="TRANSACTION TYPE" datetime="1503978604000" value="打折" valueType="" seq="17">交易类型 : 打折	交易编号 : 10</Tag>
+      <Tag type="TOTAL" datetime="1503978604000" value="76" valueType="$" seq="18">总价 : 76</Tag>
+    </Tags>
+    <Items>
+      <Item datetime="1503978604000" value="76" valueType="$" quantity="10" seq="19" />
+    </Items>
+    <Exceptions>
+      <Exception datetime="1503978604000" type="DISCOUNT" seq="20">
+        <Item datetime="1503978604000" valueType="$" quantity="10" value="76" seq="21" />
+      </Exception>
+    </Exceptions>
+  </Transaction>
+  <Information>
+    <Server domain="localhost" port="7777" timezone="28800" />
+    <User name="Admin" />
+    <Store id="" name="" />
+    <DownloadTime utc="1503986909000" datetime="08-29-2017 14:08:29" />
+    <ExportStart utc="1503978604000" datetime="08-29-2017 11:50:04" />
+    <ExportEnd utc="1503978606000" datetime="08-29-2017 11:50:06" />
+    <Comment />
+    <ExportVideos>
+      <Video cameraId="1" cameraName="收银台" resolution="1920x1080">01 _2017-08-29-11-49-30_2017-08-29-11-50-30.avi</Video>
+    </ExportVideos>
+  </Information>
+</Result>

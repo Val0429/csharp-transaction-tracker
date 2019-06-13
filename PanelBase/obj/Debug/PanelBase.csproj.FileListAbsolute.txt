@@ -1,0 +1,13 @@
+C:\SNVR\Viewer\PanelBase\bin\Debug\PanelBase.dll
+C:\SNVR\Viewer\PanelBase\bin\Debug\PanelBase.pdb
+C:\SNVR\Viewer\PanelBase\bin\Debug\Interface.dll
+C:\SNVR\Viewer\PanelBase\bin\Debug\Constant.dll
+C:\SNVR\Viewer\PanelBase\bin\Debug\Interface.pdb
+C:\SNVR\Viewer\PanelBase\bin\Debug\Constant.pdb
+C:\SNVR\Viewer\PanelBase\obj\Debug\ResolveAssemblyReference.cache
+C:\SNVR\Viewer\PanelBase\obj\Debug\PanelBase.PanelTitleBar.resources
+C:\SNVR\Viewer\PanelBase\obj\Debug\PanelBase.Properties.Resources.resources
+C:\SNVR\Viewer\PanelBase\obj\Debug\ResGen.read.1.tlog
+C:\SNVR\Viewer\PanelBase\obj\Debug\ResGen.write.1.tlog
+C:\SNVR\Viewer\PanelBase\obj\Debug\PanelBase.dll
+C:\SNVR\Viewer\PanelBase\obj\Debug\PanelBase.pdb

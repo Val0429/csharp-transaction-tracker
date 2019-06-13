@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{621676F9-E784-48C5-8D2C-EC9DB451C4AB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>App</RootNamespace>
+    <AssemblyName>App</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <DebugType>full</DebugType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <DebugType>pdbonly</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <PlatformTarget>x64</PlatformTarget>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <DebugType>full</DebugType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <PlatformTarget>x64</PlatformTarget>
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <DebugType>pdbonly</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutForm.Designer.cs">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AppClient.cs" />
+    <Compile Include="ApplicationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationForm.Designer.cs">
+      <DependentUpon>ApplicationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationForms.cs" />
+    <Compile Include="FullScreen.cs" />
+    <Compile Include="HeaderPanel.cs" />
+    <Compile Include="DesktopManager.cs" />
+    <Compile Include="ExportVideo.cs" />
+    <Compile Include="KeyboardManager.cs" />
+    <Compile Include="PrintImage.cs" />
+    <Compile Include="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ServerProperties.cs" />
+    <Compile Include="SplashForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SplashForm.Designer.cs">
+      <DependentUpon>SplashForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StatusPanel.cs" />
+    <Compile Include="TaskManager.cs" />
+    <Compile Include="ToolPanel.cs" />
+    <Compile Include="UnlockAppForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UnlockAppForm.Designer.cs">
+      <DependentUpon>UnlockAppForm.cs</DependentUpon>
+    </Compile>
+    <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AboutForm.resx">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationForm.resx">
+      <DependentUpon>ApplicationForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lang\en-us.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lang\es.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lang\jp.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lang\pt-br.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lang\pt-pt.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lang\th.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lang\zh-cn.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lang\zh-tw.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashForm.resx">
+      <DependentUpon>SplashForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnlockAppForm.resx">
+      <DependentUpon>UnlockAppForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Constant\Constant.csproj">
+      <Project>{8553A011-E74A-444A-B1CA-AFB25C95D5E1}</Project>
+      <Name>Constant</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DeviceConstant\DeviceConstant.csproj">
+      <Project>{0537C312-6599-4A8D-BBEA-765669092C5C}</Project>
+      <Name>DeviceConstant</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ExportVideoForm\ExportVideoForm.csproj">
+      <Project>{C3572D2B-477D-42A2-825A-0658B6E24CE5}</Project>
+      <Name>ExportVideoForm</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Interface\Interface.csproj">
+      <Project>{04D2D06D-6C89-44F4-9756-BC9F21229FF9}</Project>
+      <Name>Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PanelBase\PanelBase.csproj">
+      <Project>{459A5098-C546-4B9C-906D-0FF7CCA03FAD}</Project>
+      <Name>PanelBase</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PrintImageForm\PrintImageForm.csproj">
+      <Project>{B1462B5D-4217-44EC-95B8-F87B6DD3ADE6}</Project>
+      <Name>PrintImageForm</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ActiveX\32\Register.bat" />
+    <None Include="ActiveX\32\Unregister.bat" />
+    <None Include="ActiveX\64\Register.bat" />
+    <None Include="ActiveX\64\Unregister.bat" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loginPanel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loginPanel2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\controllerBG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ActiveX\32\AxisJoystickModule.dll" />
+    <Content Include="ActiveX\32\AxisVideoTransform.dll" />
+    <Content Include="ActiveX\32\FishEye.dll" />
+    <Content Include="ActiveX\32\FisheyeExp.dll" />
+    <Content Include="ActiveX\32\fisheyesw.dll" />
+    <Content Include="ActiveX\32\IMV1.dll" />
+    <Content Include="ActiveX\32\NvrProvider.dll" />
+    <Content Include="ActiveX\32\NvrProvider.idl" />
+    <Content Include="ActiveX\32\NvrUtility.dll" />
+    <Content Include="ActiveX\32\NvrUtility.idl" />
+    <Content Include="ActiveX\32\NvrViewer.dll" />
+    <Content Include="ActiveX\32\NvrViewer.idl" />
+    <Content Include="ActiveX\64\AxisJoystickModuleX64.dll" />
+    <Content Include="ActiveX\64\AxisVideoTransformX64.dll" />
+    <Content Include="ActiveX\64\FishEye.dll" />
+    <Content Include="ActiveX\64\FisheyeExp.dll" />
+    <Content Include="ActiveX\64\fisheyesw.dll" />
+    <Content Include="ActiveX\64\IMV1.dll" />
+    <Content Include="ActiveX\64\NvrProvider.dll" />
+    <Content Include="ActiveX\64\NvrProvider.idl" />
+    <Content Include="ActiveX\64\NvrUtility.dll" />
+    <Content Include="ActiveX\64\NvrUtility.idl" />
+    <Content Include="ActiveX\64\NvrViewer.dll" />
+    <Content Include="ActiveX\64\NvrViewer.idl" />
+    <Content Include="ActiveX\Sample Code\AirUtility Sample.htm" />
+    <Content Include="ActiveX\Sample Code\AirViewer Sample.htm" />
+    <Content Include="ActiveX\Sample Code\NvrUtility Sample.htm" />
+    <Content Include="ActiveX\Sample Code\NvrViewer Sample.htm" />
+    <Content Include="data\acti.xml" />
+    <Content Include="data\amtk.xml" />
+    <Content Include="data\arecontvision.xml" />
+    <Content Include="data\avigilon.xml" />
+    <Content Include="data\axis.xml" />
+    <Content Include="data\brickcom.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="data\bosch.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="data\certis.xml" />
+    <Content Include="data\dahua.xml" />
+    <Content Include="data\goodwill.xml" />
+    <Content Include="data\inskytec.xml" />
+    <Content Include="data\kedacom.xml" />
+    <Content Include="data\customization.xml" />
+    <Content Include="data\diviotec.xml" />
+    <Content Include="data\fine.xml" />
+    <Content Include="data\hikvision.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="data\mobotix.xml" />
+    <Content Include="data\onvif.xml" />
+    <Content Include="data\dlink.xml" />
+    <Content Include="data\etrovision.xml" />
+    <Content Include="data\everfocus.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="data\ipsurveillance.xml" />
+    <Content Include="data\isapsolution.xml" />
+    <Content Include="data\megasys.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="data\messoa.xml" />
+    <Content Include="data\nexcom.xml" />
+    <Content Include="data\panasonic.xml" />
+    <Content Include="data\pulse.xml" />
+    <Content Include="data\samsung.xml" />
+    <Content Include="data\siemens.xml" />
+    <Content Include="data\stretch.xml" />
+    <Content Include="data\surveon.xml" />
+    <Content Include="data\vigzul.xml" />
+    <Content Include="data\vivotek.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="data\xts.xml" />
+    <Content Include="data\yuan.xml" />
+    <Content Include="data\zavio.xml" />
+    <Content Include="data\zeroone.xml" />
+    <Content Include="Resources\applicationMenuIcon.png" />
+    <Content Include="Resources\bandwidthMenuIcon.png" />
+    <Content Include="Resources\bitrateIcon.png" />
+    <Content Include="Resources\cancelButotn.png" />
+    <Content Include="Resources\cpuIcon.png" />
+    <Content Include="Resources\forgetMe.png" />
+    <Content Include="Resources\fullscreenMenuIcon.png" />
+    <Content Include="Resources\headerBg.png" />
+    <Content Include="Resources\loadingClock.png" />
+    <Content Include="Resources\loginButton.png" />
+    <Content Include="Resources\menuIconBG.png" />
+    <Content Include="Resources\menuIconBG2.png" />
+    <Content Include="Resources\menuIconBG3.png" />
+    <Content Include="Resources\menuIconBG3On.png" />
+    <Content Include="Resources\setupMenuIcon.png" />
+    <Content Include="Resources\splashCenter.png" />
+    <Content Include="Resources\splashLeft.png" />
+    <Content Include="Resources\splashRight.png" />
+    <Content Include="Resources\statusBg.png" />
+    <Content Include="Resources\storageIcon.png" />
+    <Content Include="Resources\timeIcon.png" />
+    <Content Include="Resources\toolBg2.png" />
+    <Content Include="Resources\userIcon.png" />
+    <None Include="Resources\fullscreen.png" />
+    <None Include="Resources\toolBg.png" />
+    <None Include="Resources\progressBarBg.png" />
+    <None Include="Resources\progressBar.png" />
+    <None Include="Resources\menuBg.png" />
+    <None Include="Resources\loading.gif" />
+    <None Include="Resources\functionBg.png" />
+    <None Include="Resources\expand.png" />
+    <None Include="Resources\collapse.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>mkdir $(TargetDir)app
+
+mkdir $(TargetDir)data
+copy $(ProjectDir)data\*.xml $(TargetDir)data\
+
+mkdir $(TargetDir)lang
+copy $(ProjectDir)lang\*.resx $(TargetDir)lang\</PostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

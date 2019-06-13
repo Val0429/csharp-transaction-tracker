@@ -1,0 +1,114 @@
+C:\SNVR\Viewer\NVRLoginCheck\bin\x86\Debug\NVRLoginCheck.dll
+C:\SNVR\Viewer\NVRLoginCheck\bin\x86\Debug\NVRLoginCheck.pdb
+C:\SNVR\Viewer\NVRLoginCheck\bin\x86\Debug\App.dll
+C:\SNVR\Viewer\NVRLoginCheck\bin\x86\Debug\Constant.dll
+C:\SNVR\Viewer\NVRLoginCheck\bin\x86\Debug\Interface.dll
+C:\SNVR\Viewer\NVRLoginCheck\bin\x86\Debug\PanelBase.dll
+C:\SNVR\Viewer\NVRLoginCheck\bin\x86\Debug\DeviceConstant.dll
+C:\SNVR\Viewer\NVRLoginCheck\bin\x86\Debug\ExportVideoForm.dll
+C:\SNVR\Viewer\NVRLoginCheck\bin\x86\Debug\PrintImageForm.dll
+C:\SNVR\Viewer\NVRLoginCheck\bin\x86\Debug\App.pdb
+C:\SNVR\Viewer\NVRLoginCheck\bin\x86\Debug\Constant.pdb
+C:\SNVR\Viewer\NVRLoginCheck\bin\x86\Debug\Interface.pdb
+C:\SNVR\Viewer\NVRLoginCheck\bin\x86\Debug\PanelBase.pdb
+C:\SNVR\Viewer\NVRLoginCheck\bin\x86\Debug\ExportVideoForm.pdb
+C:\SNVR\Viewer\NVRLoginCheck\bin\x86\Debug\PrintImageForm.pdb
+C:\SNVR\Viewer\NVRLoginCheck\obj\x86\Debug\NVRLoginCheck.csprojResolveAssemblyReference.cache
+C:\SNVR\Viewer\NVRLoginCheck\obj\x86\Debug\NVRLoginCheck.dll
+C:\SNVR\Viewer\NVRLoginCheck\obj\x86\Debug\NVRLoginCheck.pdb
+C:\SNVR\Viewer\NVRLoginCheck\bin\x86\Debug\DeviceConstant.pdb
+F:\Project\NVR CMS PTS TT\Viewer\NVRLoginCheck\bin\x86\Debug\NVRLoginCheck.dll
+F:\Project\NVR CMS PTS TT\Viewer\NVRLoginCheck\bin\x86\Debug\NVRLoginCheck.pdb
+F:\Project\NVR CMS PTS TT\Viewer\NVRLoginCheck\bin\x86\Debug\App.dll
+F:\Project\NVR CMS PTS TT\Viewer\NVRLoginCheck\bin\x86\Debug\Constant.dll
+F:\Project\NVR CMS PTS TT\Viewer\NVRLoginCheck\bin\x86\Debug\Interface.dll
+F:\Project\NVR CMS PTS TT\Viewer\NVRLoginCheck\bin\x86\Debug\PanelBase.dll
+F:\Project\NVR CMS PTS TT\Viewer\NVRLoginCheck\bin\x86\Debug\DeviceConstant.dll
+F:\Project\NVR CMS PTS TT\Viewer\NVRLoginCheck\bin\x86\Debug\ExportVideoForm.dll
+F:\Project\NVR CMS PTS TT\Viewer\NVRLoginCheck\bin\x86\Debug\PrintImageForm.dll
+F:\Project\NVR CMS PTS TT\Viewer\NVRLoginCheck\bin\x86\Debug\App.pdb
+F:\Project\NVR CMS PTS TT\Viewer\NVRLoginCheck\bin\x86\Debug\Constant.pdb
+F:\Project\NVR CMS PTS TT\Viewer\NVRLoginCheck\bin\x86\Debug\Interface.pdb
+F:\Project\NVR CMS PTS TT\Viewer\NVRLoginCheck\bin\x86\Debug\PanelBase.pdb
+F:\Project\NVR CMS PTS TT\Viewer\NVRLoginCheck\bin\x86\Debug\DeviceConstant.pdb
+F:\Project\NVR CMS PTS TT\Viewer\NVRLoginCheck\bin\x86\Debug\ExportVideoForm.pdb
+F:\Project\NVR CMS PTS TT\Viewer\NVRLoginCheck\bin\x86\Debug\PrintImageForm.pdb
+F:\Project\NVR CMS PTS TT\Viewer\NVRLoginCheck\obj\x86\Debug\NVRLoginCheck.csprojResolveAssemblyReference.cache
+F:\Project\NVR CMS PTS TT\Viewer\NVRLoginCheck\obj\x86\Debug\NVRLoginCheck.dll
+F:\Project\NVR CMS PTS TT\Viewer\NVRLoginCheck\obj\x86\Debug\NVRLoginCheck.pdb
+F:\Project\NVR_CMS_PTS_TT\Viewer\NVRLoginCheck\bin\x86\Debug\NVRLoginCheck.dll
+F:\Project\NVR_CMS_PTS_TT\Viewer\NVRLoginCheck\bin\x86\Debug\NVRLoginCheck.pdb
+F:\Project\NVR_CMS_PTS_TT\Viewer\NVRLoginCheck\bin\x86\Debug\App.dll
+F:\Project\NVR_CMS_PTS_TT\Viewer\NVRLoginCheck\bin\x86\Debug\Constant.dll
+F:\Project\NVR_CMS_PTS_TT\Viewer\NVRLoginCheck\bin\x86\Debug\Interface.dll
+F:\Project\NVR_CMS_PTS_TT\Viewer\NVRLoginCheck\bin\x86\Debug\PanelBase.dll
+F:\Project\NVR_CMS_PTS_TT\Viewer\NVRLoginCheck\bin\x86\Debug\DeviceConstant.dll
+F:\Project\NVR_CMS_PTS_TT\Viewer\NVRLoginCheck\bin\x86\Debug\ExportVideoForm.dll
+F:\Project\NVR_CMS_PTS_TT\Viewer\NVRLoginCheck\bin\x86\Debug\PrintImageForm.dll
+F:\Project\NVR_CMS_PTS_TT\Viewer\NVRLoginCheck\bin\x86\Debug\App.pdb
+F:\Project\NVR_CMS_PTS_TT\Viewer\NVRLoginCheck\bin\x86\Debug\Constant.pdb
+F:\Project\NVR_CMS_PTS_TT\Viewer\NVRLoginCheck\bin\x86\Debug\Interface.pdb
+F:\Project\NVR_CMS_PTS_TT\Viewer\NVRLoginCheck\bin\x86\Debug\PanelBase.pdb
+F:\Project\NVR_CMS_PTS_TT\Viewer\NVRLoginCheck\bin\x86\Debug\DeviceConstant.pdb
+F:\Project\NVR_CMS_PTS_TT\Viewer\NVRLoginCheck\bin\x86\Debug\ExportVideoForm.pdb
+F:\Project\NVR_CMS_PTS_TT\Viewer\NVRLoginCheck\bin\x86\Debug\PrintImageForm.pdb
+F:\Project\NVR_CMS_PTS_TT\Viewer\NVRLoginCheck\obj\x86\Debug\NVRLoginCheck.csprojResolveAssemblyReference.cache
+F:\Project\NVR_CMS_PTS_TT\Viewer\NVRLoginCheck\obj\x86\Debug\NVRLoginCheck.dll
+F:\Project\NVR_CMS_PTS_TT\Viewer\NVRLoginCheck\obj\x86\Debug\NVRLoginCheck.pdb
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\NVRLoginCheck\bin\x86\Debug\NVRLoginCheck.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\NVRLoginCheck\bin\x86\Debug\NVRLoginCheck.pdb
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\NVRLoginCheck\bin\x86\Debug\App.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\NVRLoginCheck\bin\x86\Debug\Constant.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\NVRLoginCheck\bin\x86\Debug\Interface.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\NVRLoginCheck\bin\x86\Debug\PanelBase.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\NVRLoginCheck\bin\x86\Debug\DeviceConstant.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\NVRLoginCheck\bin\x86\Debug\ExportVideoForm.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\NVRLoginCheck\bin\x86\Debug\PrintImageForm.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\NVRLoginCheck\bin\x86\Debug\App.pdb
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\NVRLoginCheck\bin\x86\Debug\Constant.pdb
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\NVRLoginCheck\bin\x86\Debug\Interface.pdb
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\NVRLoginCheck\bin\x86\Debug\PanelBase.pdb
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\NVRLoginCheck\bin\x86\Debug\DeviceConstant.pdb
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\NVRLoginCheck\bin\x86\Debug\ExportVideoForm.pdb
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\NVRLoginCheck\bin\x86\Debug\PrintImageForm.pdb
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\NVRLoginCheck\obj\x86\Debug\NVRLoginCheck.csprojResolveAssemblyReference.cache
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\NVRLoginCheck\obj\x86\Debug\NVRLoginCheck.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\NVRLoginCheck\obj\x86\Debug\NVRLoginCheck.pdb
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\NVRLoginCheck\bin\x86\Debug\NVRLoginCheck.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\NVRLoginCheck\bin\x86\Debug\NVRLoginCheck.pdb
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\NVRLoginCheck\bin\x86\Debug\App.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\NVRLoginCheck\bin\x86\Debug\Constant.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\NVRLoginCheck\bin\x86\Debug\Interface.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\NVRLoginCheck\bin\x86\Debug\PanelBase.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\NVRLoginCheck\bin\x86\Debug\DeviceConstant.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\NVRLoginCheck\bin\x86\Debug\ExportVideoForm.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\NVRLoginCheck\bin\x86\Debug\PrintImageForm.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\NVRLoginCheck\bin\x86\Debug\Constant.pdb
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\NVRLoginCheck\bin\x86\Debug\Interface.pdb
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\NVRLoginCheck\bin\x86\Debug\PanelBase.pdb
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\NVRLoginCheck\bin\x86\Debug\DeviceConstant.pdb
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\NVRLoginCheck\bin\x86\Debug\ExportVideoForm.pdb
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\NVRLoginCheck\bin\x86\Debug\PrintImageForm.pdb
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\NVRLoginCheck\obj\x86\Debug\NVRLoginCheck.csprojResolveAssemblyReference.cache
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\NVRLoginCheck\obj\x86\Debug\NVRLoginCheck.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\NVRLoginCheck\obj\x86\Debug\NVRLoginCheck.pdb
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\NVRLoginCheck\bin\x86\Debug\App.pdb
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\NVRLoginCheck\bin\x86\Debug\NVRLoginCheck.dll
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\NVRLoginCheck\bin\x86\Debug\NVRLoginCheck.pdb
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\NVRLoginCheck\bin\x86\Debug\App.dll
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\NVRLoginCheck\bin\x86\Debug\Constant.dll
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\NVRLoginCheck\bin\x86\Debug\Interface.dll
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\NVRLoginCheck\bin\x86\Debug\PanelBase.dll
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\NVRLoginCheck\bin\x86\Debug\DeviceConstant.dll
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\NVRLoginCheck\bin\x86\Debug\ExportVideoForm.dll
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\NVRLoginCheck\bin\x86\Debug\PrintImageForm.dll
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\NVRLoginCheck\bin\x86\Debug\App.pdb
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\NVRLoginCheck\bin\x86\Debug\Constant.pdb
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\NVRLoginCheck\bin\x86\Debug\Interface.pdb
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\NVRLoginCheck\bin\x86\Debug\PanelBase.pdb
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\NVRLoginCheck\bin\x86\Debug\DeviceConstant.pdb
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\NVRLoginCheck\bin\x86\Debug\ExportVideoForm.pdb
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\NVRLoginCheck\bin\x86\Debug\PrintImageForm.pdb
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\NVRLoginCheck\obj\x86\Debug\NVRLoginCheck.csprojResolveAssemblyReference.cache
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\NVRLoginCheck\obj\x86\Debug\NVRLoginCheck.dll
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\NVRLoginCheck\obj\x86\Debug\NVRLoginCheck.pdb

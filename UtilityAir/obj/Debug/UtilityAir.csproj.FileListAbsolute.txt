@@ -1,0 +1,17 @@
+C:\SNVR\Viewer\UtilityAir\bin\Debug\UtilityAir.dll
+C:\SNVR\Viewer\UtilityAir\bin\Debug\UtilityAir.pdb
+C:\SNVR\Viewer\UtilityAir\bin\Debug\Constant.dll
+C:\SNVR\Viewer\UtilityAir\bin\Debug\Interface.dll
+C:\SNVR\Viewer\UtilityAir\bin\Debug\Constant.pdb
+C:\SNVR\Viewer\UtilityAir\bin\Debug\Interface.pdb
+C:\SNVR\Viewer\UtilityAir\bin\Debug\Interop.AirUtilityLib.dll
+C:\SNVR\Viewer\UtilityAir\bin\Debug\AxInterop.AirUtilityLib.dll
+C:\SNVR\Viewer\UtilityAir\obj\Debug\ResolveAssemblyReference.cache
+C:\SNVR\Viewer\UtilityAir\obj\Debug\Interop.AirUtilityLib.dll
+C:\SNVR\Viewer\UtilityAir\obj\Debug\AxInterop.AirUtilityLib.dll
+C:\SNVR\Viewer\UtilityAir\obj\Debug\UtilityAir.csproj.ResolveComReference.cache
+C:\SNVR\Viewer\UtilityAir\obj\Debug\UtilityAir.UtilityAir.resources
+C:\SNVR\Viewer\UtilityAir\obj\Debug\ResGen.read.1.tlog
+C:\SNVR\Viewer\UtilityAir\obj\Debug\ResGen.write.1.tlog
+C:\SNVR\Viewer\UtilityAir\obj\Debug\UtilityAir.dll
+C:\SNVR\Viewer\UtilityAir\obj\Debug\UtilityAir.pdb

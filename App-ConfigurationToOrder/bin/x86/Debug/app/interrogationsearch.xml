@@ -1,0 +1,126 @@
+<Page ver="2.0">
+	<PageName>Interrogation Search</PageName>
+	<Menus>
+		<Menu>Video Title Bar</Menu>
+		<Menu>Disconnect</Menu>
+	</Menus>
+	<Functions>
+		<Width>70</Width>
+		<Height>135</Height>
+		<Dock>left</Dock>
+		<!--<Function>
+			<Name>Print Image</Name>
+			<Assembly>TimeTrack.dll</Assembly>
+			<ClassName>TimeTrack.PrintImage</ClassName>
+		</Function>
+		<Function>
+			<Name>Export Video</Name>
+			<Assembly>TimeTrack.dll</Assembly>
+			<ClassName>TimeTrack.ExportVideo</ClassName>
+		</Function>-->
+		<Function>
+			<Name>Save Result</Name>
+			<Assembly>Investigation.dll</Assembly>
+			<ClassName>Investigation.SaveResult</ClassName>
+		</Function>
+	</Functions>
+	<Blocks>
+		<Block>
+			<Width>auto</Width>
+			<Dockable>true</Dockable>
+			<Controls>
+				<Control>
+					<Name>Title</Name>
+					<Assembly>SetupBase.dll</Assembly>
+					<ClassName>SetupBase.TitleUI2</ClassName>
+					<Height>31</Height>
+				</Control>
+				<!--<Control>
+					<Name>Smart Search</Name>
+					<Assembly>Investigation.dll</Assembly>
+					<ClassName>Investigation.SmartSearchPage.SmartSearchPage</ClassName>
+					<Height>auto</Height>
+				</Control>-->
+				<Control>
+					<Name>Event Search</Name>
+					<Assembly>Interrogation.dll</Assembly>
+					<ClassName>Interrogation.EventSearch</ClassName>
+					<Height>auto</Height>
+				</Control>
+				<!--<Control>
+					<Name>Event Calendar</Name>
+					<Assembly>Investigation.dll</Assembly>
+					<ClassName>Investigation.EventCalendar.EventCalendar</ClassName>
+					<Height>auto</Height>
+				</Control>-->
+			</Controls>
+		</Block>
+	</Blocks>
+	<Initialize>
+		<!--<Control name="Smart Search">SetSmartSearchProperty</Control>-->
+		<Control name="Event Search">Maximize</Control>
+	</Initialize>
+	<Behaviors>
+		<Behavior>
+			<Trigger name="Video Title Bar">Click</Trigger>
+			<Receiver name="Smart Search">VideoTitleBar</Receiver>
+		</Behavior>
+		<Behavior>
+			<Trigger name="Disconnect">Click</Trigger>
+			<Receiver name="Smart Search">Disconnect</Receiver>
+		</Behavior>
+		<Behavior>
+			<Trigger name="Save Result">OnSaveResult</Trigger>
+			<Receiver name="Event Search">SaveReport</Receiver>
+		</Behavior>
+		<!--<Behavior>
+			<Trigger name="Print Image">OnPrintImage</Trigger>
+			<Receiver name="Smart Search">PrintImage</Receiver>
+		</Behavior>
+		<Behavior>
+			<Trigger name="Export Video">OnExportVideo</Trigger>
+			<Receiver name="Smart Search">ExportVideo</Receiver>
+		</Behavior>-->
+		<Behavior>
+			<Trigger name="Event Search">OnSelectionChange</Trigger>
+			<Receiver name="Save Result">DisplayButton</Receiver>
+		</Behavior>
+		<Behavior>
+			<Trigger name="Event Search">OnMinimizeChange</Trigger>
+			<Receiver name="Save Result">VisibleChange</Receiver>
+		</Behavior>
+		<!--<Behavior>
+			<Trigger name="Smart Search">OnMinimizeChange</Trigger>
+			<Receiver name="Print Image">VisibleChange</Receiver>
+			<Receiver name="Export Video">VisibleChange</Receiver>
+		</Behavior>
+		<Behavior>
+			<Trigger name="Smart Search">OnTitleBarVisibleChange</Trigger>
+			<Receiver name="Video Title Bar">TitleBarVisibleChange</Receiver>
+		</Behavior>-->
+		<Behavior>
+			<!--<Trigger name="Smart Search">OnSelectionChange</Trigger>-->
+			<Trigger name="Event Search">OnSelectionChange</Trigger>
+			<!--<Trigger name="Event Calendar">OnSelectionChange</Trigger>-->
+			<Receiver name="Title">DisplayTitle</Receiver>
+		</Behavior>
+		<Behavior>
+			<Trigger name="Title">OnSelectionChange</Trigger>
+			<!--<Receiver name="Smart Search">SelectionChange</Receiver>-->
+			<Receiver name="Event Search">SelectionChange</Receiver>
+			<!--<Receiver name="Event Calendar">SelectionChange</Receiver>-->
+		</Behavior>
+		<Behavior>
+			<Trigger name="Event Search">OnPlayback</Trigger>
+			<Receiver name="Smart Search">ApplyPlaybackParameter</Receiver>
+		</Behavior>
+		<!--<Behavior>
+			<Trigger name="Event Calendar">OnEventSearch</Trigger>
+			<Receiver name="Event Search">ApplyEventSearchParameter</Receiver>
+		</Behavior>
+		<Behavior>
+			<Trigger name="Smart Search">OnViewingDeviceNumberChange</Trigger>
+			<Receiver name="App">ViewingDeviceNumberChange</Receiver>
+		</Behavior>-->
+	</Behaviors>
+</Page>

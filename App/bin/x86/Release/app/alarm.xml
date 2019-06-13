@@ -1,0 +1,68 @@
+<Page ver="2.0">
+  <PageName>Alarm Management</PageName>
+  <Menus>
+  </Menus>
+  <Functions>
+    <Width>70</Width>
+    <Height>265</Height>
+    <Dock>left</Dock>
+    <Function>
+      <Name>Manual Record</Name>
+      <Assembly>VideoMonitor.dll</Assembly>
+      <ClassName>VideoMonitor.ManualRecord</ClassName>
+    </Function>
+    <Function>
+      <Name>Snapshot</Name>
+      <Assembly>VideoMonitor.dll</Assembly>
+      <ClassName>VideoMonitor.Snapshot</ClassName>
+    </Function>
+    <Function>
+      <Name>Save Image</Name>
+      <Assembly>VideoMonitor.dll</Assembly>
+      <ClassName>VideoMonitor.SaveImage</ClassName>
+    </Function>
+    <Function>
+      <Name>Broadcast</Name>
+      <Assembly>VideoMonitor.dll</Assembly>
+      <ClassName>VideoMonitor.Broadcast</ClassName>
+    </Function>
+  </Functions>
+  <Blocks>
+    <Block>
+      <Width>220</Width>
+      <Dock>left</Dock>
+      <Dockable>true</Dockable>
+      <Controls>
+        <Controls>
+          <Control>
+            <Name>DeviceList</Name>
+            <Assembly>DeviceTreeV2.dll</Assembly>
+            <ClassName>DeviceTreeV2.DeviceList</ClassName>
+            <Height>auto</Height>
+          </Control>
+        </Controls>
+      </Controls>
+    </Block>
+    <Block>
+      <Width>auto</Width>
+      <Controls>
+        <Control>
+          <Name>AlarmManagement</Name>
+          <Assembly>AlarmManagement.dll</Assembly>
+          <ClassName>AlarmManagement.AlarmPage</ClassName>
+          <Height>auto</Height>
+        </Control>
+      </Controls>
+    </Block>
+  </Blocks>
+  <Initialize>
+    <Control name="DeviceList">SetAlarmProperty</Control>
+  </Initialize>
+  <Behaviors>
+    <Behavior>
+      <Trigger name="DeviceList">OnDeviceSelectionChanged</Trigger>
+      <Receiver name="AlarmManagement">DeviceSelectionChanged</Receiver>
+    </Behavior>
+    
+  </Behaviors>
+</Page>

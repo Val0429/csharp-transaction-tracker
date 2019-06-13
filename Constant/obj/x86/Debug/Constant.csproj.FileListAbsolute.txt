@@ -1,0 +1,39 @@
+C:\SNVR\Viewer\Constant\bin\x86\Debug\Constant.dll
+C:\SNVR\Viewer\Constant\bin\x86\Debug\Constant.pdb
+C:\SNVR\Viewer\Constant\obj\x86\Debug\Constant.Properties.Resources.resources
+C:\SNVR\Viewer\Constant\obj\x86\Debug\Constant.csproj.GenerateResource.Cache
+C:\SNVR\Viewer\Constant\obj\x86\Debug\Constant.dll
+C:\SNVR\Viewer\Constant\obj\x86\Debug\Constant.pdb
+F:\Project\NVR CMS PTS TT\Viewer\Constant\bin\x86\Debug\Constant.dll
+F:\Project\NVR CMS PTS TT\Viewer\Constant\bin\x86\Debug\Constant.pdb
+F:\Project\NVR CMS PTS TT\Viewer\Constant\obj\x86\Debug\Constant.csprojResolveAssemblyReference.cache
+F:\Project\NVR CMS PTS TT\Viewer\Constant\obj\x86\Debug\Constant.Properties.Resources.resources
+F:\Project\NVR CMS PTS TT\Viewer\Constant\obj\x86\Debug\Constant.csproj.GenerateResource.Cache
+F:\Project\NVR CMS PTS TT\Viewer\Constant\obj\x86\Debug\Constant.dll
+F:\Project\NVR CMS PTS TT\Viewer\Constant\obj\x86\Debug\Constant.pdb
+F:\Project\NVR_CMS_PTS_TT\Viewer\Constant\bin\x86\Debug\Constant.dll
+F:\Project\NVR_CMS_PTS_TT\Viewer\Constant\bin\x86\Debug\Constant.pdb
+F:\Project\NVR_CMS_PTS_TT\Viewer\Constant\obj\x86\Debug\Constant.Properties.Resources.resources
+F:\Project\NVR_CMS_PTS_TT\Viewer\Constant\obj\x86\Debug\Constant.csproj.GenerateResource.Cache
+F:\Project\NVR_CMS_PTS_TT\Viewer\Constant\obj\x86\Debug\Constant.dll
+F:\Project\NVR_CMS_PTS_TT\Viewer\Constant\obj\x86\Debug\Constant.pdb
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\Constant\bin\x86\Debug\Constant.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\Constant\bin\x86\Debug\Constant.pdb
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\Constant\obj\x86\Debug\Constant.csprojResolveAssemblyReference.cache
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\Constant\obj\x86\Debug\Constant.Properties.Resources.resources
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\Constant\obj\x86\Debug\Constant.csproj.GenerateResource.Cache
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\Constant\obj\x86\Debug\Constant.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.17\Viewer\Constant\obj\x86\Debug\Constant.pdb
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\Constant\bin\x86\Debug\Constant.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\Constant\bin\x86\Debug\Constant.pdb
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\Constant\obj\x86\Debug\Constant.Properties.Resources.resources
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\Constant\obj\x86\Debug\Constant.csproj.GenerateResource.Cache
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\Constant\obj\x86\Debug\Constant.dll
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\Constant\obj\x86\Debug\Constant.pdb
+F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\Constant\obj\x86\Debug\Constant.csprojResolveAssemblyReference.cache
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\Constant\bin\x86\Debug\Constant.dll
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\Constant\bin\x86\Debug\Constant.pdb
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\Constant\obj\x86\Debug\Constant.Properties.Resources.resources
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\Constant\obj\x86\Debug\Constant.csproj.GenerateResource.Cache
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\Constant\obj\x86\Debug\Constant.dll
+C:\Users\Tom.Yan\Desktop\project\TT\Viewer\Constant\obj\x86\Debug\Constant.pdb

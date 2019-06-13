@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C06A37DE-0C9E-445C-BB31-A24F5230CA62}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SetupGeneral</RootNamespace>
+    <AssemblyName>SetupGeneral</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>bin\x86\Release\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <PlatformTarget>x64</PlatformTarget>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <PlatformTarget>x64</PlatformTarget>
+    <OutputPath>bin\x64\Release\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AutoSwitchLiveVideoStream.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AutoSwitchLiveVideoStream.Designer.cs">
+      <DependentUpon>AutoSwitchLiveVideoStream.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AutoSwitchDecodeIFrame.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AutoSwitchDecodeIFrame.Designer.cs">
+      <DependentUpon>AutoSwitchDecodeIFrame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BandwidthControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BandwidthControl.Designer.cs">
+      <DependentUpon>BandwidthControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LockInterval.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="LockInterval.Designer.cs">
+      <DependentUpon>LockInterval.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StartupOptions.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="StartupOptions.Designer.cs">
+      <DependentUpon>StartupOptions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CpuLoading.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CpuLoading.Designer.cs">
+      <DependentUpon>CpuLoading.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExportVideoPath.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ExportVideoPath.Designer.cs">
+      <DependentUpon>ExportVideoPath.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SaveImagePath.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SaveImagePath.Designer.cs">
+      <DependentUpon>SaveImagePath.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FtpServer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FtpServer.Designer.cs">
+      <DependentUpon>FtpServer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MailServer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MailServer.Designer.cs">
+      <DependentUpon>MailServer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Duration.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Duration.Designer.cs">
+      <DependentUpon>Duration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Icon.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Overall.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Overall.Designer.cs">
+      <DependentUpon>Overall.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Patrol.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Patrol.Designer.cs">
+      <DependentUpon>Patrol.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Setup.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Setup.Designer.cs">
+      <DependentUpon>Setup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VideoWindowTitleBar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="VideoWindowTitleBar.Designer.cs">
+      <DependentUpon>VideoWindowTitleBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Watermark.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Watermark.Designer.cs">
+      <DependentUpon>Watermark.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DeviceConstant\DeviceConstant.csproj">
+      <Project>{0537C312-6599-4A8D-BBEA-765669092C5C}</Project>
+      <Name>DeviceConstant</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Interface\Interface.csproj">
+      <Project>{04D2D06D-6C89-44F4-9756-BC9F21229FF9}</Project>
+      <Name>Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PanelBase\PanelBase.csproj">
+      <Project>{459A5098-C546-4B9C-906D-0FF7CCA03FAD}</Project>
+      <Name>PanelBase</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ServerProfile\ServerProfile.csproj">
+      <Project>{454B0A3B-D78E-425B-BF02-4EE5C120A84D}</Project>
+      <Name>ServerProfile</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SetupBase\SetupBase.csproj">
+      <Project>{6532B9B2-AD88-46FF-AB07-D0DD5991BD04}</Project>
+      <Name>SetupBase</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Constant\Constant.csproj">
+      <Project>{8553A011-E74A-444A-B1CA-AFB25C95D5E1}</Project>
+      <Name>Constant</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Device\Device.csproj">
+      <Project>{E5A1239A-5527-4092-9DE5-F364D62BC8C0}</Project>
+      <Name>Device</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AutoSwitchLiveVideoStream.resx">
+      <DependentUpon>AutoSwitchLiveVideoStream.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AutoSwitchDecodeIFrame.resx">
+      <DependentUpon>AutoSwitchDecodeIFrame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BandwidthControl.resx">
+      <DependentUpon>BandwidthControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LockInterval.resx">
+      <DependentUpon>LockInterval.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StartupOptions.resx">
+      <DependentUpon>StartupOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CpuLoading.resx">
+      <DependentUpon>CpuLoading.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExportVideoPath.resx">
+      <DependentUpon>ExportVideoPath.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SaveImagePath.resx">
+      <DependentUpon>SaveImagePath.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FtpServer.resx">
+      <DependentUpon>FtpServer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MailServer.resx">
+      <DependentUpon>MailServer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Duration.resx">
+      <DependentUpon>Duration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Overall.resx">
+      <DependentUpon>Overall.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Patrol.resx">
+      <DependentUpon>Patrol.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setup.resx">
+      <DependentUpon>Setup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VideoWindowTitleBar.resx">
+      <DependentUpon>VideoWindowTitleBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Watermark.resx">
+      <DependentUpon>Watermark.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_activate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SelectFolder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>copy $(TargetPath) $(SolutionDir)App\$(OutDir)
+
+REM if  not exist "$(SolutionDir)App\$(OutDir)$(ProjectName)\Resources" mkdir $(SolutionDir)App\$(OutDir)$(ProjectName)\Resources
+REM copy $(ProjectDir)\Resources\*.* $(SolutionDir)App\$(OutDir)$(ProjectName)\Resources</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

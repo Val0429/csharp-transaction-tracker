@@ -1,0 +1,16 @@
+C:\SNVR\Viewer\ServerProfile.Plugin\bin\x86\Release\ServerProfile.Plugin.dll
+C:\SNVR\Viewer\ServerProfile.Plugin\bin\x86\Release\Constant.dll
+C:\SNVR\Viewer\ServerProfile.Plugin\bin\x86\Release\Device.dll
+C:\SNVR\Viewer\ServerProfile.Plugin\bin\x86\Release\Interface.dll
+C:\SNVR\Viewer\ServerProfile.Plugin\bin\x86\Release\Layout.dll
+C:\SNVR\Viewer\ServerProfile.Plugin\bin\x86\Release\PanelBase.dll
+C:\SNVR\Viewer\ServerProfile.Plugin\bin\x86\Release\ServerProfile.dll
+C:\SNVR\Viewer\ServerProfile.Plugin\bin\x86\Release\Behavior.dll
+C:\SNVR\Viewer\ServerProfile.Plugin\bin\x86\Release\App.dll
+C:\SNVR\Viewer\ServerProfile.Plugin\bin\x86\Release\UtilityAir.dll
+C:\SNVR\Viewer\ServerProfile.Plugin\bin\x86\Release\ExportVideoForm.dll
+C:\SNVR\Viewer\ServerProfile.Plugin\bin\x86\Release\PrintImageForm.dll
+C:\SNVR\Viewer\ServerProfile.Plugin\bin\x86\Release\AxInterop.AirUtilityLib.dll
+C:\SNVR\Viewer\ServerProfile.Plugin\bin\x86\Release\Interop.AirUtilityLib.dll
+C:\SNVR\Viewer\ServerProfile.Plugin\obj\x86\Release\ResolveAssemblyReference.cache
+C:\SNVR\Viewer\ServerProfile.Plugin\obj\x86\Release\ServerProfile.Plugin.dll

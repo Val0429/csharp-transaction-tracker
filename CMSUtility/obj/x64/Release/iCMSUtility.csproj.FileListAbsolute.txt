@@ -1,0 +1,14 @@
+C:\SNVR\Viewer\iCMSUtility\bin\x64\Release\iCMSUtility.dll
+C:\SNVR\Viewer\iCMSUtility\bin\x64\Release\Constant.dll
+C:\SNVR\Viewer\iCMSUtility\bin\x64\Release\Interface.dll
+C:\SNVR\Viewer\iCMSUtility\bin\x64\Release\DeviceConstant.dll
+C:\SNVR\Viewer\iCMSUtility\bin\x64\Release\Interop.iCMSUtilityLib.dll
+C:\SNVR\Viewer\iCMSUtility\bin\x64\Release\AxInterop.iCMSUtilityLib.dll
+C:\SNVR\Viewer\iCMSUtility\obj\x64\Release\iCMSUtility.csprojResolveAssemblyReference.cache
+C:\SNVR\Viewer\iCMSUtility\obj\x64\Release\Interop.iCMSUtilityLib.dll
+C:\SNVR\Viewer\iCMSUtility\obj\x64\Release\AxInterop.iCMSUtilityLib.dll
+C:\SNVR\Viewer\iCMSUtility\obj\x64\Release\iCMSUtility.csproj.ResolveComReference.cache
+C:\SNVR\Viewer\iCMSUtility\obj\x64\Release\iCMSUtility.iCMSUtility.resources
+C:\SNVR\Viewer\iCMSUtility\obj\x64\Release\iCMSUtility.Properties.Resources.resources
+C:\SNVR\Viewer\iCMSUtility\obj\x64\Release\iCMSUtility.csproj.GenerateResource.Cache
+C:\SNVR\Viewer\iCMSUtility\obj\x64\Release\iCMSUtility.dll

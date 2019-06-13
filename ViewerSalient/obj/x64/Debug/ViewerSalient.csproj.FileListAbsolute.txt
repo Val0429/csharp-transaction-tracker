@@ -1,0 +1,16 @@
+C:\SNVR\Viewer\ViewerSalient\bin\x64\Debug\ViewerSalient.dll
+C:\SNVR\Viewer\ViewerSalient\bin\x64\Debug\ViewerSalient.pdb
+C:\SNVR\Viewer\ViewerSalient\bin\x64\Debug\AxInterop.CVClientControlLib.dll
+C:\SNVR\Viewer\ViewerSalient\bin\x64\Debug\Constant.dll
+C:\SNVR\Viewer\ViewerSalient\bin\x64\Debug\DeviceConstant.dll
+C:\SNVR\Viewer\ViewerSalient\bin\x64\Debug\Interface.dll
+C:\SNVR\Viewer\ViewerSalient\bin\x64\Debug\Interop.CVClientControlLib.dll
+C:\SNVR\Viewer\ViewerSalient\bin\x64\Debug\Constant.pdb
+C:\SNVR\Viewer\ViewerSalient\bin\x64\Debug\DeviceConstant.pdb
+C:\SNVR\Viewer\ViewerSalient\bin\x64\Debug\Interface.pdb
+C:\SNVR\Viewer\ViewerSalient\obj\x64\Debug\ViewerSalient.csprojResolveAssemblyReference.cache
+C:\SNVR\Viewer\ViewerSalient\obj\x64\Debug\ViewerSalient.csproj.ResolveComReference.cache
+C:\SNVR\Viewer\ViewerSalient\obj\x64\Debug\ViewerSalient.VideoPlayer.resources
+C:\SNVR\Viewer\ViewerSalient\obj\x64\Debug\ViewerSalient.csproj.GenerateResource.Cache
+C:\SNVR\Viewer\ViewerSalient\obj\x64\Debug\ViewerSalient.dll
+C:\SNVR\Viewer\ViewerSalient\obj\x64\Debug\ViewerSalient.pdb
