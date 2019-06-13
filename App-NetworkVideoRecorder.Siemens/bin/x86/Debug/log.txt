@@ -1,2 +1,0 @@
-http://172.16.1.124/cgi-bin/log?action=add&data=Admin Login from 172.16.1.124:80 at 2015/08/25 17:13:08[Done]08-25 17:13:08.722
-http://172.16.1.124/cgi-bin/login?action=logout                                           [Done]    08-25 17:13:12.266

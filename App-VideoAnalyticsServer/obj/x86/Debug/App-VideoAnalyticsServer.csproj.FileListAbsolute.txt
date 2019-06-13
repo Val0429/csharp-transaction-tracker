@@ -1,4 +1,0 @@
-C:\SNVR\Viewer\App-VideoAnalyticsServer\bin\x86\Debug\VAS.exe.config
-F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\App-VideoAnalyticsServer\obj\x86\Debug\App-VideoAnalyticsServer.csprojResolveAssemblyReference.cache
-F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\App-VideoAnalyticsServer\obj\x86\Debug\App_VideoAnalyticsServer.Properties.Resources.resources
-F:\Project\_AnythingElse\NVR_CMS_PTS_TT\2.00.18\Viewer\App-VideoAnalyticsServer\obj\x86\Debug\App-VideoAnalyticsServer.csproj.GenerateResource.Cache

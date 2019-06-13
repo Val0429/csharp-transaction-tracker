@@ -1,9 +1,0 @@
-<Devices>
-  <Device>
-    <Manufacture>Kedacom</Manufacture>
-    <Model>Kedacom</Model>
-    <Type>Camera</Type>
-    <ConnectionProtocol>RTSP Over UDP,RTSP Over HTTP,RTSP Over TCP</ConnectionProtocol>
-    <NumberOfAudioIn>1</NumberOfAudioIn>
-  </Device>
-</Devices>

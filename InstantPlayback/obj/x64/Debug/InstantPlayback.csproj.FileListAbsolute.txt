@@ -1,3 +1,0 @@
-C:\SNVR\Viewer\InstantPlayback\obj\x64\Debug\ResolveAssemblyReference.cache
-C:\SNVR\Viewer\InstantPlayback\obj\x64\Debug\ResGen.read.1.tlog
-C:\SNVR\Viewer\InstantPlayback\obj\x64\Debug\ResGen.write.1.tlog

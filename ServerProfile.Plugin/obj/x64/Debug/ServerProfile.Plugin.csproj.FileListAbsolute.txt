@@ -1,1 +1,0 @@
-C:\SNVR\Viewer\ServerProfile.Plugin\obj\x64\Debug\ResolveAssemblyReference.cache

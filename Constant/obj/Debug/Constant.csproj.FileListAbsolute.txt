@@ -1,6 +1,0 @@
-C:\SNVR\Viewer\Constant\bin\Debug\Constant.dll
-C:\SNVR\Viewer\Constant\bin\Debug\Constant.pdb
-C:\SNVR\Viewer\Constant\obj\Debug\Constant.Properties.Resources.resources
-C:\SNVR\Viewer\Constant\obj\Debug\Constant.dll
-C:\SNVR\Viewer\Constant\obj\Debug\Constant.pdb
-C:\SNVR\Viewer\Constant\obj\Debug\Constant.csproj.GenerateResource.Cache
